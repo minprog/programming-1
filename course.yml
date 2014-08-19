@@ -1,0 +1,24 @@
+course:
+    title: Programming 1 (Introduction to Computer Science)
+    short: CS50
+    submit: CS50-2013
+
+acknowledgements:
+    - 'Based on CS50 from http://cs50.tv/2011/fall/ -- Copyright 2011--2013, David J. Malan.'
+
+license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+# tracks:
+#     prog1:
+#         name: Programmeren 1
+#         requirements:
+#             - pset0
+#             - pset1
+#             - pset2
+#             - pset3
+#             - pset4
+#             - pset5
+#             - pset6
+#             - exam
+#             - prog1
+#         final: prog1

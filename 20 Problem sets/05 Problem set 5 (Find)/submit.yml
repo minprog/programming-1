@@ -1,0 +1,4 @@
+name: pset5
+required:
+    - generate.c
+    - find.c

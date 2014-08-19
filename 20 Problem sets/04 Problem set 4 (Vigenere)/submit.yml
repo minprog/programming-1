@@ -1,0 +1,4 @@
+name: pset4
+optional:
+    - vigenere.c
+    - crack.c
