@@ -72,12 +72,12 @@ over an HDD?
 
 ## 6. Matching
 13. (6 points) Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
-	* 1. RAM
-	* 2. HDD
-	* 3. L1 cache
-	* 4. Register
-	* 5. L2 cache
-	* 6. CPU
+	* \1. RAM
+	* \2. HDD
+	* \3. L1 cache
+	* \4. Register
+	* \5. L2 cache
+	* \6. CPU
 	* A. 32 bits
 	* B. 64 KB
 	* C. 2.6 GHz
@@ -97,7 +97,6 @@ do your shopping online, but you’re highly encouraged to shop for a computer i
 Now, tell us about your experience in two or more paragraphs below. What computer would you
 ultimately decide to purchase? Why? If you interacted with any of the store’s employees, what
 happened? Tell us about your “new” computer’s specifications, namely:
-
 	1. Brand and model
 	2. Price
 	3. Hard drive capacity
