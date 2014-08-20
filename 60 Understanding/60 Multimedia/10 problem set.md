@@ -1,15 +1,13 @@
-# Multimedia
-
-### Lecture
+### Lecture <!-- pset5 Multimedia -->
 * [Lecture Video](http://cse1.net/video?v=lectures/5/lecture5) [[Youtube](https://www.youtube.com/watch?v=-R2uBgcw600)]
 
 ### Recaps
 * [Picture This](http://cse1.net/recaps/12-graphics.html)
 * [A/V Club](http://cse1.net/recaps/13-av.html)
 
-# PROBLEM SET 5
+# Questions
 
-### 1. \#C0FFEE
+## 1. \#C0FFEE
 1. (2 points) Why do filenames have extensions? Does a file need to have an extension to be opened?
 Why or why not?
 
@@ -23,7 +21,7 @@ of a set of primary colors that can be used for each.
   2. \#B0E0E6
   3. \#C0FFEE
 
-### 2. New Year's Resolution
+## 2. New Year's Resolution
 5. (3 points) Why might a website want to create both low-resolution and high-resolution versions
 of its logo? What are the advantages of a low resolution logo, and what are the advantages of a high
 resolution logo?
@@ -33,7 +31,7 @@ example of a file format that uses each.
 
 7. (2 points) Why is it that vector graphics scale to larger sizes so nicely, but raster graphics do not?
 
-### 3. Sound Off
+## 3. Sound Off
 8. (2 points) How do amplitude and frequency affect sound?
 
 9. (3 points) Describe the process of converting from analog sound to digital. How do both sampling
@@ -44,7 +42,7 @@ he refuses to listen to anything but PCM audio. He says he can always tell the d
 PCM and MP3. Even though MP3 ŀles are a fraction of the size of their CD-quality equivalents,
 why might my friend be going a bit overboard?
 
-### 4. Another Dimension
+## 4. Another Dimension
 11. (2 points) What’s a wireframe? Describe how we use wireframes to represent objects in 3D
 space.
 
@@ -54,7 +52,7 @@ will work just fine. Why?
 
 13. (3 points) What’s the difference between a container and a codec? Give an example of each.
 
-### 5. Graphic Designer
+## 5. Graphic Designer
 14. (4 points) Try seam carving some of your own photos! It’s really cool. If you don’t have
 any photos of your own, feel free to download some from the Internet. Content-aware scaling
 is available in both Photoshop (http://www.adobe.com/products/photoshop.html) and as a plugin

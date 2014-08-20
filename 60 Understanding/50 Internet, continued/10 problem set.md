@@ -1,6 +1,4 @@
-# Internet, continued
-
-### Lecture
+### Lecture <!-- pset4 Internet, continued -->
 * [Lecture Video](http://cse1.net/video?v=lectures/4/lecture4) [[Youtube](https://www.youtube.com/watch?v=3motf4wqHLI)]
 
 ### Recaps
@@ -14,9 +12,9 @@
 * [Know Your Meme](http://knowyourmeme.com/)
 * [Warriors of the Net](https://www.youtube.com/watch?v=Ve7_4ot-Dzs)
 
-# PROBLEM SET 4
+# Questions
 
-### 1. Protocolor by Numbers
+## 1. Protocolor by Numbers
 1. (2 points) We’ve seen a whole lot of acronyms that end in the letter “P”: DHCP, HTTP, SMTP,
 POP, IMAP, TCP, and IP. All the other letters of the alphabet must be getting jealous. What do
 we mean when we say something is a protocol? That is, what do all of these technologies have in
@@ -26,7 +24,7 @@ common?
 website, you were probably asked what web browser you were using. Why might this information
 be helpful to diagnose a problem with a website?
 
-### 2. One Small Request
+## 2. One Small Request
 3. (3 points) Write an HTTP request (using the GET method) that gets the content of the web
 page at http://www.catgifpage.com/. Also explain what each line in your HTTP request means!
 
@@ -49,7 +47,7 @@ does this mean, and what will my web browser most likely do?
   Date: Mon, March 4 2013 00:01:00 GMT<br/>
   Location: http://cse1.net
 
-### 3. Inbox Zero
+## 3. Inbox Zero
 7. (4 points) Using my primary email address, unicodelovehotel@gmail.com, I sent a message
 to someone@example.com. In a succinct but technically detailed paragraph, describe how my email
 ultimately reaches someone@example.com’s inbox.
@@ -68,7 +66,7 @@ IMAP provides that POP3 doesn’t?
 11. (2 points) What’s a phishing attack? Since I don’t have access to Bill Gates’s inbox, I could
 never send email from billg@microsoft.com, right?
 
-### 4. Mission Control
+## 4. Mission Control
 12. (4 points) When we say that TCP ensures reliable data transfer, what two guarantees are we
 making about the delivery of segments? What’s an ACK, and how does it relate to these guarantees?
 Similarly, what is a sequence number, and how does it relate to these guarantees?

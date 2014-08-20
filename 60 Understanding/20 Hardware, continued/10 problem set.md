@@ -1,6 +1,4 @@
-# Hardware, continued
-
-### Lecture
+### Lecture <!-- pset2 Hardware, continued -->
 * [Lecture Video](http://cse1.net/video?v=lectures/2/lecture2) [[Youtube](https://www.youtube.com/watch?v=pbJ_U9O5nmo)]
 
 ### Recaps
@@ -12,9 +10,9 @@
 * [HDD vs. SSD Comparison](https://www.youtube.com/watch?v=j84eEjP-RL4)
 * [The Megahertz Myth](https://www.youtube.com/watch?v=PKF9GOE2q38)
 
-# PROBLEM SET 2
+# Questions
 
-### 1. Dinkleberg!
+## 1. Dinkleberg!
 1. (3 points) You know that neighbor who always one-ups you? Apparently, he just bought a
 processor that has twice as many cores as yours. Why is that better? What effects does a higher
 number of cores have on performance? Is your neighbor’s processor twice as fast because it has
@@ -23,7 +21,7 @@ twice as many cores?
 2. (2 points) Unsatisfied, your neighbor turns in his processor for a new CPU whose clock speed
 doubles that of your CPU. Now, is it twice as fast? Why or why not?
 
-### 2. A Parallel Universe
+## 2. A Parallel Universe
 3. (2 points) What does it mean for a CPU to be superscalar? Why does a superscalar architecture
 improve the efficiency of a CPU?
 
@@ -41,7 +39,7 @@ your new method that takes advantage of all 8 people faster? If helpful, you and
 are in the same room (so they can talk to each other), and that room is stocked with paper and
 pencils if you need to write anything down. Try to think of the fastest solution possible!
 
-### 3. Photographic Memory
+## 3. Photographic Memory
 6. (4 points) My good friend is a budding photographer wondering what size memory card she
 should buy. Her new camera can use either a CompactFlash card (also called a CF card for short)
 or a Secure Digital card (also called an SD card for short). Give her a sense of what her options are!
@@ -54,7 +52,7 @@ Fry’s), tell her:
 
 7. (2 points) My father has a huge music collection, so he’s probably going to want to buy a computer with a lot of RAM, right? Why or why not?
 
-### 4. Cache Money
+## 4. Cache Money
 8. (2 points) My father has a huge music collection, so he’s probably going to want to buy a computer
 with a lot of RAM, right? Why or why not?
 
@@ -65,14 +63,14 @@ why not?
 10. (2 points) If registers and the processor cache are faster than RAM, why do computers use
 RAM for short-term memory storage?
 
-### 5. Storage Wars
+## 5. Storage Wars
 11. (3 points) My computer has an HDD, and I just opened a Word document. In a succinct but
 technically detailed paragraph, how is that data read from the HDD?
 
 12. (2 points) Why would you ever want to purchase an HDD over an SSD? How about an SSD
 over an HDD?
 
-### 6. Matching
+## 6. Matching
 13. (6 points) Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
   * 1. RAM
   * 2. HDD
@@ -87,7 +85,7 @@ over an HDD?
   * E. 4 GB
   * F. 4 MB
 
-### 7. Bargain Hunter
+## 7. Bargain Hunter
 14. (8 points) Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
 dollars! You can claim your prize on one condition: you can only spend your winnings on a new
 computer. First, check out Ben’s section [video](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops) on shopping for laptop and desktop computers,

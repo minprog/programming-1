@@ -1,6 +1,4 @@
-# Hardware
-
-### Lecture
+### Lecture <!-- pset1 Hardware -->
 * [Lecture Video](http://cse1.net/video?v=lectures/1/lecture1) [[Youtube](https://www.youtube.com/watch?v=Q2mOfJSG7rc)]
 
 ### Recaps
@@ -11,9 +9,9 @@
 * [First Look: iPhone 5](https://www.youtube.com/watch?v=rdIWKytq_q4)
 * [HDMI Cables](https://www.mint.com/blog/trends/the-rip1/)
 
-# PROBLEM SET 1
+# Questions
 
-### 1. Mother, I'm bored.
+## 1. Mother, I'm bored.
 1. (2 points each) Below is a motherboard with 7 unlabeled parts (lettered A–G, to be clear). For each of these letters, tell us:
     * What the component is called
     * What the component is used for (e.g., what devices plug into it)
@@ -23,7 +21,7 @@
 2. (5 points) In a succinct but technically detailed paragraph, what happens when you turn on your
 computer?
 
-### 2. Windows Explorer
+## 2. Windows Explorer
 3. (3 points) Time for some exploring! Let’s get to know your computer a little better. Tell us the
 following about the computer you have at home or at work:
     * Brand and model
@@ -39,7 +37,7 @@ half of your computer. If on a desktop, ports are probably located in the back o
 and perhaps a few can be found on the front. For each of your computer’s ports, give us a picture or
 sketch as well as a description of what the port is called and what can plug into it.
 
-### 3. Power Shopping
+## 3. Power Shopping
 5. (3 points) Your dad just came home with a brand new printer from Better Buy, but unfortunately,
 it looks like it came only with a power cable! From what you can see, there’s no way of connecting
 the printer to his computer. How exactly would you ŀgure out what he needs to purchase in order
@@ -52,7 +50,7 @@ other hand, has a slot for a VGA cable, should I just give the monitor to her? W
 
 7. (2 points) So, should you spend $250 on an HDMI cable? Why or why not?
 
-### 4. A Bit of Binary
+## 4. A Bit of Binary
 8. (2 points each) Convert the following numbers from decimal to binary, showing each step.
     * 50
     * 164

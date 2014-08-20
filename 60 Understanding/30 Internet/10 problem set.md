@@ -1,6 +1,4 @@
-# Internet
-
-### Lecture
+### Lecture <!-- pset3 Internet -->
 * [Lecture Video](http://cse1.net/video?v=lectures/3/lecture3) [[Youtube](https://www.youtube.com/watch?v=ceNymKd71yg)]
 
 ### Recaps
@@ -17,9 +15,9 @@
 * [Map of IP Addresses](http://xkcd.com/195/)
 * [World IPv6 Day](http://www.worldipv6launch.org/)
 
-# PROBLEM SET 3
+# Questions
 
-### 1. Route 66
+## 1. Route 66
 1. (3 points) Recall that sites like http://en.dnstools.ch/visual-traceroute.html and http://traceroute.monitis.com
 let you run traceroute from within your browser! In approximately which geographic location are
 each of the following sites hosted? What is an IP address associated with each of these sites?
@@ -34,7 +32,7 @@ mean for IPv6 to be necessary?
 to their destination. Why might this be the case? Do all routers know how to get to every IP
 address on the Internet?
 
-### 2. Private Eye-P
+## 2. Private Eye-P
 4. (2 points) What’s the difference between a public IP and a private IP? What are some common
 prefixes for private IP addresses?
 
@@ -43,13 +41,13 @@ address? How does a server’s response make its way back to my computer?
 
 6. (2 points) How does your computer acquire an IP address on a network using DHCP?
 
-### 3. Speed Racer
+## 3. Speed Racer
 7. (3 points) Let’s test the Internet connection you have at home or at work. First, what are the
 download and upload speeds of your connection, according to your ISP? Now, using http://www.speedtest.net
 or http://www.whatismyip.com/speed-test, what are the actual download and upload speeds of your
 Internet connection? Is there a difference between what your ISP reports and what the tests report?
 
-### 4. A System for Domains
+## 4. A System for Domains
 8. (2 points) Why is it important that root DNS servers are kept secure? What could happen if
 one were ever compromised?
 
@@ -62,7 +60,7 @@ subdomain won’t be redirected immediately when you access the Internet. Why no
 11. (1 point) I’m lucky enough to say that my initials are a recognized TLD! (I’ll have to fly to
 Turkmenistan to thank them someday.) Can you say the same for your initials?
 
-### 5. Debate Team
+## 5. Debate Team
 12. (5 points) Let’s talk about net neutrality. If you’re unfamiliar with the topic, you might want to
 curl up with some readings like http://theopeninter.net, http://www.scientificcamerican.com/article.cfm?id=longlive-
 the-web, and http://arstechnica.com/tech-policy/news/2011/01/huge-isps-want-per-gb-paymentsfrom-
@@ -73,7 +71,7 @@ user’s perspective!
 13. (2 points) Why might a company like Google or Facebook want to expose its data via an
 API?
 
-### 6. Putting it All Together
+## 6. Putting it All Together
 14. (5 points) You just typed http://youtu.be/C_S5cXbXe-4 into your web browser’s address bar
 and hit Enter, at which point a YouTube video appears on a page. In a technically detailed paragraph,
 what happened? You can assume that you are indeed connected to the Internet and that
