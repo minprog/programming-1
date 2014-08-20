@@ -1,4 +1,5 @@
 ﻿### Lecture <!-- pset2 Hardware, continued -->
+
 * [Lecture Video](http://cse1.net/video?v=lectures/2/lecture2) [[Youtube](https://www.youtube.com/watch?v=pbJ_U9O5nmo)]
 
 ### Recaps
