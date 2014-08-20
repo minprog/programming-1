@@ -1,4 +1,5 @@
-﻿### Lecture <!-- pset2 Hardware, continued -->
+﻿
+### Lecture <!-- pset2 Hardware, continued -->
 * [Lecture Video](http://cse1.net/video?v=lectures/2/lecture2) [[Youtube](https://www.youtube.com/watch?v=pbJ_U9O5nmo)]
 
 ### Recaps
@@ -72,18 +73,18 @@ over an HDD?
 
 ## 6. Matching
 13. (6 points) Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
-	* 1. RAM
-	* 2. HDD
-	* 3. L1 cache
-	* 4. Register
-	* 5. L2 cache
-	* 6. CPU
-	* A. 32 bits
-	* B. 64 KB
-	* C. 2.6 GHz
-	* D. 500 GB
-	* E. 4 GB
-	* F. 4 MB
+	* 1 RAM
+	* 2 HDD
+	* 3 L1 cache
+	* 4 Register
+	* 5 L2 cache
+	* 6 CPU
+	* A 32 bits
+	* B 64 KB
+	* C 2.6 GHz
+	* D 500 GB
+	* E 4 GB
+	* F 4 MB
 
 ## 7. Bargain Hunter
 14. (8 points) Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
