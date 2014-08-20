@@ -1,5 +1,5 @@
 ### Lecture <!-- pset1 Hardware -->
-<iframe width="711" height="400" src="https://www.youtube.com/watch?v=Q2mOfJSG7rc" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/Q2mOfJSG7rc" frameborder="0" allowfullscreen></iframe>
 * [HD Lecture Video](http://cse1.net/video?v=lectures/1/lecture1)
 
 ### Recaps

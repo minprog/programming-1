@@ -1,5 +1,6 @@
 ﻿### Lecture <!-- pset3 Internet -->
-<iframe width="711" height="400" src="https://www.youtube.com/watch?v=ceNymKd71yg" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/ceNymKd71yg" frameborder="0" allowfullscreen></iframe>
 * [HD Lecture Video](http://cse1.net/video?v=lectures/3/lecture3)
 
 ### Recaps
