@@ -1,9 +1,14 @@
 ### Lecture <!-- pset6 Security -->
-* [Lecture Video](http://cse1.net/video?v=lectures/6/lecture6)
+* [HD Lecture Video](http://cse1.net/video?v=lectures/6/lecture6)
 
 ### Recaps
 * [Safety .net](http://cse1.net/recaps/14-onlinesec.html)
 * [Security Blanket](http://cse1.net/recaps/15-datasec.html)
+
+### Sections
+* [Computer Viruses (Ben)](http://cse1.net/video?v=sections/6/computer_viruses/computer_viruses)
+* [Topics From Discuss (Ben and R.J.)](http://cse1.net/video?v=sections/6/topics_from_discuss_week_6/topics_from_discuss_week_6)
+* [Web Security (R.J.)](http://cse1.net/video?v=sections/6/web_security/web_security)
 
 # Questions
 

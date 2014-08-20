@@ -1,5 +1,6 @@
 ### Lecture <!-- pset1 Hardware -->
-* [Lecture Video](http://cse1.net/video?v=lectures/1/lecture1) [[Youtube](https://www.youtube.com/watch?v=Q2mOfJSG7rc)]
+<iframe width="711" height="400" src="https://www.youtube.com/watch?v=Q2mOfJSG7rc" frameborder="0" allowfullscreen></iframe>
+* [HD Lecture Video](http://cse1.net/video?v=lectures/1/lecture1)
 
 ### Recaps
 * [Power Up](http://cse1.net/recaps/1-powerup.html)

@@ -1,9 +1,16 @@
 ### Lecture <!-- pset5 Multimedia -->
-* [Lecture Video](http://cse1.net/video?v=lectures/5/lecture5) [[Youtube](https://www.youtube.com/watch?v=-R2uBgcw600)]
+<iframe width="711" height="400" src="https://www.youtube.com/watch?v=-R2uBgcw600" frameborder="0" allowfullscreen></iframe>
+* [HD Lecture Video](http://cse1.net/video?v=lectures/5/lecture5)
 
 ### Recaps
 * [Picture This](http://cse1.net/recaps/12-graphics.html)
 * [A/V Club](http://cse1.net/recaps/13-av.html)
+
+### Sections
+* [Introduction (Ben and R.J.)](http://cse1.net/video?v=sections/5/intro_to_week5_sections/intro_to_week5_sections)
+* [Audio Remixing in Garageband and Audacity (R.J.)](http://cse1.net/video?v=sections/5/audio_remixing_in_garageband_and_audacity/audio_remixing_in_garageband_and_audacity)
+* [Photo Editing in Photoshop and GIMP (Ben)](http://cse1.net/video?v=sections/5/photo_editing_in_photoshop_and_gimp/photo_editing_in_photoshop_and_gimp)
+* [Video Editing in iMovie (R.J.)](http://cse1.net/video?v=sections/5/video_editing_in_imovie/video_editing_in_imovie)
 
 # Questions
 

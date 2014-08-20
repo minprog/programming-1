@@ -1,6 +1,6 @@
 ﻿### Lecture <!-- pset2 Hardware, continued -->
-
-* [Lecture Video](http://cse1.net/video?v=lectures/2/lecture2) [[Youtube](https://www.youtube.com/watch?v=pbJ_U9O5nmo)]
+<iframe width="711" height="400" src="https://www.youtube.com/watch?v=pbJ_U9O5nmo" frameborder="0" allowfullscreen></iframe>
+* [HD Lecture Video](http://cse1.net/video?v=lectures/2/lecture2)
 
 ### Recaps
 * [C-3PU, Human-Processing Relations](http://cse1.net/recaps/3-cpu.html)
@@ -10,6 +10,11 @@
 * [Inside a Hard Disk Drive](https://www.youtube.com/watch?v=kdmLvl1n82U)
 * [HDD vs. SSD Comparison](https://www.youtube.com/watch?v=j84eEjP-RL4)
 * [The Megahertz Myth](https://www.youtube.com/watch?v=PKF9GOE2q38)
+
+### Sections
+* [Binary and Bitwise Operators (R.J.)](http://cse1.net/video?v=sections/2/binary_and_bitwise_operators/binary_and_bitwise_operators)
+* [Purchasing Laptops and Desktops (Ben)](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops)
+* [Disassembling a Computer (Ben and R.J.)](http://cse1.net/video?v=sections/2/disassembling_a_computer/disassembling_a_computer)
 
 # Questions
 

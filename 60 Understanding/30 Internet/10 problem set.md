@@ -1,6 +1,6 @@
 ﻿### Lecture <!-- pset3 Internet -->
-
-* [Lecture Video](http://cse1.net/video?v=lectures/3/lecture3) [[Youtube](https://www.youtube.com/watch?v=ceNymKd71yg)]
+<iframe width="711" height="400" src="https://www.youtube.com/watch?v=ceNymKd71yg" frameborder="0" allowfullscreen></iframe>
+* [HD Lecture Video](http://cse1.net/video?v=lectures/3/lecture3)
 
 ### Recaps
 * [Project Interweb: Make it Network](http://cse1.net/recaps/6-internet.html)
@@ -15,6 +15,12 @@
 * [IPv6 Exhaustion](http://samsclass.info/ipv6/exhaustion.htm)
 * [Map of IP Addresses](http://xkcd.com/195/)
 * [World IPv6 Day](http://www.worldipv6launch.org/)
+
+### Sections
+* [Crimping an Ethernet Cable (Ben and R.J.)](http://cse1.net/video?v=sections/3/crimping_ethernet_cable/crimping_ethernet_cable)
+* [Home Networking (Ben)](http://cse1.net/video?v=sections/3/home_networking/home_networking)
+* [Topics From Discuss (Ben and R.J.)](http://cse1.net/video?v=sections/3/topics_from_discuss_week_3/topics_from_discuss_week_3)
+* [Troubleshooting Your Internet Connection (R.J.)](http://cse1.net/video?v=sections/3/troubleshooting_your_internet_connection/troubleshooting_your_internet_connection)
 
 # Questions
 

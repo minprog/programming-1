@@ -1,5 +1,6 @@
 ### Lecture <!-- pset4 Internet, continued -->
-* [Lecture Video](http://cse1.net/video?v=lectures/4/lecture4) [[Youtube](https://www.youtube.com/watch?v=3motf4wqHLI)]
+<iframe width="711" height="400" src="https://www.youtube.com/watch?v=3motf4wqHLI" frameborder="0" allowfullscreen></iframe>
+* [HD Lecture Video](http://cse1.net/video?v=lectures/4/lecture4)
 
 ### Recaps
 * [Protocol Me, Maybe](http://cse1.net/recaps/9-protocols.html)
@@ -11,6 +12,11 @@
 * [Google Data Centers](http://www.google.com/about/datacenters/)
 * [Know Your Meme](http://knowyourmeme.com/)
 * [Warriors of the Net](https://www.youtube.com/watch?v=Ve7_4ot-Dzs)
+
+### Sections
+* [Buying a Domain Name (Ben)](http://cse1.net/video?v=sections/4/buying_a_domain_name/buying_a_domain_name)
+* [Discussing Web Browsers (Ben and R.J.)](http://cse1.net/video?v=sections/4/discussing_web_browsers/discussing_web_browsers)
+* [TCP/IP Packet Sniffing (R.J.)](http://cse1.net/video?v=sections/4/tcp_ip_packet_sniffing/tcp_ip_packet_sniffing)
 
 # Questions
 
