@@ -1,4 +1,4 @@
-﻿### Lecture <!-- pset3 Internet -->
+﻿Lecture
 * [Lecture Video](http://cse1.net/video?v=lectures/3/lecture3) [[Youtube](https://www.youtube.com/watch?v=ceNymKd71yg)]
 
 ### Recaps
