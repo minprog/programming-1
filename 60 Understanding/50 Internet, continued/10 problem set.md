@@ -35,17 +35,17 @@ Also explain what each line in your HTTP request means!
 5. (2 points) I made a request to a web page, but my browser received the below HTTP response.
 What’s the meaning of this response?
 
-  HTTP/1.1 500 Internal Server Error<br/>
-  Server: Apache<br/>
-  Date: Mon, March 4 2013 00:00:00 GMT
+	HTTP/1.1 500 Internal Server Error<br/>
+	Server: Apache<br/>
+	Date: Mon, March 4 2013 00:00:00 GMT
 
 6. (3 points) I tried a different URL, and this time, I got the below HTTP response. What
 does this mean, and what will my web browser most likely do?
 
-  HTTP/1.1 301 Moved Permanently<br/>
-  Server: Apache<br/>
-  Date: Mon, March 4 2013 00:01:00 GMT<br/>
-  Location: http://cse1.net
+	HTTP/1.1 301 Moved Permanently<br/>
+	Server: Apache<br/>
+	Date: Mon, March 4 2013 00:01:00 GMT<br/>
+	Location: http://cse1.net
 
 ## 3. Inbox Zero
 7. (4 points) Using my primary email address, unicodelovehotel@gmail.com, I sent a message
@@ -75,10 +75,10 @@ Similarly, what is a sequence number, and how does it relate to these guarantees
 Both segments are 32 bytes in size. Fill in the 3 blanks below, and explain your reasoning for the
 numbers you choose!
 
-  ![TCP1!](pset41.png)
+	![TCP1!](pset41.png)
 
 14. (5 points) This time, we want to send three TCP segments, but one of the segments got dropped
 on its way from one host to another. Again, all segments are 32 bytes in size. Fill in the 3 blanks
 below, and explain your reasoning for the numbers you choose!
 
-  ![TCP2!](pset42.png)
+	![TCP2!](pset42.png)

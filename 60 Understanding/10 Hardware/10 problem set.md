@@ -40,9 +40,9 @@ sketch as well as a description of what the port is called and what can plug int
 ## 3. Power Shopping
 5. (3 points) Your dad just came home with a brand new printer from Better Buy, but unfortunately,
 it looks like it came only with a power cable! From what you can see, there’s no way of connecting
-the printer to his computer. How exactly would you ŀgure out what he needs to purchase in order
+the printer to his computer. How exactly would you figure out what he needs to purchase in order
 to use his new printer? Suggest what you think he needs to buy, explaining your thought process.
-Be speciŀc
+Be specific.
 
 6. (3 points) I just purchased a new computer monitor with only a DVI port. Sadly, my laptop
 only has a slot for an HDMI cable. Am I out of luck? Why or why not? My sister’s laptop, on the

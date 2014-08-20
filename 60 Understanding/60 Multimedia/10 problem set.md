@@ -17,9 +17,9 @@ of a set of primary colors that can be used for each.
 3. (2 points) What is the color depth of a black-and-white, monochrome image?
 
 4. (3 points) What colors do the following color codes (given in RGB) represent?
-  1. \#F08080
-  2. \#B0E0E6
-  3. \#C0FFEE
+	1. \#F08080
+	2. \#B0E0E6
+	3. \#C0FFEE
 
 ## 2. New Year's Resolution
 5. (3 points) Why might a website want to create both low-resolution and high-resolution versions
@@ -67,7 +67,7 @@ Photoshop, GIMP, or any other image editor of your choice. If you’ve never don
 before, check out this week’s section videos, available at http://cse1.net/sections. There are lots of
 free Photoshop and GIMP tutorials on the web as well!
 
-  Now, let’s make an E-1 souvenir! Design a graphic inspired by E-1 that is suitable for print on
+	Now, let’s make an E-1 souvenir! Design a graphic inspired by E-1 that is suitable for print on
 a T-shirt, mug, or any of the products listed at http://www.cafepress.com/make/personalized-gifts.
 For example, you might want to create a fancy logo, a clever pun, or something along the lines of “I
 Survived Computer Science E-1!” Once you’ve come up with an idea, read the Cafepress Beginner’s
@@ -75,11 +75,11 @@ Tutorial at http://www.cafepress.com/cp/info/help/index.aspx?page=images.aspx, a
 the starter files at http://www.cafepress.com/cp/info/sell/index.aspx?area=images&page=help_templates
 to get a sense of how large your image should be.
 
-  Submit both your original file (as a .PSD or .XCF), as well as a .PNG. In a short paragraph, tell us
+	Submit both your original file (as a .PSD or .XCF), as well as a .PNG. In a short paragraph, tell us
 about your design and your experience making it! Next week, we’ll compile everyone’s submissions
 into a gallery, and you’ll be able to purchase items designed by you and your classmates! If you’d
 prefer that we don’t upload your image to Cafepress or you wish to remain anonymous, that’s totally fine!
 Just let us know on your problem set submission.
 
-  If you’d like to create something that mimics the course’s own design, E-1’s main heading font
+	If you’d like to create something that mimics the course’s own design, E-1’s main heading font
 is League Gothic, the subtitle font is Sorts Mill Goudy, and the body font is Adobe Caslon Pro.
