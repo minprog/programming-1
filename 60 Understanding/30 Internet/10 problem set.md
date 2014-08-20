@@ -1,4 +1,4 @@
-### Lecture <!-- pset3 Internet -->
+﻿### Lecture <!-- pset3 Internet -->
 * [Lecture Video](http://cse1.net/video?v=lectures/3/lecture3) [[Youtube](https://www.youtube.com/watch?v=ceNymKd71yg)]
 
 ### Recaps
@@ -21,9 +21,9 @@
 1. (3 points) Recall that sites like http://en.dnstools.ch/visual-traceroute.html and http://traceroute.monitis.com
 let you run traceroute from within your browser! In approximately which geographic location are
 each of the following sites hosted? What is an IP address associated with each of these sites?
-  1. cse1.net
-  2. mcdonalds.com
-  3. mlb.com
+	1. cse1.net
+	2. mcdonalds.com
+	3. mlb.com
 
 2. (3 points) What’s an IP address? What’s the difference between IPv4 and IPv6? What does it
 mean for IPv6 to be necessary?

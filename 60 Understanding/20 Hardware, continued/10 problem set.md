@@ -1,4 +1,4 @@
-### Lecture <!-- pset2 Hardware, continued -->
+﻿### Lecture <!-- pset2 Hardware, continued -->
 * [Lecture Video](http://cse1.net/video?v=lectures/2/lecture2) [[Youtube](https://www.youtube.com/watch?v=pbJ_U9O5nmo)]
 
 ### Recaps
@@ -45,10 +45,10 @@ should buy. Her new camera can use either a CompactFlash card (also called a CF 
 or a Secure Digital card (also called an SD card for short). Give her a sense of what her options are!
 For at least two different memory cards sold at the store of your choice (e.g., BestBuy, Amazon, or
 Fry’s), tell her:
-  1. How large the card is in GB 
-  2. 2. What the card costs
-  3. About how many photos the card can store
-  4. Whether or not you think she should buy the card
+	1. How large the card is in GB 
+	2. What the card costs
+	3. About how many photos the card can store
+	4. Whether or not you think she should buy the card
 
 7. (2 points) My father has a huge music collection, so he’s probably going to want to buy a computer with a lot of RAM, right? Why or why not?
 
@@ -72,18 +72,18 @@ over an HDD?
 
 ## 6. Matching
 13. (6 points) Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
-  * 1. RAM
-  * 2. HDD
-  * 3. L1 cache
-  * 4. Register
-  * 5. L2 cache
-  * 6. CPU
-  * A. 32 bits
-  * B. 64 KB
-  * C. 2.6 GHz
-  * D. 500 GB
-  * E. 4 GB
-  * F. 4 MB
+	* 1. RAM
+	* 2. HDD
+	* 3. L1 cache
+	* 4. Register
+	* 5. L2 cache
+	* 6. CPU
+	* A. 32 bits
+	* B. 64 KB
+	* C. 2.6 GHz
+	* D. 500 GB
+	* E. 4 GB
+	* F. 4 MB
 
 ## 7. Bargain Hunter
 14. (8 points) Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
@@ -98,12 +98,12 @@ Now, tell us about your experience in two or more paragraphs below. What compute
 ultimately decide to purchase? Why? If you interacted with any of the store’s employees, what
 happened? Tell us about your “new” computer’s specifications, namely:
 
-  1. Brand and model
-  2. Price
-  3. Hard drive capacity
-  4. Hard drive type (HDD or SSD)
-  5. Amount of RAM
-  6. Model and speed of CPU
-  7. CPU cache size
-  8. Display size and maximum resolution
-  9. Operating system
+	1. Brand and model
+	2. Price
+	3. Hard drive capacity
+	4. Hard drive type (HDD or SSD)
+	5. Amount of RAM
+	6. Model and speed of CPU
+	7. CPU cache size
+	8. Display size and maximum resolution
+	9. Operating system
