@@ -1,0 +1,17 @@
+name: Programmeren 1
+requirements:
+    - scratch
+    - mario
+    - greedy
+    - caesar
+    - vigenere
+    - find
+    - fifteen
+    - hardware
+    - hardware2
+    - internet
+    - security
+    - internet2
+    - multimedia
+    - quiz
+final: prog1
