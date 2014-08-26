@@ -1,5 +1,5 @@
 ### Lecture <!-- pset1 Hardware -->
-<iframe width="711" height="400" src="http://cdn.computerscience1.net/2013/spring/lectures/1/lecture1-360p.mp4" frameborder="0" allowfullscreen></iframe>
+[!videoplayer]("http://cdn.computerscience1.net/2013/spring/lectures/1/lecture1-360p.mp4")
 * [HD Lecture Video](http://cse1.net/video?v=lectures/1/lecture1)
 
 ### Recaps
