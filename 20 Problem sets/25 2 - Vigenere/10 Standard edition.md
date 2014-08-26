@@ -1,8 +1,8 @@
-# Problem set 4 (Vigenere)
+# Vigenere
 
 ## Parlez-vous francais?
 
-* [Watch this video](http://cs50.tv/2012/fall/shorts/vigenere_cipher/vigenere_cipher-720p.mp4).
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/vigenere_cipher/vigenere_cipher-720p.mp4)
 
 * Vigenere's cipher improves upon Caesar's by encrypting messages using a sequence of keys (or, put another way, a keyword). In other words, if _p_ is some plaintext and _k_ is a keyword (i.e., an alphbetical string, whereby `A` and `a` represent `0`, while `Z` and `z` represent 25), then each letter, _ci_, in the ciphertext, _c_, is computed as:
 
@@ -16,7 +16,7 @@
 
 * Not sure where to begin? As luck would have it, this program’s pretty similar to `caesar.c`! Only this time, you need to decide which character in _k_ to use as you iterate from character to character in p.
 
-* Need more help? [Watch this video.](http://www.youtube.com/watch?v=Uma2HZMPm2M)
+<iframe width="711" height="400" src="http://www.youtube.com/embed/Uma2HZMPm2M" frameborder="0" allowfullscreen></iframe>
 
 * So that we can automate some tests of your code, your program must behave per the below.
 

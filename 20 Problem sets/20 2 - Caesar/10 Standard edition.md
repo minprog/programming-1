@@ -1,8 +1,14 @@
-# Problem set 3 (Caesar)
+# Caesar
 
 ## Getting started
 
-* Watch these videos: [loops](http://cs50.tv/2012/fall/shorts/loops/loops-720p.mp4), [scope](http://cs50.tv/2012/fall/shorts/scope/scope-720p.mp4), [Caesar's cipher](http://cs50.tv/2012/fall/shorts/caesar_cipher/caesar_cipher-720p.mp4), [command-line arguments](http://cs50.tv/2012/fall/shorts/command_line_arguments/command_line_arguments-720p.mp4).
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/loops/loops-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/scope/scope-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/caesar_cipher/caesar_cipher-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/command_line_arguments/command_line_arguments-720p.mp4)
 
 ## Initials
 
@@ -100,7 +106,7 @@
 
   Incidentally, you’ll need to `#include` yet another header file in order to use `strlen`.
 
-* For some help with this program, you can  [watch this video](http://www.youtube.com/watch?v=V6IDxl-3WAA).
+<iframe width="711" height="400" src="http://www.youtube.com/embed/V6IDxl-3WAA" frameborder="0" allowfullscreen></iframe>
 
 * So that we can automate some tests of your code, your program must behave per the below. Assumed that the underlined text is what some user has typed.
 

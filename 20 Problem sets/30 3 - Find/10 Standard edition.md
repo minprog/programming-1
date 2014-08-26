@@ -1,9 +1,18 @@
-# Problem set 5 (Find)
-# Getting started
+# Find
 
-* Watch these videos: [linear search](http://cs50.tv/2012/fall/shorts/linear_search/linear_search-720p.mp4), [bubble sort](http://cs50.tv/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4), [insertion sort](http://cs50.tv/2012/fall/shorts/insertion_sort/insertion_sort-720p.mp4), [selection sort](http://cs50.tv/2012/fall/shorts/selection_sort/selection_sort-720p.mp4), and [gdb](http://cs50.tv/2012/fall/shorts/gdb/gdb-720p.mp4).
+## Getting started
 
-* Recall that, for Problem Sets 1 and 2, you started writing programs from scratch, creating your own pset1 and pset2 directories with mkdir. For this problem set, you'll instead download "distribution code" (otherwise known as a "distro"), written by us, and add your own lines of code to it. You'll first need to read and understand our code, though, so this problem set is as much about learning to read someone else's code as it is about writing your own!
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/linear_search/linear_search-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/bubble_sort/bubble_sort-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/insertion_sort/insertion_sort-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/selection_sort/selection_sort-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/gdb/gdb-720p.mp4.mp4)
+
+* Recall that, for the previous problem sets, you started writing programs from scratch, creating your own pset1 and pset2 directories with mkdir. For this problem set, you'll instead download "distribution code" (otherwise known as a "distro"), written by us, and add your own lines of code to it. You'll first need to read and understand our code, though, so this problem set is as much about learning to read someone else's code as it is about writing your own!
   
 * Open up a **terminal** and execute the following commands (you might notice that the numbers in this fragment do not match up with the problem set number; however, this is intentional):
 
@@ -11,8 +20,7 @@
 		wget http://cdn.cs50.net/2013/fall/psets/3/pset3/pset3.zip
 		unzip pset3
 		rm pset3.zip
-		mv pset3 pset5
-		cd pset5
+		cd pset3
 		ls
 
 	which should then display two folders, namely:
@@ -202,13 +210,13 @@
 
   We leave it to you to determine how best to test your implementation of `sort`. But don't forget that `printf` and, per Week 3's first lecture, `gdb` are your friends. And don't forget that you can generate the same sequence of pseudorandom numbers again and again by explicitly specifying generate's seed. Before you ultimately submit, though, be sure to remove any such calls to `printf`, as we like our programs' outputs just they way they are!
 
-  Then, [watch this video](http://www.youtube.com/watch?v=U8k-0StE1Ik) to get started.
+<iframe width="711" height="400" src="http://www.youtube.com/embed/U8k-0StE1Ik" frameborder="0" allowfullscreen></iframe>
 
   There's no `check50` for this one!
 
 * Now that `sort` (presumably) works, it's time to improve upon search, the other function that lives in `helpers.c`. Recall that your first version implemented linear search. Rip out the lines that you wrote earlier (sniff) and re-implement search as Binary Search, that divide-and-conquer strategy that we employed in Week 0 and again in Week 3. You are welcome to take an iterative or, per Week 4, a recursive approach. If you pursue the latter, though, know that you may not change our declaration of search, but you may write a new, recursive function (that perhaps takes different parameters) that search itself calls. **When you submit this problem set, only submit the Binary Search version of `search`; do not submit your linear search version.**
 
-  [Watch this video](http://www.youtube.com/watch?v=7DSRJj7qfP8) for some tips.
+<iframe width="711" height="400" src="http://www.youtube.com/embed/7DSRJj7qfP8" frameborder="0" allowfullscreen></iframe>
 
 ## Final steps
 

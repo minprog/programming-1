@@ -1,4 +1,4 @@
-# Problem set 2 (Greedy)
+# Greedy
 
 ## `greedy.c`
 
@@ -25,7 +25,9 @@
 
 * Before doing any math, then, you'll probably want to convert the users input entirely to cents (i.e., from a `float` to an `int`) to avoid tiny errors that might otherwise add up! Of course, dont just cast the users input from a `float` to an int! After all, how many cents does one dollar equal? And be careful to round and not truncate your pennies!
 
-* [Watch this video](http://www.youtube.com/watch?v=9dZzyl7dCuw) to help you get on your way.
+* If you need some help getting started, you can watch the video below.
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/9dZzyl7dCuw" frameborder="0" allowfullscreen></iframe>
 
 * Remember that you can use `check50` to check the correctness of your solution. The `check50` command for this particular program is
 

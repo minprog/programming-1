@@ -1,4 +1,4 @@
-# Problem set 1 (Mario)
+# Mario
 
 ## Getting started
 
@@ -133,7 +133,7 @@
 
 ## Shorts
 
-* ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/libraries/libraries-720p.mp4)
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/libraries/libraries-720p.mp4)
 
 * Be sure you're comfortable with answering the following questions:
 
@@ -143,7 +143,9 @@
   
   "What role does `-lcs50` play when you pass it as a command-line argument to `clang`?"
   
-* Then, watch these video's: [Clang and Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4), [code style](http://cs50.tv/2012/fall/shorts/style/style-720p.mp4).
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/make_clang/make_clang-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/style/style-720p.mp4)
 
 ## `mario.c`
 
@@ -194,8 +196,9 @@
 
 		~cs50/pset1/mario
 
-* To get you on your way,
-  [watch this video](http://www.youtube.com/watch?v=z32BxNe2Sfc).
+* If at a loss where to start, watch the video below.
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/z32BxNe2Sfc" frameborder="0" allowfullscreen></iframe>
 
 ## Final steps
 

@@ -1,4 +1,4 @@
-# Problem set 6 (Fifteen)
+# Fifteen
 
 ## The Game of Fifteen
 
@@ -12,7 +12,7 @@
   
   ![Unsolved game of fifteen board](32.png)
   
-* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Desktop/pset5/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
+* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Desktop/pset3/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
 
   But first go ahead and compile the framework. (Can you figure out how?) And, even though it`s not yet finished, go ahead and run the game. (Can you figure out how?) Odds are you'll want to run it in a separate terminal window, as by opening **Menu > Programming > Terminal**, so that the game fits in your window.
 
@@ -38,7 +38,15 @@
     
 		 3  1  2  _
 
-* If you need some help, you can watch these video's on how to implement the game's functions: [init](http://www.youtube.com/watch?v=xPa4Wb5Uyhc), [draw](http://www.youtube.com/watch?v=k4P0SojW9oM), [move](http://www.youtube.com/watch?v=gxMHcoBMiq4), and  [won](http://www.youtube.com/watch?v=6KSq4JUfhIk).
+* If you need some help, you can watch the following videos on how to implement the game's functions: 
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/xPa4Wb5Uyhc" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/k4P0SojW9oM" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/gxMHcoBMiq4" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/6KSq4JUfhIk" frameborder="0" allowfullscreen></iframe>
 
 * There's no `check50` for the Game of Fifteen, so to test it, you can try to play it. Know that you can force your program to quit by hitting ctrl-c. And be sure that you (and we) cannot crash your program, as by providing bogus tile numbers. But know that, much like you automated input into `find`, you can automate execution of this game. In fact, in `~cs50/pset3` are `3x3.txt` and `4x4.txt`, both of which contain a winning sequence of moves for a 3x3 or a 4x4 board, respectively. To test your program with, say, the first of those inputs, execute the below.
 

@@ -1,6 +1,6 @@
 **Please consult your teaching fellow before attempting any hacker edition!**
 
-# Problem set 6 (Fifteen)
+# Fifteen
 
 ## The Game of Fifteen
 
@@ -14,7 +14,7 @@
   
   ![Unsolved game of fifteen board](32.png)
   
-* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Desktop/pset5/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
+* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Desktop/pset3/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
 
 * First implement `init` in such a way that the board is initialized to a pseudorandom but solvable configuration. Then complete the implementation of `draw`, `move`, and `won` so that a human can actually play the game. (If you're having a hard time, there are a few handy video's over at the normal edition to help you on your way.)
 

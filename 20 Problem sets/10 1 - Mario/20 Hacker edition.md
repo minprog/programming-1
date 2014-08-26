@@ -1,6 +1,6 @@
 **Please consult your teaching fellow before attempting any hacker edition!**
 
-# Problem set 1 (Mario)
+# Mario
 
 ## About hacker's editions
 
@@ -62,7 +62,7 @@
 
 * Up until now, we have just used only the **terminal** to navigate through the appliance. You can also navigate through the appliance in the way you're probably used to when using Windows or MAC OS (as per using your mouse to navigate through a Guided User Interface), but it's best to get comfortable with using the terminal as soon as possible. You'll definitely need it for certain other tasks soon enough!
 
-* [Watch this video.](http://www.youtube.com/watch?v=HkQD6aw7oDc)
+<iframe width="711" height="400" src="http://www.youtube.com/embed/HkQD6aw7oDc" frameborder="0" allowfullscreen></iframe>
 
 * Navigate to your `pset1` folder using the **terminal** and then type
 
@@ -143,7 +143,7 @@
 
 ## Shorts
 
-* [Watch this video.](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/libraries/libraries-720p.mp4)
 
 * Be sure you're comfortable with answering the following questions:
 
@@ -153,7 +153,9 @@
   
   "What role does `-lcs50` play when you pass it as a command-line argument to `clang`?"
   
-* Then, watch these video's: [Clang and Make](http://cs50.tv/2012/fall/shorts/make_clang/make_clang-720p.mp4), [code style](http://cs50.tv/2012/fall/shorts/style/style-720p.mp4).
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/make_clang/make_clang-720p.mp4)
+
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/style/style-720p.mp4)
 
 ## `mario.c`
 
@@ -188,8 +190,9 @@
 
 		~cs50/hacker1/mario
 
-* To get you on your way,
-  [watch this video](http://www.youtube.com/watch?v=z32BxNe2Sfc).
+* If at a loss where to start, watch the video below.
+
+<iframe width="711" height="400" src="http://www.youtube.com/embed/z32BxNe2Sfc" frameborder="0" allowfullscreen></iframe>
 
 ## Final steps
 
