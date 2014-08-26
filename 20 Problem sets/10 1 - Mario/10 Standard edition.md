@@ -52,7 +52,7 @@
 
 * Up until now, we have just used only the **terminal** to navigate through the appliance. You can also navigate through the appliance in the way you're probably used to when using Windows or MAC OS (as per using your mouse to navigate through a Guided User Interface), but it's best to get comfortable with using the terminal as soon as possible. You'll definitely need it for certain other tasks soon enough!
 
-* [Watch this video.](http://www.youtube.com/watch?v=HkQD6aw7oDc)
+<iframe width="711" height="400" src="http://www.youtube.com/watch?v=HkQD6aw7oDc" frameborder="0" allowfullscreen></iframe>
 
 * Navigate to your `pset1` folder using the **terminal** and then type
 
@@ -133,7 +133,7 @@
 
 ## Shorts
 
-* [Watch this video.](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
+<iframe width="711" height="400" src="http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4" frameborder="0" allowfullscreen></iframe>
 
 * Be sure you're comfortable with answering the following questions:
 
