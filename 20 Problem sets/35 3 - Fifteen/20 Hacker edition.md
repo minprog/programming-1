@@ -28,7 +28,7 @@
 
 * Speaking of Godmode, where to begin? Well, first read up on the Game of Fifteen. [Wikipedia is probably a good starting point.](http://en.wikipedia.org/wiki/N-puzzle)
   
-  Then dive a bit deeper, perhaps reading up on [an algorithm called A*](http://en.wikipedia.org/wiki/A*_search_algorithm).
+  Then dive a bit deeper, perhaps reading up on [an algorithm called A* ](http://en.wikipedia.org/wiki/A*_search_algorithm).
 
   Consider using "Manhattan distance" (aka "city-block distance") as your implementation's heuristic. If you find that A* takes up too much memory (particularly for d >= 4), though, you might want to take a look at [iterative deepening A* (IDA*)](http://webdocs.cs.ualberta.ca/~tony/RecentPapers/pami94.pdf) instead.
 
