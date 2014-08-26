@@ -133,7 +133,7 @@
 
 ## Shorts
 
-<iframe width="711" height="400" src="http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4" frameborder="0" allowfullscreen></iframe>
+* ![videoplayer](http://cs50.tv/2012/fall/shorts/libraries/libraries-720p.mp4)
 
 * Be sure you're comfortable with answering the following questions:
 
