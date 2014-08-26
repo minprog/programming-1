@@ -52,7 +52,7 @@
 
 * Up until now, we have just used only the **terminal** to navigate through the appliance. You can also navigate through the appliance in the way you're probably used to when using Windows or MAC OS (as per using your mouse to navigate through a Guided User Interface), but it's best to get comfortable with using the terminal as soon as possible. You'll definitely need it for certain other tasks soon enough!
 
-<iframe width="711" height="400" src="http://www.youtube.com/watch?v=HkQD6aw7oDc" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="http://www.youtube.com/embed/HkQD6aw7oDc" frameborder="0" allowfullscreen></iframe>
 
 * Navigate to your `pset1` folder using the **terminal** and then type
 
