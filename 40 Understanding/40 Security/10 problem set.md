@@ -1,4 +1,7 @@
 ### Lecture <!-- pset6 Security -->
+
+![videoplayer](http://cdn.computerscience1.net/2013/spring/lectures/6/lecture6-360p.mp4)
+
 * [HD Lecture Video](http://cse1.net/video?v=lectures/6/lecture6)
 
 ### Recaps

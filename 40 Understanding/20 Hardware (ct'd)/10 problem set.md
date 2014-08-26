@@ -1,6 +1,7 @@
 ### Lecture <!-- pset2 Hardware, continued -->
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/pbJ_U9O5nmo" frameborder="0" allowfullscreen></iframe>
+![videoplayer](http://cdn.computerscience1.net/2013/spring/lectures/2/lecture2-360p.mp4)
+
 * [HD Lecture Video](http://cse1.net/video?v=lectures/2/lecture2)
 
 ### Recaps

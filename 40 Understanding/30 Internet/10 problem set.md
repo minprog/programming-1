@@ -1,6 +1,7 @@
 ### Lecture <!-- pset3 Internet -->
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/ceNymKd71yg" frameborder="0" allowfullscreen></iframe>
+![videoplayer](http://cdn.computerscience1.net/2013/spring/lectures/3/lecture3-360p.mp4)
+
 * [HD Lecture Video](http://cse1.net/video?v=lectures/3/lecture3)
 
 ### Recaps
