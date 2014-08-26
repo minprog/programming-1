@@ -10,6 +10,9 @@
 * [First Look: iPhone 5](https://www.youtube.com/watch?v=rdIWKytq_q4)
 * [HDMI Cables](https://www.mint.com/blog/trends/the-rip1/)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called hardware.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. Mother, I'm bored.

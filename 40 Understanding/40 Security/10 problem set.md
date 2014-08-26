@@ -10,6 +10,9 @@
 * [Topics From Discuss (Ben and R.J.)](http://cse1.net/video?v=sections/6/topics_from_discuss_week_6/topics_from_discuss_week_6)
 * [Web Security (R.J.)](http://cse1.net/video?v=sections/6/web_security/web_security)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called security.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. Jam Session

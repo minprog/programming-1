@@ -17,6 +17,9 @@
 * [Purchasing Laptops and Desktops (Ben)](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops)
 * [Disassembling a Computer (Ben and R.J.)](http://cse1.net/video?v=sections/2/disassembling_a_computer/disassembling_a_computer)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called hardware2.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. Dinkleberg!

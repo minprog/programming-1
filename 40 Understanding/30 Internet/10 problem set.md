@@ -23,6 +23,9 @@
 * [Topics From Discuss (Ben and R.J.)](http://cse1.net/video?v=sections/3/topics_from_discuss_week_3/topics_from_discuss_week_3)
 * [Troubleshooting Your Internet Connection (R.J.)](http://cse1.net/video?v=sections/3/troubleshooting_your_internet_connection/troubleshooting_your_internet_connection)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called internet.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. Route 66

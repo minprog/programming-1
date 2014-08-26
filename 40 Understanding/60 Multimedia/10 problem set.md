@@ -12,6 +12,9 @@
 * [Photo Editing in Photoshop and GIMP (Ben)](http://cse1.net/video?v=sections/5/photo_editing_in_photoshop_and_gimp/photo_editing_in_photoshop_and_gimp)
 * [Video Editing in iMovie (R.J.)](http://cse1.net/video?v=sections/5/video_editing_in_imovie/video_editing_in_imovie)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called multimedia.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. \#C0FFEE

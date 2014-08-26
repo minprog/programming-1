@@ -18,6 +18,9 @@
 * [Discussing Web Browsers (Ben and R.J.)](http://cse1.net/video?v=sections/4/discussing_web_browsers/discussing_web_browsers)
 * [TCP/IP Packet Sniffing (R.J.)](http://cse1.net/video?v=sections/4/tcp_ip_packet_sniffing/tcp_ip_packet_sniffing)
 
+# What to submit?
+Answer the questions below and collect your answers in a .pdf called internet2.pdf. Be sure to include your name and studentnumber!
+
 # Questions
 
 ## 1. Protocolor by Numbers
