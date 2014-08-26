@@ -1,4 +1,4 @@
-name: pset5
+name: find
 required:
     - generate.c
     - find.c
