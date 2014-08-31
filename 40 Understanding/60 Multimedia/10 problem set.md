@@ -51,7 +51,7 @@ rate and bitrate come into play in this process, and what’s the difference bet
 
 10. (2 points) I have an audiophile friend who just spent another $100 on a new hard drive because
 he refuses to listen to anything but PCM audio. He says he can always tell the difference between
-PCM and MP3. Even though MP3 ŀles are a fraction of the size of their CD-quality equivalents,
+PCM and MP3. Even though MP3 files are a fraction of the size of their CD-quality equivalents,
 why might my friend be going a bit overboard?
 
 ## 4. Another Dimension
