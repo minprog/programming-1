@@ -24,23 +24,23 @@ Answer the questions below and collect your answers in a .pdf called hardware2.p
 # Questions
 
 ## 1. Dinkleberg!
-1. (3 points) You know that neighbor who always one-ups you? Apparently, he just bought a
+1. You know that neighbor who always one-ups you? Apparently, he just bought a
 processor that has twice as many cores as yours. Why is that better? What effects does a higher
 number of cores have on performance? Is your neighbor’s processor twice as fast because it has
 twice as many cores?
 
-2. (2 points) Unsatisfied, your neighbor turns in his processor for a new CPU whose clock speed
+2. Unsatisfied, your neighbor turns in his processor for a new CPU whose clock speed
 doubles that of your CPU. Now, is it twice as fast? Why or why not?
 
 ## 2. A Parallel Universe
-3. (2 points) What does it mean for a CPU to be superscalar? Why does a superscalar architecture
+3. What does it mean for a CPU to be superscalar? Why does a superscalar architecture
 improve the efficiency of a CPU?
 
-4. (2 points) If Moore’s Law says processing power will double every 18 months, then why can’t our
+4. If Moore’s Law says processing power will double every 18 months, then why can’t our
 processors have phenomenal cosmic power? (http://www.youtube.com/watch?v=SfTfXLLJlzM)
 That is, why can’t this trend continue forever
 
-5. (5 points) It’s Halloween again, and you and 7 of your closest friends have a huge bag of candy.
+5. It’s Halloween again, and you and 7 of your closest friends have a huge bag of candy.
 Now, you’d like to figure out how many different types of candy (e.g., Milky Way, Snickers, or
 Krackel) you received on your travels. To be clear, if you only got 4 Milky Way bars and 3 Snickers
 bars (sounds like you need a new trick-or-treating strategy), then you would have 2 different types
@@ -51,7 +51,7 @@ are in the same room (so they can talk to each other), and that room is stocked 
 pencils if you need to write anything down. Try to think of the fastest solution possible!
 
 ## 3. Photographic Memory
-6. (4 points) My good friend is a budding photographer wondering what size memory card she
+6. My good friend is a budding photographer wondering what size memory card she
 should buy. Her new camera can use either a CompactFlash card (also called a CF card for short)
 or a Secure Digital card (also called an SD card for short). Give her a sense of what her options are!
 For at least two different memory cards sold at the store of your choice (e.g., BestBuy, Amazon, or
@@ -61,25 +61,25 @@ Fry’s), tell her:
 	3. About how many photos the card can store
 	4. Whether or not you think she should buy the card
 
-7. (2 points) My father has a huge music collection, so he’s probably going to want to buy a computer with a lot of RAM, right? Why or why not?
+7. My father has a huge music collection, so he’s probably going to want to buy a computer with a lot of RAM, right? Why or why not?
 
 ## 4. Cache Money
-8. (2 points) Let’s say you purchased a computer that (for some reason or another) didn’t have an
+8. Let’s say you purchased a computer that (for some reason or another) didn’t have an
 L1 cache, L2 cache, or L3 cache. Is it possible that such a computer could even function? Why or
 why not?
 
-9. (2 points) If registers and the processor cache are faster than RAM, why do computers use
+9. If registers and the processor cache are faster than RAM, why do computers use
 RAM for short-term memory storage?
 
 ## 5. Storage Wars
-10. (3 points) My computer has an HDD, and I just opened a Word document. In a succinct but
+10. My computer has an HDD, and I just opened a Word document. In a succinct but
 technically detailed paragraph, how is that data read from the HDD?
 
-11. (2 points) Why would you ever want to purchase an HDD over an SSD? How about an SSD
+11. Why would you ever want to purchase an HDD over an SSD? How about an SSD
 over an HDD?
 
 ## 6. Matching
-12. (6 points) Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
+12. Match each item (digit) with the most appropriate descriptor (letter). For each item, only one descriptor is most appropriate, so you should use each descriptor exactly once!
 	* 1 RAM
 	* 2 HDD
 	* 3 L1 cache
@@ -94,7 +94,7 @@ over an HDD?
 	* F 4 MB
 
 ## 7. Bargain Hunter
-13. (8 points) Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
+13. Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
 dollars! You can claim your prize on one condition: you can only spend your winnings on a new
 computer. First, check out Ben’s section [video](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops) on shopping for laptop and desktop computers,
 where he discusses the advantages and disadvantages of both. Now, it’s your turn to purchase yourself
