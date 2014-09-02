@@ -220,6 +220,6 @@
 
 ## Final steps
 
-* When you are done with `generate.c` and `find.c`, submit them by going over to the **Submit** tab. Be sure to compile and test one last time before you submit.
+* When you are done with `generate.c`, `find.c`, and `helpers.c`, submit them by going over to the **Submit** tab. Be sure to compile and test one last time before you submit.
 
 * All done!

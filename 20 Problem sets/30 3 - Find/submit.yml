@@ -2,3 +2,4 @@ name: find
 required:
     - generate.c
     - find.c
+    - helpers.c
