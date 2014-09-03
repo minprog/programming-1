@@ -7,11 +7,11 @@ requirements:
     - vigenere
     - find
     - fifteen
-    - hardware
-    - hardware2
-    - internet
-    - security
-    - internet2
-    - multimedia
+    - understanding1
+    - understanding2
+    - understanding3
+    - understanding4
+    - understanding5
+    - understanding6
     - quiz
 final: prog1
