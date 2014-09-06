@@ -140,7 +140,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	        printf("hello, world!\n");
 	    }
 
-  * Recall that `i%2B%2B` is shorthand for "increment the value of `i` by 1." This loop continues executing so long as `i &lt; 10`, which happens 10 times.
+  * Recall that `i++` is shorthand for "increment the value of `i` by 1." This loop continues executing so long as `i < 10`, which happens 10 times.
 
   * A while loop is functionally equivalent to a for loop, albeit with slightly different syntax. Consider this code that prints out "hello, world!" infinitely:
 
