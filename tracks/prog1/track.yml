@@ -7,11 +7,11 @@ requirements:
     - vigenere
     - find
     - fifteen
-    - understanding1
-    - understanding2
-    - understanding3
-    - understanding4
-    - understanding5
-    - understanding6
+    - u1
+    - u2
+    - u3
+    - u4
+    - u5
+    - u6
     - quiz
 final: prog1
