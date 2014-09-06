@@ -90,9 +90,9 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ### Boolean Expressions
 
-  * The Boolean operators "and" and "or" are written as `&amp;&amp;` and `||` in C:
+  * The Boolean operators "and" and "or" are written as `&&` and `||` in C:
 
-	    if (condition &amp;&amp; condition)
+	    if (condition && condition)
 	    {
 	        // do this
 	    }
@@ -101,7 +101,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	        // do this
 	    }
 
-  * Note that `&amp;` and `|` have different meaning!
+  * Note that `&` and `|` have different meaning!
 
 ### Switches
 
