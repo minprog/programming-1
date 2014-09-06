@@ -7,3 +7,19 @@ acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2011/fall/ -- Copyright 2011--2013, David J. Malan.'
 
 license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">This course</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.
+
+psets:
+    - scratch
+    - mario
+    - greedy
+    - caesar
+    - vigenere
+    - find
+    - fifteen
+    - u1
+    - u2
+    - u3
+    - u4
+    - u5
+    - u6
+    - quiz
