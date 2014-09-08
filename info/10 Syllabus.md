@@ -46,7 +46,7 @@ course.
 
 ## Grades
 
-You will receive a number grade for the course if you've attended lab sessions as agreed upon; you've submitted every problem set working and on time; and you've passed the quizzes.
+You will receive a number grade for the course if you've attended lab sessions as agreed upon; you've submitted every problem set working and on time; you've submitted all understanding assignments complete and on time; and you've passed the quiz.
 
 Your grade will be determined using the following guidelines:
 
