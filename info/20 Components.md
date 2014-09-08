@@ -6,13 +6,34 @@ You're on your own through this course most of the time, though we will be, quit
 
 These discuss all theory that is needed to pass the quizzes. Watch the lectures before or on your way to the lab sessions, in order to be able to spend your lab time programming and asking questions.
 
+## Sections
+
+Lectures are supplemented by videos of weekly, 90-minute sections led by the teaching fellows. Sections provide you with opportunities to explore the course's material in a more intimate environment, with only your teaching fellow and a handful of classmates present, as well as to dive into hands-on activities.
+
+Different sections are offered for those less comfortable, those more comfortable, and those somewhere in between.
+
+## Walkthroughs
+
+Integrated into problem sets are "walkthroughs," videos via which the course’s staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs before asking questions about problem sets at office hours.
+
 ## Problem Sets
 
 The 7 problem sets and the final project are the hard work of the course, on which you will spend most of the lab time and then some more.
 
-The deadlines are strict. If you're following the normal, 16-week schedule, you can find the deadline of each problem set at the top of it's description. (If you follow a non-standard schedule, discuss your deadlines with a teaching fellow beforehand.) Late word is not accepted, except in case of emergency. Technical difficulties are not considered emergencies.
+The deadlines are strict. If you're following the usual, 8-week schedule, you
+have a deadline each Friday of the course. Late work is not ordinarily
+accepted, except in case of medical emergency. Technical difficulties are not
+considered emergencies.
 
-In order to accommodate students with different backgrounds, some problem sets are released in two editions: a standard edition intended for most students and a "Hacker Edition" intended for some students. Both editions essentially cover the same material. But the Hacker Edition typically presents that material from a more technical angle and poses more sophisticated questions. Hacker Editions are graded separately from standard editions, but those students who submit the former do not receive any form of extra credit outright.
+In order to accommodate students with different backgrounds, some problem sets
+are released in two editions: a standard edition intended for most students and
+a "Hacker Edition" intended for some students. Both editions essentially cover
+the same material. But the Hacker Edition typically presents that material from
+a more technical angle and poses more sophisticated questions. Hacker Editions
+are graded separately from standard editions, but those students who submit the
+former do not receive any form of extra credit outright. When determining
+grades at term's end, however, we do bear in mind submissions of Hacker
+Editions.
 
 To be clear, we encourage most students (including aspiring computer scientists) to tackle the standard editions. However, you may choose, week to week, which edition to submit. You may not submit both or some amalgam of the two.
 
@@ -66,13 +87,11 @@ Problem sets and the final project will be evaluated along the following axes:
 	5. perfection: you've made your own choices but maintained consistency
 	{: start="0"}
 
-## Walkthroughs
-
-These discuss the current week's problem set. This is where you receive direction on where to begin and how to approach the week's challenges. Links to these video's are available within the problem set discriptions, so you should encounter them automatically as you progress through a particular problem set.
-
 ## Quizzes / Exams
 
-The course has two 2-hour exams, both closed-book. We used to allow students to take some notes and a calculator to the exams, but **this is no longer the case**. To recap: you may only take a pen and pencil, nothing else, to these exams.
+The course has one 75-minute quiz. It is "closed-book," but you may utilize during each quiz one two-sided page (A4) of notes, typed or written, and a pen or pencil, nothing else.
+
+Unless arranged with the course's heads in advance, quizzes cannot ordinarily be taken at alternative times even if missed by accident, except in cases of medical emergency.
 
 You are required to have studied the following components for these exams:
 
