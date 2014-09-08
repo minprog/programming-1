@@ -18,10 +18,10 @@ Integrated into problem sets are "walkthroughs," videos via which the course’s
 
 ## Problem Sets
 
-The 7 problem sets and the final project are the hard work of the course, on which you will spend most of the lab time and then some more.
+The 7 problem sets are the hard work of the course, on which you will spend most of the lab time and then some more.
 
 The deadlines are strict. If you're following the usual, 8-week schedule, you
-have a deadline each Friday of the course. Late work is not ordinarily
+have a deadline on each Friday of the course. Late work is not ordinarily
 accepted, except in case of medical emergency. Technical difficulties are not
 considered emergencies.
 
