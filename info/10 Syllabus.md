@@ -102,7 +102,7 @@ This last book below is recommended for aspiring hackers, those interested in
 programming tricks and low-level optimization of code for applications beyond
 the scope of this course.
 
-> Hacker’s Delight, Second Edition
-> Henry S. Warren Jr.
-> Pearson Education, 2013
+> Hacker’s Delight, Second Edition  
+> Henry S. Warren Jr.  
+> Pearson Education, 2013  
 > ISBN 0-321-84268-5
