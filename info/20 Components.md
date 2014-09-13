@@ -87,7 +87,7 @@ Problem sets and the final project will be evaluated along the following axes:
 	5. perfection: you've made your own choices but maintained consistency
 	{: start="0"}
 
-## Quizzes / Exams
+## Quiz
 
 The course has one 75-minute quiz. It is "closed-book," but you may utilize during each quiz one two-sided page (A4) of notes, typed or written, and a pen or pencil, nothing else.
 
