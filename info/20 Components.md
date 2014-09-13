@@ -95,6 +95,6 @@ Unless arranged with the course's heads in advance, quizzes cannot ordinarily be
 
 You are required to have studied the following components for these exams:
 
-* Problem sets 0 through 5, inclusive, including all specification texts and walkthroughs belonging to these problem sets.
-* Lectures 0 (Wednesday) through lecture 5 (Wednesday), inclusive.
-* Sections 0 through 6, inclusive.
+* All problem sets, inclusive, including all specification texts and walkthroughs belonging to these problem sets.
+* Lectures 0 (Wednesday) through lecture 4 (Wednesday).
+* Sections 1, 2 and 3.
