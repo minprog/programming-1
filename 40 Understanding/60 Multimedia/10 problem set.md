@@ -81,9 +81,9 @@ each.
 14. Try seam carving some of your own photos! It’s really cool. If you don’t
 have any photos of your own, feel free to download some from the Internet.
 Content-aware scaling is available in both Photoshop
-(http://www.adobe.com/products/photoshop.html) and as a plugin for the GIMP
-(http://www.gimp.org/), but you can also just download the Seam Carving GUI
-(https://code.google.com/p/seam-carving-gui/). Images with lots of empty space
+(<http://www.adobe.com/products/photoshop.html>) and as a plugin for the GIMP
+(<http://www.gimp.org/>), but you can also just download the Seam Carving GUI
+(<https://code.google.com/p/seam-carving-gui/>). Images with lots of empty space
 in the horizontal or vertical directions will produce the best results. Submit
 both the original photo and the seam carved version, and try to scale the image
 by at least 10% of its original width or height. In a short paragraph, tell us
