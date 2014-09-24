@@ -28,15 +28,15 @@
 
 * Now, let's start on the problem set. First, create a new directory for your problem set's files to live in. Open up your **terminal** and type
 
-		cd Desktop
+		cd Dropbox
 
-  which will move you from your current position to your Desktop. Once there, you should see that your prompt has changed from
+  which will move you from your current position to your Dropbox. Once there, you should see that your prompt has changed from
   
 		jharvard@appliance (~):
 
   to
 
-		jharvard@appliance (~/Desktop):
+		jharvard@appliance (~/Dropbox):
 
 * Next, create a new directory named `pset1` by executing
 
@@ -48,7 +48,7 @@
 
   which should change your prompt to
 
-		jharvard@appliance (~/Desktop/pset1):
+		jharvard@appliance (~/Dropbox/pset1):
 
 * Using the `touch` command, you can create a new file, not unlike how you've just created a new directory. To create a file called `hello.c`, type
 
@@ -87,7 +87,7 @@
 
 * As you can see, gedit itself also has a **terminal** window, although it initially rests in your home directory. Type
 
-		cd Desktop/pset1
+		cd Dropbox/pset1
 
   to immediately move yourself from your home directory to your `pset1` directory. You can then use
 
@@ -109,7 +109,7 @@
 
 		make hello
 
-  at your prompt, followed by Enter. (Just be sure that you are inside of `~/Desktop/pset1` within your terminal window, as your prompt will confirm or deny.) If you see no more errors, try running your program by typing
+  at your prompt, followed by Enter. (Just be sure that you are inside of `~/Dropbox/pset1` within your terminal window, as your prompt will confirm or deny.) If you see no more errors, try running your program by typing
 
 		./hello
 
@@ -123,7 +123,7 @@
 
 * To check your implementation of `hello.c` which you've just written, navigate to your folder as per
 
-		cd Desktop/pset1
+		cd Dropbox/pset1
 
   and then execute
 
@@ -163,9 +163,9 @@
 
   ![Mario!](pset13.png)
 
-* Write, in a file called `mario.c` in your `~/Desktop/hacker1` directory, a program that recreates these half-pyramids using hashes (#) for blocks. However, to make things more interesting, first prompt the user for the half-pyramids height, a non-negative integer no greater than 23. (The height of the pyramids in the screenshot is `4`, with a gap size of `2`.) If the user fails to provide a non-negative integer no greater than 23, you should re-prompt for the same again. Then, generate (with the help of printf and one or more loops) the desired half-pyramids. Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window, as in the sample output below.
+* Write, in a file called `mario.c` in your `~/Dropbox/hacker1` directory, a program that recreates these half-pyramids using hashes (#) for blocks. However, to make things more interesting, first prompt the user for the half-pyramids height, a non-negative integer no greater than 23. (The height of the pyramids in the screenshot is `4`, with a gap size of `2`.) If the user fails to provide a non-negative integer no greater than 23, you should re-prompt for the same again. Then, generate (with the help of printf and one or more loops) the desired half-pyramids. Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window, as in the sample output below.
 
-		jharvard@appliance (~/Desktop/hacker1): ./mario
+		jharvard@appliance (~/Dropbox/hacker1): ./mario
 		Height: 4
 		    #  #
 		   ##  ##

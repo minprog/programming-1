@@ -16,7 +16,7 @@
   
 * Open up a **terminal** and execute the following commands (you might notice that the numbers in this fragment do not match up with the problem set number; however, this is intentional):
 
-		cd ~/Desktop
+		cd ~/Dropbox
 		wget http://cdn.cs50.net/2013/fall/psets/3/pset3/pset3.zip
 		unzip pset3
 		rm pset3.zip
@@ -168,7 +168,7 @@
 
   you should see `1`.
 
-* When ready to check the correctness of your program officially with `check50`, you may execute the below. Be sure to run the command inside of `~/Desktop/pset3/find`.
+* When ready to check the correctness of your program officially with `check50`, you may execute the below. Be sure to run the command inside of `~/Dropbox/pset3/find`.
 
 		check50 2013.pset3.find helpers.c
 

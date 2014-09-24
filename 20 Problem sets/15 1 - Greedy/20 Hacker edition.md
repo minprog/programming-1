@@ -39,11 +39,11 @@
   
 * Consider the below representative of how your own program should behave when passed a (valid or invalid) credit card number (without hyphens):
   
-		jharvard@appliance (~/Desktop/hacker1): ./credit
+		jharvard@appliance (~/Dropbox/hacker1): ./credit
 		Number: 378282246310005
 		AMEX
 		
-		jharvard@appliance (~/Desktop/hacker1): ./credit
+		jharvard@appliance (~/Dropbox/hacker1): ./credit
 		Number: 7722574501
 		INVALID	
   

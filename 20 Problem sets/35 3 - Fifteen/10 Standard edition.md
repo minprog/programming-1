@@ -12,7 +12,7 @@
   
   ![Unsolved game of fifteen board](32.png)
   
-* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Desktop/pset3/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
+* Note that the package you downloaded for the previous problem set also contains the materials needed for this problem set. Navigate your way to `~/Dropbox/pset3/fifteen/`, and take a look at `fifteen.c` with `gedit`. Within this file is an entire framework for the Game of Fifteen. The challenge up next is to complete this game's implementation.
 
   But first go ahead and compile the framework. (Can you figure out how?) And, even though it`s not yet finished, go ahead and run the game. (Can you figure out how?) Odds are you'll want to run it in a separate terminal window, as by opening **Menu > Programming > Terminal**, so that the game fits in your window.
 

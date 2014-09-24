@@ -12,9 +12,9 @@
 
 ## Initials
 
-* Open up your terminal, head to your desktop, and create a new `pset3` folder with a file named `initials.c` in it. If you forgot how, here are the commands:
+* Open up your terminal, head to your Dropbox, and create a new `pset3` folder with a file named `initials.c` in it. If you forgot how, here are the commands:
 
-		cd Desktop
+		cd Dropbox
 		mkdir pset3
 		cd pset3
 		touch initials.c
