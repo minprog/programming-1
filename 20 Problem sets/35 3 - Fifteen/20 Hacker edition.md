@@ -2,6 +2,8 @@
 
 # Fifteen
 
+* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 ## The Game of Fifteen
 
 * Now it's time to play. The Game of Fifteen is a puzzle played on a square, two-dimensional board with numbered tiles that slide. The goal of this puzzle is to arrange the board's tiles from smallest to largest, left to right, top to bottom, with an empty space in board's bottom-right corner, as in the below.

@@ -2,6 +2,8 @@
 
 ## Getting started
 
+* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/loops/loops-720p.mp4)
 
 ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/scope/scope-720p.mp4)

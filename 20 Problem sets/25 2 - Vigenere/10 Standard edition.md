@@ -1,5 +1,7 @@
 # Vigenere
 
+* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 ## Parlez-vous francais?
 
 ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/vigenere_cipher/vigenere_cipher-720p.mp4)

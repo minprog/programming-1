@@ -1,5 +1,7 @@
 # Greedy
 
+* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 ## `greedy.c`
 
 * "Counting out change is a blast (even though it boosts mathematical skills) with this spring-loaded changer that you wear on your belt to dispense quarters, dimes, nickels, and pennies into your hand." Or so says the website on which we found this here accessory (for ages 5 and up).

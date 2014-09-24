@@ -1,5 +1,7 @@
 # Find
 
+* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 ## Getting started
 
 ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/linear_search/linear_search-720p.mp4)
