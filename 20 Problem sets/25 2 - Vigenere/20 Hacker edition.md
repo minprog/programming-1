@@ -19,7 +19,7 @@
 
 * Many people often like to use real words as their passwords, as they are easy to remember. Adversaries often make use of this fact by first trying out a so-called dictionary attack; rather than brute-forcing all possibilities, they try out (common) words first. Only when this doesn't work out, they resort to the brute-force method previously mentioned.
   
-* Write a program called `crack.c` that implements a dictionary lookup using the words from a raw text file containing words, which is located at `~cs50/pset5/dictionaries/large` inside your appliance. Read in all of the words in this file and try each one of them on the password.
+* Write a program called `crack.c` that implements a dictionary lookup using the words from a raw text file containing words, which is located at `~cs50/pset6/dictionaries/large` inside your appliance. Read in all of the words in this file and try each one of them on the password.
   
 * Then, expand your `crack.c` program with a brute-force attack in case the password cannot be cracked using your dictionary attack. (To be clear, your program must always first attempt the dictionary lookup, and only when that doesn't work out, it should resort to the brute-force method.)
   
@@ -27,6 +27,10 @@
   
 		#define _XOPEN_SOURCE
 		#include <unistd.h>
+
+  Ensure that the `#define _XOPEN_SOURCE` is above the inclusion of `unistd.h`, or you'll run into trouble when compiling!
+
+* In addition, you'll need to compile with the `-lcrypt` switch. Note that the standard `make` command in the Appliance does not include this switch for you!
 
 * Your program must work per the below (e.g. it must only print the cracked password and nothing else). It should return `0` on success.
 
