@@ -1,15 +1,14 @@
 ![CS50 @ Minor Programmeren](cs50.png)
 
-*Edition: September 2014 (5.0)*
+*Edition: September 2014 (5.1)*
 
 Introduction to the intellectual enterprises of computer science and the art of
 programming. This course teaches students how to think algorithmically and
 solve problems efficiently. Topics include abstraction, algorithms, data
 structures, encapsulation, resource management, security, software engineering,
-and web development. Languages include C and Python. Problem sets inspired by
+and web development. Languages include C and Scratch. Problem sets inspired by
 real-world domains of biology, cryptography, finance, forensics, and gaming.
-Designed for concentrators and non-concentrators alike, with or without prior
-programming experience.
+Designed for students with or without prior programming experience.
 
 ## Staff
 
@@ -20,22 +19,20 @@ instructor at the lab.
 
 Martijn Stegeman  
 *instructor*  
-General: <help@mprog.nl>  
-Personal: <m.stegeman@uva.nl>
+<help@mprog.nl>
 
 Ben Witzen  
 *head teaching assistant*  
-for all things C
 
 Jelle van Assema  
 *head teaching assistant*  
-for Python and Understanding Computers and the Internet
 
 ## Prerequisites
 
-This course is aimed at students with little or no prior programming experience
-but a desire to understand computational approaches to problem solving. So, by
-definition, none of you are under-qualified for this course.
+This course is the first part of a two-course series aimed at students with
+little or no prior programming experience but a desire to understand
+computational approaches to problem solving. So, by definition, none of you are
+under-qualified.
 
 ## Expectations
 
