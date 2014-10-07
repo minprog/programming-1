@@ -12,7 +12,7 @@
 
 ![videoplayer](http://cdn.cs50.net/2012/fall/shorts/selection_sort/selection_sort-720p.mp4)
 
-![videoplayer](http://cdn.cs50.net/2012/fall/shorts/gdb/gdb-720p.mp4)
+![videoplayer](http://cdn.cs50.net/2012/fall/shorts/selection_sort/selection_sort-720p.mp4)
 
 * Recall that, for the previous problem sets, you started writing programs from scratch, creating your own pset1 and pset2 directories with mkdir. For this problem set, you'll instead download "distribution code" (otherwise known as a "distro"), written by us, and add your own lines of code to it. You'll first need to read and understand our code, though, so this problem set is as much about learning to read someone else's code as it is about writing your own!
   
