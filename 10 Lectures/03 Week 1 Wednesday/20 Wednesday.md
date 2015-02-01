@@ -2,7 +2,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ## Announcements and Demos
 
-* Devices like Google Glass come with an API, an _application programming interface_, that allow developers to write software for it. For Final Projects, we’ll do what we can to hook you up with loaner hardware so that if you’re interested in writing, say, an Android or iOS app, you’ll have a test device.
+* Devices like Google Glass come with an API, an _application programming interface_, that allow developers to write software for it. For Final Projects, we'll do what we can to hook you up with loaner hardware so that if you're interested in writing, say, an Android or iOS app, you'll have a test device.
 
 * Another such device that comes with an API is Leap Motion. Check out [this video][1] to see how it allows you to control your computer with 3D gestures.
 
@@ -16,19 +16,19 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 * Take advantage of [Office Hours][3]!
 
-* Problem Set 0 is due on Friday. This is a day later than the usual deadline. For Problem Set 1, you’ll have the opportunity to extend the deadline from Thursday to Friday by completing some warm-up exercises.
+* Problem Set 0 is due on Friday. This is a day later than the usual deadline. For Problem Set 1, you'll have the opportunity to extend the deadline from Thursday to Friday by completing some warm-up exercises.
 
-* Get the CS50 Appliance at [cs50.net/appliance][4]. Problem Set 1’s specification will walk you through setting it up.
+* Get the CS50 Appliance at [cs50.net/appliance][4]. Problem Set 1's specification will walk you through setting it up.
 
 ## From Last Time
 
-  * To translate source code into object code, we used a compiler. Inside your computer, the CPU knows what the 0’s and 1’s actually mean, whether it be print, add, subtract, etc.
+  * To translate source code into object code, we used a compiler. Inside your computer, the CPU knows what the 0's and 1's actually mean, whether it be print, add, subtract, etc.
 
   * We ported our "hello, world" Scratch program to C.
 
 ### `hello, world!`
 
-  * Let’s begin to tease apart the syntax of our very first C program:
+  * Let's begin to tease apart the syntax of our very first C program:
 
 	    #include <stdio.h>
 
@@ -39,7 +39,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
   * The first line that begins with a `#` is called a _preprocessor directive_. In this case, the directive says to include the contents of a file `stdio.h` inside our program. Inside of `stdio.h` is stored the definition of `printf`.
 
-  * `int main(void)` is the equivalent of the "when green flag clicked" puzzle piece in Scratch. We’ll wave our hands at what it actually means for now.
+  * `int main(void)` is the equivalent of the "when green flag clicked" puzzle piece in Scratch. We'll wave our hands at what it actually means for now.
 
   * Next we have open and close curly braces. These encapsulate related lines of code.
 
@@ -86,7 +86,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	        // do this other thing
 	    }
 
-  * The quote strings and variables we’ve been passing to `printf` between the parentheses are known as _arguments_. An argument is a value that influences the behavior of the function.
+  * The quote strings and variables we've been passing to `printf` between the parentheses are known as _arguments_. An argument is a value that influences the behavior of the function.
 
 ### Boolean Expressions
 
@@ -131,7 +131,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	        // do this again and again
 	    }
 
-  * Within the parentheses after the `for` keyword, there are three parts. Before the first semicolon, we are initializing a variable which will be our iterator or counter, often named `i` by convention. Between the two semicolons, we’re providing a condition which, if true, will cause another iteration of the loop to be executed. Finally, we provide code to update our iterator.
+  * Within the parentheses after the `for` keyword, there are three parts. Before the first semicolon, we are initializing a variable which will be our iterator or counter, often named `i` by convention. Between the two semicolons, we're providing a condition which, if true, will cause another iteration of the loop to be executed. Finally, we provide code to update our iterator.
 
   * A snippet of code to print "hello, world!" ten times would look something like:
 
@@ -177,10 +177,10 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 * A _function_ is a piece of code that can take input and can produce output.
   In some cases, a function can be a so-called _black box_. This means that
-  the details of its implementation aren’t relevant. We don’t care **how** it
+  the details of its implementation aren't relevant. We don't care **how** it
   does what it does, just that it does it.
 
-* Let’s represent `printf` with an actual black box onstage. We can write
+* Let's represent `printf` with an actual black box onstage. We can write
   "hello, world" on a piece of paper to represent an argument to `printf`. We
   then place this piece of paper in the black box and, by whatever means, the
   words "hello, world" appear on the screen!
@@ -191,14 +191,14 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	    string name = GetString();
 	    printf("hello, %s\n", name);
 
-* `printf` doesn’t return anything; it only has the _side effect_ of printing
+* `printf` doesn't return anything; it only has the _side effect_ of printing
   to the screen. `GetString`, on the other hand, returns what the user typed
   in.
 
-* As with `printf`, we don’t necessarily care how `GetString` is implemented.
-  We know that when we call it, we’ll be provided with a string after some
+* As with `printf`, we don't necessarily care how `GetString` is implemented.
+  We know that when we call it, we'll be provided with a string after some
   amount of time. We can simulate this by retrieving from the black box a
-  piece of paper with a student’s name (Obasi) written on it. We actually
+  piece of paper with a student's name (Obasi) written on it. We actually
   then make a copy of this string before storing it in `name`.
 
 * Now we have `name` written on one piece of paper which will act as the
@@ -265,8 +265,8 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ### `hello-0.c`
 
-* As before, we’ll open a file in gedit on the Appliance and save it to the
-  `jharvard` directory. We’ll call this file `hello-0.c` and write the
+* As before, we'll open a file in gedit on the Appliance and save it to the
+  `jharvard` directory. We'll call this file `hello-0.c` and write the
   following therein:
 
 	    int main(void)
@@ -324,7 +324,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 		...multi-character character constant...
 
-* That doesn’t help us too much, but `clang` does point us to the problem are
+* That doesn't help us too much, but `clang` does point us to the problem are
   with a green caret. Turns out that in C, strings must be delimited by
   double quotes, not single quotes:
 
@@ -339,7 +339,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ### `hello-2.c`
 
-* Finally, let’s actually accept dynamic input from the user:
+* Finally, let's actually accept dynamic input from the user:
 
 		#include <cs50.h>
 		#include <stdio.h>
@@ -376,7 +376,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 		    printf("The sum of %i and %i is %i!\n", x, y, x + y);
 		}
 
-* Notice that we don’t need a separate variable to store the sum, we can
+* Notice that we don't need a separate variable to store the sum, we can
   inline `x + y`.
 
 ### `conditions-0.c`
@@ -443,8 +443,8 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
   The protagonists in the movie [Office Space][5] take advantage of this
   imprecision to rip off their company Initech. Consider that if banking
   software stores a number like 0.1 improperly, it could mean that there are
-  fractions of a cent gained or lost. If you haven’t seen Office Space,
-  that’s your homework for the weekend.
+  fractions of a cent gained or lost. If you haven't seen Office Space,
+  that's your homework for the weekend.
 
 [1]: http://www.youtube.com/watch?v=_d6KuiuteIA
 [2]: http://cs50.net/section

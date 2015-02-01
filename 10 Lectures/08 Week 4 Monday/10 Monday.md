@@ -31,7 +31,7 @@ Insertion sort involved sorting the list in place, but required shifting
 elements of the "sorted list" to the right whenever a smaller number needed
 to be placed in the middle of it. It too took $$n^2$$ steps.
 
-What’s the best sorting algorithm? Why not [ask President Obama](http://www.youtube.com/watch?v=k4RRi_ntQc8)?
+What's the best sorting algorithm? Why not [ask President Obama](http://www.youtube.com/watch?v=k4RRi_ntQc8)?
 
 When talking about the running time of algorithms, $$O$$ represents the upper
 bound, the worst case, whereas $$\Omega$$ represents the lower bound, the
@@ -48,7 +48,7 @@ is stored in a variable. `printf` is also $$O(n)$$ since it takes $$n$$ steps
 to print $$n$$ characters.
 
 Bubble sort and insertion sort are $$\Omega(n)$$. Linear search and binary
-search are $$\Omega(1)$$ because the element we’re looking for might just be
+search are $$\Omega(1)$$ because the element we're looking for might just be
 the first one we examine.
 
 One algorithm we mentioned briefly was merge sort. Merge sort is both
@@ -56,7 +56,7 @@ $$\Omega(n log n)$$ and $$O(n log n)$$, so we say it is $$\Theta(n log n)$$.
 
 ### Merge Sort
 
-To see how merge sort compares to the other algorithms we’ve looked at so
+To see how merge sort compares to the other algorithms we've looked at so
 far, check out this animation. Notice that bubble sort, insertion sort, and
 selection sort are the three worst performers! The flip side is that they are
 relatively easy to implement.
@@ -71,7 +71,7 @@ We can describe merge sort with the following pseudocode:
 	        Sort right half of elements.
 	        Merge sorted halves.
 
-If `n` is less than 2, then it’s either 0 or 1 and the list is already sorted.
+If `n` is less than 2, then it's either 0 or 1 and the list is already sorted.
 This is the trivial case.
 
 If `n` is greater than or equal to 2, then what? We seem to be copping out
@@ -80,25 +80,25 @@ without giving any indication as to how we go about that. When we say "sort,"
 what we actually mean is reapply this whole algorithm to the left half and
 the right half of the original list.
 
-Will this algorithm loop infinitely? No, because after you’ve halved the
+Will this algorithm loop infinitely? No, because after you've halved the
 original list enough times, you will eventually have less than 2 items left.
 
-Okay, so we’re halving and halving and halving until we have less than 2
-items and then we’re returning. So far, nothing seems sorted. The magic must
+Okay, so we're halving and halving and halving until we have less than 2
+items and then we're returning. So far, nothing seems sorted. The magic must
 be in the "Merge sorted halves" step.
 
 One consideration with merge sort is that we need a second list for
-intermediate storage. In computer science, there’s generally a tradeoff
+intermediate storage. In computer science, there's generally a tradeoff
 between resources and speed. If we want to do something faster, we may need
 to use more memory.
 
-To visualize merge sort, let’s bring 8 volunteers on stage. We’ll hand them
-numbers and sit them down in chairs so that they’re in the following order:
+To visualize merge sort, let's bring 8 volunteers on stage. We'll hand them
+numbers and sit them down in chairs so that they're in the following order:
 
 	4 2 6 1 3 7 5 8
 
-The bold numbers are the ones we’re currently focusing on. Merge sort says to
-first sort the left half, so let’s consider:
+The bold numbers are the ones we're currently focusing on. Merge sort says to
+first sort the left half, so let's consider:
 
 	4 2 6 1 3 7 5 8
 
@@ -110,7 +110,7 @@ And again:
 
 	4 2 6 1 3 7 5 8
 
-Now we have a list of size 1, so it’s already sorted and we return.
+Now we have a list of size 1, so it's already sorted and we return.
 Backtracking, we look at the right half of the final two-person list:
 
 	4 2 6 1 3 7 5 8
@@ -147,7 +147,7 @@ Finally, we can insert the intermediate list back into the original list:
 
 	1 2 4 6 3 7 5 8
 
-And we’re done with the "Sort left half" step for the original list!
+And we're done with the "Sort left half" step for the original list!
 
 Repeat for the right half of the original list, skipping to the "Sort left
 half" step:
@@ -190,7 +190,7 @@ leftmost number of the left half and our right hand at the leftmost number of
 the right half. Then we walk each hand to the right and compare numbers. All
 told, we walk through every number in the list, which takes n steps.
 
-Check out [Rob’s visualization](http://www.youtube.com/watch?v=EeQ8pwjQxTM)
+Check out [Rob's visualization](http://www.youtube.com/watch?v=EeQ8pwjQxTM)
 of merge sort. You can even hear [what sorting algorithms sound like](http://www.youtube.com/watch?v=t8g-iYGHpEA).
 
 A function that calls itself is using recursion. In the above pseudocode, we
@@ -198,7 +198,7 @@ implemented merge sort using recursion.
 
 ### A Little Math
 
-To show mathematically that merge sort is $$O(n log n)$$, let’s use the
+To show mathematically that merge sort is $$O(n log n)$$, let's use the
 following notation:
 
 	T(n) = 0, if n < 2
@@ -239,7 +239,7 @@ Thus, $$T(16)$$ is 64. This number is actually $$n log n$$. Dividing the list
 successively accounts for $$log n$$, but the additional $$n$$ factor comes
 from the merge step.
 
-Here again with merge sort we’ve returned to the idea of "divide and conquer"
+Here again with merge sort we've returned to the idea of "divide and conquer"
 that we saw in Week 0 with the phonebook example.
 
 In case you want to know what recursion is, try Googling it and checking out
@@ -249,7 +249,7 @@ the "Did you mean" suggestion. Hooray for geek humor!
 
 ### `sigma-0.c`
 
-Let’s write a program that sums up the numbers 0 through n, where n is
+Let's write a program that sums up the numbers 0 through n, where n is
 provided by the user. We start with some boilerplate code to get a positive
 integer from the user using a do-while loop:
 
@@ -329,19 +329,19 @@ This is pretty straightforward. First, we do some error checking, then we
 iterate through all numbers 1 through m, summing them up as we go. `sum += i`
 is functionally equivalent to `sum = sum + i`.
 
-Don’t forget that we need to declare sigma before main if we want to
+Don't forget that we need to declare sigma before main if we want to
 implement sigma after main!
 
 When we compile and run this, it seems to work! What happens when we mess
 with it by inputting a very large number? Turns out that if our sum becomes
-so large that an int doesn’t have enough bits for it, it will be confused for
+so large that an int doesn't have enough bits for it, it will be confused for
 a negative number.
 
 ### `sigma-1.c`
 
-Let’s try to approach the same problem using recursion.
+Let's try to approach the same problem using recursion.
 
-Our implementation of main doesn’t change. `sigma`, however, now looks like
+Our implementation of main doesn't change. `sigma`, however, now looks like
 this:
 
 	int sigma(int m)
@@ -357,7 +357,7 @@ this:
 	}
 
 You might worry that this implementation will induce an infinite loop.
-However, the first if condition represents a base case in which sigma doesn’t
+However, the first if condition represents a base case in which sigma doesn't
 call itself.
 
 ## Teaser
@@ -401,5 +401,5 @@ this output:
 	x is 1
 	y is 2
 
-Obviously, the numbers haven’t really been swapped. We’ll find out why next
+Obviously, the numbers haven't really been swapped. We'll find out why next
 time!

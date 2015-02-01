@@ -27,7 +27,7 @@ Answer the questions below and collect your answers in a .pdf called hardware.pd
 computer?
 
 ## 2. Windows Explorer
-3. Time for some exploring! Let’s get to know your computer a little better. Tell us the
+3. Time for some exploring! Let's get to know your computer a little better. Tell us the
 following about the computer you have at home or at work:
     * Brand and model
     * Hard drive capacity
@@ -39,18 +39,18 @@ following about the computer you have at home or at work:
 4. More exploring! Dora would be proud. Now, take a look at the various ports on
 your computer. If on a laptop, your ports are probably located around the perimeter of the bottom
 half of your computer. If on a desktop, ports are probably located in the back of the tower,
-and perhaps a few can be found on the front. For each of your computer’s ports, give us a picture or
+and perhaps a few can be found on the front. For each of your computer's ports, give us a picture or
 sketch as well as a description of what the port is called and what can plug into it.
 
 ## 3. Power Shopping
 5. Your dad just came home with a brand new printer from Better Buy, but unfortunately,
-it looks like it came only with a power cable! From what you can see, there’s no way of connecting
+it looks like it came only with a power cable! From what you can see, there's no way of connecting
 the printer to his computer. How exactly would you figure out what he needs to purchase in order
 to use his new printer? Suggest what you think he needs to buy, explaining your thought process.
 Be specific.
 
 6. I just purchased a new computer monitor with only a DVI port. Sadly, my laptop
-only has a slot for an HDMI cable. Am I out of luck? Why or why not? My sister’s laptop, on the
+only has a slot for an HDMI cable. Am I out of luck? Why or why not? My sister's laptop, on the
 other hand, has a slot for a VGA cable, should I just give the monitor to her? Why or why not?
 
 7. So, should you spend $250 on an HDMI cable? Why or why not?
@@ -66,10 +66,10 @@ other hand, has a slot for a VGA cable, should I just give the monitor to her? W
 
 10. What do all binary numbers ending in 1 have in common?
 
-11. What’s the largest (positive) number we can represent with 16 bits? How about
-32 bits? Give your answers as decimal numbers, and don’t worry about taking negative numbers
+11. What's the largest (positive) number we can represent with 16 bits? How about
+32 bits? Give your answers as decimal numbers, and don't worry about taking negative numbers
 into account!
 
-12. We’ve seen that decimal uses ten different digits and binary uses two different digits.
+12. We've seen that decimal uses ten different digits and binary uses two different digits.
 The octal system instead uses eight different digits, but works in exactly the same way. What is the
 decimal value of the octal number 0644? How about 0755?

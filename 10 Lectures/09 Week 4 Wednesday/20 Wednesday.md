@@ -10,10 +10,10 @@ so please do approach David, Rob, or Lauren if you need.
 
 ### `noswap.c`
 
-Pointers are one of the more complex topics we cover, so don’t feel bad if
-your mind feels stretched in the next few weeks. That’s a good thing!
+Pointers are one of the more complex topics we cover, so don't feel bad if
+your mind feels stretched in the next few weeks. That's a good thing!
 
-Recall last time we ended with a function that didn’t live up to its name:
+Recall last time we ended with a function that didn't live up to its name:
 
 	#include <stdio.h>
 
@@ -43,7 +43,7 @@ Recall last time we ended with a function that didn’t live up to its name:
 Though we expected to see `x` and `y` have the values 2 and 1, respectively,
 we actually saw that they still had their original values 1 and 2.
 
-To see why this doesn’t work, let’s bring a volunteer onstage. We’ll ask her
+To see why this doesn't work, let's bring a volunteer onstage. We'll ask her
 to pour orange juice and milk into two separate glasses representing two
 different `int`. If we ask her to swap the orange juice and milk, she wisely
 chooses to use another glass. This glass represents some temporary storage
@@ -91,15 +91,15 @@ just need to add asterisks:
 	    *b = tmp;
 	}
 
-What is an `int*`? It’s the memory address of an `int`. More properly
+What is an `int*`? It's the memory address of an `int`. More properly
 speaking, it is a pointer to an `int`. If your computer has 2 gigabytes of
 RAM, then there are 2 billion bytes, each of which has a memory address.
-Let’s say the `int` that a points to is stored at the 123rd byte of RAM. The
-value of a then, is 123. To get at the actual integer value that’s stored at
+Let's say the `int` that a points to is stored at the 123rd byte of RAM. The
+value of a then, is 123. To get at the actual integer value that's stored at
 byte 123, we write `*a`. `*a = *b` says "store at location `a` whatever is at
 location `b`."
 
-Now that we’ve changed `swap`, we need to change how we call `swap`. Instead
+Now that we've changed `swap`, we need to change how we call `swap`. Instead
 of passing `x` and `y`, we want to pass the address of `x` and the address of
 `y`:
 
@@ -107,9 +107,9 @@ of passing `x` and `y`, we want to pass the address of `x` and the address of
 
 `&` is the "address-of" operator and `*` is the dereference operator.
 
-Let’s assume our integers 1 and 2 are stored next to each other in memory and
+Let's assume our integers 1 and 2 are stored next to each other in memory and
 1 is stored at byte 123. That means 2 is stored 4 bytes away (since an `int`
-requires 4 bytes), so we’ll assume that it’s stored at byte 127. The values
+requires 4 bytes), so we'll assume that it's stored at byte 127. The values
 of a and b, then, are 123 and 127. We can simulate passing those to swap by
 writing them on pieces of paper and putting them in a black box.
 
@@ -129,7 +129,7 @@ returns.
 
 For the first few weeks, we have worked with `string` as a data type.
 However, this is a type that we defined for you in the CS50 Library. A
-`string` is really a `char*`. It’s the address of a char. In fact, it’s the
+`string` is really a `char*`. It's the address of a char. In fact, it's the
 address of the first char in the string.
 
 Consider the following program which claims to compare two strings:
@@ -159,8 +159,8 @@ Consider the following program which claims to compare two strings:
 	}
 
 Here, we simply ask the user for two strings and store them in `s` and `t`. Then
-we ask if `s == t`. Seems reasonable, no? We’ve used the `==` operator for all
-the other data types we’ve seen thus far.
+we ask if `s == t`. Seems reasonable, no? We've used the `==` operator for all
+the other data types we've seen thus far.
 
 But if we compile and run this program, typing "hello" twice, we always get
 "You typed different things!"
@@ -170,9 +170,9 @@ this in memory:
 
 	h   e   l   l   o   \0
 
-Although we’re able to access the first character "h" using bracket notation,
-under the hood it’s really located at one of 2 billion or so memory
-addresses. Let’s call it address 123 again. Then "e" is at address 124, "l"
+Although we're able to access the first character "h" using bracket notation,
+under the hood it's really located at one of 2 billion or so memory
+addresses. Let's call it address 123 again. Then "e" is at address 124, "l"
 is at address 125, and so on. A char only takes 1 byte, so this time the
 memory addresses are only 1 apart.
 
@@ -184,14 +184,14 @@ But if we only know the memory address of the first character, how do we know
 how long the string is? Recall that strings end with the special \0
 character, so we can just iterate until we find it.
 
-`compare-0.c` is buggy because it’s comparing the memory addresses of the two
+`compare-0.c` is buggy because it's comparing the memory addresses of the two
 strings, not the strings themselves. Maybe `s` is stored at memory address
 123 and t is stored at memory address 200. Since 123 does not equal 200, our
-program says they’re different strings.
+program says they're different strings.
 
 ### `copy-0.c`
 
-Let’s take a look at a program that tries, but fails to copy a string:
+Let's take a look at a program that tries, but fails to copy a string:
 
 	#include <cs50.h>
 	#include <ctype.h>
@@ -223,7 +223,7 @@ Let’s take a look at a program that tries, but fails to copy a string:
 	    printf("Copy:     %s\n", t);
 	}
 
-We check that `s` isn’t NULL in case the user has given us more characters
+We check that `s` isn't NULL in case the user has given us more characters
 than we have memory for. NULL is actually the memory address 0. By
 convention, no user data can ever be stored at byte 0, so if a program tries
 to access this memory address, it will crash.
@@ -232,7 +232,7 @@ Now that we have the user-provided string in `s`, we assign the value of `s`
 to `t`. But if `s` is just a memory address, say 123, then t is now the same
 memory address. Both `s` and `t` are pointing to the same chunks of memory.
 
-To prove that this program is buggy, we’ll try to capitalize `t`, but not
+To prove that this program is buggy, we'll try to capitalize `t`, but not
 `s`. The output, though, shows that both `s` and `t` are capitalized.
 
 To emphasize that their role is to point to other variables, pointers are
@@ -271,9 +271,9 @@ Finally, a program that truly compares two strings:
 	}
 
 Now that we know a string is really just a `char*`, we need to be careful
-it’s not `NULL`.
+it's not `NULL`.
 
-`strcmp` is short for "string compare." It’s a function that comes in
+`strcmp` is short for "string compare." It's a function that comes in
 `string.h`, which, according to the man page, returns 0 if two strings are
 identical, a negative number if the first string argument comes before the
 second string alphabetically, or a positive number if the first string
@@ -328,15 +328,15 @@ operator:
 	    return 0;
 	}
 
-In line 17, we’re declaring a pointer `t` and initializing it with the return
+In line 17, we're declaring a pointer `t` and initializing it with the return
 value of a function named malloc. malloc takes a single argument, the number
 of bytes of memory requested, and returns the address in memory of the first
-of those bytes or `NULL` if the memory couldn’t be allocated.
+of those bytes or `NULL` if the memory couldn't be allocated.
 
-In this case, we’re allocating enough memory for all the characters in `s`
+In this case, we're allocating enough memory for all the characters in `s`
 plus 1 extra for the null terminator. We multiply this number of characters
 by `sizeof(char)`, which gives the size in bytes of a char on this particular
-operating system. Normally it will be 1, but we’re handling other cases
+operating system. Normally it will be 1, but we're handling other cases
 correctly, too.
 
 Once we have enough memory, we iterate through all of the characters in `s`
@@ -344,7 +344,7 @@ and assign them one at a time to `t`.
 
 ## Teaser
 
-Let’s analyze some seemingly innocuous lines of code:
+Let's analyze some seemingly innocuous lines of code:
 
 	int main(void)
 	{
@@ -365,5 +365,5 @@ Let’s analyze some seemingly innocuous lines of code:
 First, we declare two pointers `x` and `y`. We allocate enough memory to
 store an `int` and assign its address to `x`. We store the value 42 in this
 memory. Then we store in the memory address `y` the value 13. But wait, we
-didn’t allocate memory for a second `int`, so what does `y` point to? Who
-knows! That’s the problem. Line 10 is pretty painful for Binky.
+didn't allocate memory for a second `int`, so what does `y` point to? Who
+knows! That's the problem. Line 10 is pretty painful for Binky.

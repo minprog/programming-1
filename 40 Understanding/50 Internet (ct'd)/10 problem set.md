@@ -26,12 +26,12 @@ Answer the questions below and collect your answers in a .pdf called internet2.p
 # Questions
 
 ## 1. Protocolor by Numbers
-1. We’ve seen a whole lot of acronyms that end in the letter “P”: DHCP, HTTP, SMTP,
+1. We've seen a whole lot of acronyms that end in the letter “P”: DHCP, HTTP, SMTP,
 POP, IMAP, TCP, and IP. All the other letters of the alphabet must be getting jealous. What do
 we mean when we say something is a protocol? That is, what do all of these technologies have in
 common?
 
-2. What’s a web browser? If you’ve ever contacted the support email address for a
+2. What's a web browser? If you've ever contacted the support email address for a
 website, you were probably asked what web browser you were using. Why might this information
 be helpful to diagnose a problem with a website?
 
@@ -44,7 +44,7 @@ the value unicodelovehotel@gmail.com to the web page at http://raspberrycats.wor
 Also explain what each line in your HTTP request means!
 
 5. I made a request to a web page, but my browser received the below HTTP response.
-What’s the meaning of this response?
+What's the meaning of this response?
 
 	HTTP/1.1 500 Internal Server Error<br/>
 	Server: Apache<br/>
@@ -61,25 +61,25 @@ does this mean, and what will my web browser most likely do?
 ## 3. Inbox Zero
 7. Using my primary email address, unicodelovehotel@gmail.com, I sent a message
 to someone@example.com. In a succinct but technically detailed paragraph, describe how my email
-ultimately reaches someone@example.com’s inbox.
+ultimately reaches someone@example.com's inbox.
 
-8. What’s the difference between a stack and a queue? What’s a situation where a stack
+8. What's the difference between a stack and a queue? What's a situation where a stack
 would be more appropriate than a queue? How about a situation (other than the line at the Rock
-’n’ Roller Coaster or other amusement park rides) where a queue would be more appropriate than
+'n' Roller Coaster or other amusement park rides) where a queue would be more appropriate than
 a stack?
 
 9. Unlike HTTP headers, email headers can be repeated several times with different
-values. Why is the Received header usually found more than once in an email once it’s been delivered?
+values. Why is the Received header usually found more than once in an email once it's been delivered?
 
 10. What are some differences between POP3 and IMAP? What are some features
-IMAP provides that POP3 doesn’t?
+IMAP provides that POP3 doesn't?
 
-11. What’s a phishing attack? Since I don’t have access to Bill Gates’s inbox, I could
+11. What's a phishing attack? Since I don't have access to Bill Gates's inbox, I could
 never send email from billg@microsoft.com, right?
 
 ## 4. Mission Control
 12. When we say that TCP ensures reliable data transfer, what two guarantees are we
-making about the delivery of segments? What’s an ACK, and how does it relate to these guarantees?
+making about the delivery of segments? What's an ACK, and how does it relate to these guarantees?
 Similarly, what is a sequence number, and how does it relate to these guarantees?
 
 13. The below depicts two TCP segments being transmitted from one host to another.

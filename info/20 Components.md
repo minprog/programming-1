@@ -14,7 +14,7 @@ Different sections are offered for those less comfortable, those more comfortabl
 
 ## Walkthroughs
 
-Integrated into problem sets are "walkthroughs," videos via which the course’s staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs before asking questions about problem sets at office hours.
+Integrated into problem sets are "walkthroughs," videos via which the course's staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs before asking questions about problem sets at office hours.
 
 ## Problem Sets
 

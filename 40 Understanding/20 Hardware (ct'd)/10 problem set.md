@@ -26,7 +26,7 @@ Answer the questions below and collect your answers in a .pdf called hardware2.p
 ## 1. Dinkleberg!
 1. You know that neighbor who always one-ups you? Apparently, he just bought a
 processor that has twice as many cores as yours. Why is that better? What effects does a higher
-number of cores have on performance? Is your neighbor’s processor twice as fast because it has
+number of cores have on performance? Is your neighbor's processor twice as fast because it has
 twice as many cores?
 
 2. Unsatisfied, your neighbor turns in his processor for a new CPU whose clock speed
@@ -36,16 +36,16 @@ doubles that of your CPU. Now, is it twice as fast? Why or why not?
 3. What does it mean for a CPU to be superscalar? Why does a superscalar architecture
 improve the efficiency of a CPU?
 
-4. If Moore’s Law says processing power will double every 18 months, then why can’t our
+4. If Moore's Law says processing power will double every 18 months, then why can't our
 processors have phenomenal cosmic power? (http://www.youtube.com/watch?v=SfTfXLLJlzM)
-That is, why can’t this trend continue forever
+That is, why can't this trend continue forever
 
-5. It’s Halloween again, and you and 7 of your closest friends have a huge bag of candy.
-Now, you’d like to figure out how many different types of candy (e.g., Milky Way, Snickers, or
+5. It's Halloween again, and you and 7 of your closest friends have a huge bag of candy.
+Now, you'd like to figure out how many different types of candy (e.g., Milky Way, Snickers, or
 Krackel) you received on your travels. To be clear, if you only got 4 Milky Way bars and 3 Snickers
 bars (sounds like you need a new trick-or-treating strategy), then you would have 2 different types
 of candy. Without your friends, how could you solve this problem? Now, propose a different way
-of solving this problem that allows you to count the candy faster using your friends’ help. Why is
+of solving this problem that allows you to count the candy faster using your friends' help. Why is
 your new method that takes advantage of all 8 people faster? If helpful, you and all of your friends
 are in the same room (so they can talk to each other), and that room is stocked with paper and
 pencils if you need to write anything down. Try to think of the fastest solution possible!
@@ -55,16 +55,16 @@ pencils if you need to write anything down. Try to think of the fastest solution
 should buy. Her new camera can use either a CompactFlash card (also called a CF card for short)
 or a Secure Digital card (also called an SD card for short). Give her a sense of what her options are!
 For at least two different memory cards sold at the store of your choice (e.g., BestBuy, Amazon, or
-Fry’s), tell her:
+Fry's), tell her:
 	1. How large the card is in GB 
 	2. What the card costs
 	3. About how many photos the card can store
 	4. Whether or not you think she should buy the card
 
-7. My father has a huge music collection, so he’s probably going to want to buy a computer with a lot of RAM, right? Why or why not?
+7. My father has a huge music collection, so he's probably going to want to buy a computer with a lot of RAM, right? Why or why not?
 
 ## 4. Cache Money
-8. Let’s say you purchased a computer that (for some reason or another) didn’t have an
+8. Let's say you purchased a computer that (for some reason or another) didn't have an
 L1 cache, L2 cache, or L3 cache. Is it possible that such a computer could even function? Why or
 why not?
 
@@ -94,17 +94,17 @@ over an HDD?
 	* F 4 MB
 
 ## 7. Bargain Hunter
-13. Congratulations! You’ve just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
+13. Congratulations! You've just won the E-1 lottery, which has a prize of 1400 <sub>virtual</sub>
 dollars! You can claim your prize on one condition: you can only spend your winnings on a new
-computer. First, check out Ben’s section [video](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops) on shopping for laptop and desktop computers,
-where he discusses the advantages and disadvantages of both. Now, it’s your turn to purchase yourself
+computer. First, check out Ben's section [video](http://cse1.net/video?v=sections/2/purchasing_laptops_and_desktops/purchasing_laptops_and_desktops) on shopping for laptop and desktop computers,
+where he discusses the advantages and disadvantages of both. Now, it's your turn to purchase yourself
 a brand new computer. Head to your local computer store to get a sense of your options, and
-feel free to ask questions of the store’s employees! (You probably don’t want to tell them that your
-lottery winnings are virtual, though). If you can’t make it to a computer store, then you’re free to
-do your shopping online, but you’re highly encouraged to shop for a computer in person!
+feel free to ask questions of the store's employees! (You probably don't want to tell them that your
+lottery winnings are virtual, though). If you can't make it to a computer store, then you're free to
+do your shopping online, but you're highly encouraged to shop for a computer in person!
 Now, tell us about your experience in two or more paragraphs below. What computer would you
-ultimately decide to purchase? Why? If you interacted with any of the store’s employees, what
-happened? Tell us about your “new” computer’s specifications, namely:
+ultimately decide to purchase? Why? If you interacted with any of the store's employees, what
+happened? Tell us about your “new” computer's specifications, namely:
 	1. Brand and model
 	2. Price
 	3. Hard drive capacity

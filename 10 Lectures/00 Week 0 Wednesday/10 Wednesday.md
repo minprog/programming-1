@@ -4,7 +4,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
   * [This is CS50.][1]
 
-  * 73% of CS50 students have no prior computer science experience! You’re not alone!
+  * 73% of CS50 students have no prior computer science experience! You're not alone!
 
 ## Binary
 
@@ -12,13 +12,13 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
   * To represent larger numbers, we use more than one desk lamp or transistor. Each desk lamp corresponds to a single bit of information. Just as each lamp has two possible states (on and off), each bit can take two possible values (1 and 0). With 2 desk lamps, we can represent 2 * 2 = 4 possible values. With 3 desk lamps, we can represent 2 * 2 * 2 = 8 possible values.
 
-  * Writing binary numbers is identical to writing the decimal numbers that you’re familiar with. A number like 123 can be broken out like so:
+  * Writing binary numbers is identical to writing the decimal numbers that you're familiar with. A number like 123 can be broken out like so:
 
         100's   10's   1's
 
         1       2      3
 
-  * In binary, the 100’s, 10’s, and 1’s columns are replaced with 4’s, 2’s, and 1’s columns. Only the numbers 0 and 1 are allowed in each column.
+  * In binary, the 100's, 10's, and 1's columns are replaced with 4's, 2's, and 1's columns. Only the numbers 0 and 1 are allowed in each column.
 
         4's    2's   1's
 
@@ -34,9 +34,9 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ## Overview
 
-  * It’s worth noting that this is _Introduction_ to Computer Science _I_. There’s also an Introduction to Computer Science II, so you’re in the right place if you have no prior knowledge of the subject matter (or even if you do).
+  * It's worth noting that this is _Introduction_ to Computer Science _I_. There's also an Introduction to Computer Science II, so you're in the right place if you have no prior knowledge of the subject matter (or even if you do).
 
-  * CS50 is now offered with a SAT/UNS grading option! It’s far more important to engage with the material than to worry about grades. Learn more at the [FAQ][2].
+  * CS50 is now offered with a SAT/UNS grading option! It's far more important to engage with the material than to worry about grades. Learn more at the [FAQ][2].
 
   * CS50 is an introduction to the intellectual enterprises of computer science and the art of programming.
 
@@ -44,19 +44,19 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ### The Famous Phonebook Example
 
-  * Back in the days when phone numbers weren’t stored in cell phones, you might have actually had to look them up in a phonebook. How did you go about that? If you wanted to look up someone with the last name "Smith," you could flip through the phonebook one page at a time. You don’t need to be a computer scientist to know that this is an inefficient approach.
+  * Back in the days when phone numbers weren't stored in cell phones, you might have actually had to look them up in a phonebook. How did you go about that? If you wanted to look up someone with the last name "Smith," you could flip through the phonebook one page at a time. You don't need to be a computer scientist to know that this is an inefficient approach.
 
-  * Instead, we could start by flipping to the middle of the phonebook. Now we break the problem into two. Since we know that "Smith" isn’t in the left half of the alphabet, we can literally tear the phonebook in half, throw away the left half of the phonebook, and leave ourselves with only the right half. Once again, we flip to the middle and find ourselves at "R." We can again throw away the left half. As we continue tearing the book in half and throwing away pieces of it, we will eventually be left with a single page on which the name "Smith" appears (assuming it was there in the first place).
+  * Instead, we could start by flipping to the middle of the phonebook. Now we break the problem into two. Since we know that "Smith" isn't in the left half of the alphabet, we can literally tear the phonebook in half, throw away the left half of the phonebook, and leave ourselves with only the right half. Once again, we flip to the middle and find ourselves at "R." We can again throw away the left half. As we continue tearing the book in half and throwing away pieces of it, we will eventually be left with a single page on which the name "Smith" appears (assuming it was there in the first place).
 
-  * How do these two approaches compare in terms of their times to solve the problem? In the graph below, the first steep line (`n` in red) represents the approach of turning one page at a time. The second steep line (`n/2` in yellow) represents a slightly improved approach of turning two pages at a time. The curve (`log n` in green) represents our "tear and throw away" approach. As the size of the problem grows, the time to solve that problem doesn’t grow nearly as fast. In the context of this problem, `n` is the number of pages in the phonebook. As we go from 500 to 1000 to 2000 pages in the phonebook, we need only tear the phonebook in half one or two more times.
+  * How do these two approaches compare in terms of their times to solve the problem? In the graph below, the first steep line (`n` in red) represents the approach of turning one page at a time. The second steep line (`n/2` in yellow) represents a slightly improved approach of turning two pages at a time. The curve (`log n` in green) represents our "tear and throw away" approach. As the size of the problem grows, the time to solve that problem doesn't grow nearly as fast. In the context of this problem, `n` is the number of pages in the phonebook. As we go from 500 to 1000 to 2000 pages in the phonebook, we need only tear the phonebook in half one or two more times.
 
 ![Linear and logarithmic runtimes.][3]
 
 ### Counting People
 
-  * In order to illustrate programming examples, we’ll often use _pseudocode_. Pseudocode is English-like syntax meant to represent a programming language. Check out [this TED-Ed video][4] which introduces the concept of an algorithm using pseudocode.
+  * In order to illustrate programming examples, we'll often use _pseudocode_. Pseudocode is English-like syntax meant to represent a programming language. Check out [this TED-Ed video][4] which introduces the concept of an algorithm using pseudocode.
 
-  * Let’s take a look at another problem: counting the number of students in this lecture hall. We can solve this problem using a very simple algorithm:
+  * Let's take a look at another problem: counting the number of students in this lecture hall. We can solve this problem using a very simple algorithm:
 
     1. stand up and assign yourself the number 1
 
@@ -82,7 +82,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	    }
 
 
-  * This code may look like gibberish to you, but it’s actually not that hard to break down. Line 1 simply opens up an image. Lines 2 through 4 walk through the dots that make up the image. Now let’s add some lines of code that remove all of the blue and green from these dots and bump up the red by a factor of ten:
+  * This code may look like gibberish to you, but it's actually not that hard to break down. Line 1 simply opens up an image. Lines 2 through 4 walk through the dots that make up the image. Now let's add some lines of code that remove all of the blue and green from these dots and bump up the red by a factor of ten:
 
 	    im = new SimpleImage("iron-puzzle.png");
 	    for (x = 0; x &lt; im.getWidth(); x%2B%2B) {
@@ -95,7 +95,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 	    }
 	    print(im);
 
-  * Don’t worry too much about the details of this syntax, for now. Just allow yourself to be wowed by the result:
+  * Don't worry too much about the details of this syntax, for now. Just allow yourself to be wowed by the result:
 
 ![The Eiffel Tower.][6]
 
@@ -131,7 +131,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
   * The lowest score of your problem sets will be dropped, as well, but see the syllabus for fine print.
 
-  * To give you a sense of where we’re going in the course, check out last year’s problem sets:
+  * To give you a sense of where we're going in the course, check out last year's problem sets:
 
     * Scratch
 
@@ -145,7 +145,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
     * Mispellings
 
-    * Huff’n Puff
+    * Huff'n Puff
 
     * C$50 Finance
 
@@ -155,7 +155,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
   * Held Monday through Thursday, 8pm to 11pm, in the Leverett, Pfoho, Eliot, and Annenberg dining halls.
 
-  * This year, we’ll have a new format for office hours featuring a table with a few staff members who can host a more intimate conversation.
+  * This year, we'll have a new format for office hours featuring a table with a few staff members who can host a more intimate conversation.
 
 ### Walkthroughs
 
@@ -163,11 +163,11 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ### Post-mortems
 
-  * After each problem set, we’ll release short videos that present representative solutions and point out the good and the bad.
+  * After each problem set, we'll release short videos that present representative solutions and point out the good and the bad.
 
 ### Tutoring
 
-  * As resources permit, we’ll pair up staff and students for 1-on-1 assistance.
+  * As resources permit, we'll pair up staff and students for 1-on-1 assistance.
 
 ### CS50 Hackathon
 

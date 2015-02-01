@@ -35,26 +35,26 @@ network is encrypted using WPA2. Is it possible for you to see the network traff
 your friend? Why or why not?
 
 ## 3. Attack of the Show
-5. You’re running for class president at your high school, and your school has set up
-an online voting system. After logging in via your school’s secure authentication system, students
+5. You're running for class president at your high school, and your school has set up
+an online voting system. After logging in via your school's secure authentication system, students
 are taken to a form where they can select a candidate to vote for. You notice that after voting (for
 yourself of course), you were taken to the URL http://school.edu/vote?for=you. The next
 day, you find out that someone else has won the election by a landslide, but you suspect foul play
 is afoot. How could your opponent have taken advantage of the system? Propose a solution that
-would have thwarted your opponent’s villainy.
+would have thwarted your opponent's villainy.
 
-6. What’s the difference between CSRF and XSS? How are XSS and session hijacking
+6. What's the difference between CSRF and XSS? How are XSS and session hijacking
 related?
 
 7. What is a SQL injection attack? What kind of damage might an attacker be able to
 incur via a SQL injection? How can we prevent SQL injections?
 
-8. What’s so funny about the below?
+8. What's so funny about the below?
   ![funny!](pset61.png)
 
 ## 4. Hail Caesar! 
-9. Give the ROT13 encryption of this message: “That’s one small step for man; one
-giant leap for mankind.” Assume that you can leave any punctuation as is , so you don’t need to
+9. Give the ROT13 encryption of this message: “That's one small step for man; one
+giant leap for mankind.” Assume that you can leave any punctuation as is , so you don't need to
 worry about encrypting those characters.
 
 10. The following message has been encrypted with ROT5 encryption. What does it
@@ -66,7 +66,7 @@ Vigenère cipher more secure than the Caesar cipher?
 12. Using the Vigenère cipher and the key ”ALICE”, encrypt this message: “Sentence
 first—verdict afterwards.” Just like last time, you can leave any punctuation as is.
 
-13. What’s the difference between symmetric key cryptography and asymmetric key
+13. What's the difference between symmetric key cryptography and asymmetric key
 cryptography? Why might we want to combine the two approaches in some cases?
 
 14. Explain the roles of the public key and the private key in asymmetric key cryptography.

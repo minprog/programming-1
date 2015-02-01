@@ -7,7 +7,7 @@ Lecture notes by Andrew Sellergren. [Watch the video.](http://cs50.tv/2013/fall/
 
 ## From Last Time
 
-We’ve seen how a string is a sequence of characters. More properly speaking,
+We've seen how a string is a sequence of characters. More properly speaking,
 it is an array of characters with a null terminator (`\0`) at the end.
 
 We can also have arrays of other types, not just characters. In the `ages.c`
@@ -47,19 +47,19 @@ program, we used an array of `int` to store the age of everyone in the room:
 
 In line 16, we use bracket notation to declare an array of `int` of size `n`. To
 access the element `i` of that array, we write `ages[i]`. Arrays are
-zero-indexed, so the first element is stored in `ages[0]`. There’s no element
+zero-indexed, so the first element is stored in `ages[0]`. There's no element
 in `ages[n]` even though the array has size `n`!
 
 ## Command-line Arguments
 
-Thus far, we’ve started our programs with the line `int main(void)`. `void` means
-that we’re not passing any arguments to the `main` function. However, it’s
+Thus far, we've started our programs with the line `int main(void)`. `void` means
+that we're not passing any arguments to the `main` function. However, it's
 possible to pass arguments to the `main` function using the following syntax:
 
 	int main(int argc, string argv[])
 
 Here, we pass two arguments, `argc` and `argv`. `argc` is an `int` and `argv`
-is an array of string. argc actually indicates how many arguments we’ve
+is an array of string. argc actually indicates how many arguments we've
 passed to a program.
 
 Earlier, when we typed `./ages` at the command line, there was 1 command-line
@@ -96,7 +96,7 @@ an integer:
 	}
 
 This works well as long as we actually send two command-line arguments. What
-happens when we don’t? The program crashes with a segmentation fault. This is
+happens when we don't? The program crashes with a segmentation fault. This is
 because we tried to access an element beyond the bounds of the array. We
 should add a check to protect against this:
 
@@ -115,7 +115,7 @@ should add a check to protect against this:
 
 ### `argv-1.c`
 
-Let’s try printing out all of the command-line arguments:
+Let's try printing out all of the command-line arguments:
 
 	#include <cs50.h>
 	#include <stdio.h>
@@ -221,12 +221,12 @@ The best way to learn to debug is to work with buggy code like the following:
 	    foo(i);
 	}
 
-Let’s assume that the user provides an integer greater than 10 (a bad
+Let's assume that the user provides an integer greater than 10 (a bad
 assumption). The first while loop will then decrement `i` by 1 until it equals
 10, at which point the loop condition `i > 10` will no longer be true and the
 loop will exit. The second while loop will decrement `i` by 3 until it equals
 0. But if it starts at 10, `i` will go to 7, then 4, then -1, then -4, and so
-on to negative infinity. That’s not what we intended!
+on to negative infinity. That's not what we intended!
 
 One useful debugging technique is to add some `printf` statements:
 
@@ -263,28 +263,28 @@ One useful debugging technique is to add some `printf` statements:
 When we compile and run `debug.c` now, we can clearly see that the second
 while loop is infinite.
 
-As your programs get longer and more complicated, you’ll find more
+As your programs get longer and more complicated, you'll find more
 sophisticated debugging techniques more useful.
 
 ### GDB
 
 GDB, or GNU Debugger, is a program that allows your to step through your code
-line by line while it’s executing. Whenever you have run make on your code
+line by line while it's executing. Whenever you have run make on your code
 thus far, the compiler `clang` has executed with a command-line argument
 `-ggdb3`. This instructs `clang` to compile your code so that you can debug it
 within GDB if you so choose.
 
-After you’ve compiled `debug.c`, you can open it in GDB by executing `gdb debug`.
+After you've compiled `debug.c`, you can open it in GDB by executing `gdb debug`.
 Note that the name of the program you want to walk through, in this case
 `debug`, is provided as a command-line argument to `gdb`.
 
-Once you’ve started GDB, you’ll find yourself at a prompt. Type `run` to begin
-the execution of your program. This alone isn’t very useful, as the program
+Once you've started GDB, you'll find yourself at a prompt. Type `run` to begin
+the execution of your program. This alone isn't very useful, as the program
 will finish executing just as it would outside of GDB.
 
 Before typing `run`, you can type `break main` to insert a breakpoint at the
 beginning of the `main` function. A breakpoint is a place at which execution of
-the program is paused. Once you’ve reached a breakpoint, you can type `next`
+the program is paused. Once you've reached a breakpoint, you can type `next`
 repeatedly to step through your code line by line. Hitting Enter will redo
 the last command you typed.
 
@@ -295,7 +295,7 @@ the last command you typed.
 * After stepping forward through many more executions of the second loop,
   printing `i` will give a negative number.
 
-Let’s move the infinite loop inside the `foo` function for more practice with
+Let's move the infinite loop inside the `foo` function for more practice with
 GDB:
 
 	#include <stdio.h>
@@ -323,29 +323,29 @@ GDB:
 	    foo(i);
 	}
 
-After starting GDB by executing `gdb debug`, we’ll again set a breakpoint at
+After starting GDB by executing `gdb debug`, we'll again set a breakpoint at
 the beginning of `main` by typing break` main`. If we `next` over the `foo`
 function call, the program will finish executing. Note that although the
 second while loop appears infinite, it will eventually terminate for reasons
-we’ll wave our hands at for now.
+we'll wave our hands at for now.
 
 If we want to examine what foo is doing, we need to type `step` instead of
 `next`. `step` is identical to `next` if the `next` line of code is not a
 function call.
 
 We can also set a breakpoint at the `foo` function by typing `break foo`. Now
-when we type `run`, we’ll first stop at `main`. If we type `continue`,
+when we type `run`, we'll first stop at `main`. If we type `continue`,
 execution will resume until we hit the next breakpoint at foo.
 
 ## Security
 
-In Problem Set 2, you’ll be working with encrypting and decrypting passwords.
-Of course, the strength of the encryption doesn’t matter all that much if you
+In Problem Set 2, you'll be working with encrypting and decrypting passwords.
+Of course, the strength of the encryption doesn't matter all that much if you
 choose a weak password.
 
-Consider the code that implements the login prompt on your laptop. If it’s
+Consider the code that implements the login prompt on your laptop. If it's
 working properly, it will check that what the user types matches your
-password before letting the user in. However, if it’s working maliciously, it
+password before letting the user in. However, if it's working maliciously, it
 might check that what the user types matches some master password that lets
 anyone in. We can hope that this backdoor might be caught by at least one of
 the many people who have reviewed it.

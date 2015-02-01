@@ -27,7 +27,7 @@ Answer the questions below and collect your answers in a `.pdf` called `multimed
 1. Why do filenames have extensions? Does a file need to have an extension to
 be opened? Why or why not?
 
-2. What’s the difference between additive and subtractive color mixing? Give an
+2. What's the difference between additive and subtractive color mixing? Give an
 example of a set of primary colors that can be used for each.
 
 3. What is the color depth of a black-and-white, monochrome image?
@@ -44,7 +44,7 @@ example of a set of primary colors that can be used for each.
 versions of its logo? What are the advantages of a low resolution logo, and
 what are the advantages of a high resolution logo?
 
-6. What’s the difference between lossless compression and lossy compression?
+6. What's the difference between lossless compression and lossy compression?
 Give an example of a file format that uses each.
 
 7. Why is it that vector graphics scale to larger sizes so nicely, but raster
@@ -55,7 +55,7 @@ graphics do not?
 8. How do amplitude and frequency affect sound?
 
 9. Describe the process of converting from analog sound to digital. How do both
-sampling rate and bitrate come into play in this process, and what’s the
+sampling rate and bitrate come into play in this process, and what's the
 difference between the two?
 
 10. I have an audiophile friend who just spent another $100 on a new hard drive
@@ -66,19 +66,19 @@ overboard?
 
 ## 4. Another Dimension
 
-11. What’s a wireframe? Describe how we use wireframes to represent objects in
+11. What's a wireframe? Describe how we use wireframes to represent objects in
 3D space.
 
 12. Homer went to download a mesh of a doughnut, but the file he downloaded
-looks more like a box. D’oh! Lisa says that he shouldn’t worry, though, because
+looks more like a box. D'oh! Lisa says that he shouldn't worry, though, because
 the mesh he downloaded will work just fine. Why?
 
-13. What’s the difference between a container and a codec? Give an example of
+13. What's the difference between a container and a codec? Give an example of
 each.
 
 ## 5. Graphic Designer
 
-14. Try seam carving some of your own photos! It’s really cool. If you don’t
+14. Try seam carving some of your own photos! It's really cool. If you don't
 have any photos of your own, feel free to download some from the Internet.
 Content-aware scaling is available in both Photoshop
 (<http://www.adobe.com/products/photoshop.html>) and as a plugin for the GIMP
