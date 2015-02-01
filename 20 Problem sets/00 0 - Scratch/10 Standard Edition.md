@@ -36,7 +36,9 @@ Below are rules of thumb that (inexhaustively) characterize acts that the course
 
 ### Not Reasonable
 
-* Asking a classmate to see his or her solution to a problem set’s problem before (re-)submitting your own.
+* Asking a classmate to see his or her solution to a problem set’s problem before (re-) submitting your own.
+
+* Decompiling, deobfuscating, or disassembling the staff’s solutions to problem sets.
 
 * Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course’s own lessons and integrate into your own work, even while respecting this policy’s other constraints.
 
@@ -47,8 +49,6 @@ Below are rules of thumb that (inexhaustively) characterize acts that the course
 * Paying or offering to pay an individual for work that you may submit as (part of) your own.
 
 * Providing or making available solutions to problem sets to individuals who might take this course in the future.
-
-* Redeeming or attempting to redeem someone else’s code for a late day.
 
 * Searching for, soliciting, or viewing a quiz’s questions or answers prior to taking the quiz.
 
@@ -66,17 +66,32 @@ Below are rules of thumb that (inexhaustively) characterize acts that the course
 
 * Viewing another’s solution to a problem set’s problem and basing your own solution on it.
 
+## Assessment
+
+Your work on this problem set will be evaluated along two axes primarily.
+
+### Scope
+
+To what extent does your code implement the features required by our
+specification?
+
+### Correctness
+
+To what extent is your code free of bugs?
+
+All students must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
+
 ## Bits
 
 First curl up with Nate’s short on binary, if not too familiar:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/hacBFrgtQjQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="http://www.youtube.com/embed/hacBFrgtQjQ?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 And then with Nate’s short on ASCII:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/UPlR4eMMCmI" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="http://www.youtube.com/embed/UPlR4eMMCmI?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Consider these questions rhetorical for now, but odds are they’ll come up again!
+Consider these questions rhetorical for now, but odds are they'll come up again! Not to worry if the answers aren’t obvious at first. They’re meant to induce a bit of thought! Week 0’s first lecture and Nate’s videos should provide you with the building blocks (daresay inputs!) with which to solve these problems.
 
 * How do you represent the (decimal) integer 50 in binary?
 
@@ -92,7 +107,7 @@ Consider these questions rhetorical for now, but odds are they’ll come up agai
 
 Next dive into Allison’s short on Scratch:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/52JoFF4HMA4" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="http://www.youtube.com/embed/52JoFF4HMA4?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 No questions on that one, though, for now!
 
@@ -101,10 +116,10 @@ No questions on that one, though, for now!
 Now join Zamyla for a walkthrough of this problem set, if you’d like a bit of
 a tour:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/697pD31GCZg" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="http://www.youtube.com/embed/697pD31GCZg?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 Next head to <http://scratch.mit.edu/> and sign up for an account on MIT’s
-website by clicking **Join Scratch** atop the page. Any username (that’s
+website by clicking *Join Scratch* atop the page. Any username (that’s
 available) is fine, but take care to remember it and your choice of password.
 
 Then head to <http://scratch.mit.edu/help/> and take note of the resources
@@ -113,7 +128,7 @@ want to skim the [Getting Started Guide][10].
 
 [10]: http://scratch.mit.edu/scratchr2/static/__1378420408__//pdfs/help/Getting-Started-Guide-Scratch2.pdf
 
-Next head to <http://scratch.mit.edu/projects/266919/> to see **Scratch Scratch Revolution** by CS50 alumna Ann Chi,
+Next head to <http://scratch.mit.edu/projects/266919/> to see *Scratch Scratch Revolution* by CS50 alumna Ann Chi,
 which Vanessa played on stage in Week 0. Click the blue square above the
 game’s top-left corner if you’d like to full-screen the user interface (UI).
 Then click either of the green flags. Per Ann’s instructions, as soon as you
@@ -123,16 +138,16 @@ head to <http://scratch.mit.edu/projects/12221773/>.
 
 If you’ve no experience (or comfort) whatsoever with programming, rest
 assured that Ann’s and Blake’s projects are more complex than what we expect
-for this first problem set. (Click **See inside** in Scratch’s top-right
+for this first problem set. (Click *See inside* in Scratch’s top-right
 corner to look at each project’s underlying "implementation details.") But
 they do reveal what you can do with Scratch. And if your computer has a
-webcam, you might also want to try **Move the Butterfly** at <http://scratch.mit.edu/projects/10016382/>. Recall from
+webcam, you might also want to try *Move the Butterfly* at <http://scratch.mit.edu/projects/10016382/>. Recall from
 Week 0 how that program utilizes a webcam to detect movement to which sprites
 can respond.
 
 Let’s take a look at one other project. Head to <http://scratch.mit.edu/projects/37413/> to see a project you probably
 haven’t yet seen by Carlos Herrera. Take a moment to play the game, then
-click **See inside** in Scratch’s top-right corner to see how it’s
+click *See inside* in Scratch’s top-right corner to see how it’s
 implemented. Spend some time looking over Carlos’s scripts. Don’t forget that
 each sprite has its own set of scripts. Try to get a sense of how the overall
 program works. Try making some changes, even while the program is running, to
@@ -184,16 +199,16 @@ this problem set’s requirements.
 
 Alright, off you go. Make us proud!
 
-Once finished with your project, click **See project page** in Scratch’s
+Once finished with your project, click *See project page* in Scratch’s
 top-right corner. Ensure your project has a title (in Scratch’s top-left
 corner), some instructions (in Scratch’s top-right corner), and some notes
-and/or credits (in Scratch’s bottom-right corner). Then click **Share** in
+and/or credits (in Scratch’s bottom-right corner). Then click *Share* in
 Scratch’s top-right corner so that others (e.g., your TF!) can see your
 project. Finally, take note of the URL in your browser’s address bar. That’s
 your project’s URL on MIT’s website, and you’ll need to know it later.
 
 Oh, and if you’d like to exhibit your project in Fall 2013’s gallery, head to
-the [Scratch Gallery](http://scratch.mit.edu/studios/514266/), then click **Add projects**, and paste in your own project’s URL.
+the [Scratch Gallery](http://scratch.mit.edu/studios/898236/), then click *Add projects*, and paste in your own project’s URL.
 
 ## How to Submit
 
