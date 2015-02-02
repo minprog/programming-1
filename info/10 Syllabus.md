@@ -1,6 +1,6 @@
 ![CS50 @ Minor Programmeren](cs50.png)
 
-*Edition: September 2014 (5.1)*
+*Edition: February 2014 (5.2)*
 
 Introduction to the intellectual enterprises of computer science and the art of
 programming. This course teaches students how to think algorithmically and
@@ -24,9 +24,6 @@ Martijn Stegeman
 Ben Witzen  
 *head teaching assistant*  
 
-Jelle van Assema  
-*head teaching assistant*  
-
 ## Prerequisites
 
 This course is the first part of a two-course series aimed at students with
@@ -47,8 +44,8 @@ You will receive a number grade for the course if you've attended lab sessions a
 
 Your grade will be determined using the following guidelines:
 
-| Problem Sets  | 90% |
-| Understanding | 10% |
+| Problem Sets  | 70% |
+| Understanding | 30% |
 
 Although you must submit all problem sets, your lowest score among those
 problem sets on which you received perfect scores for the axis of scope will be
