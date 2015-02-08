@@ -37,55 +37,33 @@ Editions.
 
 To be clear, we encourage most students (including aspiring computer scientists) to tackle the standard editions. However, you may choose, week to week, which edition to submit. You may not submit both or some amalgam of the two.
 
-Problem sets and the final project will be evaluated along the following axes:
+Problem sets will be evaluated along the following axes:
 
-* Scope
+* Correctness --- have you tried doing everything?
 
-	Have you tried doing everything?
+	1. whole part is missing, or too many bugs to get it working
+    2. has to be fixed to get it working
+	3. it works without real bugs, but a small part is unfinished
+	4. everything is there, but not always the correct result
+	5. even with erroneous input the program still works
 
-	0. empty or not submitted
-	1. incomplete
-	2. most of it is there, but a small part is missing
-	3. you've done everything required
-	4. you've tried some extras
-	5. above and beyond: a real extra
-	{: start="0"}
+* Design --- how orderly is your code?
 
-* Correctness
-
-	Does your program do what is expected by a user?
-
-	0. will not work at all
-	1. takes too much time to get it working
-	2. some problems, but we can fix them, probably a mistake
-	3. it works, but not necessarily always the correct result
-	4. correct results in all common cases of input
-	5. perfection: always correct, even with erroneous input
-	{: start="0"}
-
-* Design
-
-	How orderly is your code?
-
-	0. we are unable to understand the structure
-	1. lots of complex code and/or trying to avoid newly learned constructs
-	2. too complicated, but you know your stuff
+	1. lots of complex code
+	2. too complicated, but you seem to know your stuff
 	3. straightforward code, could be put a bit inefficiently
 	4. makes good use of the possibilities in the language
-	5. perfection: you've read up on design and applied it to your code
-	{: start="0"}
+	5. you've read up on design and applied it to your code
 
-* Style
+* Style --- how readable is your code?
 
-	How readable is your code?
-
-	0. completely unreadable to us
-	1. once or twice you did it right, but you should study the style guide
+	1. not easily readable overall
 	2. you've read the style guide but haven't applied it consistently
 	3. your code is readable and consistent, barring some minor problems
 	4. the code is consistent, and only well-reasoned deviations from the guide
-	5. perfection: you've made your own choices but maintained consistency
-	{: start="0"}
+	5. you've clearly made your own choices but maintained perfect consistency
+
+Note that having a 1 for correctness means that you will fail the problem set. We think it is most important that you try every aspect of the problem, more so than that you get some of it correct.
 
 ## Quiz
 
