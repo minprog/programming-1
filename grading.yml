@@ -1,0 +1,43 @@
+calculation:
+    resit:
+        resit: 0
+        psets: 70
+        passes: 30
+    normal:
+        quiz: 0
+        psets: 70
+        passes: 30
+
+psets:
+    type: integer
+    drop: correctness
+    grades:
+        mario: 1
+        greedy: 1
+        caesar: 1
+        vigenere: 1
+        find: 1
+        fifteen: 1
+
+passes:
+    type: pass
+    drop: any
+    grades:
+        u1: 1
+        u2: 1
+        u3: 1
+        u4: 1
+        u5: 1
+        u6: 1
+
+quiz:
+    type: pass
+    required: true
+    grades:
+        quiz: 1
+
+resit:
+    type: pass
+    required: true
+    grades:
+        resit: 1
