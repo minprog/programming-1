@@ -42,8 +42,8 @@ Problem sets will be evaluated along the following axes:
 * Correctness --- have you tried doing everything?
 
 	1. whole part is missing, or too many bugs to get it working
-    2. has to be fixed to get it working
-	3. it works without real bugs, but a small part is unfinished
+    2. has to be fixed to get it running
+	3. it runs without problems, but a small part is unfinished
 	4. everything is there, but not always the correct result
 	5. even with erroneous input the program still works
 
