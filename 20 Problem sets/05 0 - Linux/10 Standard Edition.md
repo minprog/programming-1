@@ -238,7 +238,7 @@ You are not limited to using only the commands introduced in this text. Google i
 
 As always, do not hesitate to ask for help!
 
-Download the assignments files [here](linux intro.zip).
+Download the assignments zip file [here](linux intro.zip). The zip file will be downloaded in ~/Downloads. 
 
 ## How to submit
 Head on over to the submit tab on this page, and submit `answer.zip` and `commands.txt`.
