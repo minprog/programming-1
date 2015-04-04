@@ -1,21 +1,18 @@
-# Linux Intro
-
-
-## Objectives
+# Objectives
 
 * Introduce the command line.
 * Empower you to navigate through the filesystem and run programs from the command line.
 * Have everything installed and ready to go for the following weeks.
 
 
-## But first...
+# But first...
 
 For the weeks to come you are going to be working in a version of Linux. Now hold your horses just yet, as we won't ask you to swap your operating system or create some kind of dual boot construction. Instead, you are going to be working in a virtual machine (the CS50 Appliance) while using a hypervisor (VMWare Workstation / Fusion). In this Appliance you can compile source code from lectures and implement problem sets yourself without having to figure out how to configure clang (a compiler), etc. Moveover, the CS50 Appliance lets you run Linux inside of a window on your own computer, even if you're already running Linux, Mac, or Windows.
 
 
-## How to install?
+# How to install?
 
-### Windows / Linux
+## Windows / Linux
 
 1. Download [VMWare Workstation 11](https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation/11_0).
 2. Download the [CS50 Appliance](http://mirror.cs50.net/appliance50/2014/releases/29/appliance50-2014-vmware.ova).
@@ -31,7 +28,7 @@ For the weeks to come you are going to be working in a version of Linux. Now hol
 If have trouble installing do not hesitate to ask for help!
 
 
-## Lets boot
+# Lets boot
 
 With everything installed, we are ready to go and boot the CS50 Appliance for the first time. So go ahead, run your version of VMWare and from there boot the CS50 Appliance. Booting the Appliance might take a minute or so, please be patient! You should end up on John Harvard's desktop.
 
@@ -40,17 +37,17 @@ If the Appliance feels unbearably slow you might need to enable [hardware virtua
 If your Appliance is running in a small window even though you clicked the fullscreen button (one of the top buttons in VMWare). You might want to increase your resolution as by default the Appliance runs a resolution of 800x600! To do this, select **Menu** > **Settings Manager** > **Display** within the Appliance, select a new value to the right of resolution and press close.
 
 
-## Update
+# Update
 
 Before going any further, make sure your Appliance is up to date by opening the terminal (located on the taskbar within the Appliance). When you have the terminal open type: `update50`, and press enter. During this update process you will see many lines of text flying by. Just patiently wait it out before continueing with this assignment.
 
 
-## Dropbox
+# Dropbox
 
 To reduce the risk of you losing important files, and hopefully lessen the number of the-dog-ate-my-homework arguments, we strongly urge you to use Dropbox. Dropbox is a cloud service that has you store and synchronize files, such that if your Computer or Appliance breaks down your important files are still stored somewhere within the cloud. To install Dropbox on the Appliance follow [these instructions](https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox).
 
 
-## This is the CS50 Appliance
+# This is the CS50 Appliance
 
 Lets start exploring the Appliance a bit. In the taskbar you will find three pre installed programs: Gedit, Google Chrome, and the Terminal.
 
@@ -65,9 +62,9 @@ Welcome back! Okay, now lets run the terminal. The terminal is a text based inte
 You should now see a new line with Hello, World! printed. The command that was executed was echo, which as you might have guessed echos its parameter which is "Hello, World!".
 
 
-## We need to go deeper
+# We need to go deeper
 
-### Running programs
+## Running programs
 
 Lets explore the terminal a bit more, lets try running Gedit from the terminal. Close Gedit if you still have it open, and enter in the terminal:
 
@@ -82,7 +79,7 @@ Okay, lets run some more programs. Just a hint before we continue, copy-paste wi
 Just like before we issued a command (google-chrome), passed it an argument (the URL) and are now running a program (Google Chrome). If you already had Google Chrome open, you should see it created a new tab, rather than creating a new window. As such the terminal is not occupied and we can continue entering commands. If you did not have Google Chrome open beforehand, simply close it now. 
 
 
-### Navigating
+## Navigating
 
 So you have seen how to run programs from the terminal. So now lets explore the linux file system from within the terminal. As the terminal is text based you cannot simply click your way through the directories as you might do under Windows or under Mac. Instead you have to enter commands to navigate your way through. First things first, you should see the following line in the terminal:
 
@@ -107,7 +104,7 @@ Here you used the change directory command to move to the .. directory, which is
 You should see that the terminal auto completes the directory name. This only works if there are no files which start with Dr in this directory. If there are files which start with Dr the terminal will auto-complete as far as it can, and leave the choice which directory or file to pick to the user, that is you. To see which directories or files the terminal is unsure about in such a case you can hit tab twice.
 
 
-### Creating and Removing
+## Creating and Removing
 
 Navigate over to your Desktop directory. Note that Desktop is a child directory of your Home directory. Once there, execute the following command:
 
@@ -140,7 +137,7 @@ Eh, that did not quite work. This is because Linux makes a distinction between d
 This is a command specifically for deleting directories, and as such the pset 0 directory is now gone. However, this command only works if the directory you are trying to delete is empty. If it is not, you have to use: rm -r directory_name, or rm -rf directory_name. The -r and -rf flags are optional arguments which you can pass to the rm command. The -r flag indicates remove all files and directories within the directory, but ask the user for every file/directory if it needs to be deleted. The -rf flag is similar, only now with no questions asked. Be very cautious when using the latter, as it will not ask if you actually want to delete the directory and each file in it, it will just do it. As such you can delete the entire Appliance with just a single command. Great power, comes with great responsibility.
 
 
-### But wait, there is more
+## But wait, there is more
 
 There are many more commands that you will use during this course, but by now you should understand the general structure of commands:
 
@@ -157,7 +154,7 @@ Instead of exhaustively listing whatever you might use during this course, we wi
 * `pwd` (print working directory)
 
 
-## Can't touch this
+# Can't touch this
 
 Linux limits file and directory access on three permissions to three classes of users. The permissions are read, write and execute. The classes are owner, group and other.
 
@@ -192,7 +189,7 @@ Go ahead and check the permissions for test.txt using that ls command you used e
 Want to see what happens if you do not have write permission? Go ahead and change the permission to read only for the owner, and see what happens if you try to change the file in Gedit and then try to save it.
 
 
-## The assignment
+# The assignment
 
 For this assignment you have to download a zip file which contains the directory hierarchy as seen below:
 
