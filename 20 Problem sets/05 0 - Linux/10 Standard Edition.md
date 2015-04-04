@@ -25,7 +25,7 @@ For the weeks to come you are going to be working in a version of Linux. Now hol
 3. Send an E-mail to help@mprog.nl and request a VMWare Fusion 7 key.
 4. Follow instructions from step 3 [here](https://manual.cs50.net/appliance/2014/fusion/).
 
-If have trouble installing do not hesitate to ask for help!
+If you run into any trouble installing do not hesitate to ask for help!
 
 
 # Lets boot
