@@ -40,9 +40,14 @@ If the Appliance feels unbearably slow you might need to enable [hardware virtua
 If your Appliance is running in a small window even though you clicked the fullscreen button (one of the top buttons in VMWare). You might want to increase your resolution as by default the Appliance runs a resolution of 800x600! To do this, select **Menu** > **Settings Manager** > **Display** within the Appliance, select a new value to the right of resolution and press close.
 
 
+## Update
+
+Before going any further, make sure your Appliance is up to date by opening the terminal (located on the taskbar within the Appliance). When you have the terminal open type: `update50`, and press enter. During this update process you will see many lines of text flying by. Just patiently wait it out before continueing with this assignment.
+
+
 ## Dropbox
 
-To reduce the risk of you losing important files, and hopefully lessen the dog-ate-my-homework arguments, we strongly urge you to use Dropbox. Dropbox is a cloud service that has you store and synchronize files, such that if your Computer or Appliance breaks down during the course or thereafter your important files are still stored somewhere within the cloud. To install Dropbox on the Appliance follow [these instructions](https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox).
+To reduce the risk of you losing important files, and hopefully lessen the number of the-dog-ate-my-homework arguments, we strongly urge you to use Dropbox. Dropbox is a cloud service that has you store and synchronize files, such that if your Computer or Appliance breaks down your important files are still stored somewhere within the cloud. To install Dropbox on the Appliance follow [these instructions](https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox).
 
 
 ## This is the CS50 Appliance
@@ -101,4 +106,61 @@ Here you used the change directory command to move to the .. directory, which is
 
 You should see that the terminal auto completes the directory name. This only works if there are no files which start with Dr in this directory. If there are files which start with Dr the terminal will auto-complete as far as it can, and leave the choice which directory or file to pick to the user, that is you. To see which directories or files the terminal is unsure about in such a case you can hit tab twice.
 
-### Creating
+
+### Creating and Removing
+
+Navigate over to your Desktop directory. Note that Desktop is a child directory of your Home directory. Once there, execute the following command:
+
+	mkdir pset
+
+This created a directory called pset within your Desktop directory. You can check this by simply executing ls as seen before. Now lets move pset from your Desktop directory to your Dropbox directory. There multiple ways to achieve this, but lets just pick one:
+
+	mv pset ~/Dropbox
+
+You have just executed the command mv (move) which takes in two arguments: a source (pset) and a target (~/Dropbox). By executing this we have effectively moved the directory pset from Desktop to Dropbox. Now navigate over to your Dropbox Directory. Check if pset is actually there. Then execute this command:
+
+	mv pset "pset 0"
+
+Okay, what just happened? Go ahead and execute ls. You should see that there is no directory called pset, but instead there is a directory called pset 0. This is the double nature of the command mv. You can use it to move directories and to rename them. But wait, why are the quotes there? Well, if the quotes were not there mv would receive three arguments, as arguments are seperated with spaces. The quotes simply indicate that pset 0 is one argument instead of two. Alternatively you can use the \ to escape the space. The command would then look like this: mv pset pset\ 0. Now lets put pset 0 to use, navigate your way to the pset 0 directory. Once inside, execute the following command:
+
+	touch test.txt
+
+Touch is a simple command that creates new and empty files, if they do not exist. As such, you have just created the file test.txt. Go ahead and check if it is actually empty by opening it with Gedit. Okay now lets get rid of this file. Execute the following:
+
+	rm test.txt
+
+You should see a prompt that asks if you are sure that you want to delete this file. It is a simple yes/no question and answering with either y or yes will remove the file. Be wary though, removed means removed. Recovering files removed by rm is quite a challenge. Now lets remove the pset 0 directory. To do this navigate to its parent directory and execute the following:
+
+	rm pset\ 0
+
+Eh, that did not quite work. This is because Linux makes a distinction between directories and files. To protect you from carelessly deleting directories. In order to remove a directory use the following command:
+
+	rmdir pset\ 0
+
+This is a command specifically for deleting directories, and as such the pset 0 directory is now gone. However, this command only works if the directory you are trying to delete is empty. If it is not, you have to use: rm -r directory_name, or rm -rf directory_name. The -r and -rf flags are optional arguments which you can pass to the rm command. The -r flag indicates remove all files and directories within the directory, but ask the user for every file/directory if it needs to be deleted. The -rf flag is similar, only now with no questions asked. Be very cautious when using the latter, as it will not ask if you actually want to delete the directory and each file in it, it will just do it. As such you can delete the entire Appliance with just a single command. Great power, comes with great responsibility.
+
+
+### But wait, there is more
+
+There are many more commands that you will use during this course, but by now you should understand the general structure of commands:
+
+	command <optional flags> [arguments]
+
+Instead of exhaustively listing whatever you might use during this course, we will leave you with a shortlist of commands which you may find usefull:
+
+* `ls -a` (lists all files in the current directory, including hidden ones)
+* `ls -R` (lists all files including those in subdirectories)
+* `zip -r zip_file_name directory_name` (zips all files and subdirectores in directory_name into a new zip file called zip_file_name)
+* `unzip zip_file_name` (unzips zip_file_name in the current directory)
+* `wget resource` (downloads resource and saves it within the current directory)
+* `cp file_name1 file_name2` (copies file_name1 to file_name2)
+* `pwd` (print working directory)
+
+
+## Can't touch this
+
+Linux manages permissions of file and directory access on three levels to three groups of people. The levels are read, write and execute. The groups are owner, group and other.
+
+![File Permissions!](permissions.png)
+
+TODO
