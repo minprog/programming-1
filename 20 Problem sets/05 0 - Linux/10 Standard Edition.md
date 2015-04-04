@@ -187,11 +187,61 @@ How does this work? It is binary! When you write this out in binary it should re
 
 	chmod 644 test.txt
 
-Go ahead and check the permissions for test.txt using that ls command we used earlier. What chmod does is it takes in a file as first argument, and the permissions for that file as second argument, and simply modifies the permissions. So there you go, you just modified the permissions for test.txt. 
+Go ahead and check the permissions for test.txt using that ls command you used earlier. What chmod does is it takes in a file as first argument, and the permissions for that file as second argument, and simply modifies the permissions. So there you go, you just modified the permissions for test.txt. 
 
 Want to see what happens if you do not have write permission? Go ahead and change the permission to read only for the owner, and see what happens if you try to change the file in Gedit and then try to save it.
 
 
 ## The assignment
 
-TODO
+For this assignment you have to download a zip file which contains the directory hierarchy as seen below:
+
+	dir1
+		dir1_1
+			file1.txt
+		dir1_2
+			file2.txt
+			file3.txt
+		dir1_3
+			dir1_3_1
+				file4.txt
+			dir1_3_2
+	dir2
+		dir2_1
+			file5.txt
+			file6.txt
+			file7.txt
+			file8.txt
+			file9.txt
+			file10.txt
+
+Now it is your assignment to transform the above into the below.
+
+	dir1
+		file1.txt
+		file2.txt
+	dir2
+		file3.txt
+		file4.txt
+	dir3
+		file5.txt
+		file6.txt
+	dir4
+		file7.txt
+		file8.txt
+	dir5
+		file9.txt
+		file10.txt
+
+Furthermore, all access permissions should be set to read only for the owner, and no permissions for any other class. Once finished, zip the new directory hierarchy in a zip file called `answer.zip`. 
+
+While doing this assignment keep track of all the commands you execute within a text file called `commands.txt`, and briefly eleborate why you executed these commands.
+
+You are not limited to using only the commands introduced in this text. Google is your friend!
+
+As always, do not hesitate to ask for help!
+
+Download the assignments files [here](linux intro.zip).
+
+## How to submit
+Head on over to the submit tab on this page, and submit `answer.zip` and `commands.txt`.
