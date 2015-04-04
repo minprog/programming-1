@@ -176,7 +176,7 @@ The first three characters stand for the owner class, the second three for the g
 
 	ls -l test.txt
 
-You should now see a print which will tell you the permissions set for the file you just created. These permissions are most likely rw-------. Which means read, write for the user, no access for anyone else. In order to change this, we are going to have to go one step further, and indicate file permission using numbers. Our example would then look like this:
+You should now see a print which will tell you the permissions set for the file you just created. These permissions are most likely `rw-------`. Which means read, write for the user, no access for anyone else. In order to change this, we are going to have to go one step further, and indicate file permission using numbers. Our example would then look like this:
 
 	644
 
