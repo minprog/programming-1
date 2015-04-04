@@ -159,8 +159,39 @@ Instead of exhaustively listing whatever you might use during this course, we wi
 
 ## Can't touch this
 
-Linux manages permissions of file and directory access on three levels to three groups of people. The levels are read, write and execute. The groups are owner, group and other.
+Linux limits file and directory access on three permissions to three classes of users. The permissions are read, write and execute. The classes are owner, group and other.
 
 ![File Permissions!](permissions.png)
+
+The permissions are rather self explanatory, depening on the what is set, you may or may not read, write or execute the file/directory. The classes of users are a bit more tricky. Essentially each file/directory has an owner class which is set by the owner of the file/directory. Each file/directory is assigned to a group, permissions than affect all members of this group. Users who are in neither class, belong to the others class. 
+
+Lets dive into an example. For instance, lets make the file read only for every user, except the owner who also gets write permission.
+
+![File Permissions2!](permissions2.png)
+
+To achieve this we assigned the owners class the read/write permission and all other classes only read permission. What we achieved by this is allow only you, the owner of the file, to modify its contents. All other users can only read it. Such restrictions can be very usefull when dealing with for instance remote users, or other users using your machine. 
+
+Lets go back a bit, and see how we can restrict file access for a file from the terminal. First note that there are no checkboxes, we have to do this with text commands. So lets first rewrite the previous example in text, we will use the following notation:
+
+	rw-r--r--
+
+The first three characters stand for the owner class, the second three for the group class and the final three for the others class. Each character represents either the (r)ead, (w)rite, (e)xecute permission respectively or - which stands for not allowed. Now go ahead, and create a file called `test.txt` and then execute the following command:
+
+	ls -l test.txt
+
+You should now see a print which will tell you the permissions set for the file you just created. These permissions are most likely rw-------. Which means read, write for the user, no access for anyone else. In order to change this, we are going to have to go one step further, and indicate file permission using numbers. Our example would then look like this:
+
+	644
+
+How does this work? It is binary! When you write this out in binary it should read 110,100,100. Now compare this to `rw-r--r--` and the pattern should become clear. Essentially whenever there is a 1, it means this permission is set and a 0 means it is not. It thus requires a bit of puzzling with binary numbers, but that is all there is to it. In order to now change the permissions of your test.txt file, you can use the chmod command. Execute the following:
+
+	chmod 644 test.txt
+
+Go ahead and check the permissions for test.txt using that ls command we used earlier. What chmod does is it takes in a file as first argument, and the permissions for that file as second argument, and simply modifies the permissions. So there you go, you just modified the permissions for test.txt. 
+
+Want to see what happens if you do not have write permission? Go ahead and change the permission to read only for the owner, and see what happens if you try to change the file in Gedit and then try to save it.
+
+
+## The assignment
 
 TODO
