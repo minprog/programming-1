@@ -14,7 +14,7 @@ For the weeks to come you are going to be working in a version of Linux. Now hol
 
 ## Windows / Linux
 
-1. Download [VMWare Workstation 11](https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_workstation/11_0).
+1. Download the [VMWare Workstation 11 trial](https://www.vmware.com/go/try-workstation).
 2. Download the [CS50 Appliance](http://mirror.cs50.net/appliance50/2014/releases/29/appliance50-2014-vmware.ova).
 3. Send an E-mail to help@mprog.nl and request a VMWare Workstation 11 key.
 4. Follow instructions from step 3 [here](https://manual.cs50.net/appliance/2014/workstation/).
@@ -32,14 +32,14 @@ If you run into any trouble installing do not hesitate to ask for help!
 
 With everything installed, we are ready to go and boot the CS50 Appliance for the first time. So go ahead, run your version of VMWare and from there boot the CS50 Appliance. Booting the Appliance might take a minute or so, please be patient! You should end up on John Harvard's desktop.
 
-If the Appliance feels unbearably slow you might need to enable [hardware virtualization](https://manual.cs50.net/virtualization). Even with hardware virtualization enabled, though, virtual machines might feel slow if you are using an older machine. Alternatively you can crank up your virtual machine by allowing it to use more than one processor core and more RAM. Simply exit the Appliance and reboot VMWare. You should now be on the screen where you can boot the Appliance, instead of doing so, click **Edit virtual machine settings**. Here you can change the innards of the virtual machine! Be wary of the specifications of your physical machine though!
+If the Appliance feels unbearably slow you might need to enable [hardware virtualization](https://manual.cs50.net/virtualization). Even with hardware virtualization enabled, though, virtual machines might feel slow if you are using an older machine. Alternatively you can crank up your virtual machine by allowing it to use more than one processor core and more RAM. Simply exit the Appliance and reboot VMWare. You should now be on the screen where you can boot the Appliance, instead of doing so, click *Edit virtual machine settings*. Here you can change the innards of the virtual machine! Be wary of the specifications of your physical machine though!
 
-If your Appliance is running in a small window even though you clicked the fullscreen button (one of the top buttons in VMWare). You might want to increase your resolution as by default the Appliance runs a resolution of 800x600! To do this, select **Menu** > **Settings Manager** > **Display** within the Appliance, select a new value to the right of resolution and press close.
+If your Appliance is running in a small window even though you clicked the fullscreen button (one of the top buttons in VMWare). You might want to increase your resolution as by default the Appliance runs a resolution of 800x600! To do this, select *Menu* > *Settings Manager* > *Display* within the Appliance, select a new value to the right of resolution and press close.
 
 
 # Update
 
-Before going any further, make sure your Appliance is up to date by opening the terminal (located on the taskbar within the Appliance). When you have the terminal open type: `update50`, and press enter. During this update process you will see many lines of text flying by. Just patiently wait it out before continueing with this assignment.
+Before going any further, make sure your Appliance is up to date by opening the terminal (located on the taskbar within the Appliance). When you have the terminal open type: **update50**, and press enter. During this update process you will see many lines of text flying by. Just patiently wait it out before continueing with this assignment.
 
 
 # Dropbox
@@ -87,13 +87,13 @@ So you have seen how to run programs from the terminal. So now lets explore the 
 
 What this means is that you are on John Harvards desktop in the home directory (the ~). Now enter the following command:
 
-	ls
+	**ls**
 
-You should see a new line printed with a list (ls = LiSt) of all the directories (in blue) and files (in white) within your home directory. Time to leave base, lets go to your Dropbox directory, which should be in the list printed by ls. If not, go back and install Dropbox! Now enter the command:
+You should see a new line printed with a list (**ls** = LiSt) of all the directories (in blue) and files (in white) within your home directory. Time to leave base, lets go to your Dropbox directory, which should be in the list printed by **ls**. If not, go back and install Dropbox! Now enter the command:
 
 	cd Dropbox
 
-You should now see a small change, namely ~ changed to ~/Dropbox. This essentially means you are now within the Dropbox directory which parent is the Home directory. So you changed your directory (cd = Change Directory) to Dropbox. Now lets head back. Enter the following command:
+You should now see a small change, namely ~ changed to ~/Dropbox. This essentially means you are now within the Dropbox directory which parent is the Home directory. So you changed your directory (**cd** = Change Directory) to Dropbox. Now lets head back. Enter the following command:
 
 	cd ..
 
@@ -145,13 +145,13 @@ There are many more commands that you will use during this course, but by now yo
 
 Instead of exhaustively listing whatever you might use during this course, we will leave you with a shortlist of commands which you may find usefull:
 
-* `ls -a` (lists all files in the current directory, including hidden ones)
-* `ls -R` (lists all files including those in subdirectories)
-* `zip -r zip_file_name directory_name` (zips all files and subdirectores in directory_name into a new zip file called zip_file_name)
-* `unzip zip_file_name` (unzips zip_file_name in the current directory)
-* `wget resource` (downloads resource and saves it within the current directory)
-* `cp file_name1 file_name2` (copies file_name1 to file_name2)
-* `pwd` (print working directory)
+* **ls -a** (lists all files in the current directory, including hidden ones)
+* **ls -R** (lists all files including those in subdirectories)
+* **zip -r zip_file_name directory_name** (zips all files and subdirectores in directory_name into a new zip file called zip_file_name)
+* **unzip zip_file_name** (unzips zip_file_name in the current directory)
+* **wget resource** (downloads resource and saves it within the current directory)
+* **cp file_name1 file_name2** (copies file_name1 to file_name2)
+* **pwd** (print working directory)
 
 
 # Can't touch this
