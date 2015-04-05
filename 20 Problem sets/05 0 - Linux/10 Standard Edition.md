@@ -87,7 +87,7 @@ So you have seen how to run programs from the terminal. So now lets explore the 
 
 What this means is that you are on John Harvards desktop in the home directory (the ~). Now enter the following command:
 
-	**ls**
+	ls
 
 You should see a new line printed with a list (**ls** = LiSt) of all the directories (in blue) and files (in white) within your home directory. Time to leave base, lets go to your Dropbox directory, which should be in the list printed by **ls**. If not, go back and install Dropbox! Now enter the command:
 
@@ -97,7 +97,7 @@ You should now see a small change, namely ~ changed to ~/Dropbox. This essential
 
 	cd ..
 
-Here you used the change directory command to move to the .. directory, which is simply the parent directory. Hence, you are now back in the home directory again as this was the parent of the Dropbox directory. There are multiple ways to go to the home directory: cd, and cd ~ both work. Okay, back to the Dropbox folder. Getting tired of typing? Try the following, press tab once after entering the following:
+Here you used the change directory command to move to the .. directory, which is simply the parent directory. Hence, you are now back in the home directory again as this was the parent of the Dropbox directory. There are multiple ways to go to the home directory: **cd**, and **cd ~** both work. Okay, back to the Dropbox folder. Getting tired of typing? Try the following, press tab once after entering the following:
 
 	cd Dr
 
@@ -110,19 +110,19 @@ Navigate over to your Desktop directory. Note that Desktop is a child directory 
 
 	mkdir pset
 
-This created a directory called pset within your Desktop directory. You can check this by simply executing ls as seen before. Now lets move pset from your Desktop directory to your Dropbox directory. There multiple ways to achieve this, but lets just pick one:
+This created a directory called pset within your Desktop directory. You can check this by simply executing **ls** as seen before. Now lets move pset from your Desktop directory to your Dropbox directory. There multiple ways to achieve this, but lets just pick one:
 
 	mv pset ~/Dropbox
 
-You have just executed the command mv (move) which takes in two arguments: a source (pset) and a target (~/Dropbox). By executing this we have effectively moved the directory pset from Desktop to Dropbox. Now navigate over to your Dropbox Directory. Check if pset is actually there. Then execute this command:
+You have just executed the command **mv** (move) which takes in two arguments: a source (pset) and a target (~/Dropbox). By executing this we have effectively moved the directory pset from Desktop to Dropbox. Now navigate over to your Dropbox Directory. Check if pset is actually there. Then execute this command:
 
 	mv pset "pset 0"
 
-Okay, what just happened? Go ahead and execute ls. You should see that there is no directory called pset, but instead there is a directory called pset 0. This is the double nature of the command mv. You can use it to move directories and to rename them. But wait, why are the quotes there? Well, if the quotes were not there mv would receive three arguments, as arguments are seperated with spaces. The quotes simply indicate that pset 0 is one argument instead of two. Alternatively you can use the \ to escape the space. The command would then look like this: mv pset pset\ 0. Now lets put pset 0 to use, navigate your way to the pset 0 directory. Once inside, execute the following command:
+Okay, what just happened? Go ahead and execute **ls**. You should see that there is no directory called pset, but instead there is a directory called pset 0. This is the double nature of the command mv. You can use it to move directories and to rename them. But wait, why are the quotes there? Well, if the quotes were not there mv would receive three arguments, as arguments are seperated with spaces. The quotes simply indicate that pset 0 is one argument instead of two. Alternatively you can use the \ to escape the space. The command would then look like this: **mv pset pset\ 0**. Now lets put pset 0 to use, navigate your way to the pset 0 directory. Once inside, execute the following command:
 
 	touch test.txt
 
-Touch is a simple command that creates new and empty files, if they do not exist. As such, you have just created the file test.txt. Go ahead and check if it is actually empty by opening it with Gedit. Okay now lets get rid of this file. Execute the following:
+**touch** is a simple command that creates new and empty files, if they do not exist. As such, you have just created the file `test.txt`. Go ahead and check if it is actually empty by opening it with Gedit. Okay now lets get rid of this file. Execute the following:
 
 	rm test.txt
 
@@ -134,7 +134,7 @@ Eh, that did not quite work. This is because Linux makes a distinction between d
 
 	rmdir pset\ 0
 
-This is a command specifically for deleting directories, and as such the pset 0 directory is now gone. However, this command only works if the directory you are trying to delete is empty. If it is not, you have to use: rm -r directory_name, or rm -rf directory_name. The -r and -rf flags are optional arguments which you can pass to the rm command. The -r flag indicates remove all files and directories within the directory, but ask the user for every file/directory if it needs to be deleted. The -rf flag is similar, only now with no questions asked. Be very cautious when using the latter, as it will not ask if you actually want to delete the directory and each file in it, it will just do it. As such you can delete the entire Appliance with just a single command. Great power, comes with great responsibility.
+This is a command specifically for deleting directories, and as such the pset 0 directory is now gone. However, this command only works if the directory you are trying to delete is empty. If it is not, you have to use: **rm -r directory_name**, or **rm -rf directory_name**. The **-r** and **-rf** flags are optional arguments which you can pass to the rm command. The **-r** flag indicates remove all files and directories within the directory, but ask the user for every file/directory if it needs to be deleted. The **-rf** flag is similar, only now with no questions asked. Be very cautious when using the latter, as it will not ask if you actually want to delete the directory and each file in it, it will just do it. As such you can delete the entire Appliance with just a single command. Great power, comes with great responsibility.
 
 
 ## But wait, there is more
@@ -156,17 +156,17 @@ Instead of exhaustively listing whatever you might use during this course, we wi
 
 # Can't touch this
 
-Linux limits file and directory access on three permissions to three classes of users. The permissions are read, write and execute. The classes are owner, group and other.
+Linux limits file and directory access on three permissions to three classes of users. The permissions are *read*, *write* and *execute*. The classes are *owner*, *group* and *other*.
 
 ![File Permissions!](permissions.png)
 
-The permissions are rather self explanatory, depening on the what is set, you may or may not read, write or execute the file/directory. The classes of users are a bit more tricky. Essentially each file/directory has an owner class which is set by the owner of the file/directory. Each file/directory is assigned to a group, permissions than affect all members of this group. Users who are in neither class, belong to the others class. 
+The permissions are rather self explanatory, depending on the what is set, you may or may not read, write or execute the file/directory. The classes of users are a bit more tricky. Essentially each file/directory has an owner class which is set by the owner of the file/directory. Each file/directory is assigned to a group, permissions than affect all members of this group. Users who are in neither class, belong to the others class. 
 
 Lets dive into an example. For instance, lets make the file read only for every user, except the owner who also gets write permission.
 
 ![File Permissions2!](permissions2.png)
 
-To achieve this we assigned the owners class the read/write permission and all other classes only read permission. What we achieved by this is allow only you, the owner of the file, to modify its contents. All other users can only read it. Such restrictions can be very usefull when dealing with for instance remote users, or other users using your machine. 
+To achieve this we assigned the owners class the read/write permission and all other classes only read permission. What we achieved by this is to allow only you, the owner of the file, to modify its contents. All other users can only read it. Such restrictions can be very usefull when dealing with for instance remote users, or other users using your machine. 
 
 Lets go back a bit, and see how we can restrict file access for a file from the terminal. First note that there are no checkboxes, we have to do this with text commands. So lets first rewrite the previous example in text, we will use the following notation:
 
@@ -176,15 +176,15 @@ The first three characters stand for the owner class, the second three for the g
 
 	ls -l test.txt
 
-You should now see a print which will tell you the permissions set for the file you just created. These permissions are most likely `rw-------`. Which means read, write for the user, no access for anyone else. In order to change this, we are going to have to go one step further, and indicate file permission using numbers. Our example would then look like this:
+You should now see a print which will tell you the permissions set for the file you just created. These permissions are most likely *rw-------*. Which means read, write for the user, no access for anyone else. In order to change this, we are going to have to go one step further, and indicate file permission using numbers. Our example would then look like this:
 
 	644
 
-How does this work? It is binary! When you write this out in binary it should read 110,100,100. Now compare this to `rw-r--r--` and the pattern should become clear. Essentially whenever there is a 1, it means this permission is set and a 0 means it is not. It thus requires a bit of puzzling with binary numbers, but that is all there is to it. In order to now change the permissions of your test.txt file, you can use the chmod command. Execute the following:
+How does this work? It is binary! When you write this out in binary it should read *110,100,100*. Now compare this to *rw-r--r--* and the pattern should become clear. Essentially whenever there is a 1, it means this permission is set and a 0 means it is not. It thus requires a bit of puzzling with binary numbers, but that is all there is to it. In order to now change the permissions of your `test.txt` file, you can use the chmod command. Execute the following:
 
 	chmod 644 test.txt
 
-Go ahead and check the permissions for test.txt using that ls command you used earlier. What chmod does is it takes in a file as first argument, and the permissions for that file as second argument, and simply modifies the permissions. So there you go, you just modified the permissions for test.txt. 
+Go ahead and check the permissions for `test.txt` using that ls command you used earlier. What chmod does is it takes in a file as first argument, and the permissions for that file as second argument, and simply modifies the permissions. So there you go, you just modified the permissions for `test.txt`. 
 
 Want to see what happens if you do not have write permission? Go ahead and change the permission to read only for the owner, and see what happens if you try to change the file in Gedit and then try to save it.
 
