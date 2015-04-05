@@ -19,7 +19,7 @@ For the weeks to come you are going to be working in a version of Linux. Now hol
 3. Send an E-mail to help@mprog.nl and request a VMWare Workstation 11 key.
 4. Follow instructions from step 3 [here](https://manual.cs50.net/appliance/2014/workstation/).
 
-### Mac
+## Mac
 1. Download [VMWare Fusion 7](https://my.vmware.com/web/vmware/info/slug/desktop_end_user_computing/vmware_fusion/7_0).
 2. Download the [CS50 Appliance](http://mirror.cs50.net/appliance50/2014/releases/29/appliance50-2014-vmware.ova).
 3. Send an E-mail to help@mprog.nl and request a VMWare Fusion 7 key.
