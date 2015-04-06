@@ -1,5 +1,5 @@
 description: "Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events."
-Lecture 0 : '/lectures/week-0'
-Lecture 0 : '/lectures/week-0-ct-d'
+Lecture 0: '/lectures/week-0'
+Lecture 0 (ct'd): '/lectures/week-0-ct-d'
 Problem set 0 - Scratch [friday deadline]: '/problem-sets/0-scratch'
 Understanding Hardware 1 [friday deadline]: '/understanding/hardware'
