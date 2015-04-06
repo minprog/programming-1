@@ -469,7 +469,7 @@ If you’re like me, odds are you’ll find it easiest to implement Breakout via
 
 	`if (strcmp(getType(object), "GLabel") == 0) { // TODO }`
 
-8. 	Once you have the ball bouncing off the paddle (and window’s edges), focus your attention again on that **while** loop in **main** and figure out how to detect if the ball’s hit a brick and how to remove that brick from the grid if so. Odds are you’ll find **removeGWindow** of interest, per http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html. SPL’s documentation incorrectly refers to that function as **remove**, but it’s indeed **removeGWindow** you want, whose prototype, to be clear, is the below.
+8. 	Once you have the ball bouncing off the paddle (and window’s edges), focus your attention again on that **while** loop in **main** and figure out how to detect if the ball’s hit a brick and how to remove that brick from the grid if so. Odds are you’ll find **removeGWindow** of interest, per [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html](here). SPL’s documentation incorrectly refers to that function as **remove**, but it’s indeed **removeGWindow** you want, whose prototype, to be clear, is the below.
 
 	`void removeGWindow(GWindow gw, GObject gobj);`
 
