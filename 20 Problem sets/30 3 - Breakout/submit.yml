@@ -1,5 +1,6 @@
-name: find
+name: breakout
 required:
     - generate.c
     - find.c
     - helpers.c
+    - breakout.c
