@@ -463,17 +463,11 @@ If you’re like me, odds are you’ll find it easiest to implement Breakout via
 
 	you can determine whether that **object** is your game’s paddle, as with the below.
 
-	`if (object == paddle)`
-	`{`
-    `	// TODO`
-	`}`
+	`if (object == paddle) { // TODO }`
 
 	Once it comes time to add a **GLabel** to your game (for its scoreboard), you can similarly determine if that **object** is **GLabel**, in which case it might be a collision you want to ignore. (Unless you want your scoreboard to be something the ball can bounce off of. Ours isn’t.)
 
-	`if (strcmp(getType(object), "GLabel") == 0)`
-	`{`
-    `	// TODO`
-	`}`
+	`if (strcmp(getType(object), "GLabel") == 0) { // TODO }`
 
 8. 	Once you have the ball bouncing off the paddle (and window’s edges), focus your attention again on that **while** loop in **main** and figure out how to detect if the ball’s hit a brick and how to remove that brick from the grid if so. Odds are you’ll find **removeGWindow** of interest, per http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html. SPL’s documentation incorrectly refers to that function as **remove**, but it’s indeed **removeGWindow** you want, whose prototype, to be clear, is the below.
 
