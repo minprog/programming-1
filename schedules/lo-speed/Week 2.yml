@@ -1,7 +1,3 @@
-description: "Linux. C. Compiling. Libraries. Types. Standard output."
-Lecture 1 Monday: '/lectures/week-1-monday'
-Lecture 1 Wednesday: '/lectures/week-1-wednesday'
-Install the CS50 Appliance: '/resources/cs50-appliance'
-Section 1: '/sections/section-1'
-Problem set 1 - Mario [friday deadline]: '/problem-sets/1-mario'
+description: "Linux. Appliance. Command-line."
+Problem set 0 - Linux [friday deadline]: '/problem-sets/0-linux'
 Understanding Hardware 2 [friday deadline]: '/understanding/hardware-ct-d'
