@@ -56,12 +56,12 @@ Shall we have you write your first program? Go ahead and launch *gedit*. (Rememb
 
 Go ahead and write your first program by typing these lines into the file (though you’re welcome to change the words between quotes to whatever you’d like):
 
-		#include <stdio.h>
+	#include <stdio.h>
 
-		int main(void)
-		{
-    		printf("hello, world\n");
-		}
+	int main(void)
+	{
+		printf("hello, world\n");
+	}
 
 Notice how *gedit* adds "syntax highlighting" (i.e., color) as you type. Those colors aren’t actually saved inside of the file itself; they’re just added by *gedit* to make certain syntax stand out. Had you not saved the file as `hello.c` from the start, *gedit* wouldn’t know (per the filename’s extension) that you’re writing C code, in which case those colors would be absent.
 
@@ -134,29 +134,29 @@ Okay, assuming your file’s name is definitely spelled `hello.c` now, go ahead 
 
 Assuming your program is correct, you should then see output like
 
-		:) hello.c exists
-		:) hello.c compiles
-		:) prints "hello, world\n"
+	:) hello.c exists
+	:) hello.c compiles
+	:) prints "hello, world\n"
 
 where each :) means your program passed a check (i.e., test). You may also see a URL at the bottom of check50's output, but that’s just for staff (though you’re welcome to visit it).
 
 If you instead see :\| or :( smileys, it means your code isn’t correct! For instance, suppose you instead see the below.
 
-		:( hello.c exists
-		  \ expected hello.c to exist
-		:| hello.c compiles
-		  \ can't check until a frown turns upside down
-		:| prints "hello, world\n"
-		  \ can't check until a frown turns upside down
+	:( hello.c exists
+	  \ expected hello.c to exist
+	:| hello.c compiles
+	  \ can't check until a frown turns upside down
+	:| prints "hello, world\n"
+	  \ can't check until a frown turns upside down
 
 Because **check50** doesn’t think `hello.c` exists, as per the red smiley, odds are you uploaded the wrong file or misnamed your file. The other smileys, meanwhile, are yellow because those checks are dependent on `hello.c` existing, and so they weren’t even run.
 
 Suppose instead you see the below.
 
-		:) hello.c exists
-		:) hello.c compiles
-		:( prints "hello, world\n"
-		  \ expected output, but not "hello, world"
+	:) hello.c exists
+	:) hello.c compiles
+	:( prints "hello, world\n"
+	  \ expected output, but not "hello, world"
 
 Odds are, in this case, you printed something other than `hello, world\n` verbatim, per the spec’s expectations. In particular, the above suggests you printed `hello, world`, without a trailing newline (`\n`).
 
@@ -220,28 +220,28 @@ Toward the end of World 1-1 in Nintendo’s Super Mario Brothers, Mario must asc
 
 Write, in a file called `mario.c` in your `~/Dropbox/pset1 directory`, a program that recreates this half-pyramid using hashes (`#`) for blocks. However, to make things more interesting, first prompt the user for the half-pyramid’s height, a non-negative integer no greater than `23`. (The height of the half-pyramid pictured above happens to be `8`.) If the user fails to provide a non-negative integer no greater than `23`, you should re-prompt for the same again. Then, generate (with the help of `printf` and one or more loops) the desired half-pyramid. Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window, as in the sample output below, wherein underlined text represents some user’s input.
 
-		jharvard@appliance (~/Dropbox/pset1): ./mario
-		Height: 8
-		       ##
-		      ###
-		     ####
-		    #####
-		   ######
-		  #######
-		 ########
-		#########
+	jharvard@appliance (~/Dropbox/pset1): ./mario
+	Height: 8
+	       ##
+	      ###
+	     ####
+	    #####
+	   ######
+	  #######
+	 ########
+	#########
 
 Note that the rightmost two columns of blocks must be of the same height. No need to generate the pipe, clouds, numbers, text, or Mario himself.
 
 By contrast, if the user fails to provide a non-negative integer no greater than `23`, your program’s output should instead resemble the below, wherein underlined text again represents some user’s input. (Recall that `GetInt` will handle some, but not all, re-prompting for you.)
 
-		jharvard@appliance (~/Dropbox/pset1): ./mario
-		Height: -2
-		Height: -1
-		Height: foo
-		Retry: bar
-		Retry: 1
-		##
+	jharvard@appliance (~/Dropbox/pset1): ./mario
+	Height: -2
+	Height: -1
+	Height: foo
+	Retry: bar
+	Retry: 1
+	##
 
 To compile your program, remember that you can execute
 

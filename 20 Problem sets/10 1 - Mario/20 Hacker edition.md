@@ -22,12 +22,12 @@ Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario mu
 
 Write, in a file called `mario.c` in your `~/Dropbox/hacker1` directory, a program that recreates these half-pyramids using hashes (`#`) for blocks. However, to make things more interesting, first prompt the user for the half-pyramids' heights, a non-negative integer no greater than `23`. (The height of the half-pyramids pictured above happens to be `4`, the width of each half-pyramid `4`, with an a gap of size `2` separating them.) Then, generate (with the help of `printf` and one or more loops) the desired half-pyramids. Take care to left-align the bottom-left corner of the left-hand half-pyramid, as in the sample output below, wherein boldfaced text represents some user’s input.
 
-		jharvard@appliance (~/Dropbox/hacker1): ./mario
-		Height: 4
-		   #  #
-		  ##  ##
-		 ###  ###
-		####  ####
+	jharvard@appliance (~/Dropbox/hacker1): ./mario
+	Height: 4
+	   #  #
+	  ##  ##
+	 ###  ###
+	####  ####
 
 No need to generate the bricks, cloud, numbers, or text in the sky or Mario himself. Just the half-pyramids! And be sure that main returns `0`.
 
