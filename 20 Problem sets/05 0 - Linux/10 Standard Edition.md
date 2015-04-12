@@ -48,7 +48,7 @@ Know that, whenever your appliance has internet issues, you can type
 
 	connect50
 
-to have the appliance automatically fix these issues for you! You might need to restart the appliance after you've ran `connect50` for the changes to take effect.
+into the terminal to have the appliance automatically fix these issues for you! You might need to restart the appliance after you've ran `connect50` for the changes to take effect.
 
 
 # Dropbox
@@ -253,7 +253,7 @@ You are not limited to using only the commands introduced in this text. Google i
 
 As always, do not hesitate to ask for help!
 
-Download the assignments zip file [here](linux intro.zip). The zip file will be downloaded in ~/Downloads. 
+Download the assignments zip file [here](linux intro.zip). The zip file will be downloaded in ~/Downloads. Remember, a zip file is a compressed archive file format, and as such you have to *unzip* it first!
 
 ## How to submit
 Head on over to the submit tab on this page, and submit `answer.zip` and `commands.txt`.
