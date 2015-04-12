@@ -264,6 +264,6 @@ Not sure where to begin? Not to worry. A walkthrough awaits!
 
 # Final steps
 
-* When you are done with `mario.c`, submit it by going over to the *Submit* tab. Be sure to compile and test one last time before you submit. (Note that you do not have to submit `hello.c`.)
+* When you are done with `mario.c`, submit it by going over to the [Submit](#submit) tab. Be sure to compile and test one last time before you submit. (Note that you do not have to submit `hello.c`.)
 
 * All done!
