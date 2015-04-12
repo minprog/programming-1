@@ -1,5 +1,5 @@
 ### Lecture <!-- pset2 Hardware, continued -->
-
+ 
 ![videoplayer](http://cdn.computerscience1.net/2013/spring/lectures/2/lecture2-360p.mp4)
 
 * [HD Lecture Video](http://cse1.net/video?v=lectures/2/lecture2)
