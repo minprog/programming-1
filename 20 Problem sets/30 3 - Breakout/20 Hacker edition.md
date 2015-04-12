@@ -1,4 +1,4 @@
-**Please consult your teaching fellow before attempting any hacker edition!**
+*Please consult your teaching fellow before attempting any hacker edition!*
 
 
 For this hackers edition implement the normal edition, only with a few twists:
