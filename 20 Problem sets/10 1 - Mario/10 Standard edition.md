@@ -196,7 +196,13 @@ Curl up with Nate’s short on libraries. Be sure you’re reasonably comfortabl
 
 	play when you pass it as a "command-line argument" to **clang**? (Recall that **make**, the program we’ve been using to compile programs in lecture, simply calls **clang** with some command-line arguments for you to save you some keystrokes.)
 
-Curl up with at least two other shorts at [https://cs50.harvard.edu/shorts/1](). Some additional questions may be in your future!
+Curl up with at least two other shorts. Some additional questions may be in your future!
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/U3zCxnj2w8M" frameborder="0" allowfullscreen></iframe>
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/EbQGzxFz39U" frameborder="0" allowfullscreen></iframe>
+
+More shorts can be found at [](https://cs50.harvard.edu/shorts/1).
 
 
 # Hello again, C

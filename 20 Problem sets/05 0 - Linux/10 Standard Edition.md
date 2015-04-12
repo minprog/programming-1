@@ -256,4 +256,4 @@ As always, do not hesitate to ask for help!
 Download the assignments zip file [here](linux intro.zip). The zip file will be downloaded in ~/Downloads. Remember, a zip file is a compressed archive file format, and as such you have to *unzip* it first!
 
 ## How to submit
-Head on over to the submit tab on this page, and submit `answer.zip` and `commands.txt`.
+Head on over to the [submit tab](#submit) on this page, and submit `answer.zip` and `commands.txt`.
