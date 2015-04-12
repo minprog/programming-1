@@ -13,3 +13,10 @@ For this hackers edition implement the normal edition, only with a few twists:
 	* Implement a variable-scoring mechanism whereby bricks higher in the game’s grid are worth more points than are bricks lower in the game’s grid; we leave it to you to decide on a formula.
 	* Implement a variable-velocity mechanism whereby the ball’s velocity (along one or both axes) increases as bricks are broken; we leave it to you to decide on a formula.
 	* Implement lasers, whereby clicking the mouse button during gameplay results in the paddle shooting one or two laser beams upward toward bricks, whereby those beams can destroy them just like the ball can. However, if a beam strikes the ball itself, gameplay must end.
+
+
+# Final steps
+
+* When you are done with `find` and `breakout.c`, submit it by going over to the [Submit tab](#submit). Be sure to compile and test one last time before you submit.
+
+* All done!
