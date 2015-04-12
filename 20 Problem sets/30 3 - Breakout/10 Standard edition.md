@@ -107,15 +107,15 @@ Once done commenting `generate.c`, re-compile the program to be sure you didn’
 
 	make generate
 
-If **generate** no longer compiles properly, take a moment to fix what you broke!
+If `generate` no longer compiles properly, take a moment to fix what you broke!
 
 Now, recall that **make** automates compilation of your code so that you don’t have to execute **clang** manually along with a whole bunch of switches. Notice, in fact, how **make** just executed a pretty long command for you, per the tool’s output. However, as your programs grow in size, **make** won’t be able to infer from context anymore how to compile your code; you’ll need to start telling **make** how to compile your program, particularly when they involve multiple source (i.e., `.c`) files. And so we’ll start relying on "Makefiles," configuration files that tell **make** exactly what to do.
 
-How did **make** know how to compile generate in this case? It actually used a configuration file that we wrote. Using **gedit**, go ahead and look at the file called **Makefile** that’s in the same directory as `generate.c`. This `Makefile` is essentially a list of rules that we wrote for you that tells make how to build generate from `generate.c` for you. The relevant lines appear below.
+How did **make** know how to compile generate in this case? It actually used a configuration file that we wrote. Using **gedit**, go ahead and look at the file called `Makefile` that’s in the same directory as `generate.c`. This `Makefile` is essentially a list of rules that we wrote for you that tells make how to build generate from `generate.c` for you. The relevant lines appear below.
 
 	generate: generate.c clang -ggdb3 -O0 -std=c99 -Wall -Werror -o generate generate.c
 
-The first line tells **make** that the "target" called **generate** should be built by invoking the second line’s command. Moreover, that first line tells **make** that **generate** is dependent on `generate.c`, the implication of which is that **make** will only re-build generate on subsequent runs if that file was modified since **make** last built **generate**. Neat time-saving trick, eh? In fact, go ahead and execute the command below again, assuming you haven’t modified `generate.c`.
+The first line tells **make** that the "target" called `generate` should be built by invoking the second line’s command. Moreover, that first line tells **make** that `generate` is dependent on `generate.c`, the implication of which is that **make** will only re-build generate on subsequent runs if that file was modified since **make** last built `generate`. Neat time-saving trick, eh? In fact, go ahead and execute the command below again, assuming you haven’t modified `generate.c`.
 
 	make generate
 
@@ -139,19 +139,19 @@ Go ahead and run this program by executing, say, the below.
 
 	./find 13
 
-You’ll be prompted to provide some hay (i.e., some integers), one "straw" at a time. As soon as you tire of providing integers, hit ctrl-d to send the program an **EOF** (end-of-file) character. That character will compel `GetInt` from the CS50 Library to return `INT_MAX`, a constant that, per `find.c`, will compel **find** to stop prompting for hay. The program will then look for that needle in the hay you provided, ultimately reporting whether the former was found in the latter. In short, this program searches an array for some value. At least, it should, but it won’t find anything yet! That’s where you come in. More on your role in a bit.
+You’ll be prompted to provide some hay (i.e., some integers), one "straw" at a time. As soon as you tire of providing integers, hit ctrl-d to send the program an **EOF** (end-of-file) character. That character will compel `GetInt` from the CS50 Library to return `INT_MAX`, a constant that, per `find.c`, will compel `find` to stop prompting for hay. The program will then look for that needle in the hay you provided, ultimately reporting whether the former was found in the latter. In short, this program searches an array for some value. At least, it should, but it won’t find anything yet! That’s where you come in. More on your role in a bit.
 
-It turns out you can automate this process of providing hay, though, by "piping" the output of **generate** into **find** as input. For instance, the command below passes 1,000 pseudorandom numbers to **find**, which then searches those values for **42**.
+It turns out you can automate this process of providing hay, though, by "piping" the output of `generate` into `find` as input. For instance, the command below passes 1,000 pseudorandom numbers to `find`, which then searches those values for **42**.
 
 	./generate 1000 | ./find 42
 
-Note that, when piping output from **generate** into **find** in this manner, you won’t actually see **generate**'s numbers, but you will see **find**'s prompts.
+Note that, when piping output from `generate` into `find` in this manner, you won’t actually see `generate`'s numbers, but you will see `find`'s prompts.
 
-Alternatively, you can "redirect" **generate**'s output to a file with a command like the below.
+Alternatively, you can "redirect" `generate`'s output to a file with a command like the below.
 
 	./generate 1000 > numbers.txt
 
-You can then redirect that file’s contents as input to **find** with the command below.
+You can then redirect that file’s contents as input to `find` with the command below.
 
 	./find 42 < numbers.txt
 
@@ -159,7 +159,7 @@ Let’s finish looking at that **Makefile**. Notice the line below.
 
 	all: find generate
 
-This target implies that you can build both **generate** and **find** simply by executing the below.
+This target implies that you can build both `generate` and `find` simply by executing the below.
 
 	make all
 
@@ -171,7 +171,7 @@ If only you could whittle this whole problem set down to a single command! Final
 
 	clean: rm -f *.o a.out core find generate
 
-This target allows you to delete all files ending in `.o` or called `core` (more on that soon!), **find**, or **generate** simply by executing the command below.
+This target allows you to delete all files ending in `.o` or called `core` (more on that soon!), `find`, or `generate` simply by executing the command below.
 
 	make clean
 
@@ -186,11 +186,11 @@ When ready to check the correctness of your program, try running the command bel
 
 	./generate 1000 50 | ./find 127
 
-Because one of the numbers outputted by **generate**, when seeded with **50**, is **127**, your code should find that "needle"! By contrast, try running the command below as well.
+Because one of the numbers outputted by `generate`, when seeded with **50**, is **127**, your code should find that "needle"! By contrast, try running the command below as well.
 
 	./generate 1000 50 | ./find 128
 
-Because **128** is not among the numbers outputted by **generate**, when seeded with **50**, your code shouldn’t find that needle. Best to try some other tests as well, as by running **generate** with some seed, taking a look at its output, then piping that same output to **find**, looking for a "needle" you know to be among the "hay".
+Because **128** is not among the numbers outputted by `generate`, when seeded with **50**, your code shouldn’t find that needle. Best to try some other tests as well, as by running `generate` with some seed, taking a look at its output, then piping that same output to `find`, looking for a "needle" you know to be among the "hay".
 
 Incidentally, note that `main` in `find.c` is written in such a way that `find` returns `0` if the needle is found, else it returns `1`. You can check the so-called "exit code" with which `main` returns by executing
 
@@ -201,12 +201,12 @@ after running some other command. For instance, assuming your implementation of 
 	./generate 1000 50 | ./find 127
 	echo $?
 
-you should see **0**, since **127** is, again, among the 1,000 numbers outputted by **generate** when seeded with **50**, and so `search` (written by you) should return `true`, in which case `main` (written by us) should return (i.e., exit with) `0`. By contrast, assuming your implementation of `search` is correct, if you run
+you should see **0**, since **127** is, again, among the 1,000 numbers outputted by `generate` when seeded with **50**, and so `search` (written by you) should return `true`, in which case `main` (written by us) should return (i.e., exit with) `0`. By contrast, assuming your implementation of `search` is correct, if you run
 
 	./generate 1000 50 | ./find 128
 	echo $?
 
-you should see **1**, since **128** is, again, not among the 1,000 numbers outputted by **generate** when seeded with **50**, and so `search` (written by you) should return `false`, in which case `main` (written by us) should return (i.e., exit with) `1`. Make sense?
+you should see **1**, since **128** is, again, not among the 1,000 numbers outputted by `generate` when seeded with **50**, and so `search` (written by you) should return `false`, in which case `main` (written by us) should return (i.e., exit with) `1`. Make sense?
 
 When ready to check the correctness of your program officially with **check50**, you may execute the below. Be sure to run the command inside of `~/Dropbox/pset3/find`.
 
@@ -214,7 +214,7 @@ When ready to check the correctness of your program officially with **check50**,
 
 Incidentally, be sure not to get into the habit of testing your code with **check50** before testing it yourself. (And definitely don’t get into an even worse habit of only testing your code with **check50**!) Suffice it to say **check50** doesn’t exist in the real world, so running your code with your own sample inputs, comparing actual output against expected output, is the best habit to get into sooner rather than later. Truly, don’t do yourself a long-term disservice!
 
-Anyhow, if you’d like to play with the staff’s own implementation of **find** in the appliance, you may execute the below.
+Anyhow, if you’d like to play with the staff’s own implementation of `find` in the appliance, you may execute the below.
 
 	~cs50/pset3/find/find
 
@@ -250,13 +250,13 @@ As this return type of `void` implies, this function must not return a sorted ar
 
 Although you may not alter our declaration of `sort`, you’re welcome to define your own function(s) in `helpers.c` that `sort` itself may then call.
 
-We leave it to you to determine how best to test your implementation of `sort`. But don’t forget that `printf` and, per Week 4’s first lecture, **gdb** are your friends. And don’t forget that you can generate the same sequence of pseudorandom numbers again and again by explicitly specifying **generate**'s seed. Before you ultimately submit, though, be sure to remove any such calls to `printf`, as we like our programs' outputs just the way they are!
+We leave it to you to determine how best to test your implementation of `sort`. But don’t forget that `printf` and, per Week 4’s first lecture, **gdb** are your friends. And don’t forget that you can generate the same sequence of pseudorandom numbers again and again by explicitly specifying `generate`'s seed. Before you ultimately submit, though, be sure to remove any such calls to `printf`, as we like our programs' outputs just the way they are!
 
 Here’s Zamyla with some tips:
 
 <iframe width="711" height="400" src="http://www.youtube.com/embed/U8k-0StE1Ik" frameborder="0" allowfullscreen></iframe>
 
-Again, if you’d like to play with the staff’s own implementation of **find** in the appliance, you may execute the below.
+Again, if you’d like to play with the staff’s own implementation of `find` in the appliance, you may execute the below.
 
 	~cs50/pset3/find/find
 
@@ -365,7 +365,7 @@ Phew, that was a lot. Not to worry! Even though all this might feel like a lot, 
 
 ## Breakout
 
-Okay, let’s see what the distribution code for **breakout** itself does. Go ahead and execute
+Okay, let’s see what the distribution code for `breakout` itself does. Go ahead and execute
 
 	cd ~/Dropbox/pset3/breakout
 
