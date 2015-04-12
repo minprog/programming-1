@@ -2,7 +2,7 @@
 
 ## Getting started
 
-* This text assumes you have the appliance up and running. If not, head back to the "Appliance" page for instructions on how to do so.
+* This text assumes you have the appliance up and running. If not, head back to the [Linux problem set](../0-linux) for instructions on how to do so.
 
 * To ensure your appliance remains up to date, be sure to update your appliance every now and then. To do so, open up your **Terminal** and type
 
@@ -15,8 +15,6 @@
 		connect50
 
   to have the appliance automatically fix these issues for you! You might need to restart the appliance after you've ran `connect50` for the changes to take effect.
-
-* Dropbox is a service that allows you to backup your work online, as well as access it on multiple devices. This could in the future be useful, in case something goes wrong in the CS50 Appliance. **We strongly recommend you to use Dropbox!** To enable Dropbox in the Appliance, follow [these instructions](https://manual.cs50.net/appliance/19/#how_to_enable_dropbox).
 
 * Now, let's start on the problem set. First, create a new directory for your problem set's files to live in. Open up your **terminal** and type
 

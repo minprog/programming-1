@@ -46,6 +46,12 @@ Before going any further, make sure your Appliance is up to date by opening the 
 
 To reduce the risk of you losing important files, and hopefully lessen the number of the-dog-ate-my-homework arguments, we strongly urge you to use Dropbox. Dropbox is a cloud service that has you store and synchronize files, such that if your Computer or Appliance breaks down, your important files are still stored somewhere within the cloud. To install Dropbox on the Appliance follow [these instructions](https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox).
 
+If you’re already a Dropbox user but don’t want your personal files to be synched into the appliance, simply enable Selective Sync, per the CS50 Manual’s instructions.
+
+Incidentally, if curious how Dropbox itself works, allow us to introduce Thomas Carriero '08 and Alex Allain '06, both former CS50 TFs!
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/VECV6r9s5SE" frameborder="0" allowfullscreen></iframe>
+
 
 # This is the CS50 Appliance
 
