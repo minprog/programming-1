@@ -202,12 +202,12 @@ Curl up with at least two other shorts. Some additional questions may be in your
 
 <iframe width="711" height="400" src="https://www.youtube.com/embed/EbQGzxFz39U" frameborder="0" allowfullscreen></iframe>
 
-More shorts can be found at [https://cs50.harvard.edu/shorts/1](here).
+More shorts can be found at [https://cs50.harvard.edu/shorts/1](https://cs50.harvard.edu/shorts/1).
 
 
 # Hello again, C
 
-Before forging ahead, you might want to review some of the examples that we looked at in Week 1’s lectures and take a look at a few more, the "source code" for which can be found at [https://cs50.harvard.edu/lectures/1](here). Allow me to take you on a tour, though feel free to forge ahead on your own if you’d prefer. Not to worry if your appliance also looks a bit different from mine.
+Before forging ahead, you might want to review some of the examples that we looked at in Week 1’s lectures and take a look at a few more, the "source code" for which can be found at [https://cs50.harvard.edu/lectures/1](https://cs50.harvard.edu/lectures/1). Allow me to take you on a tour, though feel free to forge ahead on your own if you’d prefer. Not to worry if your appliance also looks a bit different from mine.
 
 <iframe width="711" height="400" src="https://www.youtube.com/embed/bQnyxpf0vk0?list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV" frameborder="0" allowfullscreen></iframe>
 
