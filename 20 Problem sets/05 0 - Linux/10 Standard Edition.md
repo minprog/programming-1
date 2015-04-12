@@ -42,6 +42,15 @@ If your Appliance is running in a small window even though you clicked the fulls
 Before going any further, make sure your Appliance is up to date by opening the terminal (located on the taskbar within the Appliance). When you have the terminal open type: **update50**, and press enter. During this update process you will see many lines of text flying by. Just patiently wait it out before continueing with this assignment.
 
 
+# Connect
+
+Know that, whenever your appliance has internet issues, you can type
+
+	connect50
+
+to have the appliance automatically fix these issues for you! You might need to restart the appliance after you've ran `connect50` for the changes to take effect.
+
+
 # Dropbox
 
 To reduce the risk of you losing important files, and hopefully lessen the number of the-dog-ate-my-homework arguments, we strongly urge you to use Dropbox. Dropbox is a cloud service that has you store and synchronize files, such that if your Computer or Appliance breaks down, your important files are still stored somewhere within the cloud. To install Dropbox on the Appliance follow [these instructions](https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox).
