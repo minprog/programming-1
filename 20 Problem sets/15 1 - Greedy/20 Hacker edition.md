@@ -11,13 +11,6 @@ Let's ensure that the Appliance is up to date by running **update50** from a Ter
 * Solve some problems in C.
 
 
-# Difference between hacker and normal edition
-
-* Hacker Edition plays with credit cards instead of coins.
-
-* Hacker Edition demands two half pyramids.
-
-
 # Bad Credit
 
 Odds are you have a credit card in your wallet. Though perhaps the bill does not (yet) get sent to you! That card has a number, both printed on its face and embedded (perhaps with some other data) in the magnetic stripe on back. That number is also stored in a database somewhere, so that when your card is used to buy something, the creditor knows whom to bill. There are a lot of people with credit cards in this world, so those numbers are pretty long: American Express uses 15-digit numbers, MasterCard uses 16-digit numbers, and Visa uses 13- and 16-digit numbers. And those are decimal numbers (0 through 9), not binary, which means, for instance, that American Express could print as many as 10^(15) = 1,000,000,000,000,000 unique cards! (That’s, ahem, a quadrillion.)
