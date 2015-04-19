@@ -1,11 +1,13 @@
-#Objectives
+* Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
+
+# Objectives
 
 * Get comfortable with Linux.
 
 * Start thinking more carefully.
 
 * Solve some problems in C.
-* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+
 
 # Time for Change
 
