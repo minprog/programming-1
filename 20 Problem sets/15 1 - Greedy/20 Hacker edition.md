@@ -32,7 +32,7 @@ That’s kind of confusing, so let’s try an example with Daven’s AmEx: 37828
 
     Okay, let’s multiply each of the underlined digits by 2:
 
-    7x2 + 2x2 + 2x2 + 4x2 + 3x2 + 0x2 + 0x2
+    7\*2 + 2\*2 + 2\*2 + 4\*2 + 3\*2 + 0\*2 + 0\*2
 
     That gives us:
 
