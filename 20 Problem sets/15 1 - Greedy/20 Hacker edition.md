@@ -1,6 +1,6 @@
 *Please consult your teaching fellow before attempting any hacker edition!*
 
-* Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
+Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
 
 # Objectives
 
@@ -35,23 +35,23 @@ So what’s the secret formula? Well, most cards use an algorithm invented by Ha
 That’s kind of confusing, so let’s try an example with Daven’s AmEx: 378282246310005.
 
 1. For the sake of discussion, let’s first underline every other digit, starting with the number’s second-to-last digit:
-  378282246310005
+   378282246310005
 
-  Okay, let’s multiply each of the underlined digits by 2:
+    Okay, let’s multiply each of the underlined digits by 2:
 
-  7•2 + 2•2 + 2•2 + 4•2 + 3•2 + 0•2 + 0•2
+    7x2 + 2x2 + 2x2 + 4x2 + 3x2 + 0x2 + 0x2
 
-  That gives us:
+    That gives us:
 
-  14 + 4 + 4 + 8 + 6 + 0 + 0
+    14 + 4 + 4 + 8 + 6 + 0 + 0
 
-  Now let’s add those products' digits (i.e., not the products themselves) together:
+    Now let’s add those products' digits (i.e., not the products themselves) together:
 
-  1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
+    1 + 4 + 4 + 4 + 8 + 6 + 0 + 0 = 27
 
 2. Now let’s add that sum (27) to the sum of the digits that weren’t multiplied by 2:
 
-  27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 = 60
+    27 + 3 + 8 + 8 + 2 + 6 + 1 + 0 + 5 = 60
 
 3. Yup, the last digit in that sum (60) is a 0, so Daven’s card is legit!
 
@@ -61,41 +61,41 @@ In `credit.c`, write a program that prompts the user for a credit card number an
 
 Of course, to use `GetLongLong`, you’ll need to tell `clang` about CS50’s library. Be sure to put
 
-  #include <cs50.h>
+    #include <cs50.h>
 
 toward the top of `credit.c`. And be sure to compile your code with a command like the below.
 
-  clang -o credit credit.c -lcs50
+    clang -o credit credit.c -lcs50
 
 Note that `-lcs50` must come at this command’s end because of how clang works.
 
 Incidentally, recall that `make` can invoke `clang` for you and provide that flag for you, as via the command below.
-
-  make credit
+    
+    make credit
 
 Assuming your program compiled without errors (or, ideally, warnings) via either command, you can run your program with the command below.
 
-  ./credit
+    ./credit
 
 Consider the below representative of how your own program should behave when passed a valid credit card number (sans hyphens), wherein underlined text represents some user’s input.
 
-  jharvard@appliance (~/Dropbox/hacker1): ./credit
-  Number: 378282246310005
-  AMEX
+    jharvard@appliance (~/Dropbox/hacker1): ./credit
+    Number: 378282246310005
+    AMEX
 
 Of course, `GetLongLong` itself will reject hyphens (and more) anyway:
 
-  jharvard@appliance (~/Dropbox/hacker1): ./credit
-  Number: 3782-822-463-10005
-  Retry: foo
-  Retry: 378282246310005
-  AMEX
+    jharvard@appliance (~/Dropbox/hacker1): ./credit
+    Number: 3782-822-463-10005
+    Retry: foo
+    Retry: 378282246310005
+    AMEX
 
 But it’s up to you to catch inputs that are not credit card numbers (e.g., Lauren’s phone number), even if numeric:
 
-  jharvard@appliance (~/Dropbox/hacker1): ./credit
-  Number: 7722574501
-  INVALID
+    jharvard@appliance (~/Dropbox/hacker1): ./credit
+    Number: 7722574501
+    INVALID
 
 Test out your program with a whole bunch of inputs, both valid and invalid. (We certainly will!) Here are a few card numbers that PayPal recommends for testing:
 
@@ -105,11 +105,11 @@ Google (or perhaps a roommate’s wallet) should turn up more. (If your roommate
 
 If you’d like to check the correctness of your program with **check50**, you may execute the below.
 
-  check50 2014.fall.hacker1.credit credit.c
+    check50 2014.fall.hacker1.credit credit.c
 
 And if you’d like to play with the staff’s own implementation of *credit* in the appliance, you may execute the below.
 
-  ~cs50/hacker1/credit
+    ~cs50/hacker1/credit
 
 Test your program using a bunch of different inputs, both valid and invalid.
 

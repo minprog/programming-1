@@ -1,4 +1,4 @@
-* Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
+Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
 
 # Objectives
 
