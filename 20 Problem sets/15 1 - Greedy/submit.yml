@@ -1,3 +1,4 @@
 name: greedy
-required:
+optional:
     - greedy.c
+    - credit.c
