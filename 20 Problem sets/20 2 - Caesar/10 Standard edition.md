@@ -79,7 +79,7 @@ If you’d like to check the correctness of your program with **check50**, you m
 
 And if you’d like to play with the staff’s own implementation of `initials` in the appliance, you may execute the below.
 
-~cs50/pset2/initials
+	~cs50/pset2/initials
 
 
 # Hail, Caesar!
