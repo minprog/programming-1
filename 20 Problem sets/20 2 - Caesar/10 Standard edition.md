@@ -112,7 +112,7 @@ Otherwise, your program must proceed to prompt the user for a string of plaintex
 
 If you don’t explicitly return an `int` from within `main`, `0` is actually returned for you automatically. (Indeed, per its "return type," `main` does need to return an `int`. But more on that another time.) Now that you’re returning `1` explicitly to signify errors, it’s best to return `0` (by convention) explicitly to signify success. Whereas `0` generally represents success, any non-`0` `int` generally represents an error. That way, you can represent (gasp) upwards of four billion errors (since an `int` is generally 32 bits)!
 
-Anyhow, even though there exist only 26 letters in the English alphabet, you may not assume that *k* will be less than or equal to 26; your program should work for all non-negative integral values of *k* less than 231 - 26. (In other words, you don’t need to worry if your program eventually breaks if the user chooses a value for *k* that’s too big or almost too big to fit in an `int`. Now, even if *k *is greater than 26, alphabetical characters in your program’s input should remain alphabetical characters in your program’s output. For instance, if *k* is 27, `A` should not become `[` even though `[` is 27 positions away from `A` in ASCII; `A` should become `B`, since 27 modulo 26 is 1, as a computer scientists might say. In other words, values like k = 1 and k = 27 are effectively equivalent.
+Anyhow, even though there exist only 26 letters in the English alphabet, you may not assume that *k* will be less than or equal to 26; your program should work for all non-negative integral values of *k* less than 231 - 26. (In other words, you don’t need to worry if your program eventually breaks if the user chooses a value for *k* that’s too big or almost too big to fit in an `int`. Now, even if *k* is greater than 26, alphabetical characters in your program’s input should remain alphabetical characters in your program’s output. For instance, if *k* is 27, `A` should not become `[` even though `[` is 27 positions away from `A` in ASCII; `A` should become `B`, since 27 modulo 26 is 1, as a computer scientists might say. In other words, values like k = 1 and k = 27 are effectively equivalent.
 
 Your program must preserve case: capitalized letters, though rotated, must remain capitalized letters; lowercase letters, though rotated, must remain lowercase letters.
 
@@ -167,7 +167,7 @@ If you’d like to check the correctness of your program with **check50**, you m
 
 And if you’d like to play with the staff’s own implementation of `caesar` in the appliance, you may execute the below.
 
-~cs50/pset2/caesar
+	~cs50/pset2/caesar
 
 BTW, `uggc://jjj.lbhghor.pbz/jngpu?i=bUt5FWLEUN0`.
 
