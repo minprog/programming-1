@@ -1,3 +1,109 @@
+Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
+
+# Objectives
+
+* Become better acquainted with functions and libraries.
+
+* Dabble in cryptography.
+
+
+# Getting Ready
+
+First, curl up with these shorts on loops, functions, Caesar’s cipher, and command-line arguments:
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/HHmiHx7GGLE" frameborder="0" allowfullscreen></iframe>
+
+Be sure you’re reasonably comfortable answering the below when it comes time to submit this problem set’s form!
+
+* How does a while loop differ from a do-while loop? When is the latter particularly useful?
+
+* What does **undeclared identifier** usually indicate if outputted by **make** (or, really, **clang**)?
+
+* Why is Caesar’s cipher not very secure?
+
+* What’s a function?
+
+* Why bother writing functions when you can just copy and paste code as needed?
+
+Next, take a self-paced tour through Week 2’s examples, the source code for which can be found at [http://cdn.cs50.net/2014/fall/lectures/2/m/src2m/](http://cdn.cs50.net/2014/fall/lectures/2/m/src2m/) and [http://cdn.cs50.net/2014/fall/lectures/2/w/src2w/](http://cdn.cs50.net/2014/fall/lectures/2/w/src2w/), fast-forwarding through any programs with which you’re already comfortable:
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/9zoRoz8Pq4E?list=PLhQjrBD2T380bVx_CQ2EXtlqZh0frwOsn" frameborder="0" allowfullscreen></iframe>
+
+Finally, take a closer look at command-line arguments by way of these additional examples from Week 3, the source code for which can be found at [http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/](http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/):
+
+<iframe width="711" height="400" src="https://www.youtube.com/embed/1VbHJz2L6dM" frameborder="0" allowfullscreen></iframe>
+
+# Getting Started
+
+Alright, here we go again!
+
+Open a terminal window if not open already (as via *Menu* > *Accessories* > *gedit* or via *Menu* > *Accessories* > *Terminal*). Then execute
+
+	update50
+
+to make sure your appliance is up-to-date. In general, if you run into errors like "No such file or directory" with the staff’s solutions, best to re-run **update50**, just to make sure you have the latest updates.
+
+Next, execute
+
+	mkdir ~/Dropbox/pset2
+
+to move yourself into (i.e., open) that directory. Your prompt should now resemble the below.
+
+	jharvard@appliance (~/Dropbox/pset2):
+
+If not, retrace your steps and see if you can determine where you went wrong. You can actually execute
+
+	history
+
+at the prompt to see your last several commands in chronological order if you’d like to do some sleuthing. You can also scroll through the same one line at a time by hitting your keyboard’s up and down arrows; hit Enter to re-execute any command that you’d like.
+
+
+# Initializing
+
+Alright, let’s get more comfortable with `string`.
+
+Write, in a file called `initials.c`, a program that prompts a user for their name (using `GetString` to obtain their name as a `string`) and then outputs their initials in uppercase with no spaces or periods, followed by a newline (`\n`) and nothing more. You may assume that the user’s input will contain only letters (uppercase and/or lowercase) plus single spaces between words. Folks like `Joseph Gordon-Levitt`, `Conan O’Brien`, and `David J. Malan` won’t be using your program.
+
+So that we can automate some tests of your code, your program must behave per the examples below. Assumed that the underlined text is what some user has typed.
+
+	jharvard@appliance (~/Dropbox/pset2): ./initials
+	Zamyla Chan
+	ZC
+	jharvard@appliance (~/Dropbox/pset2): ./initials
+	robert thomas bowden
+	RTB
+
+If you’d like to check the correctness of your program with **check50**, you may execute the below.
+
+	check50 2014.fall.pset2.initials initials.c
+
+And if you’d like to play with the staff’s own implementation of `initials` in the appliance, you may execute the below.
+
+~cs50/pset2/initials
+
+
+# Hail, Caesar!
+
+Recall from David DiCiurcio’s short that Caesar’s cipher encrypts (i.e., scrambles in a reversible way) messages by "rotating" each letter by k positions, wrapping around from `Z` to `A` as needed (cf. [http://en.wikipedia.org/wiki/Caesar_cipher](http://en.wikipedia.org/wiki/Caesar_cipher)). In other words, if *p* is some plaintext (i.e., an unencrypted message), p<sub>i</sub> is the i<sup>th</sup> character in p, and k is a secret key (i.e., a non-negative integer), then each letter, c<sub>i</sub>, in the ciphertext, c, is computed as:
+
+	c<sub>i</sub> = (p<sub>i</sub> + k) % 26
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Caesar
 
 ## Getting started
