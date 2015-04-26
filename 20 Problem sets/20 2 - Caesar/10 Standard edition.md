@@ -11,8 +11,7 @@ Let's ensure that the Appliance is up to date by running **update50** from a Ter
 
 First, curl up with these shorts on loops, functions, Caesar’s cipher, and command-line arguments:
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/HHmiHx7GGLE" frameborder="0" allowfullscreen></iframe>
-
+<iframe width="711" height="400" src="https://www.youtube.com/embed/HHmiHx7GGLE?rel=0&playlist=Pi0Yf-jn7O8,36xNpbosfTY,X8PmYwnbLKM" frameborder="0" allowfullscreen></iframe>
 Be sure you’re reasonably comfortable answering the below when it comes time to submit this problem set’s form!
 
 * How does a while loop differ from a do-while loop? When is the latter particularly useful?
@@ -31,7 +30,7 @@ Next, take a self-paced tour through Week 2’s examples, the source code for wh
 
 Finally, take a closer look at command-line arguments by way of these additional examples from Week 3, the source code for which can be found at [http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/](http://cdn.cs50.net/2014/fall/lectures/3/m/src3m/):
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/1VbHJz2L6dM" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/1VbHJz2L6dM?rel=0&playlist=Ja8YoR-u9TA,mXj188eyRFE" frameborder="0" allowfullscreen></iframe>
 
 # Getting Started
 
