@@ -15,7 +15,7 @@ Well that last cipher was hardly secure. Fortunately, per Nate’s short on Vige
 
 Vigenère’s cipher improves upon Caesar’s by encrypting messages using a sequence of keys (or, put another way, a keyword). In other words, if *p* is some plaintext and *k* is a keyword (i.e., an alphbetical string, whereby `A` and `a` represent 0, while `Z` and `z` represent 25), then each letter, *c<sub>i</sub>*, in the ciphertext, *c*, is computed as:
 
-* c<sub>i</sub> = (p<sub>i</sub> + k<sub>j</sub>) % 26
+* *c<sub>i</sub>* = (*p<sub>i</sub>* + *k<sub>j</sub>*) % 26
 
 Note this cipher’s use of *k<sub>j</sub>* as opposed to just *k*. And recall that, if *k* is shorter than *p*, then the letters in *k* must be reused cyclically as many times as it takes to encrypt *p*.
 

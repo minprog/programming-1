@@ -83,13 +83,13 @@ And if you’d like to play with the staff’s own implementation of `initials` 
 
 # Hail, Caesar!
 
-Recall from David DiCiurcio’s short that Caesar’s cipher encrypts (i.e., scrambles in a reversible way) messages by "rotating" each letter by k positions, wrapping around from `Z` to `A` as needed (cf. [http://en.wikipedia.org/wiki/Caesar_cipher](http://en.wikipedia.org/wiki/Caesar_cipher)). In other words, if *p* is some plaintext (i.e., an unencrypted message), p<sub>i</sub> is the i<sup>th</sup> character in p, and k is a secret key (i.e., a non-negative integer), then each letter, c<sub>i</sub>, in the ciphertext, c, is computed as:
+Recall from David DiCiurcio’s short that Caesar’s cipher encrypts (i.e., scrambles in a reversible way) messages by "rotating" each letter by k positions, wrapping around from `Z` to `A` as needed (cf. [http://en.wikipedia.org/wiki/Caesar_cipher](http://en.wikipedia.org/wiki/Caesar_cipher)). In other words, if *p* is some plaintext (i.e., an unencrypted message), *p<sub>i</sub>* is the *i<sup>th</sup>* character in *p*, and *k* is a secret key (i.e., a non-negative integer), then each letter, *c<sub>i</sub>*, in the ciphertext, *c*, is computed as:
 
-* c<sub>i</sub> = (p<sub>i</sub> + k) % 26
+* *c<sub>i</sub>* = (*p<sub>i</sub>* + *k*) % 26
 
 This formula perhaps makes the cipher seem more complicated than it is, but it’s really just a nice way of expressing the algorithm precisely and concisely. And computer scientists love precision and, er, concision.
 
-For example, suppose that the secret key, k, is 13 and that the plaintext, p, is "Be sure to drink your Ovaltine!" Let’s encrypt that p with that k in order to get the ciphertext, c, by rotating each of the letters in p by 13 places, whereby:
+For example, suppose that the secret key, *k*, is 13 and that the plaintext, *p*, is "Be sure to drink your Ovaltine!" Let’s encrypt that *p* with that *k* in order to get the ciphertext, *c*, by rotating each of the letters in *p* by 13 places, whereby:
 
 	Be sure to drink your Ovaltine!
 
