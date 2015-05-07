@@ -7,6 +7,13 @@
 * You're free to switch between normal and hacker editions each week. Note that you're **not allowed** to submit a mix between normal and hacker edition problem sets. Either submit a full normal edition or a full hacker edition, and not an amalgam of both.
 
 
+# Recommended Reading
+
+* Pages 1 – 7, 9, and 10 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
+
+* Chapters 1 – 6 of Programming in C.
+
+
 # Itsa Mario
 
 For this hackers edition implement the normal edition, only with a twist:

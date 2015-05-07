@@ -1,5 +1,11 @@
 *Please consult your teaching fellow before attempting any hacker edition!*
 
+# Recommended Reading
+
+* Page 17 of http://www.howstuffworks.com/c.htm.
+
+* Chapters 13, 15, and 18 of Programming in C.
+
 
 For this hackers edition implement the normal edition, only with a few twists:
 

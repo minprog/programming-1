@@ -6,6 +6,15 @@
 * Impress your friends.
 
 
+# Recommended Reading
+
+* Page 17 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
+
+* Chapters 20 and 23 of Absolute Beginner’s Guide to C.
+
+* Chapters 13, 15, and 18 of Programming in C.
+
+
 # Getting started
 
 * Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.

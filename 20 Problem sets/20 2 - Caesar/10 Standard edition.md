@@ -7,6 +7,15 @@ Let's ensure that the Appliance is up to date by running **update50** from a Ter
 * Dabble in cryptography.
 
 
+# Recommended Reading
+
+* Pages 11 – 14 and 39 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
+
+* Chapters 6, 7, 10, 17, 19, 21, 22, 30, and 32 of Absolute Beginner’s Guide to C.
+
+* Chapters 7, 8, and 10 of Programming in C.
+
+
 # Getting Ready
 
 First, curl up with these shorts on loops, functions, Caesar’s cipher, and command-line arguments:
