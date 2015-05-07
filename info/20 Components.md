@@ -6,12 +6,6 @@ You're on your own through this course most of the time, though we will be, quit
 
 These discuss all theory that is needed to pass the quizzes. Watch the lectures before or on your way to the lab sessions, in order to be able to spend your lab time programming and asking questions.
 
-## Sections
-
-Lectures are supplemented by videos of weekly, 90-minute sections led by the teaching fellows. Sections provide you with opportunities to explore the course's material in a more intimate environment, with only your teaching fellow and a handful of classmates present, as well as to dive into hands-on activities.
-
-Different sections are offered for those less comfortable, those more comfortable, and those somewhere in between.
-
 ## Walkthroughs
 
 Integrated into problem sets are "walkthroughs," videos via which the course's staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs before asking questions about problem sets at office hours.
