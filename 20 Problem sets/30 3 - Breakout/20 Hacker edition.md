@@ -2,7 +2,7 @@
 
 # Recommended Reading
 
-* Page 17 of http://www.howstuffworks.com/c.htm.
+* Page 17 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
 
 * Chapters 13, 15, and 18 of Programming in C.
 
