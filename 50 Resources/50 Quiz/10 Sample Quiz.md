@@ -6,9 +6,8 @@ Unless arranged with the course's heads in advance, quizzes cannot ordinarily be
 
 You are required to have studied the following components for these exams:
 
-* Problem sets 0 (Scratch) through 3 (Fifteen), including all specification texts and walkthroughs belonging to these problem sets.
-* Lectures 0 (Wednesday) through lecture 4 (Wednesday).
-* Sections 1, 2 and 3.
+* Problem sets 0 (Scratch) through 3 (Breakout), including all specification texts and walkthroughs belonging to these problem sets.
+* Lectures 0 through lecture 4.
 
 The quiz is not about any of the "Understanding computers and the internet" videos, although some of the topics in those videos do appear in the CS50 lectures; these can indeed be part of the quiz.
 
