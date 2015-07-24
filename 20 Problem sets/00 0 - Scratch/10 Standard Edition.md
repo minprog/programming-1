@@ -101,13 +101,13 @@ If you've no experience (or comfort) whatsoever with programming, rest assured t
 
 In fact, for a gentler introduction to Scratch (and programming more generally), you might want to review some of the examples that we looked at in Week 0's second lecture and take a look at a few more, the "source code" for which can be found at http://scratch.mit.edu/studios/522341/. Allow me to take you on a tour, though feel free to forge ahead on your own if you'd prefer:
 
-![embed](https://www.youtube.com/embed/tveoFN0NHE0?rel=0&playlist=PLhQjrBD2T383nc2LUdF5XWbyrsqiYy4nq)
+![embed](https://www.youtube.com/embed/tveoFN0NHE0?rel=0&list=PLhQjrBD2T383nc2LUdF5XWbyrsqiYy4nq)
 
 And you might also want to watch Allison's short on Scratch:
 
 ![embed](https://www.youtube.com/embed/52JoFF4HMA4?rel=0)
 
-Feel free to download the source code for a few more projects from http://scratch.mit.edu/explore/projects/all/ or elsewhere.  For each program, run it to see how it works overall and then look over its scripts to understand how it works underneath the hood. Feel free to make changes to scripts and observe the effects. Once you can say to yourself, "Okay, I think I get this," you're ready to proceed.
+Feel free to download the source code for a few more projects from <http://scratch.mit.edu/explore/projects/all/> or elsewhere.  For each program, run it to see how it works overall and then look over its scripts to understand how it works underneath the hood. Feel free to make changes to scripts and observe the effects. Once you can say to yourself, "Okay, I think I get this," you're ready to proceed.
 
 Now it's time to choose your own adventure! Your mission is, quite simply, to have fun with Scratch and implement a project of your choice (be it an animation, a game, interactive art, or anything else), subject only to the following requirements.
 
@@ -127,11 +127,11 @@ Not quite sure how to begin? Feeling a bit overwhelmed? Not to worry. Join Zamyl
 
 ![embed](https://www.youtube.com/embed/697pD31GCZg?rel=0)
 
-Incidentally, if you don't have the best Internet access, you're welcome to download Scratch's "offline editor" (which I used in Week 0's second lecture) at http://scratch.mit.edu/scratch2download/. But when done with your project offline, be sure to upload it to your account at http://scratch.mit.edu/ via *File > Share to website* in the offline editor.
+Incidentally, if you don't have the best Internet access, you're welcome to download Scratch's "offline editor" (which I used in Week 0's second lecture) at <http://scratch.mit.edu/scratch2download/>. But when done with your project offline, be sure to upload it to your account at <http://scratch.mit.edu/> via *File > Share to website* in the offline editor.
 
 Once finished with your project, click *See project page* in Scratch's top-right corner. Ensure your project has a title (in Scratch's top-left corner), some instructions (in Scratch's top-right corner), and some notes and/or credits (in Scratch's bottom-right corner). Then click *Share* in Scratch's top-right corner so that others (e.g., your TF!) can see your project. Finally, take note of the URL in your browser's address bar. That's your project's URL on MIT's website, and you'll need to know it later.
 
-Oh, and if you'd like to exhibit your project in Fall 2014's studio, head to http://scratch.mit.edu/studios/522331, then click *Add projects*, and paste in your own project's URL.
+Oh, and if you'd like to exhibit your project in Fall 2015's studio, head to <https://scratch.mit.edu/studios/1410700/>, then click *Add projects*, and paste in your own project's URL.
 
 Incidentally, if curious to learn more about the design of Scratch itself, you might like this segment with our friends from MIT's Media Lab:
 
@@ -139,7 +139,7 @@ Incidentally, if curious to learn more about the design of Scratch itself, you m
 
 ## How to submit
 
-To submit this problem set, visit https://forms.cs50.net/2014/fall/psets/0/.  You'll find that a few questions await.  Be extra-sure that your answers are correct, particularly your project's URL on MIT's website, lest we overlook your submission!
+To submit this problem set, visit TODO.  You'll find that a few questions await.  Be extra-sure that your answers are correct, particularly your project's URL on MIT's website, lest we overlook your submission!
 
 CS50 collects quite a bit of data for research purposes. Please forgive the length of this first problem set's form! In total, the form will probably take 30 or more minutes to fill out. Not to worry if you finish shortly after the problem set's deadline, so long as you start before the deadline. Future problem sets' forms will be much quicker!
 
