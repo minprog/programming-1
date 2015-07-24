@@ -1,6 +1,6 @@
 # Problem Set 4: Forensics
 
-Questions?  Head to https://cs50.harvard/discuss[cs50.harvard.edu/discuss] or join classmates at https://cs50.harvard.edu/hours[office hours]!
+Questions?  Head to discuss or join classmates at office hours!
 
 ## Objectives
 
@@ -9,7 +9,7 @@ Questions?  Head to https://cs50.harvard/discuss[cs50.harvard.edu/discuss] or jo
 * Introduce you to computer scientists across campus.
 * Help Mr. Boddy.
 
-## Recommended Reading*
+## Recommended Reading[^1]
 
 * Chapters 18, 24, 25, 27, and 28 of _Absolute Beginner's Guide to C_
 * Chapters 9, 11, 14, and 16 of _Programming in C_
@@ -18,7 +18,7 @@ Questions?  Head to https://cs50.harvard/discuss[cs50.harvard.edu/discuss] or jo
 * http://en.wikipedia.org/wiki/Hexadecimal
 * http://en.wikipedia.org/wiki/Jpg
 
-pass:[*] The Wikipedia articles are a bit dense; feel free to skim or skip!
+[^1]: The Wikipedia articles are a bit dense; feel free to skim or skip!
 
 ## Academic Honesty
 
@@ -30,7 +30,7 @@ Below are rules of thumb that (inexhaustively) characterize acts that the course
 
 If you commit some act that is not reasonable but bring it to the attention of the course's heads within 72 hours, the course may impose local sanctions that may include an unsatisfactory or failing grade for work submitted, but the course will not refer the matter to the Administrative Board.
 
-=## Reasonable
+### Reasonable
 
 * Communicating with classmates about problem sets' problems in English (or some other spoken language).
 * Discussing the course's material with others in order to understand it better.
@@ -43,7 +43,7 @@ If you commit some act that is not reasonable but bring it to the attention of t
 * Whiteboarding solutions to problem sets with others using diagrams or pseudocode but not actual code.
 * Working with (and even paying) a tutor to help you with the course, provided the tutor does not do your work for you.
 
-=## Not Reasonable
+### Not Reasonable
 
 * Accessing a solution in CS50 Vault to some problem prior to (re-)submitting your own.
 * Asking a classmate to see his or her solution to a problem set's problem before (re-)submitting your own.
@@ -66,14 +66,14 @@ If you commit some act that is not reasonable but bring it to the attention of t
 
 Your work on this problem set will be evaluated along four axes primarily.
 
-Scope::
-  To what extent does your code implement the features required by our specification?
-Correctness::
-  To what extent is your code consistent with our specifications and free of bugs?
-Design::
-  To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
-Style::
-  To what extent is your code readable (i.e., commented and indented with variables aptly named)?
+Scope
+: To what extent does your code implement the features required by our specification?
+Correctness
+: To what extent is your code consistent with our specifications and free of bugs?
+Design
+: To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
+Style
+: To what extent is your code readable (i.e., commented and indented with variables aptly named)?
 
 All students, whether taking the course SAT/UNS or for a letter grade, must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
 
@@ -81,7 +81,7 @@ All students, whether taking the course SAT/UNS or for a letter grade, must ordi
 
 First, curl up with Jason's short on file I/O and Rob's short on structs.  Just keep in mind that Jason's short happens to focus on ASCII (i.e., text) files as opposed to binary files (like images). More on those later!
 
-video::KwvObCA04dU[youtube,height=540,width=960,playlist="EzRwP7NV0LM"]
+![embed](https://www.youtube.com/embed/KwvObCA04dU?rel=0&playlist=EzRwP7NV0LM)
 
 Next, join Nate on a tour of `valgrind`, a command-line tool that will help you find "memory leaks": memory that you've allocated (i.e., asked the operating system for), as with `malloc`, but not freed (i.e., given back to the operating system).
 
