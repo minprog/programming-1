@@ -105,64 +105,55 @@ to make sure your appliance is up-to-date.
 
 Like Problem Set 3, this problem set comes with some distribution code that you'll need to download before getting started.  Go ahead and execute
 
-[source,bash]
-~~~
+~~~ bash
 cd ~/Dropbox
 ~~~
 
 in order to navigate to your `~/Dropbox` directory.  Then execute
 
-[source,bash]
-~~~
+~~~ bash
 wget http://cdn.cs50.net/2014/fall/psets/4/pset4/pset4.zip
 ~~~
 
 in order to download a ZIP (i.e., compressed version) of this problem set's distro.  If you then execute
 
-[source,bash]
-~~~
+~~~ bash
 ls
 ~~~
 
 you should see that you now have a file called `pset4.zip` in your `~/Dropbox` directory.  Unzip it by executing the below.
 
-[source,bash]
-~~~
+~~~ bash
 unzip pset4.zip
 ~~~
 
 If you again execute
 
-[source,bash]
-~~~
+~~~ bash
 ls
 ~~~
 
 you should see that you now also have a `pset4` directory.  You're now welcome to delete the ZIP file with the below.
 
-[source,bash]
-~~~
+~~~ bash
 rm -f pset4.zip
 ~~~
 
 Now dive into that `pset4` directory by executing the below.
 
-[source,bash]
-~~~
+~~~ bash
 cd pset4
 ~~~
 
 Now execute
 
-[source,bash]
-~~~
+~~~ bash
 ls
 ~~~
 
 and you should see that the directory contains the below.
 
-[source,bash]
-~~~
+~~~ bash
 bmp/  jpg/  questions.txt
 ~~~
 
@@ -210,7 +201,6 @@ Incidentally, HTML and CSS (languages in which webpages can be written) model co
 
 Now let's get more technical.  Recall that a file is just a sequence of bits, arranged in some fashion.  A 24-bit BMP file, then, is essentially just a sequence of bits, (almost) every 24 of which happen to represent some pixel's color.  But a BMP file also contains some "metadata," information like an image's height and width.  That metadata is stored at the beginning of the file in the form of two data structures generally referred to as "headers" (not to be confused with C's header files).   (Incidentally, these headers have evolved over time.  This problem set only expects that you support version 4.0 (the latest) of Microsoft's BMP format, which debuted with Windows 95.)  The first of these headers, called `BITMAPFILEHEADER`, is 14 bytes long.  (Recall that 1 byte equals 8 bits.)  The second of these headers, called `BITMAPINFOHEADER`, is 40 bytes long.  Immediately following these headers is the actual bitmap: an array of bytes, triples of which represent a pixel's color.   (In 1-, 4-, and 16-bit BMPs, but not 24- or 32-, there's an additional header right after `BITMAPINFOHEADER` called `RGBQUAD`, an array that defines "intensity values" for each of the colors in a device's palette.)  However, BMP stores these triples backwards (i.e., as BGR), with 8 bits for blue, followed by 8 bits for green, followed by 8 bits for red.   (Some BMPs also store the entire bitmap backwards, with an image's top row at the end of the BMP file.  But we've stored this problem set's BMPs as described herein, with each bitmap's top row first and bottom row last.)  In other words, were we to convert the 1-bit smiley above to a 24-bit smiley, substituting red for black, a 24-bit BMP would store this bitmap as follows, where `0000ff` signifies red and `ffffff` signifies white; we've highlighted in red all instances of `0000ff`.
 
-[source,subs=quotes]
 ~~~
 ffffff  ffffff  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  ffffff  ffffff
 ffffff  [red]#0000ff#  ffffff  ffffff  ffffff  ffffff  [red]#0000ff#  ffffff
@@ -230,18 +220,16 @@ Okay, stop!  Don't proceed further until you're sure you understand why `0000ff`
 
 Okay, let's transition from theory to practice.  Double-click *Home* on John Harvard's desktop and you should find yourself in John Harvard's home directory.  Double-click *pset4*, double-click *bmp*, and then double-click *smiley.bmp* therein.  You should see a tiny smiley face that's only 8 pixels by 8 pixels.  Select *View > Zoom > Zoom Fit*, and you should see a larger, albeit blurrier, version.  (So much for "enhance," huh?)  Actually, this particular image shouldn't really be blurry, even when enlarged.  The program that launched when you double-clicked *smiley.bmp* (called Image Viewer) is simply trying to be helpful (CSI-style) by "dithering" the image (i.e., by smoothing out its edges).  Below's what the smiley looks like if you zoom in without dithering.  At this zoom level, you can really see the image's pixels (as big squares).
 
-image:smiley.png[smiley.png]
+![smiley.png](smiley.png)
 
 Okay, go ahead and return your attention to a terminal window, and navigate your way to `~/Dropbox/pset4/bmp`.  (Remember how?)  Let's look at the underlying bytes that compose `smiley.bmp` using `xxd`, a command-line "hex editor."  Execute:
 
-[source,bash]
-~~~
+~~~ bash
 xxd -c 24 -g 3 -s 54 smiley.bmp
 ~~~
 
 You should see the below; we've again highlighted in red all instances of `0000ff`.
 
-[source,subs=quotes]
 ~~~
 0000036: ffffff ffffff [red]#0000ff# [red]#0000ff# [red]#0000ff# [red]#0000ff# ffffff ffffff  ........................
 000004e: ffffff [red]#0000ff# ffffff ffffff ffffff ffffff [red]#0000ff# ffffff  ........................
@@ -255,8 +243,7 @@ You should see the below; we've again highlighted in red all instances of `0000f
 
 In the leftmost column above are addresses within the file or, equivalently, offsets from the file's first byte, all of them given in hex.  Note that `00000036` in hexadecimal is `54` in decimal.  You're thus looking at byte `54` onward of `smiley.bmp`.  Recall that a 24-bit BMP's first 14 + 40 # 54 bytes are filled with metadata.  If you really want to see that metadata in addition to the bitmap, execute the command below.
 
-[source,bash]
-~~~
+~~~ bash
 xxd -c 24 -g 3 smiley.bmp
 ~~~
 
@@ -264,20 +251,18 @@ If `smiley.bmp` actually contained ASCII characters, you'd see them in ``xxd``'s
 
 So, `smiley.bmp` is 8 pixels wide by 8 pixels tall, and it's a 24-bit BMP (each of whose pixels is represented with 24 ÷ 8 # 3 bytes).  Each row (aka "scanline") thus takes up (8 pixels) × (3 bytes per pixel) # 24 bytes, which happens to be a multiple of 4.  It turns out that BMPs are stored a bit differently if the number of bytes in a scanline is not, in fact, a multiple of 4.  In `small.bmp`, for instance, is another 24-bit BMP, a green box that's 3 pixels wide by 3 pixels wide.  If you view it with Image Viewer (as by double-clicking it), you'll see that it resembles the below, albeit much smaller.  (Indeed,  you might need to zoom in again to see it.)
 
-image:small.png[small.png]
+![small.png](small.png)
 
 Each scanline in `small.bmp` thus takes up (3 pixels) × (3 bytes per pixel) # 9 bytes, which is not a multiple of 4.  And so the scanline is "padded" with as many zeroes as it takes to extend the scanline's length to a multiple of 4.  In other words, between 0 and 3 bytes of padding are needed for each scanline in a 24-bit BMP.  (Understand why?)  In the case of small.bmp, 3 bytes' worth of zeroes are needed, since (3 pixels) &#215; (3 bytes per pixel) + (3 bytes of padding) # 12 bytes, which is indeed a multiple of 4.
 
 To "see" this padding, go ahead and run the below.
 
-[source,bash]
-~~~
+~~~ bash
 xxd -c 12 -g 3 -s 54 small.bmp
 ~~~
 
 Note that we're using a different value for `-c` than we did for `smiley.bmp` so that `xxd` outputs only 4 columns this time (3 for the green box and 1 for the padding).  You should see output like the below; we've highlighted in green all instances of `00ff00`.
 
-[source,subs=quotes]
 ~~~
     0000036: [green]#00ff00# [green]#00ff00# [green]#00ff00# 000000  ............
     0000042: [green]#00ff00# ffffff [green]#00ff00# 000000  ............
@@ -286,14 +271,12 @@ Note that we're using a different value for `-c` than we did for `smiley.bmp` so
 
 For contrast, let's use `xxd` on `large.bmp`, which looks identical to `small.bmp` but, at 12 pixels by 12 pixels, is four times as large.  Go ahead and execute the below; you may need to widen your window to avoid wrapping.
 
-[source,bash]
-~~~
+~~~ bash
 xxd -c 36 -g 3 -s 54 large.bmp
 ~~~
 
 You should see output like the below; we've again highlighted in green all instances of `00ff00`
 
-[source,subs=quotes]
 ~~~
 0000036: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
 000005a: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
@@ -317,15 +300,13 @@ Okay, `xxd` only showed you the bytes in these BMPs.  How do we actually get at 
 
 Go ahead and compile `copy.c` into a program called `copy` using `make`.  (Remember how?)  Then execute a command like the below.
 
-[source,bash]
-~~~
+~~~ bash
 ./copy smiley.bmp copy.bmp
 ~~~
 
 If you then execute ls (with the appropriate switch), you should see that `smiley.bmp` and `copy.bmp` are indeed the same size.  Let's double-check that they're actually the same!  Execute the below.
 
-[source,bash]
-~~~
+~~~ bash
 diff smiley.bmp copy.bmp
 ~~~
 
@@ -337,7 +318,7 @@ Why are these `struct`pass:[s] useful?  Well, recall that a file is just a seque
 
 Recall that `smiley.bmp` is 8 by 8 pixels, and so it should take up 14 + 40 + (8 × 8) × 3 # 246 bytes on disk.  (Confirm as much if you'd like using `ls`.)  Here's what it thus looks like on disk according to Microsoft:
 
-image:disk.png[smiley.bmp on disk]
+![smiley.bmp on disk](disk.png)
 
 As this figure suggests, order does matter when it comes to `struct`s' members.  Byte 57 is `rgbtBlue` (and not, say, `rgbtRed`), because `rgbtBlue` is defined first in `RGBTRIPLE`.  Our use, incidentally, of the `__attribute__` called `__packed__` ensures that `clang` does not try to "word-align" members (whereby the address of each member's first byte is a multiple of 4), lest we end up with "gaps" in our `struct`s that don't actually exist on disk. 
 
@@ -347,15 +328,13 @@ Rather than hold your hand further on a stroll through `copy.c`, we're instead g
 
 Allow us to suggest that you also run `copy` within `gdb` while answering these questions.  Set a breakpoint at `main` and walk through the program.  Recall that you can tell `gdb` to start running the program with a command like the below at ``gdb``'s prompt.
 
-[source,bash]
-~~~
+~~~ bash
 run smiley.bmp copy.bmp
 ~~~
 
 If you tell `gdb` to print the values of `bf` and `bi` (once read in from disk), you'll see output like the below, which we daresay you'll find quite useful.
 
-[source,bash]
-~~~
+~~~ bash
 {bfType # 19778, bfSize # 246, bfReserved1 # 0, bfReserved2 # 0, 
   bfOffBits # 54}
 
@@ -366,19 +345,19 @@ If you tell `gdb` to print the values of `bf` and `bi` (once read in from disk),
 
 In `~/Dropbox/pset4/questions.txt`, answer each of the following questions in a sentence or more.
 
-[start=6]
-. What's `stdint.h`?
-. What's the point of using `uint8_t`, `uint32_t`, `int32_t`, and `uint16_t` in a program?
-. How many bytes is a `BYTE`, a `DWORD`, a `LONG`, and a `WORD`, respectively?  (Assume a 32-bit architecture like the CS50 Appliance.)
-. What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be?  (Leading bytes used to identify file formats (with high probability) are generally called "magic numbers.)"
-. What's the difference between `bfSize` and `biSize`?
-. What does it mean if `biHeight` is negative?
-. What field in `BITMAPINFOHEADER` specifies the BMP's color depth (i.e., bits per pixel)?
-. Why might `fopen` return `NULL` in `copy.c:37`?
-. Why is the third argument to `fread` always `1` in our code?
-. What value does `copy.c:70` assign `padding` if `bi.biWidth` is `3`?
-. What does `fseek` do?
-. What is `SEEK_CUR`?
+6. What's `stdint.h`?
+7. What's the point of using `uint8_t`, `uint32_t`, `int32_t`, and `uint16_t` in a program?
+8. How many bytes is a `BYTE`, a `DWORD`, a `LONG`, and a `WORD`, respectively?  (Assume a 32-bit architecture like the CS50 Appliance.)
+9. What (in ASCII, decimal, or hexadecimal) must the first two bytes of any BMP file be?  (Leading bytes used to identify file formats (with high probability) are generally called "magic numbers.)"
+10. What's the difference between `bfSize` and `biSize`?
+11. What does it mean if `biHeight` is negative?
+12. What field in `BITMAPINFOHEADER` specifies the BMP's color depth (i.e., bits per pixel)?
+13. Why might `fopen` return `NULL` in `copy.c:37`?
+14. Why is the third argument to `fread` always `1` in our code?
+15. What value does `copy.c:70` assign `padding` if `bi.biWidth` is `3`?
+16. What does `fseek` do?
+17. What is `SEEK_CUR`?
+{:start=6}
 
 Okay, back to Mr. Boddy.
 
@@ -388,15 +367,13 @@ Ummm, what?
 
 Well, think back to childhood when you held that piece of red plastic over similarly hidden messages.   (If you remember no such piece of plastic, best to ask a classmate about his or her childhood.)  Essentially, the plastic turned everything red but somehow revealed those messages.  Implement that same idea in `whodunit`.  Like `copy`, your program should accept exactly two command-line arguments.  And if you execute a command like the below, stored in `verdict.bmp` should be a BMP in which Mr. Boddy's drawing is no longer covered with noise.
 
-[source,bash]
-~~~
+~~~ bash
 ./whodunit clue.bmp verdict.bmp
 ~~~
    
 Allow us to suggest that you begin tackling this mystery by executing the command below.
 
-[source,bash]
-~~~
+~~~ bash
 cp copy.c whodunit.c
 ~~~
 
@@ -414,8 +391,8 @@ video::AkEpi5tQ9Qc[youtube,height=540,width=960]
 
 In `~/Dropbox/pset4/questions.txt`, answer the question below.
 
-[start=18]
-. Whodunit?
+18. Whodunit?
+{:start=18}
 
 ## resize
 
@@ -423,15 +400,13 @@ Well that was fun.  Bit late for Mr. Boddy, though.
 
 Alright, next challenge!  Implement now in `resize.c` a program called `resize` that resizes 24-bit uncompressed BMPs by a factor of `n`.  Your program should accept exactly three command-line arguments, per the below usage, whereby the first (`n`) must be a positive integer less than or equal to 100, the second the name of the file to be resized, and the third the name of the resized version to be written.
 
-[source,bash]
 ~~~
 Usage: ./resize n infile outfile
 ~~~
 
 With a program like this, we could have created `large.bmp` out of `small.bmp` by resizing the latter by a factor of 4 (i.e., by multiplying both its width and its height by 4), per the below. 
 
-[source,bash]
-~~~
+~~~ bash
 ./resize 4 small.bmp large.bmp
 ~~~
 
@@ -439,29 +414,25 @@ You're welcome to get started by copying (yet again) `copy.c` and naming the cop
 
 If you'd like to check the correctness of your program with `check50`, you may execute the below.
 
-[source,bash]
-~~~
+~~~ bash
 check50 2014.fall.pset4.resize bmp.h resize.c
 ~~~
 
 If you'd like to play with the staff's own implementation of `resize` in the appliance, you may execute the below.   
 
-[source,bash]
-~~~
+~~~ bash
 ~cs50/pset4/resize
 ~~~
 
 If you'd like to peek at, e.g., ``large.bmp``'s headers (in a more user-friendly way than `xxd` allows), you may execute the below.
 
-[source,bash]
-~~~
+~~~ bash
 ~cs50/pset4/peek large.bmp
 ~~~
 
 Better yet, if you'd like to compare your outfile's headers against the staff's, you might want to execute commands like the below while inside your `~/Dropbox/pset4/bmp` directory.  (Think about what each is doing.)
 
-[source,bash]
-~~~
+~~~ bash
 ./resize 4 small.bmp student.bmp
 ~cs50/pset4/resize 4 small.bmp staff.bmp
 ~cs50/pset4/peek student.bmp staff.bmp
@@ -485,15 +456,13 @@ Ummm.
 
 Okay, here's the thing.  Even though JPEGs are more complicated than BMPs, JPEGs have "signatures," patterns of bytes that distinguish them from other file formats.  In fact, most JPEGs begin with one of two sequences of bytes.  Specifically, the first four bytes of most JPEGs are either
 
-[source,bash]
-~~~
+~~~ bash
 0xff 0xd8 0xff 0xe0
 ~~~
 
 or
 
-[source,bash]
-~~~
+~~~ bash
 0xff 0xd8 0xff 0xe1
 ~~~
 
@@ -507,8 +476,7 @@ Realize, of course, that JPEGs can span contiguous blocks.  Otherwise, no JPEG c
 
 Now, I only have one CF card, but there are a whole lot of you!  And so I've gone ahead and created a "forensic image" of the card, storing its contents, byte after byte, in a file called `card.raw`.  So that you don't waste time iterating over millions of 0s unnecessarily, I've only imaged the first few megabytes of the CF card.  But you should ultimately find that the image contains 16 JPEGs.  As usual, you can open the file programmatically with `fopen`, as in the below.  
 
-[source,c]
-~~~
+~~~ c
 FILE* file # fopen("card.raw", "r");
 ~~~
 
@@ -516,15 +484,13 @@ Notice, incidentally, that `~/Dropbox/pset4/jpg` contains only `recover.c`, but 
 
 Odds are, though, the JPEGs that the first draft of your code spits out won't be correct.  (If you open them up and don't see anything, they're probably not correct!)  Execute the command below to delete all JPEGs in your current working directory.
 
-[source,bash]
-~~~
+~~~ bash
 rm *.jpg
 ~~~
    
 If you'd rather not be prompted to confirm each deletion, execute the command below instead.
 
-[source,bash]
-~~~
+~~~ bash
 rm -f *.jpg
 ~~~
 
@@ -532,8 +498,7 @@ Just be careful with that `-f` switch, as it "forces" deletion without prompting
 
 If you'd like to check the correctness of your program with `check50`, you may execute the below.
 
-[source,bash]
-~~~
+~~~ bash
 check50 2014.fall.pset4.recover recover.c
 ~~~
 
@@ -575,12 +540,11 @@ video::yVlPM3FajuA[youtube,height=540,width=960]
 
 ## How to Submit
 
-=## Step 1 of 2
+### Step 1 of 2
 
 When ready to submit, open up a Terminal window and navigate your way to `~/Dropbox`.  Create a ZIP (i.e., compressed) file containing your entire `pset4` directory by executing the below.  Incidentally, `-r` means "recursive," which in this case means to ZIP up everything inside of `pset4`, including any subdirectories (or even subsubdirectories!).
 
-[source]
-~~~
+~~~ bash
 zip -r pset4.zip pset4
 ~~~
 
@@ -593,7 +557,7 @@ If you type `ls` thereafter, you should see that you have a new file called `pse
 * Click *Start upload* to upload your ZIP file to CS50's servers.
 * On the screen that appears, you should see a window with *No File Selected*.  If you move your mouse toward the window's lefthand side, you should see a list of the files you uploaded.  Click each to confirm the contents of each.  (No need to click any other buttons or icons.)  If confident that you submitted the files you intended, consider your source code submitted!  If you'd like to re-submit different (or modified) files, simply return to https://cs50.harvard.edu/submit[cs50.harvard.edu/submit] and repeat these steps.  You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
 
-=## Step 2 of 2
+### Step 2 of 2
 
 Head to https://forms.cs50.net/2014/fall/psets/4/ where a short form awaits.  Once you have submitted that form (as well as your source code), you are done!
 
