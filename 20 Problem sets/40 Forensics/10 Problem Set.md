@@ -552,6 +552,7 @@ zip -r pset4.zip pset4
 ~~~
 
 If you type `ls` thereafter, you should see that you have a new file called `pset4.zip` in `~/Dropbox`.  (If you realize later that you need to make a change to some file and re-ZIP everything, you can delete the ZIP file you already made with `rm pset4.zip`, then create a new ZIP file as before.)
+
 * Once done creating your ZIP file, open up Chrome _inside_ of the appliance (not on your own computer) and visit https://cs50.harvard.edu/submit[cs50.harvard.edu/submit], logging in if prompted.
 * Click *Submit* toward the window's top-left corner.
 * Under *Problem Set 4* on the screen that appears, click *Upload New Submission*.
