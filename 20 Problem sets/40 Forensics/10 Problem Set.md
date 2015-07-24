@@ -88,11 +88,11 @@ First, curl up with Jason's short on file I/O and Rob's short on structs.  Just 
 
 Next, join Nate on a tour of `valgrind`, a command-line tool that will help you find "memory leaks": memory that you've allocated (i.e., asked the operating system for), as with `malloc`, but not freed (i.e., given back to the operating system).
 
-video::fvTsFjDuag8[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/fvTsFjDuag8?rel=0)
 
 Finally, remind yourself how `gdb` works if you've forgotten or not yet used!
 
-video::USPvePv1uzE[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/USPvePv1uzE?rel=0)
 
 ##  Getting Started
 
@@ -390,7 +390,7 @@ Because `whodunit` can be implemented in several ways, you won't be able to chec
 
 But here is Zamyla!
 
-video::AkEpi5tQ9Qc[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/AkEpi5tQ9Qc?rel=0)
 
 In `~/Dropbox/pset4/questions.txt`, answer the question below.
 
@@ -445,7 +445,7 @@ If you happen to use `malloc`, be sure to use `free` so as not to leak memory. T
 
 Here's Zamyla again!
 
-video::g8LEbJapnj8[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/g8LEbJapnj8?rel=0)
 
 ## recover
 
@@ -511,7 +511,7 @@ As before, if you happen to use `malloc`, be sure to use `free` so as not to lea
 
 Here's Zamyla!
 
-video::Y4vV61lbL3g[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/Y4vV61lbL3g?rel=0)
 
 ## Sanity Checks
 
@@ -539,7 +539,7 @@ For each (hey, that's a loop) of the computer scientists you find, we will treat
 
 Moreover, whoever finds and photographs the most computer scientists (and, in the event of a tie, submits first) shall be rewarded with a little something extra for their final project (or dorm room):
 
-video::yVlPM3FajuA[youtube,height=540,width=960]
+![embed](https://www.youtube.com/embed/yVlPM3FajuA?rel=0)
 
 ## How to Submit
 
