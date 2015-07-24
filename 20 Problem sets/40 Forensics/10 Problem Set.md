@@ -166,11 +166,11 @@ How fun!  Two subdirectories and a file.  Who knows what could be inside!  Let's
 
 If you ever saw Windows XP's default wallpaper (think rolling hills and blue skies), then you've seen a BMP.  If you've ever looked at a webpage, you've probably seen a GIF.  If you've ever looked at a digital photo, you've probably seen a JPEG.  If you've ever taken a screenshot on a Mac, you've probably seen a PNG.  Read up online on the BMP, GIF, JPEG, and PNG file formats.   Then, open up `questions.txt` in `~/Dropbox/pset4`, as with `gedit`, and tell us the below.
 
-[start=0]
-. How many different colors does each format support?
-. Which of the formats supports animation?
-. What's the difference between lossy and lossless compression?
-. Which of these formats is lossy-compressed?
+0. How many different colors does each format support?
+1. Which of the formats supports animation?
+2. What's the difference between lossy and lossless compression?
+3. Which of these formats is lossy-compressed?
+{:start="0"}
 
 Next, curl up with the article from MIT at <http://cdn.cs50.net/2014/fall/psets/4/garfinkel.pdf>.
 
@@ -178,7 +178,7 @@ Though somewhat technical, you should find the article's language quite accessib
 
 4. What happens, technically speaking, when a file is deleted on a FAT file system?
 5. What can someone like you do to ensure (with high probability) that files you delete cannot be recovered?
-{:start=4}
+{:start="4"}
 
 Anyhow, welcome to Tudor Mansion.  Your host, Mr. John Boddy, has met an untimely end—he's the victim of foul play.  To win this game, you must determine `whodunit`.
 
@@ -395,7 +395,7 @@ But here is Zamyla!
 In `~/Dropbox/pset4/questions.txt`, answer the question below.
 
 18. Whodunit?
-{:start=18}
+{:start="18"}
 
 ## resize
 
