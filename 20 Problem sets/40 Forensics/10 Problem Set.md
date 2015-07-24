@@ -13,10 +13,10 @@ Questions?  Head to discuss or join classmates at office hours!
 
 * Chapters 18, 24, 25, 27, and 28 of _Absolute Beginner's Guide to C_
 * Chapters 9, 11, 14, and 16 of _Programming in C_
-* http://www.cprogramming.com/tutorial/cfileio.html
-* http://en.wikipedia.org/wiki/BMP_file_format
-* http://en.wikipedia.org/wiki/Hexadecimal
-* http://en.wikipedia.org/wiki/Jpg
+* <http://www.cprogramming.com/tutorial/cfileio.html>
+* <http://en.wikipedia.org/wiki/BMP_file_format>
+* <http://en.wikipedia.org/wiki/Hexadecimal>
+* <http://en.wikipedia.org/wiki/Jpg>
 
 [^1]: The Wikipedia articles are a bit dense; feel free to skim or skip!
 
@@ -190,7 +190,7 @@ You long ago threw away that piece of red plastic from childhood that would solv
 
 But, first, some background.
 
-Perhaps the simplest way to represent an image is with a grid of pixels (i.e., dots), each of which can be of a different color.  For black-and-white images, we thus need 1 bit per pixel, as 0 could represent black and 1 could represent white, as in the below.  (Image adapted from http://www.brackeen.com/vga/bitmaps.html[].)
+Perhaps the simplest way to represent an image is with a grid of pixels (i.e., dots), each of which can be of a different color.  For black-and-white images, we thus need 1 bit per pixel, as 0 could represent black and 1 could represent white, as in the below.  (Image adapted from <http://www.brackeen.com/vga/bitmaps.html>.)
 
 ![grid of pixels](grid.png)
 
@@ -529,7 +529,7 @@ Before you consider this problem set done, best to ask yourself these questions 
 * Are you sure that `recover` doesn't have any memory leaks?
 * Are all of your files where they should be in `~/Dropbox/pset4`?
 
-As always, if you can't answer "yes" to one or more of the above because you're having some trouble, do drop by office hours or turn to https://cs50.harvard.edu/discuss[cs50.harvard.edu/discuss]!
+As always, if you can't answer "yes" to one or more of the above because you're having some trouble, do drop by office hours!
 
 ## Fabulous Prizes
 
