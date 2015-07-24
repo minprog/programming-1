@@ -1,3 +1,7 @@
+# Problem Set 3: Breakout
+
+Questions?  Head to Slack or join classmates at office hours!
+
 # Objectives
 
 * Accustom you to reading someone else’s code.

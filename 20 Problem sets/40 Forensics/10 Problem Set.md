@@ -1,6 +1,6 @@
 # Problem Set 4: Forensics
 
-Questions?  Head to discuss or join classmates at office hours!
+Questions?  Head to Slack or join classmates at office hours!
 
 ## Objectives
 

@@ -1,3 +1,7 @@
+# Problem Set 1: Mario
+
+Questions?  Head to Slack or join classmates at office hours!
+
 # Objectives
 
 * Get comfortable with Linux.

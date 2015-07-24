@@ -1,3 +1,7 @@
+# Problem Set 0: Linux
+
+Questions?  Head to Slack or join classmates at office hours!
+
 # Objectives
 
 * Introduce the command line.

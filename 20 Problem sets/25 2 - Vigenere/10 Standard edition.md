@@ -1,3 +1,7 @@
+# Problem Set 2: Vigenere
+
+Questions?  Head to Slack or join classmates at office hours!
+
 Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
 
 # Objectives
