@@ -68,10 +68,13 @@ Your work on this problem set will be evaluated along four axes primarily.
 
 Scope
 : To what extent does your code implement the features required by our specification?
+
 Correctness
 : To what extent is your code consistent with our specifications and free of bugs?
+
 Design
 : To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
+
 Style
 : To what extent is your code readable (i.e., commented and indented with variables aptly named)?
 
