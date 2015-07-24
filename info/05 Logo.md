@@ -1,0 +1,1 @@
+![CS50 @ Minor Programmeren](cs50.png)
