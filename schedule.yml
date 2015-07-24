@@ -1,0 +1,42 @@
+- Week 1:
+    - description: "Binary. ASCII. Algorithms. Pseudocode. Source code. Compiler. Object code. Scratch. Statements. Boolean expressions. Conditions. Loops. Variables. Functions. Arrays. Threads. Events."
+    - Lecture 0: '/lectures/week-0'
+    - Lecture 0 continued: '/lectures/week-0-ct-d'
+    - Problem set 0 - Scratch [friday deadline]: '/problem-sets/0-scratch'
+    - Understanding Hardware [friday deadline]: '/understanding/hardware'
+- Week 2:
+    - description: "Linux. C. Compiling. Libraries. Types. Standard output."
+    - Lecture 1: '/lectures/week-1'
+    - Problem set 0 - Linux [friday deadline]: '/problem-sets/0-linux'
+    - Understanding Hardware (ct'd) [friday deadline]: '/understanding/hardware-ct-d'
+- Week 3:
+    - description: "Linux. C. Compiling. Libraries. Types. Standard output."
+    - Lecture 1 continued: '/lectures/week-1-ct-d'
+    - Section 1: '/sections/section-1'
+    - Problem set 1 - Mario [friday deadline]: '/problem-sets/1-mario'
+    - Understanding Internet [friday deadline]: '/understanding/internet'
+- Week 4:
+    - description: "Linux. C. Compiling. Libraries. Types. Standard output."
+    - Lecture 2: '/lectures/week-2'
+    - Problem set 1 - Greedy [friday deadline]: '/problem-sets/1-greedy'
+    - Understanding Internet (ct'd) [friday deadline]: '/understanding/internet-ct-d'
+- Week 5:
+    - description: "Casting. Imprecision. Switches. Scope. Strings. Arrays. Cryptography."
+    - Lecture 2 continued: '/lectures/week-2-ct-d'
+    - Lecture 3: '/lectures/week-3'
+    - Section 2: '/sections/section-2'
+    - Problem set 2 - Caesar [friday deadline]: '/problem-sets/2-caesar'
+    - Understanding Security [friday deadline]: '/understanding/security'
+- Week 6:
+    - description: "Command-line arguments. Searching. Sorting. Bubble sort. Selection sort. Insertion sort. O. Ω."
+    - Lecture 3 continued: '/lectures/week-3-ct-d'
+    - Problem set 2 - Vigenere [friday deadline]: '/problem-sets/2-vigenere'
+    - Understanding Multimedia [friday deadline]: '/understanding/multimedia'
+- Week 7:
+    - description: "Stack. Debugging. File I/O. Hexadecimal. Strings. Pointers. Dynamic memory allocation."
+    - Lecture 4: '/lectures/week-4'
+    - Section 3: '/sections/section-3'
+    - Problem set 3 - Breakout [friday deadline]: '/problem-sets/3-breakout'
+- Week 8:
+    - description: "Quiz 0."
+    - Quiz 0: '/resources/quiz'
