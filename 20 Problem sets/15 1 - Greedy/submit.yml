@@ -1,4 +1,0 @@
-name: greedy
-optional:
-    - greedy.c
-    - credit.c
