@@ -390,7 +390,7 @@ Curl up with at least two other shorts at <https://cs50.harvard.edu/shorts/1>. S
 
 Before forging ahead, you might want to review some of the examples that we looked at in Week 1's lectures and take a look at a few more, the "source code" for which can be found at <https://cs50.harvard.edu/lectures/1>. Allow me to take you on a tour, though feel free to forge ahead on your own if you'd prefer. Not to worry if your appliance also looks a bit different from mine.
 
-![embed](http://www.youtube.com/embed/bQnyxpf0vk0?showinfo=0&rel=0&list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV)
+![embed](http://www.youtube.com/embed/bQnyxpf0vk0?rel=0&list=PLhQjrBD2T380JCGC3qD3nGpqt8iIjx2fV)
 
 ## Itsa Mario
 
