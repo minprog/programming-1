@@ -1,4 +1,0 @@
-name: vigenere
-optional:
-    - vigenere.c
-    - crack.c
