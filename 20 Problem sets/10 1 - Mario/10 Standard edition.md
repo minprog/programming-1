@@ -109,7 +109,7 @@ and then hitting Enter on your keyboard. So long as your computer (and, thus, th
 
 ### Dropboxing
 
-Next, follow the instructions at https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox to configure the appliance to use Dropbox so that your work is automatically backed up, just in case something goes wrong with your appliance. (If you really don't want to use Dropbox, that's fine, but realize your files won't be backed up as a result!) If you don't yet have a Dropbox account, sign up when prompted for the free (2 GB) plan. You're welcome to install Dropbox on your own computer as well (outside of the appliance), per https://www.dropbox.com/install, but no need if you'd rather not; just inside the appliance is fine.
+Next, follow the instructions at <https://manual.cs50.net/appliance/2014/#how_to_enable_dropbox> to configure the appliance to use Dropbox so that your work is automatically backed up, just in case something goes wrong with your appliance. (If you really don't want to use Dropbox, that's fine, but realize your files won't be backed up as a result!) If you don't yet have a Dropbox account, sign up when prompted for the free (2 GB) plan. You're welcome to install Dropbox on your own computer as well (outside of the appliance), per <https://www.dropbox.com/install>, but no need if you'd rather not; just inside the appliance is fine.
 
 If you're already a Dropbox user but don't want your personal files to be synched into the appliance, simply enable *Selective Sync*, per the CS50 Manual's instructions.
 
@@ -153,7 +153,7 @@ or even
 cd ~/Dropbox/pset1
 ~~~
 
-followed by Enter to [underline]##c##hange your [underline]##d##irectory to *~/Dropbox/pset1* (ergo, `cd`). You should find that your prompt changes to
+followed by Enter to change your directory to *~/Dropbox/pset1* (ergo, `cd`). You should find that your prompt changes to
 
 ~~~ bash
 jharvard@appliance (~/Dropbox/pset1):
@@ -181,7 +181,7 @@ jharvard@appliance (~):
 
 Phew, home sweet home. Make sense? If not, no worries; it soon will! It's in this terminal window that you'll soon be compiling your first program! For now, though, close `gedit` (via *File > Quit*) and, with it, *hello.txt*.
 
-Incidentally, if the need arises, know that you can transfer files to and from the appliance per the instructions at https://manual.cs50.net/appliance/2014/#how_transfer_files_between_appliance_and_your_computer.
+Incidentally, if the need arises, know that you can transfer files to and from the appliance per the instructions at <https://manual.cs50.net/appliance/2014/#how_transfer_files_between_appliance_and_your_computer>.
 
 ## Hello, C
 
@@ -319,9 +319,9 @@ check50 2014.fall.pset1.hello hello.c
 Assuming your program is correct, you should then see output like
 
 ~~~ bash
-[green]#:) hello.c exists#
-[green]#:) hello.c compiles#
-[green]#:) prints "hello, world\n"#
+:) hello.c exists
+:) hello.c compiles
+:) prints "hello, world\n"
 ~~~
 
 where each green smiley means your program passed a check (i.e., test). You may also see a URL at the bottom of ``check50``'s output, but that's just for staff (though you're welcome to visit it).
@@ -329,11 +329,11 @@ where each green smiley means your program passed a check (i.e., test). You may 
 If you instead see yellow or red smileys, it means your code isn't correct! For instance, suppose you instead see the below.
 
 ~~~ bash
-[red]#:( hello.c exists#
+:( hello.c exists
   \ expected hello.c to exist
-[yellow]#:| hello.c compiles#
+:| hello.c compiles
   \ can't check until a frown turns upside down
-[yellow]#:| prints "hello, world\n"#
+:| prints "hello, world\n"
   \ can't check until a frown turns upside down
 ~~~
 
@@ -342,9 +342,9 @@ Because `check50` doesn't think `hello.c` exists, as per the red smiley, odds ar
 Suppose instead you see the below.
 
 ~~~ bash
-[green]#:) hello.c exists#
-[green]#:) hello.c compiles#
-[red]#:( prints "hello, world\n"#
+:) hello.c exists
+:) hello.c compiles
+:( prints "hello, world\n"
   \ expected output, but not "hello, world"
 ~~~
 
@@ -354,7 +354,7 @@ Know that `check50` won't actually record your scores in CS50's gradebook. Rathe
 
 ## CS50 Style
 
-In addition to `check50`, the CS50 Appliance comes with `style50`, a tool with which you can evaluate your code's style vis-à-vis link:https://manual.cs50.net/style/[CS50's style guide]. To run it on, say, `hello.c`, execute the below:
+In addition to `check50`, the CS50 Appliance comes with `style50`, a tool with which you can evaluate your code's style vis-à-vis [CS50's style guide](https://manual.cs50.net/style/). To run it on, say, `hello.c`, execute the below:
 
 ~~~ bash
 style50 hello.c
@@ -364,22 +364,24 @@ You should see zero or more lines of suggestions. Yellow smileys indicate warnin
 
 *If you instead see `java: command not found`, execute `sudo apt-get -y install default-jre-headless` (which will install software that we forgot to install for you!), then try again.*
 
-*Note that `style50` is still a work in progress (a "beta" version, so to speak), so best to consult link:https://manual.cs50.net/style/[CS50's style guide] for official guidance.*
+*Note that `style50` is still a work in progress (a "beta" version, so to speak), so best to consult [CS50's style guide](https://manual.cs50.net/style/) for official guidance.*
 
 ## Shorts
 
 Head to <https://cs50.harvard.edu/shorts/1> and curl up with Nate's short on libraries. Be sure you're reasonably comfortable answering the below when it comes time to submit this problem set's form!
 
 * What's a library?
+
 * What role does
-	~~~ c
-	#include <cs50.h>
-	~~~
+
+		#include <cs50.h>
+
 	play when you write it atop some program?
+
 * What role does
-	~~~ c
-	-lcs50
-	~~~
+
+		-lcs50
+
     play when you pass it as a "command-line argument" to `clang`? (Recall that `make`, the program we've been using to compile programs in lecture, simply calls `clang` with some command-line arguments for you to save you some keystrokes.)
 
 Curl up with at least two other shorts at <https://cs50.harvard.edu/shorts/1>. Some additional questions may be in your future!
@@ -399,16 +401,16 @@ Toward the end of World 1-1 in Nintendo's Super Mario Brothers, Mario must ascen
 Write, in a file called `mario.c` in your `~/Dropbox/pset1` directory, a program that recreates this half-pyramid using hashes (`#`) for blocks. However, to make things more interesting, first prompt the user for the half-pyramid's height, a non-negative integer no greater than `23`. (The height of the half-pyramid pictured above happens to be `8`.) If the user fails to provide a non-negative integer no greater than `23`, you should re-prompt for the same again. Then, generate (with the help of `printf` and one or more loops) the desired half-pyramid. Take care to align the bottom-left corner of your half-pyramid with the left-hand edge of your terminal window, as in the sample output below, wherein underlined text represents some user's input.
 
 ~~~
-jharvard@appliance (~/dropbox/pset1): [underline]#./mario#
-height: [underline]#8#
-       pass:[##]
-      pass:[###]
-     pass:[####]
-    pass:[#####]
-   pass:[######]
-  pass:[#######]
- pass:[########]
-pass:[#########]
+jharvard@appliance (~/dropbox/pset1): ./mario
+height: 8
+       ##
+      ###
+     ####
+    #####
+   ######
+  #######
+ ########
+#########
 ~~~
 
 Note that the rightmost two columns of blocks must be of the same height. No need to generate the pipe, clouds, numbers, text, or Mario himself.
@@ -416,12 +418,12 @@ Note that the rightmost two columns of blocks must be of the same height. No nee
 By contrast, if the user fails to provide a non-negative integer no greater than `23`, your program's output should instead resemble the below, wherein underlined text again represents some user's input. (Recall that `GetInt` will handle some, but not all, re-prompting for you.)
 
 ~~~
-jharvard@appliance (~/Dropbox/pset1): [underline]#./mario#
-Height: [underline]#-2#
-Height: [underline]#-1#
-Height: [underline]#foo#
-Retry: [underline]#bar#
-Retry: [underline]#1#
+jharvard@appliance (~/Dropbox/pset1): ./mario
+Height: -2
+Height: -1
+Height: foo
+Retry: bar
+Retry: 1
 ##
 ~~~
 
@@ -461,7 +463,7 @@ Not sure where to begin? Not to worry. A walkthrough awaits!
 
 ## Time for Change
 
-Speaking of money, "counting out change is a blast (even though it boosts mathematical skills) with this spring-loaded changer that you wear on your belt to dispense quarters, dimes, nickels, and pennies into your hand." Or so says http://hearthsong.com/[the website] on which we found this here accessory (for ages 5 and up).
+Speaking of money, "counting out change is a blast (even though it boosts mathematical skills) with this spring-loaded changer that you wear on your belt to dispense quarters, dimes, nickels, and pennies into your hand." Or so says [the website](http://hearthsong.com/) on which we found this here accessory (for ages 5 and up).
 
 ![Change-Making Accessory](accessory.png)
 
@@ -480,11 +482,11 @@ We ask that you use `GetFloat` so that you can handle dollars and cents, albeit 
 Incidentally, do beware the inherent imprecision of floating-point values. For instance, `0.01` cannot be represented exactly as a float. Try printing its value to, say, `50` decimal places, with code like the below:
 
 ~~~ c
-float f # 0.01;
+float f = 0.01;
 printf("%.50f\n", f);
 ~~~
 
-Before doing any math, then, you'll probably want to convert the user's input entirely to cents (i.e., from a `float` to an `int`) to avoid tiny errors that might otherwise add up! Of course, don't just cast the user's input from a `float` to an `int`! After all, how many cents does one dollar equal? And be careful to https://cs50.harvard.edu/resources/cppreference.com/stdmath/round.html[round] and not truncate your pennies! 
+Before doing any math, then, you'll probably want to convert the user's input entirely to cents (i.e., from a `float` to an `int`) to avoid tiny errors that might otherwise add up! Of course, don't just cast the user's input from a `float` to an `int`! After all, how many cents does one dollar equal? And be careful to [round](https://cs50.harvard.edu/resources/cppreference.com/stdmath/round.html) and not truncate your pennies! 
 
 Not sure where to begin? Not to worry, start with a walkthrough:
 
@@ -493,9 +495,9 @@ Not sure where to begin? Not to worry, start with a walkthrough:
 Incidentally, so that we can automate some tests of your code, we ask that your program's last line of output be only the minimum number of coins possible: an integer followed by `\n`. Consider the below representative of how your own program should behave, wherein underlined text is some user's input.
 
 ~~~
-jharvard@appliance (~/Dropbox/pset1): [underline]#./greedy#
+jharvard@appliance (~/Dropbox/pset1): ./greedy
 O hai! How much change is owed?
-[underline]#0.41#
+0.41
 4
 ~~~
 
@@ -504,14 +506,14 @@ By nature of floating-point values, that user could also have inputted just `.41
 Of course, more difficult users might experience something more like the below.
 
 ~~~
-jharvard@appliance (~/Dropbox/pset1): [underline]#./greedy#
+jharvard@appliance (~/Dropbox/pset1): ./greedy
 O hai! How much change is owed?
-[underline]#-0.41#
+-0.41
 How much change is owed?
-[underline]#-0.41#
+-0.41
 How much change is owed?
-[underline]#foo#
-Retry: [underline]#0.41#
+foo
+Retry: 0.41
 4
 ~~~
 
