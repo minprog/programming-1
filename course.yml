@@ -11,17 +11,9 @@ license: <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0
 
 psets:
     - scratch
-    - mario
-    - greedy
-    - caesar
-    - vigenere
-    - find
-    - fifteen
-    - u1
-    - u2
-    - u3
-    - u4
-    - u5
-    - u6
+    - c
+    - crypto
+    - breakout
+    - forensics
     - quiz
-    - final
+    - resit
