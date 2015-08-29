@@ -1,3 +1,5 @@
+# CS50 style guide
+
 There's no one, right way to stylize code. But there are definitely a lot of
 wrong (or, at least, bad ways). Even so, CS50 does ask that you adhere to the
 green conventions below so that we can reliably analyze your code's style.
