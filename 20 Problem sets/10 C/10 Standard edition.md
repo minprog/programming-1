@@ -533,4 +533,8 @@ And if you'd like to play with the staff's own implementation of `greedy` in the
 ~cs50/pset1/greedy
 ~~~
 
+## Submitting
+
+To submit, please upload your files, below. If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+
 This was Problem Set 1.
