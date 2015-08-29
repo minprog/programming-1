@@ -1,4 +1,6 @@
-*Edition: September 2015 (v5.3)*
+![CS50 @ Minor Programmeren](cs50.png)
+
+*Edition: September 2015 (v5.3) HI-SPEED*
 
 Introduction to the intellectual enterprises of computer science and the art of
 programming. This course teaches students how to think algorithmically and
