@@ -1,8 +1,8 @@
 # Problem Set 1: C
 
-Questions?  Head to Slack or join classmates at office hours!
+Questions? Join classmates at office hours!
 
-# Objectives
+## Objectives
 
 * Get comfortable with Linux.
 
@@ -11,7 +11,7 @@ Questions?  Head to Slack or join classmates at office hours!
 * Solve some problems in C.
 
 
-# Recommended Reading
+## Recommended Reading
 
 * Pages 1--7, 9, and 10 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
 
@@ -62,7 +62,7 @@ If you commit some act that is not reasonable but bring it to the attention of t
 * Using resources during a quiz beyond those explicitly allowed in the quiz's instructions.
 * Viewing another's solution to a problem set's problem and basing your own solution on it.
 
-## Assessment
+### Assessment
 
 Your work on this problem set will be evaluated along four axes primarily.
 
@@ -532,24 +532,5 @@ And if you'd like to play with the staff's own implementation of `greedy` in the
 ~~~ bash
 ~cs50/pset1/greedy
 ~~~
-
-## How to Submit
-
-### Step 1 of 2
-
-* When ready to submit, open up Chrome _inside_ of the appliance (not on your own computer) and visit https://cs50.harvard.edu/submit[cs50.harvard.edu/submit], logging in if prompted.
-* Click *Submit* toward the window's top-left corner.
-* Under *Problem Set 1* on the screen that appears, click *Upload New Submission*.
-* On the screen that appears, click *Add files...*.  A window entitled *Open Files* should appear.
-* Navigate your way to `hello.c`, as by clicking *jharvard*, then double-clicking *Dropbox*, then double-clicking *pset1*, assuming you saved `hello.c` in `~/Dropbox/pset1`.  Once you find `hello.c`, click it once to select it, then click *Open*.
-* Click *Add files...* again, and a window entitled *Open Files* should appear again.
-* Navigate your way to `mario.c` as before.  Click it once to select it, then click *Open*.
-* Navigate your way to `greedy.c` as before.  Click it once to select it, then click *Open*.
-* Click *Start upload* to upload all of your files at once to CS50's servers.
-* On the screen that appears, you should see a window with *No File Selected*.  If you move your mouse toward the window's lefthand side, you should see a list of the files you uploaded.  Click each to confirm the contents of each.  (No need to click any other buttons or icons.)  If confident that you submitted the files you intended, consider your source code submitted!  If you'd like to re-submit different (or modified) files, simply return to https://cs50.harvard.edu/submit[cs50.harvard.edu/submit] and repeat these steps.  You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
-
-### Step 2 of 2
-
-Head to https://forms.cs50.net/2014/fall/psets/1/ where a short form awaits.  Once you have submitted that form (as well as your source code), you are done!
 
 This was Problem Set 1.

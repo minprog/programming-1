@@ -1,6 +1,6 @@
 # Problem Set 0: Scratch
 
-Questions?  Head to Slack or join classmates at office hours!
+Questions? Join classmates at office hours!
 
 ## Objectives
 
@@ -139,8 +139,6 @@ Incidentally, if curious to learn more about the design of Scratch itself, you m
 
 ## How to submit
 
-To submit this problem set, visit TODO.  You'll find that a few questions await.  Be extra-sure that your answers are correct, particularly your project's URL on MIT's website, lest we overlook your submission!
-
-CS50 collects quite a bit of data for research purposes. Please forgive the length of this first problem set's form! In total, the form will probably take 30 or more minutes to fill out. Not to worry if you finish shortly after the problem set's deadline, so long as you start before the deadline. Future problem sets' forms will be much quicker!
+To submit this problem set, enter your project's URL below.
 
 This was Problem Set 0.
