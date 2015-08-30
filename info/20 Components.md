@@ -8,67 +8,32 @@ These discuss all theory that is needed to pass the quizzes. Watch the lectures 
 
 ## Walkthroughs
 
-Integrated into problem sets are "walkthroughs," videos via which the course's staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs before asking questions about problem sets at office hours.
+Integrated into problem sets are "walkthroughs," videos via which the course's staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs while starting with your problem sets.
+
+## Office Hours
+
+Office hours are opportunities for assistance with problem sets alongside the
+course's teaching assistants. Office hours ordinarily take place from 1PM to 5PM on Mondays through Fridays.
+
+## Tutoring
+
+For students who avail themselves of the course's other resources but still
+find themselves struggling, the course offers tutoring, to the extent possible,
+providing opportunities for students to work with the course's staff one-on-one
+or in particularly small groups. To arrange, contact the course's heads (shoot a question at the top of this site).
 
 ## Problem Sets
 
-The 7 problem sets are the hard work of the course, on which you will spend most of the lab time and then some more.
+Five problem sets are assigned during the course. Each is due by a pre-set deadline. However, you have five "late days" that you may "spend" during the semester, each of which provides you with an extension of twenty-four hours. *You may spend no more than one late day on any particular problem set.* You need not inform the staff of your use of a late day; usage of late days is tracked automatically. Lateness of electronic submissions is determined down to the minute by submissions' timestamps. Submitting more than seven minutes late is equivalent to submitting twenty-four hours late. Late work is not ordinarily accepted once you have exhausted your late days, except in cases of medical emergency.
 
-The deadlines are strict. If you're following the usual, 8-week schedule, you
-have a deadline on each Friday of the course. Late work is not ordinarily
-accepted, except in case of medical emergency. Technical difficulties are not
-considered emergencies.
-
-In order to accommodate students with different backgrounds, some problem sets
-are released in two editions: a standard edition intended for most students and
-a "Hacker Edition" intended for some students. Both editions essentially cover
-the same material. But the Hacker Edition typically presents that material from
-a more technical angle and poses more sophisticated questions. Hacker Editions
-are graded separately from standard editions, but those students who submit the
-former do not receive any form of extra credit outright. When determining
-grades at term's end, however, we do bear in mind submissions of Hacker
-Editions.
+In order to accommodate students with different backgrounds, some problem sets are released in two editions: a standard edition intended for most students and a "Hacker Edition" intended for some students. Both editions essentially cover the same material. But the Hacker Edition typically presents that material from a more technical angle and poses more sophisticated questions. Hacker Editions are graded separately from standard editions, but those students who submit the former do not receive any form of extra credit outright. When determining grades at term's end, however, we do bear in mind submissions of Hacker Editions.
 
 To be clear, we encourage most students (including aspiring computer scientists) to tackle the standard editions. However, you may choose, week to week, which edition to submit. You may not submit both or some amalgam of the two.
 
-Problem sets will be evaluated along the following axes:
-
-* Correctness --- have you tried doing everything?
-
-	1. whole part is missing, or too many bugs to get it working
-    2. has to be fixed to get it running
-	3. it runs without problems, but a small part is unfinished
-	4. everything is there, but not always the correct result
-	5. even with erroneous input the program still works
-
-* Design --- how orderly is your code?
-
-	1. lots of complex code
-	2. too complicated, but you seem to know your stuff
-	3. straightforward code, could be put a bit inefficiently
-	4. makes good use of the possibilities in the language
-	5. you've read up on design and applied it to your code
-
-* Style --- how readable is your code?
-
-	1. not easily readable overall
-	2. you've read the style guide but haven't applied it consistently
-	3. your code is readable and consistent, barring some minor problems
-	4. the code is consistent, and only well-reasoned deviations from the guide
-	5. you've clearly made your own choices but maintained perfect consistency
-
-Note that having a 1 for correctness means that you will fail the problem set. We think it is most important that you try every aspect of the problem, more so than that you get some of it correct.
+Although you must submit all five problem sets, your lowest score among those problem sets on which you received a perfect score for the axis of scope will be dropped when final grades are determined.
 
 ## Quiz
 
 The course has one 75-minute quiz. It is "closed-book," but you may utilize during each quiz one two-sided page (A4) of notes, typed or written, and a pen or pencil, nothing else.
 
 Unless arranged with the course's heads in advance, quizzes cannot ordinarily be taken at alternative times even if missed by accident, except in cases of medical emergency.
-
-You are required to have studied the following components for these exams:
-
-* Problem sets 0 (Scratch) through 3 (Fifteen), including all specification texts and walkthroughs belonging to these problem sets.
-* Lectures 0 (Wednesday) through lecture 4 (Wednesday).
-* Sections 1, 2 and 3.
-
-The quiz is not about any of the "Understanding computers and the internet" videos, although some of the topics in those videos do appear in the CS50 lectures; these can indeed be part of the quiz.
