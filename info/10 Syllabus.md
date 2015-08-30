@@ -6,13 +6,12 @@ Introduction to the intellectual enterprises of computer science and the art of 
 
 ## Staff
 
-The course's staff consists of your instructor and many student assistants. Due
-to the size of the course, we can't usually respond to email inquiries about
-your problem sets. You are encouraged to speak to an assistant or the
-instructor at the lab.
+The course's staff consists of your instructor and many teaching assistants.
+You are encouraged to speak to an assistant or the instructor at the lab.
 
 Martijn Stegeman  
-*instructor*
+*instructor*  
+<m.stegeman@uva.nl>
 
 Ben Witzen  
 *head TA*
