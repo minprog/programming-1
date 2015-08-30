@@ -10,6 +10,10 @@ These discuss all theory that is needed to pass the quizzes. Watch the lectures 
 
 Integrated into problem sets are "walkthroughs," videos via which the course's staff offer direction on where to begin and how to approach a challenge. You are expected to watch walkthroughs while starting with your problem sets.
 
+## Sections
+
+Lectures are supplemented by weekly, 60-minute sections led by the teaching fellows. Sections provide you with opportunities to explore the course’s material in a more intimate environment, with only your teaching fellow and a group of classmates present, as well as to dive into hands-on activities.
+
 ## Office Hours
 
 Office hours are opportunities for assistance with problem sets alongside the
