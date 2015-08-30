@@ -15,7 +15,9 @@ Martijn Stegeman
 *instructor*
 
 Ben Witzen  
-*head TA*  
+*head TA*
+
+Have a question? Send us a message by using the "Ask" menu, above. You can use it from home, or during office hours.
 
 ## Prerequisites
 
