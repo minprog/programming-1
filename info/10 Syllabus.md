@@ -62,9 +62,7 @@ fellows. Remarkable effort and upward trending are always considered.
 
 No books are required for this course. However, we do have a number of books
 available for you to use in the lab. You are welcome to pick up one of
-these and read them as a preparation for or review of one of the lectures.
-
-If one seeks additional reference, here are some good suggestions:
+these and read them as a preparation for or review of one of the lectures. If one seeks additional reference, here are some good suggestions:
 
 *For Those Less Comfortable*
 
