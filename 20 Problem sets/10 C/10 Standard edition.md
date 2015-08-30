@@ -535,6 +535,12 @@ And if you'd like to play with the staff's own implementation of `greedy` in the
 
 ## Submitting
 
-To submit, please upload your files, below. If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+To submit, please upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 1:
+
+- `hello.c`
+- `greedy.c`
+- `mario.c`
+
+If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
 
 This was Problem Set 1.
