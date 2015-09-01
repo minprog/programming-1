@@ -37,7 +37,7 @@ doubles that of your CPU. Now, is it twice as fast? Why or why not?
 improve the efficiency of a CPU?
 
 4. If Moore's Law says processing power will double every 18 months, then why can't our
-processors have phenomenal cosmic power? (http://www.youtube.com/watch?v=SfTfXLLJlzM)
+processors have phenomenal cosmic power? (https://www.youtube.com/watch?v=SfTfXLLJlzM)
 That is, why can't this trend continue forever
 
 5. It's Halloween again, and you and 7 of your closest friends have a huge bag of candy.
