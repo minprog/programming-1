@@ -267,7 +267,7 @@ We leave it to you to determine how best to test your implementation of `sort`. 
 
 Here’s Zamyla with some tips:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/U8k-0StE1Ik" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/U8k-0StE1Ik" frameborder="0" allowfullscreen></iframe>
 
 Again, if you’d like to play with the staff’s own implementation of `find` in the appliance, you may execute the below.
 
@@ -282,7 +282,7 @@ Now that `sort` (presumably) works, it’s time to improve upon `search`, the ot
 
 Here’s Zamyla again:
 
-<iframe width="711" height="400" src="http://www.youtube.com/embed/7DSRJj7qfP8" frameborder="0" allowfullscreen></iframe>
+<iframe width="711" height="400" src="https://www.youtube.com/embed/7DSRJj7qfP8" frameborder="0" allowfullscreen></iframe>
 
 
 # Backstory
