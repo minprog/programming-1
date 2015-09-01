@@ -67,11 +67,11 @@ All students must ordinarily submit this and all other problem sets to be eligib
 
 First curl up with Nate's short on binary, if not too familiar:
 
-![embed](http://www.youtube.com/embed/hacBFrgtQjQ?showinfo=0)
+![embed](http://www.youtube.com/embed/hacBFrgtQjQ)
 
 And then with Nate's short on ASCII:
 
-![embed](http://www.youtube.com/embed/UPlR4eMMCmI?showinfo=0)
+![embed](http://www.youtube.com/embed/UPlR4eMMCmI)
 
 Consider these questions rhetorical for now, but odds are they'll come up again! Not to worry if the answers aren't obvious at first. They're meant to induce a bit of thought! Week 0's first lecture and Nate's videos should provide you with the building blocks (daresay inputs!) with which to solve these problems.
 
@@ -81,7 +81,7 @@ Consider these questions rhetorical for now, but odds are they'll come up again!
 
 Incidentally, you might enjoy this tour by [Prof. Harry Lewis](http://lewis.seas.harvard.edu/) of  the [Harvard Mark I](http://en.wikipedia.org/wiki/Harvard_Mark_I), one of the world's earliest (electro-mechanical) computers, whose purpose was, well, to compute (albeit slowly by today's standards)!
 
-![embed](http://www.youtube.com/embed/4ObouwCHk8w?showinfo=0)
+![embed](http://www.youtube.com/embed/4ObouwCHk8w)
 
 ## Itching to Program?
 
