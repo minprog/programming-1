@@ -115,7 +115,7 @@ If you're already a Dropbox user but don't want your personal files to be synche
 
 Incidentally, if curious how Dropbox itself works, allow us to introduce Thomas Carriero '08 and Alex Allain '06, both former CS50 TFs!
 
-![embed](http://www.youtube.com/embed/VECV6r9s5SE?showinfo=0&rel=0)
+![embed](http://www.youtube.com/embed/VECV6r9s5SE?rel=0)
 
 ### File Manager
 
@@ -187,7 +187,7 @@ Incidentally, if the need arises, know that you can transfer files to and from t
 
 First, a hello from Zamyla if you'd like a tour of what's to come, particularly if less comfortable. Note that her version of the CS50 Appliance might look a bit different from yours, but not a problem.
 
-![embed](http://www.youtube.com/embed/HkQD6aw7oDc?showinfo=0&rel=0)
+![embed](http://www.youtube.com/embed/HkQD6aw7oDc?rel=0)
 
 Shall we have you write your first program? Go ahead and launch `gedit`. (Remember how?) You should find yourself faced with another *Unsaved Document 1*. Go ahead and save the file as `hello.c` (not `hello.txt`) inside of `pset1`, just as before. (Remember how?) Once the file is saved, the window's title should change to *hello.c (~/Dropbox/pset1) - gedit*, and the tab's title should change to *hello.c*. (If either does not, best to close `gedit` and start fresh! Or ask for help!)
 
@@ -459,7 +459,7 @@ And if you'd like to play with the staff's own implementation of mario in the ap
 
 Not sure where to begin? Not to worry. A walkthrough awaits!
 
-![embed](http://www.youtube.com/embed/z32BxNe2Sfc?showinfo=0&rel=0)
+![embed](http://www.youtube.com/embed/z32BxNe2Sfc?rel=0)
 
 ## Time for Change
 
@@ -490,7 +490,7 @@ Before doing any math, then, you'll probably want to convert the user's input en
 
 Not sure where to begin? Not to worry, start with a walkthrough:
 
-![embed](http://www.youtube.com/embed/9dZzyl7dCuw?showinfo=0&rel=0)
+![embed](http://www.youtube.com/embed/9dZzyl7dCuw?rel=0)
 
 Incidentally, so that we can automate some tests of your code, we ask that your program's last line of output be only the minimum number of coins possible: an integer followed by `\n`. Consider the below representative of how your own program should behave, wherein underlined text is some user's input.
 
