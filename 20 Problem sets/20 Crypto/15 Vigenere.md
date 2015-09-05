@@ -51,4 +51,4 @@ To submit, please upload your files at the bottom of the page. These are the fil
 
 If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
 
-This was Problem Set 1.
+This was Problem Set 2.
