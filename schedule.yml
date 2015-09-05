@@ -7,8 +7,8 @@ Week 1:
     'Lecture 1 Mon [preparation]': '/lectures/week-1-mon'
     'Lecture 1 Wed [preparation]': '/lectures/week-1-wed'
 Week 2:
-    'Section [Tuesday]':
     'Problem set 1: C [deadline: Thursday]': '/psets/c'
+    'Section [Tuesday]':
     'Style guide [reference]': '/resources/style-guide'
     'Lecture 2 Mon [preparation]': '/lectures/week-2-mon'
     'Lecture 2 Wed [preparation]': '/lectures/week-2-wed'
