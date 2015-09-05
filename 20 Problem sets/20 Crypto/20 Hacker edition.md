@@ -12,9 +12,9 @@ Not sure if you would like to tackle this Hacker edition of Problem Set 2? Time 
 
 Please go to [this web page](http://cdn.cs50.net/2014/fall/psets/2/hacker2/hacker2.html) to do the hacker edition. Don't forget to come back here to submit your problems!
 
-## Submitting
+## How to submit
 
-To submit, please upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 1:
+To submit, please upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 2:
 
 - `initials.c`
 - `crack.c`
