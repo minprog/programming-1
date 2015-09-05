@@ -6,3 +6,10 @@ Week 1:
     'Lecture 1 Mon [Tuesday morning]': '/lectures/week-1-mon'
     'Lecture 1 Wed [Tuesday morning]': '/lectures/week-1-wed'
     'Problem set 1: C [deadline: Saturday]': '/problem-sets/c'
+Week 2:
+    'Lecture 2 Wed [Monday morning]': '/lectures/week-2-mon'
+    'Lecture 2 Fri [Monday morning]': '/lectures/week-2-wed'
+    'Problem set 2: Crypto [deadline: Thursday]': '/problem-sets/crypto'
+    "Don't forget the style guide!": '/resources/style-guide'
+    'Lecture 3 Mon [Wednesday morning]': '/lectures/week-1-mon'
+    'Lecture 3 Wed [Thursday morning]': '/lectures/week-1-wed'
