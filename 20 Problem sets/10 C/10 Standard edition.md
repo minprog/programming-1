@@ -15,7 +15,7 @@ Questions? Join classmates at office hours!
 
 * Pages 1--7, 9, and 10 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
 
-* Chapters 1--5, 9, and 11--17 of *Absolute Beginner’s Guide to C*.
+* Chapters 1--5, 9, and 11--17 of *Absolute Beginner's Guide to C*.
 
 * Chapters 1--6 of *Programming in C*.
 
@@ -533,9 +533,9 @@ And if you'd like to play with the staff's own implementation of `greedy` in the
 ~cs50/pset1/greedy
 ~~~
 
-## Submitting
+## How to submit
 
-To submit, please upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 1:
+To submit, upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 1:
 
 - `hello.c`
 - `greedy.c`
