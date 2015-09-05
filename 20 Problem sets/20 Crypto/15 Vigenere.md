@@ -1,7 +1,5 @@
 # Parlez-vous français?
 
-<iframe width="711" height="400" src="" frameborder="0" allowfullscreen></iframe>
-
 Well that last cipher was hardly secure. Fortunately, per [Nate's short](https://www.youtube.com/watch?v=9zASwVoshiM) on Vigenère's cipher, there's a more sophisticated algorithm out there. Suffice it to say it's French, per [http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). Though do not be mislead by the article's discussion of a tabula recta. Each ci can be computed with relatively simple arithmetic! You do not need a two-dimensional array.
 
 Vigenère's cipher improves upon Caesar's by encrypting messages using a sequence of keys (or, put another way, a keyword). In other words, if *p* is some plaintext and *k* is a keyword (i.e., an alphbetical string, whereby `A` and `a` represent 0, while `Z` and `z` represent 25), then each letter, *c<sub>i</sub>*, in the ciphertext, *c*, is computed as:
