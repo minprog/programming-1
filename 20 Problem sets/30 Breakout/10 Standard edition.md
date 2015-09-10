@@ -1,6 +1,6 @@
 # Problem Set 3: Breakout
 
-Questions?  Head to Slack or join classmates at office hours!
+Questions?  Join classmates at office hours!
 
 # Objectives
 
@@ -9,6 +9,7 @@ Questions?  Head to Slack or join classmates at office hours!
 * Acquaint you with event handling.
 * Impress your friends.
 
+*This pset with thanks to Eric Roberts of Stanford!*
 
 # Recommended Reading
 
@@ -403,16 +404,16 @@ Here's Zamyla again:
 
 # Backstory
 
-> One day in the late summer of 1975, Nolan Bushnell [founder of Atari and, um, Chuck E. Cheese's], defying the prevailing wisdom that paddle games were over, decided to develop a single-player version of Pong; instead of competing against an opponent, the player would volley the ball into a wall that lost a brick whenever it was hit. He called [Steve] Jobs into his office, sketched it out on his little blackboard, and asked him to design it. There would be a bonus, Bushnell told him, for every chip fewer than fifty that he used. Bushnell knew that Jobs was not a great engineer, but he assumed, correctly, that he would recruit [Steve] Wozniak, who was always hanging around. "I looked at it as a two-for-one thing," Bushnell recalled. "Woz was a better engineer."
+One day in the late summer of 1975, Nolan Bushnell [founder of Atari and, um, Chuck E. Cheese's], defying the prevailing wisdom that paddle games were over, decided to develop a single-player version of Pong; instead of competing against an opponent, the player would volley the ball into a wall that lost a brick whenever it was hit. He called [Steve] Jobs into his office, sketched it out on his little blackboard, and asked him to design it. There would be a bonus, Bushnell told him, for every chip fewer than fifty that he used. Bushnell knew that Jobs was not a great engineer, but he assumed, correctly, that he would recruit [Steve] Wozniak, who was always hanging around. "I looked at it as a two-for-one thing," Bushnell recalled. "Woz was a better engineer."
 
-> Wozniak was thrilled when Jobs asked him to help and proposed splitting the fee. "This was the most wonderful offer in my life, to actually design a game that people would use," he recalled. Jobs said it had to be done in four days and with the fewest chips possible. What he hid from Wozniak was that the deadline was one that Jobs had imposed, because he needed to get to the All One Farm to help prepare for the apple harvest. He also didn't mention that there was a bonus tied to keeping down the number of chips.
+Wozniak was thrilled when Jobs asked him to help and proposed splitting the fee. "This was the most wonderful offer in my life, to actually design a game that people would use," he recalled. Jobs said it had to be done in four days and with the fewest chips possible. What he hid from Wozniak was that the deadline was one that Jobs had imposed, because he needed to get to the All One Farm to help prepare for the apple harvest. He also didn't mention that there was a bonus tied to keeping down the number of chips.
 
-> "A game like this might take most engineers a few months," Wozniak recalled. "I thought that there was no way I could do it, but Steve made me sure that I could." So he stayed up four nights in a row and did it. During the day at HP, Wozniak would sketch out his design on paper. Then, after a fast-food meal, he would go right to Atari and stay all night. As Wozniak churned out the design, Jobs sat on a bench to his left implementing it by wire-wrapping the chips onto a breadboard. "While Steve was breadboarding, I spent time playing my favorite game ever, which was the auto racing game Gran Trak 10," Wozniak said.
+"A game like this might take most engineers a few months," Wozniak recalled. "I thought that there was no way I could do it, but Steve made me sure that I could." So he stayed up four nights in a row and did it. During the day at HP, Wozniak would sketch out his design on paper. Then, after a fast-food meal, he would go right to Atari and stay all night. As Wozniak churned out the design, Jobs sat on a bench to his left implementing it by wire-wrapping the chips onto a breadboard. "While Steve was breadboarding, I spent time playing my favorite game ever, which was the auto racing game Gran Trak 10," Wozniak said.
 
-> Astonishingly, they were able to get the job done in four days, and Wozniak used only forty-five chips. Recollections differ, but by most accounts Jobs simply gave Wozniak half of the base fee and not the bonus Bushnell paid for saving five chips. It would be another ten years before Wozniak discovered (by being shown the tale in a book on the history of Atari titled Zap) that Jobs had been paid this bonus….
+Astonishingly, they were able to get the job done in four days, and Wozniak used only forty-five chips. Recollections differ, but by most accounts Jobs simply gave Wozniak half of the base fee and not the bonus Bushnell paid for saving five chips. It would be another ten years before Wozniak discovered (by being shown the tale in a book on the history of Atari titled Zap) that Jobs had been paid this bonus….
 
-> Steve Jobs  
-> — Walter Isaacson
+Steve Jobs  
+— Walter Isaacson
 
 
 ## Breaking Out
@@ -443,7 +444,7 @@ A window quite like the below should appear and then disappear after 5 seconds.
 
 Neat, eh? Go ahead and open up `window.c` with **gedit**. Let's take a tour together:
 
-![embed](https://www.youtube.com/embed/IMOujDlGebQ&rel=0)
+![embed](https://www.youtube.com/embed/IMOujDlGebQ)
 
 How did we know how to call `newGWindow` like that? Well, there aren't **man** pages for SPL, but you can peruse the relevant "header file" (i.e., `gwindow.h`) by executing:
 
@@ -469,7 +470,7 @@ on video, we've since installed SPL deep inside the appliance (for convenience),
 
 Anyhow, now open up `click.c` (in `~/Dropbox/src4m`) with **gedit**. This one's a bit more involved but it's representative of how to "listen" for "events", quite like those you could "broadcast" in Scratch. Let's take a look.
 
-![embed](https://www.youtube.com/embed/BStiekPFKWI&rel=0)
+![embed](https://www.youtube.com/embed/BStiekPFKWI)
 
 See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html) for SPL's documentation of `GEvent`.
 
@@ -481,11 +482,11 @@ See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html](http://c
 
 Next open `bounce.c` (in `~/Dropbox/src4m`) with **gedit**. This one uses a bit of arithmetic to bounce a circle back and forth between a window's edges. Let's take a look.
 
-![embed](https://www.youtube.com/embed/8RMHJe1ZpKM&rel=0)
+![embed](https://www.youtube.com/embed/8RMHJe1ZpKM)
 
 Finally, take a look at `button.c`, `checkbox.c`, `label.c`, `slider.c`, and `text.c` in any order with **gedit**. And feel free to join me on a tour:
 
-![embed](https://www.youtube.com/embed/uFnsMLEgajQ&rel=0)
+![embed](https://www.youtube.com/embed/uFnsMLEgajQ)
 
 And, of course, feel free to compile (as with **make**) and run any of those programs.
 
@@ -566,7 +567,7 @@ Open up `breakout.c` with `gedit` and take a moment to scroll through it to get 
 
 * Now, we've already implemented `updateScoreboard` for you. All that function does, given a `GWindow`, a `GLabel`, and an `int`, is convert the `int` to a `string` (okay, `char\*`) using a function called `sprintf`, after which it sets the label to that value and then re-centers the label (in case the `int` has more digits than some previous `int`). Why did we allocate an array of size `12` for our representation of that `int` as a `string`? No worries if the reason's non-obvious, but give some though as to how wide the most positive (or most negative!) `int` might be. You're welcome to change this function, but you're not expected to.
 
-* Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per [http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.](http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.)) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
+* Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per <http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html>.) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
 
 ![Bounding box](45.png)
 
