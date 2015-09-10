@@ -19,9 +19,122 @@ Questions?  Head to Slack or join classmates at office hours!
 * Chapters 13, 15, and 18 of Programming in C.
 
 
-# Getting started
+## Academic Honesty
 
-* Let's ensure that the Appliance is up to date by running `update50` from a Terminal before starting.
+This course's philosophy on academic honesty is best stated as "be reasonable." The course recognizes that interactions with classmates and others can facilitate mastery of the course's material. However, there remains a line between enlisting the help of another and submitting the work of another. This policy characterizes both sides of that line.
+
+The essence of all work that you submit to this course must be your own. Collaboration on problem sets is not permitted except to the extent that you may ask classmates and others for help so long as that help does not reduce to another doing your work for you. Generally speaking, when asking for help, you may show your code to others, but you may not view theirs, so long as you and they respect this policy's other constraints. Collaboration on quizzes is not permitted at all. Collaboration on the course's final project is permitted to the extent prescribed by its specification.
+
+Below are rules of thumb that (inexhaustively) characterize acts that the course considers reasonable and not reasonable. If in doubt as to whether some act is reasonable, do not commit it until you solicit and receive approval in writing from the course's heads. Acts considered not reasonable by the course are handled harshly. If the course refers some matter to the Administrative Board and the outcome is Admonish, Probation, Requirement to Withdraw, or Recommendation to Dismiss, the course reserves the right to impose local sanctions on top of that outcome that may include an unsatisfactory or failing grade for work submitted or for the course itself.
+
+If you commit some act that is not reasonable but bring it to the attention of the course's heads within 72 hours, the course may impose local sanctions that may include an unsatisfactory or failing grade for work submitted, but the course will not refer the matter to the Administrative Board.
+
+### Reasonable
+
+- Communicating with classmates about problem sets' problems in English (or some other spoken language).
+
+- Discussing the course's material with others in order to understand it better.
+
+- Helping a classmate identify a bug in his or her code at Office Hours, elsewhere, or even online, as by viewing, compiling, or running his or her code, even on your own computer.
+
+- Incorporating snippets of code that you find online or elsewhere into your own code, provided that those snippets are not themselves solutions to assigned problems and that you cite the snippets' origins.
+
+- Reviewing past semesters' quizzes and solutions thereto.
+
+- Sending or showing code that you've written to someone, possibly a classmate, so that he or she might help you identify and fix a bug.
+
+- Sharing snippets of your own code online so that others might help you identify and fix a bug.
+
+- Turning to the web or elsewhere for instruction beyond the course's own, for references, and for solutions to technical difficulties, but not for outright solutions to problem set's problems or your own final project.
+
+- Whiteboarding solutions to problem sets with others using diagrams or pseudocode but not actual code.
+
+- Working with (and even paying) a tutor to help you with the course, provided the tutor does not do your work for you.
+
+### Not Reasonable
+
+- Asking a classmate to see his or her solution to a problem set's problem before (re-)submitting your own.
+
+- Decompiling, deobfuscating, or disassembling the staff's solutions to problem sets.
+
+- Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course's own lessons and integrate into your own work, even while respecting this policy's other constraints.
+
+- Giving or showing to a classmate a solution to a problem set's problem when it is he or she, and not you, who is struggling to solve it.
+
+- Looking at another individual's work during a quiz.
+
+- Paying or offering to pay an individual for work that you may submit as (part of) your own.
+
+- Providing or making available solutions to problem sets to individuals who might take this course in the future.
+
+- Searching for, soliciting, or viewing a quiz's questions or answers prior to taking the quiz.
+
+- Searching for or soliciting outright solutions to problem sets online or elsewhere.
+
+- Splitting a problem set's workload with another individual and combining your work.
+
+- Submitting (after possibly modifying) the work of another individual beyond allowed snippets.
+
+- Submitting the same or similar work to this course that you have submitted or will submit to another.
+
+- Submitting work to this course that you intend to use outside of the course (e.g., for a job) without prior approval from the course's heads.
+
+- Using resources during a quiz beyond those explicitly allowed in the quiz's instructions.
+
+- Viewing another's solution to a problem set's problem and basing your own solution on it.
+
+
+## Assessment
+
+Your work on this problem set will be evaluated along four axes primarily.
+
+Scope
+: To what extent does your code implement the features required by our specification?
+
+Correctness
+: To what extent is your code consistent with our specifications and free of bugs?
+
+Design
+: To what extent is your code written well (i.e., clearly, efficiently, elegantly, and/or logically)?
+
+Style
+: To what extent is your code readable (i.e., commented and indented with variables aptly named)?
+
+All students must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
+
+
+## Getting Ready
+
+First, re-acquaint yourself with with our old friends, linear search and binary search (and Patrick), if hazy:
+
+![embed](https://www.youtube.com/embed/CX2CYIJLwfg?rel=0&playlist=D5SrAga1pno)
+
+Next, get to know our new friends, bubble sort, selection sort, insertion sort, and merge sort (and Jackson, Tommy, and Rob):
+
+![embed](https://www.youtube.com/embed/8Kp-8OGwphY?rel=0&playlist=f8hXR_Hvybo,DFG-XuyPYUQ,EeQ8pwjQxTM)
+
+Phew, so many shorts. And so many sorts! Ha.
+
+Finally, meet `gdb` (and Nate again):
+
+![embed](https://www.youtube.com/embed/USPvePv1uzE?rel=0)
+
+Be sure you're reasonably comfortable answering the below when it comes time to submit this problem set's form!
+
+- Why does binary search require that an array be sorted?
+
+- Why is bubble sort in O(*n*<sup>2</sup>)?
+
+- Why is insertion sort in Ω(*n*)?
+
+- In no more than 3 sentences, how does selection sort work?
+
+- What's an upper bound on the (worst-case) running time of merge sort?
+
+- `gdb` lets you "debug" program, but, more specifically, what does it let you do?
+
+
+## Getting Started
 
 Recall that, for Problem Sets 1 and 2, you started writing programs from scratch, creating your own `pset1` and `pset2` directories with **mkdir**. For Problem Set 3, you'll instead download "distribution code" (otherwise known as a "distro"), written by us, and add your own lines of code to it. You'll first need to read and understand our code, though, so this problem set is as much about learning to read someone else's code as it is about writing your own!
 
@@ -70,7 +183,7 @@ and you should see that the directory contains two "subdirectories":
 How fun!
 
 
-# Searching
+## Searching
 
 Okay, let's dive into one of those subdirectories. Execute the command below in a terminal window.
 
@@ -191,7 +304,7 @@ This target allows you to delete all files ending in `.o` or called `core` (more
 Be careful not to add, say, `\*.c` to that last line in `Makefile`! (Why?) Any line, incidentally, that begins with `#` is just a comment.
 
 
-## search
+### search
 
 And now the fun begins! Notice that `find.c` calls `search`, a function declared in `helpers.h`. Unfortunately, we forgot to implement that function fully in `helpers.c`! (To be sure, we could have put the contents of `helpers.h` and `helpers.c` in `find.c` itself. But it's sometimes better to organize programs into multiple files, especially when some functions are essentially utility functions that might later prove useful to other programs as well, much like those in the CS50 Library.) Take a peek at `helpers.c` with **gedit**, and you'll see that `search` always returns `false`, whether or not `value` is in `values`. Re-write `search` in such a way that it uses linear search, returning `true` if `value` is in `values` and `false` if `value` is not in `values`. Take care to return `false` right away if `n` isn't even positive.
 
@@ -232,12 +345,12 @@ Anyhow, if you'd like to play with the staff's own implementation of `find` in t
 	~cs50/pset3/find/find
 
 
-# Sorting
+## Sorting
 
 Alright, linear search is pretty meh. Recall from Week 0 that we can do better, but first we'd best sort that hay.
 
 
-## sort
+### sort
 
 Notice that `find.c` calls `sort`, a function declared in `helpers.h`. Unfortunately, we forgot to implement that function fully too in `helpers.c`! Take a peek at `helpers.c` with **gedit**, and you'll see that `sort` returns immediately, even though `find`'s `main` function does pass it an actual array.
 
@@ -267,39 +380,42 @@ We leave it to you to determine how best to test your implementation of `sort`. 
 
 Here's Zamyla with some tips:
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/U8k-0StE1Ik" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/U8k-0StE1Ik?rel=0)
 
-Again, if you'd like to play with the staff's own implementation of `find` in the appliance, you may execute the below.
+Incidentally, check out these resources for a quick-reference guide for gdb:
 
-	~cs50/pset3/find/find
+- [Debugging with gdb](http://sources.redhat.com/gdb/current/onlinedocs/gdb.html)
+- [gdb Quick Reference](http://www.cs.berkeley.edu/~mavam/teaching/cs161-sp11/gdb-refcard.pdf)
 
-No **check50** for this one!
+Again, if you'd like to play with the staff's own implementation of find in the appliance, you may execute the below.
+
+    ~cs50/pset3/find
 
 
-## search
+### search
 
 Now that `sort` (presumably) works, it's time to improve upon `search`, the other function that lives in `helpers.c`. Recall that your first version implemented linear search. Rip out the lines that you wrote earlier (sniff) and re-implement `search` as Binary Search, that divide-and-conquer strategy that we employed in Week 0. You are welcome to take an iterative approach (as with a loop) or a recursive approach (wherein a function calls itself). If you pursue the latter, though, know that you may not change our declaration of `search`, but you may write a new, recursive function (that perhaps takes different parameters) that `search` itself calls. When it comes time to submit this problem set, it suffices to submit this new-and-improved version of `search`; you needn't submit your original version that used linear search.
 
 Here's Zamyla again:
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/7DSRJj7qfP8" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/7DSRJj7qfP8)
 
 
 # Backstory
 
-One day in the late summer of 1975, Nolan Bushnell [founder of Atari and, um, Chuck E. Cheese's], defying the prevailing wisdom that paddle games were over, decided to develop a single-player version of Pong; instead of competing against an opponent, the player would volley the ball into a wall that lost a brick whenever it was hit. He called [Steve] Jobs into his office, sketched it out on his little blackboard, and asked him to design it. There would be a bonus, Bushnell told him, for every chip fewer than fifty that he used. Bushnell knew that Jobs was not a great engineer, but he assumed, correctly, that he would recruit [Steve] Wozniak, who was always hanging around. "I looked at it as a two-for-one thing," Bushnell recalled. "Woz was a better engineer."
+> One day in the late summer of 1975, Nolan Bushnell [founder of Atari and, um, Chuck E. Cheese's], defying the prevailing wisdom that paddle games were over, decided to develop a single-player version of Pong; instead of competing against an opponent, the player would volley the ball into a wall that lost a brick whenever it was hit. He called [Steve] Jobs into his office, sketched it out on his little blackboard, and asked him to design it. There would be a bonus, Bushnell told him, for every chip fewer than fifty that he used. Bushnell knew that Jobs was not a great engineer, but he assumed, correctly, that he would recruit [Steve] Wozniak, who was always hanging around. "I looked at it as a two-for-one thing," Bushnell recalled. "Woz was a better engineer."
 
-Wozniak was thrilled when Jobs asked him to help and proposed splitting the fee. "This was the most wonderful offer in my life, to actually design a game that people would use," he recalled. Jobs said it had to be done in four days and with the fewest chips possible. What he hid from Wozniak was that the deadline was one that Jobs had imposed, because he needed to get to the All One Farm to help prepare for the apple harvest. He also didn't mention that there was a bonus tied to keeping down the number of chips.
+> Wozniak was thrilled when Jobs asked him to help and proposed splitting the fee. "This was the most wonderful offer in my life, to actually design a game that people would use," he recalled. Jobs said it had to be done in four days and with the fewest chips possible. What he hid from Wozniak was that the deadline was one that Jobs had imposed, because he needed to get to the All One Farm to help prepare for the apple harvest. He also didn't mention that there was a bonus tied to keeping down the number of chips.
 
-"A game like this might take most engineers a few months," Wozniak recalled. "I thought that there was no way I could do it, but Steve made me sure that I could." So he stayed up four nights in a row and did it. During the day at HP, Wozniak would sketch out his design on paper. Then, after a fast-food meal, he would go right to Atari and stay all night. As Wozniak churned out the design, Jobs sat on a bench to his left implementing it by wire-wrapping the chips onto a breadboard. "While Steve was breadboarding, I spent time playing my favorite game ever, which was the auto racing game Gran Trak 10," Wozniak said.
+> "A game like this might take most engineers a few months," Wozniak recalled. "I thought that there was no way I could do it, but Steve made me sure that I could." So he stayed up four nights in a row and did it. During the day at HP, Wozniak would sketch out his design on paper. Then, after a fast-food meal, he would go right to Atari and stay all night. As Wozniak churned out the design, Jobs sat on a bench to his left implementing it by wire-wrapping the chips onto a breadboard. "While Steve was breadboarding, I spent time playing my favorite game ever, which was the auto racing game Gran Trak 10," Wozniak said.
 
-Astonishingly, they were able to get the job done in four days, and Wozniak used only forty-five chips. Recollections differ, but by most accounts Jobs simply gave Wozniak half of the base fee and not the bonus Bushnell paid for saving five chips. It would be another ten years before Wozniak discovered (by being shown the tale in a book on the history of Atari titled Zap) that Jobs had been paid this bonus….
+> Astonishingly, they were able to get the job done in four days, and Wozniak used only forty-five chips. Recollections differ, but by most accounts Jobs simply gave Wozniak half of the base fee and not the bonus Bushnell paid for saving five chips. It would be another ten years before Wozniak discovered (by being shown the tale in a book on the history of Atari titled Zap) that Jobs had been paid this bonus….
 
-Steve Jobs
-— Walter Isaacson '74
+> Steve Jobs  
+> — Walter Isaacson
 
 
-# Breaking Out
+## Breaking Out
 
 Your final challenge for this problem set is to implement the same game that Steve and Steve did, albeit in software rather than hardware. That game is Breakout.
 
@@ -327,6 +443,8 @@ A window quite like the below should appear and then disappear after 5 seconds.
 
 Neat, eh? Go ahead and open up `window.c` with **gedit**. Let's take a tour together:
 
+![embed](https://www.youtube.com/embed/IMOujDlGebQ&rel=0)
+
 How did we know how to call `newGWindow` like that? Well, there aren't **man** pages for SPL, but you can peruse the relevant "header file" (i.e., `gwindow.h`) by executing:
 
 	gedit /usr/include/spl/gwindow.h
@@ -339,7 +457,7 @@ Anyhow, if you poke around `gwindow.h` with **gedit**, odds are you'll be a bit 
 
 That's how we knew! See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/index.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/index.html) for an index into SPL's documentation, though we'll point out more specific places to look.
 
-In the interests of full disclosure, we should mention that SPL is still in beta, so there may be some bugs in its documentation. When in doubt, best to consult those raw header files instead!
+*In the interests of full disclosure, we should mention that SPL is still in beta, so there may be some bugs in its documentation. When in doubt, best to consult those raw header files instead!*
 
 Incidentally, even though I included `gwindow.h` with
 
@@ -351,23 +469,23 @@ on video, we've since installed SPL deep inside the appliance (for convenience),
 
 Anyhow, now open up `click.c` (in `~/Dropbox/src4m`) with **gedit**. This one's a bit more involved but it's representative of how to "listen" for "events", quite like those you could "broadcast" in Scratch. Let's take a look.
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/BStiekPFKWI" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/BStiekPFKWI&rel=0)
 
 See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html) for SPL's documentation of `GEvent`.
 
 Now open up `cursor.c` (in `~/Dropbox/src4m`) with **gedit**. This program, too, handles events, but it also responds to those events by moving a circle (well, a `GOval`) in lockstep. Let's take a look.
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/xsB0v8GtVMw" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/xsB0v8GtVMw)
 
 See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html) for SPL's documentation of `GOval` and other types of objects.
 
 Next open `bounce.c` (in `~/Dropbox/src4m`) with **gedit**. This one uses a bit of arithmetic to bounce a circle back and forth between a window's edges. Let's take a look.
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/8RMHJe1ZpKM" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/8RMHJe1ZpKM&rel=0)
 
 Finally, take a look at `button.c`, `checkbox.c`, `label.c`, `slider.c`, and `text.c` in any order with **gedit**. And feel free to join me on a tour:
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/uFnsMLEgajQ" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/uFnsMLEgajQ&rel=0)
 
 And, of course, feel free to compile (as with **make**) and run any of those programs.
 
@@ -376,7 +494,7 @@ Phew, that was a lot. Not to worry! Even though all this might feel like a lot, 
 ![Can you repeat that part again?](42.png)
 
 
-## Breakout
+### breakout
 
 Okay, let's see what the distribution code for `breakout` itself does. Go ahead and execute
 
@@ -414,13 +532,13 @@ Nice. Let's make your implementation look more like that one. But, first, a tour
 
 Open up `breakout.c` with `gedit` and take a moment to scroll through it to get a sense of what lies ahead. Let's walk through it from top to bottom.
 
-* 	Atop the file you'll see some familiar header files. We've also included some header files from SPL.
+* Atop the file you'll see some familiar header files. We've also included some header files from SPL.
 
-* 	Next up are some constants, values that you don't need to change, but because the code we've written (and that you'll write) needs to know these values in a few places, we've factored them out as constants so that we or you could, theoretically, change them in one convenient location. By contrast, hard-coding the same number (pejoratively known as a "magic number") into your code in multiple places is considered bad practice, since you'd have to remember to change it, potentially, in all of those places.
+* Next up are some constants, values that you don't need to change, but because the code we've written (and that you'll write) needs to know these values in a few places, we've factored them out as constants so that we or you could, theoretically, change them in one convenient location. By contrast, hard-coding the same number (pejoratively known as a "magic number") into your code in multiple places is considered bad practice, since you'd have to remember to change it, potentially, in all of those places.
 
-* 	Below those constants are a bunch of prototypes for functions that are defined below `main`. More on each of those soon.
+* Below those constants are a bunch of prototypes for functions that are defined below `main`. More on each of those soon.
 
-* 	Next up is our old friend, `main`. It looks like the first thing that `main` does is "seed" that so-called PRNG with the current time. (See **man srand48** and **man 2 time** if curious.) Again, to seed a PRNG simply means to initialize it in such a way that the numbers it will eventually spit out will appear to be random. It's deliberate, then, that we're initializing the PRNG with the current time: time's always changing. Were we instead to initialize the PRNG with some hard-coded value, it'd always spit out the same sequence of "random" numbers.
+* Next up is our old friend, `main`. It looks like the first thing that `main` does is "seed" that so-called PRNG with the current time. (See **man srand48** and **man 2 time** if curious.) Again, to seed a PRNG simply means to initialize it in such a way that the numbers it will eventually spit out will appear to be random. It's deliberate, then, that we're initializing the PRNG with the current time: time's always changing. Were we instead to initialize the PRNG with some hard-coded value, it'd always spit out the same sequence of "random" numbers.
 
 	After that call to `srand48`, it looks like `main` calls `newGWindow`, passing in a desired `WIDTH` and `HEIGHT`. That function "instantiates" (i.e., creates) a new graphical window, returning some sort of reference thereto. (It's technically a pointer, but that detail, and the accompanying `\`*, is, again, hidden from us by SPL.) That function's return value is apparently stored in a variable called `window` whose type is `GWindow`, which happens to be declared in a `gwindow.h` header file that you may have glimpsed earlier.
 
@@ -438,17 +556,17 @@ Open up `breakout.c` with `gedit` and take a moment to scroll through it to get 
 
 	Not too bad, right? Let's next take a closer look at those functions.
 
-*	In `initBricks`, you'll eventually write code that instantiates a grid of bricks in the window. Those constants we saw earlier, `ROWS` and `COLS`, represent that grid's dimensions. How to draw a grid of bricks on the screen? Well, odds are you'll want to employ a pair of `for` loops, one nested inside of the other. And within that innermost loop, you'll likely want to instantiate a `GRect` of some width and height (and color!) to represent a brick.
+* In `initBricks`, you'll eventually write code that instantiates a grid of bricks in the window. Those constants we saw earlier, `ROWS` and `COLS`, represent that grid's dimensions. How to draw a grid of bricks on the screen? Well, odds are you'll want to employ a pair of `for` loops, one nested inside of the other. And within that innermost loop, you'll likely want to instantiate a `GRect` of some width and height (and color!) to represent a brick.
 
-*	In `initBall`, you'll eventually write code that instantiates a ball (that is, a circle, or really a `GOval`) and somehow center it in the window.
+* In `initBall`, you'll eventually write code that instantiates a ball (that is, a circle, or really a `GOval`) and somehow center it in the window.
 
-*	In `initPaddle`, you'll eventually write code that instantiates a paddle (just a `GRect`) that's somehow centered in the bottom-middle of the game's window.
+* In `initPaddle`, you'll eventually write code that instantiates a paddle (just a `GRect`) that's somehow centered in the bottom-middle of the game's window.
 
-*	Finally, in `initScoreboard`, you'll eventually write code that instantiates a scoreboard as, quite simply, a `GLabel` whose value is a number (well, technically, a `char\*`, which we once knew as a `string`).
+* Finally, in `initScoreboard`, you'll eventually write code that instantiates a scoreboard as, quite simply, a `GLabel` whose value is a number (well, technically, a `char\*`, which we once knew as a `string`).
 
-*	Now, we've already implemented `updateScoreboard` for you. All that function does, given a `GWindow`, a `GLabel`, and an `int`, is convert the `int` to a `string` (okay, `char\*`) using a function called `sprintf`, after which it sets the label to that value and then re-centers the label (in case the `int` has more digits than some previous `int`). Why did we allocate an array of size `12` for our representation of that `int` as a `string`? No worries if the reason's non-obvious, but give some though as to how wide the most positive (or most negative!) `int` might be. You're welcome to change this function, but you're not expected to.
+* Now, we've already implemented `updateScoreboard` for you. All that function does, given a `GWindow`, a `GLabel`, and an `int`, is convert the `int` to a `string` (okay, `char\*`) using a function called `sprintf`, after which it sets the label to that value and then re-centers the label (in case the `int` has more digits than some previous `int`). Why did we allocate an array of size `12` for our representation of that `int` as a `string`? No worries if the reason's non-obvious, but give some though as to how wide the most positive (or most negative!) `int` might be. You're welcome to change this function, but you're not expected to.
 
-*	Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per [http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.](http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.)) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
+* Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per [http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.](http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.)) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
 
 ![Bounding box](45.png)
 
@@ -456,46 +574,68 @@ Alright, ready to break out Breakout?
 
 If you're like me, odds are you'll find it easiest to implement Breakout via some baby steps, each of which will get you closer and closer to a great outcome. Rather than try to implement the whole game at once, allow me to suggest that you proceed as follows:
 
-1.	Try out the staff's solution again (via `~cs50/pset3/breakout/breakout`) to remind yourself how our implementation behaves. Yours doesn't need to be identical. In fact, all the better if you personalize yours. But playing with our implementation should help guide you toward yours.
+Try out the staff's solution again (via **~cs50/pset3/breakout/breakout**) to remind yourself how our implementation behaves. Yours doesn't need to be identical. In fact, all the better if you personalize yours. But playing with our implementation should help guide you toward yours.
 
-2.	Implement `initPaddle`. Per the function's return value, your paddle should be implemented as a `GRect`. Odds are you'll first want to decide on a width and height for your paddle, perhaps declaring them both atop `breakout.c` with constants. Then calculate coordinates (*x* and *y*) for your paddle, keeping in mind that it should be initially aligned in the bottom-middle of your game's window. We leave it to you to decide exactly where. Odds are some arithmetic involving the window's width and height and the paddle's width and height will help you center it. Keep in mind that *x* and *y* refer to a `GRect`'s top-left corner, not its own middle. Your paddle's size and location doesn't need to match the staff's precisely, but it should be perfectly centered, near the window's bottom. You're welcome to choose a color for it too, for which `setColor` and `setFilled` might be of interest. Finally, instantiate your paddle with `newGRect`. (Take note of that function's prototype at [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html).) Then return the `GRect` returned by `newGRect` (rather than `NULL`, which the distribution code returns only so that the program will compile without `initPaddle` fully implemented).
+Implement `initPaddle`. Per the function's return value, your paddle should be implemented as a `GRect`. Odds are you'll first want to decide on a width and height for your paddle, perhaps declaring them both atop **breakout.c** with constants. Then calculate coordinates (x and y) for your paddle, keeping in mind that it should be initially aligned in the bottom-middle of your game's window. We leave it to you to decide exactly where. Odds are some arithmetic involving the window's width and height and the paddle's width and height will help you center it. Keep in mind that x and y refer to a `GRect`'s top-left corner, not its own middle. Your paddle's size and location doesn't need to match the staff's precisely, but it should be perfectly centered, near the window's bottom. You're welcome to choose a color for it too, for which `setColor` and `setFilled` might be of interest. Finally, instantiate your paddle with `newGRect`. (Take note of that function's prototype at <http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html>.) Then return the `GRect` returned by `newGRect` (rather than `NULL`, which the distribution code returns only so that the program will compile without `initPaddle` fully implemented).
 
-3. 	Now, `initPaddle`'s purpose in life is only to instantiate and return a paddle (i.e., `GRect`). It shouldn't handle any of the paddle's movement. For that, turn your attention to the `TODO` up in `main`. Proceed to replace that `TODO` with some lines of code that respond to a user's mouse movements in such a way that the paddle follows the movements, but only along its (horizontal) x-axis. Look back at `cursor.c` for inspiration, but keep in mind that `cursor.c` allowed that circle to move along a (vertical) y-axis as well, which we don't want for Breakout, else the paddle could move anywhere (which might be cool but not exactly Breakout).
+Now, `initPaddle`'s purpose in life is only to instantiate and return a paddle (i.e., `GRect`). It shouldn't handle any of the paddle's movement. For that, turn your attention to the `TODO` up in `main`. Proceed to replace that `TODO` with some lines of code that respond to a user's mouse movements in such a way that the paddle follows the movements, but only along its (horizontal) x-axis. Look back at **cursor.c** for inspiration, but keep in mind that **cursor.c** allowed that circle to move along a (vertical) y-axis as well, which we don't want for Breakout, else the paddle could move anywhere (which might be cool but not exactly Breakout).
 
-4.	Now turn your attention to the `TODO` in `initBricks`. Implement that function in such a way that it instantiates a grid of bricks (with `ROWS` rows and `COLS` columns), with each such brick implemented as a `GRect`. Drawing a `GRect` (or even a bunch of them) isn't all that different from drawing a `GOval` (or circle). Odds are, though, you'll want to instantiate them within a `for` loop that's within a `for` loop. (Think back to `mario`, perhaps!) Be sure to leave a bit of a gap between adjacent bricks, just like we did; exactly how many pixels is up to you. And we leave it to you to select your bricks' colors.
+Now turn your attention to the `TODO` in `initBricks`. Implement that function in such a way that it instantiates a grid of bricks (with `ROWS` rows and `COLS` columns), with each such brick implemented as a `GRect`. Drawing a `GRect` (or even a bunch of them) isn't all that different from drawing a `GOval` (or circle). Odds are, though, you'll want to instantiate them within a for loop that's within a for loop. (Think back to `mario`, perhaps!) Be sure to leave a bit of a gap between adjacent bricks, just like we did; exactly how many pixels is up to you. And we leave it to you to select your bricks' colors.
 
-5.	Now implement `initBall`, whose purpose in life is to instantiate a ball in the window's center. (Another opportunity for a bit of arithmetic!) Per the function's prototype, be sure to return a `GOval`.
+Now implement `initBall`, whose purpose in life is to instantiate a ball in the window's center. (Another opportunity for a bit of arithmetic!) Per the function's prototype, be sure to return a `GOval`.
 
-6.	Then, back in `main`, where there used to be a `TODO`, proceed to write some additional code (within that same `while` loop) that compels that ball to move. Here, too, take baby steps. Look to `bounce.c` first for ideas on how to make the ball bounce back and forth between your window's edges. (Not the ultimate goal, but it's a step toward it!) Then figure out how to make the ball bounce up and down instead of left and right. (Closer!) Then figure out how to make the ball move at an angle. Then, utilize `drand48` to make the ball's initial velocity random, at least along its (horizontal) x-axis. Note that, per its **man** page, `drand48` returns "nonnegative double-precision floating-point values uniformly distributed between [0.0, 1.0)." In other words, it returns a `double` between 0.0 (inclusive) and 1.0 (exclusive). If you want your velocity to be faster than that, simply add some constant to it and/or multiply it by some constant!
+Then, back in `main`, where there used to be a `TODO`, proceed to write some additional code (within that same `while` loop) that compels that ball to move. Here, too, take baby steps. Look to `bounce.c` first for ideas on how to make the ball bounce back and forth between your window's edges. (Not the ultimate goal, but it's a step toward it!) Then figure out how to make the ball bounce up and down instead of left and right. (Closer!) Then figure out how to make the ball move at an angle. Then, utilize `drand48` to make the ball's initial velocity random, at least along its (horizontal) x-axis. Note that, per its **man** page, `drand48` returns "nonnegative double-precision floating-point values uniformly distributed between [0.0, 1.0)." In other words, it returns a `double` between 0.0 (inclusive) and 1.0 (exclusive). If you want your velocity to be faster than that, simply add some constant to it and/or multiply it by some constant!
 
-	Ultimately, be sure that the ball still bounces off edges, including the window's bottom for now.
+Ultimately, be sure that the ball still bounces off edges, including the window's bottom for now.
 
-7.	When ready, add some additional code to `main` (still somewhere inside of that `while` loop) that compels the ball to bounce off of the paddle if it collides with it on its way downward. Odds are you'll want to call that function we wrote, `detectCollision`, inside that loop in order to detect whether the ball's collided with something so that, if so, you can somehow handle such an event. Of course, the ball could collide with the paddle or with any one of those bricks. Keep in mind, then, that `detectCollision` could return any such `GObject`; it's left to you to determine what has been struck. Know, then, that if you store its return value, as with
+When ready, add some additional code to `main` (still somewhere inside of that `while` loop) that compels the ball to bounce off of the paddle if it collides with it on its way downward. Odds are you'll want to call that function we wrote, `detectCollision`, inside that loop in order to detect whether the ball's collided with something so that, if so, you can somehow handle such an event. Of course, the ball could collide with the paddle or with any one of those bricks. Keep in mind, then, that `detectCollision` could return any such `GObject`; it's left to you to determine what has been struck. Know, then, that if you store its return value, as with
 
-	`GObject object = detectCollision(window, ball);`
+    GObject object = detectCollision(window, ball);
 
-	you can determine whether that `object` is your game's paddle, as with the below.
+you can determine whether that object is your game's paddle, as with the below.
 
-	`if (object == paddle) { // TODO }`
+    if (object == paddle)
+    {
+        // TODO
+    }
 
-	Once it comes time to add a `GLabel` to your game (for its scoreboard), you can similarly determine if that `object` is `GLabel`, in which case it might be a collision you want to ignore. (Unless you want your scoreboard to be something the ball can bounce off of. Ours isn't.)
+More generally, you can determine if that object is a `GRect` with:
 
-	`if (strcmp(getType(object), "GLabel") == 0) { // TODO }`
+    if (strcmp(getType(object), "GRect") == 0)
+    {
+        // TODO
+    }
 
-8. 	Once you have the ball bouncing off the paddle (and window's edges), focus your attention again on that `while` loop in `main` and figure out how to detect if the ball's hit a brick and how to remove that brick from the grid if so. Odds are you'll find `removeGWindow` of interest, per [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html). SPL's documentation incorrectly refers to that function as `remove`, but it's indeed `removeGWindow` you want, whose prototype, to be clear, is the below.
+Once it comes time to add a `GLabel` to your game (for its scoreboard), you can similarly determine if that object is `GLabel`, in which case it might be a collision you want to ignore. (Unless you want your scoreboard to be something the ball can bounce off of. Ours isn't.)
 
-	`void removeGWindow(GWindow gw, GObject gobj);`
+    if (strcmp(getType(object), "GLabel") == 0)
+    {
+        // TODO
+    }
 
-9.	Now decide how to determine whether the ball has zoomed past the paddle and struck the window's bottom edge, in which case the user should lose a life and gameplay should probably pause until the user clicks the mouse button, as in the staff's implementation. Odds are detecting this situation isn't all that different from the code you already wrote for bouncing; you just don't want to bounce off that bottom edge anymore!
+Once you have the ball bouncing off the paddle (and window's edges), focus your attention again on that while loop in main and figure out how to detect if the ball's hit a brick and how to remove that brick from the grid if so. Odds are you'll find removeGWindow of interest, per <http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html>. SPL's documentation incorrectly refers to that function as `remove`, but it's indeed `removeGWindow` you want, whose prototype, to be clear, is the below.
 
-10.	Lastly, implement `initScoreboard` in such a way that the function instantiates and positions a `GLabel` somewhere in your game's window. Then, enhance `main` in such a way that the text of that `GLabel` is updated with the user's score anytime the user breaks a brick. Indeed, be sure that your program keeps track of how many lives remain and how many bricks remain, the latter of which is inversely related to how many points you should give the user for each brick broken; our solution awards one point per brick, but you're welcome to offer different rewards. A user's game should end (i.e., the ball should stop moving) after a user runs out of lives or after all bricks are broken. We leave it to you to decide what to do in both cases, if anything more!
+void removeGWindow(GWindow gw, GObject gobj);
+Now decide how to determine whether the ball has zoomed past the paddle and struck the window's bottom edge, in which case the user should lose a life and gameplay should probably pause until the user clicks the mouse button, as in the staff's implementation. Odds are detecting this situation isn't all that different from the code you already wrote for bouncing; you just don't want to bounce off that bottom edge anymore!
+
+Lastly, implement `initScoreboard` in such a way that the function instantiates and positions a `GLabel` somewhere in your game's window. Then, enhance `main` in such a way that the text of that GLabel is updated with the user's score anytime the user breaks a brick. Indeed, be sure that your program keeps track of how many lives remain and how many bricks remain, the latter of which is inversely related to how many points you should give the user for each brick broken; our solution awards one point per brick, but you're welcome to offer different rewards. A user's game should end (i.e., the ball should stop moving) after a user runs out of lives or after all bricks are broken. We leave it to you to decide what to do in both cases, if anything more!
+
+Because this game expects a human to play, no `check50` for this one! Best to invite some friends to find bugs!
 
 
-Because this game expects a human to play, no **check50** for this one! Best to invite some friends to find bugs!
+
+## How to submit
+
+When ready to submit, open up a Terminal window and navigate your way to **~/Dropbox**. Create a ZIP (i.e., compressed) file containing your entire **pset3** directory by executing the below. Incidentally, **-r** means "recursive," which in this case means to ZIP up everything inside of pset3, including any subdirectories (or even subsubdirectories!).
+
+    zip -r pset3.zip pset3
+
+If you type **ls** thereafter, you should see that you have a new file called **pset3.zip** in **~/Dropbox**. (If you realize later that you need to make a change to some file and re-ZIP everything, you can delete the ZIP file you already made with **rm pset3.zip**, then create a new ZIP file as before.)
+
+To submit, please upload **pset3.zip** at the bottom of the page.
+
+If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+
+This was Problem Set 3.
 
 
-# Final steps
-
-* When you are done with `find` and `breakout.c`, submit it by going over to the [Submit tab](#submit). Be sure to compile and test one last time before you submit.
-
-* All done!
