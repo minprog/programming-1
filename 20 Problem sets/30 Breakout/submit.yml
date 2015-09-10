@@ -1,6 +1,3 @@
 name: breakout
 required:
-    - generate.c
-    - find.c
-    - helpers.c
-    - breakout.c
+    - pset3.zip
