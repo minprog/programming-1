@@ -443,7 +443,7 @@ A window quite like the below should appear and then disappear after 5 seconds.
 
 Neat, eh? Go ahead and open up `window.c` with **gedit**. Let's take a tour together:
 
-![embed](https://www.youtube.com/embed/IMOujDlGebQ&rel=0)
+![embed](https://www.youtube.com/embed/IMOujDlGebQ)
 
 How did we know how to call `newGWindow` like that? Well, there aren't **man** pages for SPL, but you can peruse the relevant "header file" (i.e., `gwindow.h`) by executing:
 
@@ -469,7 +469,7 @@ on video, we've since installed SPL deep inside the appliance (for convenience),
 
 Anyhow, now open up `click.c` (in `~/Dropbox/src4m`) with **gedit**. This one's a bit more involved but it's representative of how to "listen" for "events", quite like those you could "broadcast" in Scratch. Let's take a look.
 
-![embed](https://www.youtube.com/embed/BStiekPFKWI&rel=0)
+![embed](https://www.youtube.com/embed/BStiekPFKWI)
 
 See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html](http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gevents.html) for SPL's documentation of `GEvent`.
 
@@ -481,11 +481,11 @@ See [http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gobjects.html](http://c
 
 Next open `bounce.c` (in `~/Dropbox/src4m`) with **gedit**. This one uses a bit of arithmetic to bounce a circle back and forth between a window's edges. Let's take a look.
 
-![embed](https://www.youtube.com/embed/8RMHJe1ZpKM&rel=0)
+![embed](https://www.youtube.com/embed/8RMHJe1ZpKM)
 
 Finally, take a look at `button.c`, `checkbox.c`, `label.c`, `slider.c`, and `text.c` in any order with **gedit**. And feel free to join me on a tour:
 
-![embed](https://www.youtube.com/embed/uFnsMLEgajQ&rel=0)
+![embed](https://www.youtube.com/embed/uFnsMLEgajQ)
 
 And, of course, feel free to compile (as with **make**) and run any of those programs.
 
@@ -566,7 +566,7 @@ Open up `breakout.c` with `gedit` and take a moment to scroll through it to get 
 
 * Now, we've already implemented `updateScoreboard` for you. All that function does, given a `GWindow`, a `GLabel`, and an `int`, is convert the `int` to a `string` (okay, `char\*`) using a function called `sprintf`, after which it sets the label to that value and then re-centers the label (in case the `int` has more digits than some previous `int`). Why did we allocate an array of size `12` for our representation of that `int` as a `string`? No worries if the reason's non-obvious, but give some though as to how wide the most positive (or most negative!) `int` might be. You're welcome to change this function, but you're not expected to.
 
-* Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per [http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.](http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html.)) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
+* Last up is `detectCollision`, another function that we've written for you. (Phew!) This one's a bit more involved, so do spend some time reading through it. This function's purpose in life, given the ball as a `GOval`, is to determine whether that ball has collided with (i.e., is overlapping) some other object (well, `GObject`) in the game. (A `GRect`, `GOval`, or `GLabel` can also be thought of and treated as a `GObject`, per <http://cdn.cs50.net/2013/fall/lectures/5/m/src5m/spl/doc/gobjects.html>.) To do so, it cuts some corners (figuratively but also kind of literally) by checking whether any of the ball's "corners," as defined by the ball's "bounding box", per the below (wherein *x* and *y* represent coordinates, and *r* represents the ball's radius) are touching some other `GObject` (which might be a brick or a paddle or even something else).
 
 ![Bounding box](45.png)
 
