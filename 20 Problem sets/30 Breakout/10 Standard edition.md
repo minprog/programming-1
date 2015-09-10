@@ -1,6 +1,6 @@
 # Problem Set 3: Breakout
 
-Questions?  Head to Slack or join classmates at office hours!
+Questions?  Join classmates at office hours!
 
 # Objectives
 
@@ -9,6 +9,7 @@ Questions?  Head to Slack or join classmates at office hours!
 * Acquaint you with event handling.
 * Impress your friends.
 
+*This pset with thanks to Eric Roberts of Stanford!*
 
 # Recommended Reading
 
