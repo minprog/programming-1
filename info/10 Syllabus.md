@@ -1,6 +1,6 @@
 # Programmeren 1
 
-*Edition: September 2015 (v5.3) LO-SPEED*
+*Edition: September 2015 (v5.3)*
 
 Introduction to the intellectual enterprises of computer science and the art of programming. This course teaches students how to think algorithmically and solve problems efficiently. Topics include abstraction, algorithms, data structures, encapsulation, resource management, security, software engineering, and web development. Languages include C, PHP, and JavaScript plus SQL, CSS, and HTML. Problem sets inspired by real-world domains of biology, cryptography, finance, forensics, and gaming. Designed for concentrators and non-concentrators alike, with or without prior programming experience.
 
@@ -13,7 +13,7 @@ Martijn Stegeman
 *instructor*  
 <m.stegeman@uva.nl>
 
-Jaap van Bergeijk  
+Ben Witzen  
 *head TA*
 
 Have a question? Send us a message by using the "Ask" menu, above. You can use it from home, or during office hours.
@@ -34,7 +34,7 @@ of lab sessions in order to get you moving quickly through the course.
 
 All students must ordinarily submit all five problem sets and take the quiz in
 order to be eligible for a satisfactory grade unless granted an exception in
-writing by the course’s heads.
+writing by the course's heads.
 
 Problem sets and the final project are evaluated primarily along axes of scope,
 correctness, design, and style, with scores ordinarily determined by scope × (3

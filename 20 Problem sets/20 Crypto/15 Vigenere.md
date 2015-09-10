@@ -1,25 +1,10 @@
-# Problem Set 2: Vigenere
-
-Questions?  Head to Slack or join classmates at office hours!
-
-Let's ensure that the Appliance is up to date by running **update50** from a Terminal before starting.
-
-# Objectives
-
-* Become better acquainted with functions and libraries.
-
-* Dabble in cryptography.
-
-
 # Parlez-vous français?
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/9zASwVoshiM" frameborder="0" allowfullscreen></iframe>
-
-Well that last cipher was hardly secure. Fortunately, per Nate's short on Vigenère's cipher, there's a more sophisticated algorithm out there. Suffice it to say it's French, per [http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). Though do not be mislead by the article's discussion of a tabula recta. Each ci can be computed with relatively simple arithmetic! You do not need a two-dimensional array.
+Well that last cipher was hardly secure. Fortunately, per [Nate's short](https://www.youtube.com/watch?v=9zASwVoshiM) on Vigenère's cipher, there's a more sophisticated algorithm out there. Suffice it to say it's French, per [http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher](http://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher). Though do not be mislead by the article's discussion of a tabula recta. Each ci can be computed with relatively simple arithmetic! You do not need a two-dimensional array.
 
 Vigenère's cipher improves upon Caesar's by encrypting messages using a sequence of keys (or, put another way, a keyword). In other words, if *p* is some plaintext and *k* is a keyword (i.e., an alphbetical string, whereby `A` and `a` represent 0, while `Z` and `z` represent 25), then each letter, *c<sub>i</sub>*, in the ciphertext, *c*, is computed as:
 
-* *c<sub>i</sub>* = (*p<sub>i</sub>* + *k<sub>j</sub>*) % 26
+*c<sub>i</sub>* = (*p<sub>i</sub>* + *k<sub>j</sub>*) % 26
 
 Note this cipher's use of *k<sub>j</sub>* as opposed to just *k*. And recall that, if *k* is shorter than *p*, then the letters in *k* must be reused cyclically as many times as it takes to encrypt *p*.
 
@@ -31,7 +16,7 @@ Not sure where to begin? As luck would have it, this program's pretty similar to
 
 And here's Zamyla again with some tips:
 
-<iframe width="711" height="400" src="https://www.youtube.com/embed/Uma2HZMPm2M" frameborder="0" allowfullscreen></iframe>
+![embed](https://www.youtube.com/embed/Uma2HZMPm2M)
 
 So that we can automate some tests of your code, your program must behave per the below; highlighted in bold are some sample inputs.
 
@@ -56,8 +41,14 @@ And if you'd like to play with the staff's own implementation of `vigenere` in t
 	~cs50/pset2/vigenere
 
 
-# Final steps
+## How to submit
 
-* When you are done with `vigenere.c`, submit it by going over to the [Submit](#submit) tab. Be sure to compile and test one last time before you submit.
+To submit, please upload your files at the bottom of the page. These are the files you must submit for a complete Problem Set 2:
 
-* All done!
+- `initials.c`
+- `caesar.c`
+- `vigenere.c`
+
+If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+
+This was Problem Set 2.

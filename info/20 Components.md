@@ -12,7 +12,7 @@ Integrated into problem sets are "walkthroughs," videos via which the course's s
 
 ## Sections
 
-Lectures are supplemented by weekly, 60-minute sections led by the teaching fellows. Sections provide you with opportunities to explore the course’s material in a more intimate environment, with only your teaching fellow and a group of classmates present, as well as to dive into hands-on activities.
+Lectures are supplemented by weekly, 60-minute sections led by the teaching fellows. Sections provide you with opportunities to explore the course's material in a more intimate environment, with only your teaching fellow and a group of classmates present, as well as to dive into hands-on activities.
 
 ## Office Hours
 

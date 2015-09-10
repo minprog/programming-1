@@ -1,28 +1,40 @@
-*Please consult your teaching fellow before attempting any hacker edition!*
+# Hacker edition
 
-# Recommended Reading
+Not sure if you would like to tackle this Hacker edition of Problem Set 3? Time to have a conversation with your TA!
 
-* Page 17 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
+## diff pset3 hacker3
 
-* Chapters 13, 15, and 18 of Programming in C.
+* Hacker Edition dares you to implement sort in O(n) instead of O(n2).
 
+* Hacker Edition requires that ball bounce off paddle at varying angles.
 
-For this hackers edition implement the normal edition, only with a few twists:
+* Hacker Edition offers bonus features, including:
 
-* Implement **find** with an O(n) sorting algorithm.
+    * God Mode;
 
-* Implement breakout.c such that the angle at which the ball bounces off the paddle depends on where the ball strikes the paddle; we leave it to you to decide on a formula. 
+    * variable scoring;
 
-* Implement at least 2 of the following features into your breakout.c:
-	* Implement God Mode whereby, if the program is run with **./breakout GOD**, the game ignores the user’s mouse movements and instead moves the paddle itself in perfect lockstep with the ball along its (horizontal) x-axis so that the ball never misses the paddle.
-	* Implement a shrinking-paddle mechanism whereby the paddle’s width decreases as bricks are broken; we leave it to you to decide on a formula.
-	* Implement a variable-scoring mechanism whereby bricks higher in the game’s grid are worth more points than are bricks lower in the game’s grid; we leave it to you to decide on a formula.
-	* Implement a variable-velocity mechanism whereby the ball’s velocity (along one or both axes) increases as bricks are broken; we leave it to you to decide on a formula.
-	* Implement lasers, whereby clicking the mouse button during gameplay results in the paddle shooting one or two laser beams upward toward bricks, whereby those beams can destroy them just like the ball can. However, if a beam strikes the ball itself, gameplay must end.
+    * shrinking paddles;
 
+    * accelerating velocity; and/or
 
-# Final steps
+    * lasers.
 
-* When you are done with `find` and `breakout.c`, submit it by going over to the [Submit tab](#submit). Be sure to compile and test one last time before you submit.
+## Link
 
-* All done!
+Please go to [this web page](http://cdn.cs50.net/2014/fall/psets/3/hacker3/hacker3.html) to do the hacker edition. Don't forget to come back here to submit your problems!
+
+## How to submit
+
+When ready to submit, open up a Terminal window and navigate your way to **~/Dropbox**. Create a ZIP (i.e., compressed) file containing your entire **pset3** directory by executing the below. Incidentally, **-r** means "recursive," which in this case means to ZIP up everything inside of pset3, including any subdirectories (or even subsubdirectories!).
+
+    zip -r pset3.zip pset3
+
+If you type **ls** thereafter, you should see that you have a new file called **pset3.zip** in **~/Dropbox**. (If you realize later that you need to make a change to some file and re-ZIP everything, you can delete the ZIP file you already made with **rm pset3.zip**, then create a new ZIP file as before.)
+
+To submit, please upload **pset3.zip** at the bottom of the page.
+
+If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+
+This was Problem Set 3.
+
