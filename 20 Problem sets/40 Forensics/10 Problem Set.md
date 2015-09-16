@@ -1,6 +1,6 @@
 # Problem Set 4: Forensics
 
-Questions?  Head to Slack or join classmates at office hours!
+Questions?  Join classmates at office hours!
 
 ## Objectives
 
@@ -9,7 +9,7 @@ Questions?  Head to Slack or join classmates at office hours!
 * Introduce you to computer scientists across campus.
 * Help Mr. Boddy.
 
-## Recommended Reading[^1]
+## Recommended Reading *
 
 * Chapters 18, 24, 25, 27, and 28 of _Absolute Beginner's Guide to C_
 * Chapters 9, 11, 14, and 16 of _Programming in C_
@@ -18,7 +18,7 @@ Questions?  Head to Slack or join classmates at office hours!
 * <http://en.wikipedia.org/wiki/Hexadecimal>
 * <http://en.wikipedia.org/wiki/Jpg>
 
-[^1]: The Wikipedia articles are a bit dense; feel free to skim or skip!
+*) The Wikipedia articles are a bit dense; feel free to skim or skip!
 
 ## Academic Honesty
 
@@ -45,7 +45,6 @@ If you commit some act that is not reasonable but bring it to the attention of t
 
 ### Not Reasonable
 
-* Accessing a solution in CS50 Vault to some problem prior to (re-)submitting your own.
 * Asking a classmate to see his or her solution to a problem set's problem before (re-)submitting your own.
 * Decompiling, deobfuscating, or disassembling the staff's solutions to problem sets.
 * Failing to cite (as with comments) the origins of code or techniques that you discover outside of the course's own lessons and integrate into your own work, even while respecting this policy's other constraints.
@@ -78,7 +77,7 @@ Design
 Style
 : To what extent is your code readable (i.e., commented and indented with variables aptly named)?
 
-All students, whether taking the course SAT/UNS or for a letter grade, must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
+All students must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
 
 ## Getting Ready
 
@@ -205,14 +204,14 @@ Incidentally, HTML and CSS (languages in which webpages can be written) model co
 Now let's get more technical.  Recall that a file is just a sequence of bits, arranged in some fashion.  A 24-bit BMP file, then, is essentially just a sequence of bits, (almost) every 24 of which happen to represent some pixel's color.  But a BMP file also contains some "metadata," information like an image's height and width.  That metadata is stored at the beginning of the file in the form of two data structures generally referred to as "headers" (not to be confused with C's header files).   (Incidentally, these headers have evolved over time.  This problem set only expects that you support version 4.0 (the latest) of Microsoft's BMP format, which debuted with Windows 95.)  The first of these headers, called `BITMAPFILEHEADER`, is 14 bytes long.  (Recall that 1 byte equals 8 bits.)  The second of these headers, called `BITMAPINFOHEADER`, is 40 bytes long.  Immediately following these headers is the actual bitmap: an array of bytes, triples of which represent a pixel's color.   (In 1-, 4-, and 16-bit BMPs, but not 24- or 32-, there's an additional header right after `BITMAPINFOHEADER` called `RGBQUAD`, an array that defines "intensity values" for each of the colors in a device's palette.)  However, BMP stores these triples backwards (i.e., as BGR), with 8 bits for blue, followed by 8 bits for green, followed by 8 bits for red.   (Some BMPs also store the entire bitmap backwards, with an image's top row at the end of the BMP file.  But we've stored this problem set's BMPs as described herein, with each bitmap's top row first and bottom row last.)  In other words, were we to convert the 1-bit smiley above to a 24-bit smiley, substituting red for black, a 24-bit BMP would store this bitmap as follows, where `0000ff` signifies red and `ffffff` signifies white; we've highlighted in red all instances of `0000ff`.
 
 ~~~
-ffffff  ffffff  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  ffffff  ffffff
-ffffff  [red]#0000ff#  ffffff  ffffff  ffffff  ffffff  [red]#0000ff#  ffffff
-[red]#0000ff#  ffffff  [red]#0000ff#  ffffff  ffffff  [red]#0000ff#  ffffff  [red]#0000ff#
-[red]#0000ff#  ffffff  ffffff  ffffff  ffffff  ffffff  ffffff  [red]#0000ff#
-[red]#0000ff#  ffffff  [red]#0000ff#  ffffff  ffffff  [red]#0000ff#  ffffff  [red]#0000ff#
-[red]#0000ff#  ffffff  ffffff  [red]#0000ff#  [red]#0000ff#  ffffff  ffffff  [red]#0000ff#
-ffffff  [red]#0000ff#  ffffff  ffffff  ffffff  ffffff  [red]#0000ff#  ffffff
-ffffff  ffffff  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  [red]#0000ff#  ffffff  ffffff
+ffffff  ffffff  0000ff  0000ff  0000ff  0000ff  ffffff  ffffff
+ffffff  0000ff  ffffff  ffffff  ffffff  ffffff  0000ff  ffffff
+0000ff  ffffff  0000ff  ffffff  ffffff  0000ff  ffffff  0000ff
+0000ff  ffffff  ffffff  ffffff  ffffff  ffffff  ffffff  0000ff
+0000ff  ffffff  0000ff  ffffff  ffffff  0000ff  ffffff  0000ff
+0000ff  ffffff  ffffff  0000ff  0000ff  ffffff  ffffff  0000ff
+ffffff  0000ff  ffffff  ffffff  ffffff  ffffff  0000ff  ffffff
+ffffff  ffffff  0000ff  0000ff  0000ff  0000ff  ffffff  ffffff
 ~~~
 
 Because we've presented these bits from left to right, top to bottom, in 8 columns, you can actually see the red smiley if you take a step back.
@@ -234,14 +233,14 @@ xxd -c 24 -g 3 -s 54 smiley.bmp
 You should see the below; we've again highlighted in red all instances of `0000ff`.
 
 ~~~
-0000036: ffffff ffffff [red]#0000ff# [red]#0000ff# [red]#0000ff# [red]#0000ff# ffffff ffffff  ........................
-000004e: ffffff [red]#0000ff# ffffff ffffff ffffff ffffff [red]#0000ff# ffffff  ........................
-0000066: [red]#0000ff# ffffff [red]#0000ff# ffffff ffffff [red]#0000ff# ffffff [red]#0000ff#  ........................
-000007e: [red]#0000ff# ffffff ffffff ffffff ffffff ffffff ffffff [red]#0000ff#  ........................
-0000096: [red]#0000ff# ffffff [red]#0000ff# ffffff ffffff [red]#0000ff# ffffff [red]#0000ff#  ........................
-00000ae: [red]#0000ff# ffffff ffffff [red]#0000ff# [red]#0000ff# ffffff ffffff [red]#0000ff#  ........................
-00000c6: ffffff [red]#0000ff# ffffff ffffff ffffff ffffff [red]#0000ff# ffffff  ........................
-00000de: ffffff ffffff [red]#0000ff# [red]#0000ff# [red]#0000ff# [red]#0000ff# ffffff ffffff  ........................
+0000036: ffffff ffffff 0000ff 0000ff 0000ff 0000ff ffffff ffffff  ........................
+000004e: ffffff 0000ff ffffff ffffff ffffff ffffff 0000ff ffffff  ........................
+0000066: 0000ff ffffff 0000ff ffffff ffffff 0000ff ffffff 0000ff  ........................
+000007e: 0000ff ffffff ffffff ffffff ffffff ffffff ffffff 0000ff  ........................
+0000096: 0000ff ffffff 0000ff ffffff ffffff 0000ff ffffff 0000ff  ........................
+00000ae: 0000ff ffffff ffffff 0000ff 0000ff ffffff ffffff 0000ff  ........................
+00000c6: ffffff 0000ff ffffff ffffff ffffff ffffff 0000ff ffffff  ........................
+00000de: ffffff ffffff 0000ff 0000ff 0000ff 0000ff ffffff ffffff  ........................
 ~~~
 
 In the leftmost column above are addresses within the file or, equivalently, offsets from the file's first byte, all of them given in hex.  Note that `00000036` in hexadecimal is `54` in decimal.  You're thus looking at byte `54` onward of `smiley.bmp`.  Recall that a 24-bit BMP's first 14 + 40 # 54 bytes are filled with metadata.  If you really want to see that metadata in addition to the bitmap, execute the command below.
@@ -267,9 +266,9 @@ xxd -c 12 -g 3 -s 54 small.bmp
 Note that we're using a different value for `-c` than we did for `smiley.bmp` so that `xxd` outputs only 4 columns this time (3 for the green box and 1 for the padding).  You should see output like the below; we've highlighted in green all instances of `00ff00`.
 
 ~~~
-    0000036: [green]#00ff00# [green]#00ff00# [green]#00ff00# 000000  ............
-    0000042: [green]#00ff00# ffffff [green]#00ff00# 000000  ............
-    000004e: [green]#00ff00# [green]#00ff00# [green]#00ff00# 000000  ............
+    0000036: 00ff00 00ff00 00ff00 000000  ............
+    0000042: 00ff00 ffffff 00ff00 000000  ............
+    000004e: 00ff00 00ff00 00ff00 000000  ............
 ~~~
 
 For contrast, let's use `xxd` on `large.bmp`, which looks identical to `small.bmp` but, at 12 pixels by 12 pixels, is four times as large.  Go ahead and execute the below; you may need to widen your window to avoid wrapping.
@@ -281,18 +280,18 @@ xxd -c 36 -g 3 -s 54 large.bmp
 You should see output like the below; we've again highlighted in green all instances of `00ff00`
 
 ~~~
-0000036: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-000005a: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-000007e: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-00000a2: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-00000c6: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# ffffff ffffff ffffff ffffff [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-00000ea: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# ffffff ffffff ffffff ffffff [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-000010e: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# ffffff ffffff ffffff ffffff [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-0000132: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# ffffff ffffff ffffff ffffff [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-0000156: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-000017a: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-000019e: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
-00001c2: [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00# [green]#00ff00#  ....................................
+0000036: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+000005a: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+000007e: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+00000a2: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+00000c6: 00ff00 00ff00 00ff00 00ff00 ffffff ffffff ffffff ffffff 00ff00 00ff00 00ff00 00ff00  ....................................
+00000ea: 00ff00 00ff00 00ff00 00ff00 ffffff ffffff ffffff ffffff 00ff00 00ff00 00ff00 00ff00  ....................................
+000010e: 00ff00 00ff00 00ff00 00ff00 ffffff ffffff ffffff ffffff 00ff00 00ff00 00ff00 00ff00  ....................................
+0000132: 00ff00 00ff00 00ff00 00ff00 ffffff ffffff ffffff ffffff 00ff00 00ff00 00ff00 00ff00  ....................................
+0000156: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+000017a: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+000019e: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
+00001c2: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
 ~~~
 
 Worthy of note is that this BMP lacks padding!  After all, (12 pixels) × (3 bytes per pixel) # 36 bytes is indeed a multiple of 4.
@@ -531,38 +530,19 @@ Before you consider this problem set done, best to ask yourself these questions 
 
 As always, if you can't answer "yes" to one or more of the above because you're having some trouble, do drop by office hours!
 
-## Fabulous Prizes
 
-And now the real fun begins. You are hereby challenged to find as many of the computer scientists featured in these photos as possible.  To prove that you found someone, take a photo of yourself posing (anywhere) with the computer scientist (in such a way that he or she is aware of the photo and not just in the background). If a photo contains multiple computer scientists, you're welcome to pose with each of them separately. Upload your photos (i.e., the photos you took, not the ones that you recovered) to a non-private album somewhere that supports bulk downloads (e.g., Dropbox, Imgur, etc.), then email your album's URL to heads@cs50.harvard.edu by *noon on Wed 10/22*! We'll add your photos to a public gallery (unless you request otherwise).
+## How to submit
 
-For each (hey, that's a loop) of the computer scientists you find, we will treat you to 1GB of additional Dropbox space! (Though supplies may be limited.) 
-
-Moreover, whoever finds and photographs the most computer scientists (and, in the event of a tie, submits first) shall be rewarded with a little something extra for their final project (or dorm room):
-
-![embed](https://www.youtube.com/embed/yVlPM3FajuA?rel=0)
-
-## How to Submit
-
-### Step 1 of 2
-
-When ready to submit, open up a Terminal window and navigate your way to `~/Dropbox`.  Create a ZIP (i.e., compressed) file containing your entire `pset4` directory by executing the below.  Incidentally, `-r` means "recursive," which in this case means to ZIP up everything inside of `pset4`, including any subdirectories (or even subsubdirectories!).
+When ready to submit, open up a Terminal window and navigate your way to **~/Dropbox**. Create a ZIP (i.e., compressed) file containing your entire **pset4** directory by executing the below. Incidentally, **-r** means "recursive," which in this case means to ZIP up everything inside of pset4, including any subdirectories (or even subsubdirectories!).
 
 ~~~ bash
 zip -r pset4.zip pset4
 ~~~
 
-If you type `ls` thereafter, you should see that you have a new file called `pset4.zip` in `~/Dropbox`.  (If you realize later that you need to make a change to some file and re-ZIP everything, you can delete the ZIP file you already made with `rm pset4.zip`, then create a new ZIP file as before.)
+If you type **ls** thereafter, you should see that you have a new file called **pset4.zip** in **~/Dropbox**. (If you realize later that you need to make a change to some file and re-ZIP everything, you can delete the ZIP file you already made with **rm pset4.zip**, then create a new ZIP file as before.)
 
-* Once done creating your ZIP file, open up Chrome _inside_ of the appliance (not on your own computer) and visit https://cs50.harvard.edu/submit[cs50.harvard.edu/submit], logging in if prompted.
-* Click *Submit* toward the window's top-left corner.
-* Under *Problem Set 4* on the screen that appears, click *Upload New Submission*.
-* On the screen that appears, click *Add files...*.  A window entitled *Open Files* should appear.
-* Navigate your way to `pset4.zip`, as by clicking *jharvard*, then double-clicking *Dropbox*.  Once you find `pset4.zip`, click it once to select it, then click *Open*.
-* Click *Start upload* to upload your ZIP file to CS50's servers.
-* On the screen that appears, you should see a window with *No File Selected*.  If you move your mouse toward the window's lefthand side, you should see a list of the files you uploaded.  Click each to confirm the contents of each.  (No need to click any other buttons or icons.)  If confident that you submitted the files you intended, consider your source code submitted!  If you'd like to re-submit different (or modified) files, simply return to https://cs50.harvard.edu/submit[cs50.harvard.edu/submit] and repeat these steps.  You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
+To submit, please upload **pset4.zip** at the bottom of the page.
 
-### Step 2 of 2
-
-Head to https://forms.cs50.net/2014/fall/psets/4/ where a short form awaits.  Once you have submitted that form (as well as your source code), you are done!
+If you'd like to re-submit different (or modified) files, simply return to this page and repeat these steps. You may re-submit as many times as you'd like; we'll grade your most recent submission, so long as it's before the deadline.
 
 This was Problem Set 4.

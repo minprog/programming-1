@@ -2,7 +2,7 @@
 
 Questions?  Join classmates at office hours!
 
-# Objectives
+## Objectives
 
 * Accustom you to reading someone else's code.
 * Introduce you to an API.
@@ -11,7 +11,7 @@ Questions?  Join classmates at office hours!
 
 *This pset with thanks to Eric Roberts of Stanford!*
 
-# Recommended Reading
+## Recommended Reading
 
 * Page 17 of [http://www.howstuffworks.com/c.htm](http://www.howstuffworks.com/c.htm).
 
