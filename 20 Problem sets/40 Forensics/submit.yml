@@ -1,6 +1,3 @@
 name: forensics
 required:
-    - generate.c
-    - find.c
-    - helpers.c
-    - breakout.c
+    - pset4.zip
