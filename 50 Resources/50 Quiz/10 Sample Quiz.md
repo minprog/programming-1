@@ -12,3 +12,5 @@ Also, to prepare well, you might have a try at a quiz from previous years:
 
 - [Questions](http://cdn.cs50.net/2014/fall/quizzes/0/quiz0.pdf)
 - [Answers](http://cdn.cs50.net/2014/fall/quizzes/0/key0.pdf)
+
+Finally, if in trouble on a particular topic, there is [CS50 Study](https://study.cs50.net), which has an overview of many important parts of the course and links to all relevant materials on each topic.
