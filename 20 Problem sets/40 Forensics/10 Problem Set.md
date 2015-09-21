@@ -243,7 +243,7 @@ You should see the below; we've again highlighted in red all instances of `0000f
 00000de: ffffff ffffff 0000ff 0000ff 0000ff 0000ff ffffff ffffff  ........................
 ~~~
 
-In the leftmost column above are addresses within the file or, equivalently, offsets from the file's first byte, all of them given in hex.  Note that `00000036` in hexadecimal is `54` in decimal.  You're thus looking at byte `54` onward of `smiley.bmp`.  Recall that a 24-bit BMP's first 14 + 40 # 54 bytes are filled with metadata.  If you really want to see that metadata in addition to the bitmap, execute the command below.
+In the leftmost column above are addresses within the file or, equivalently, offsets from the file's first byte, all of them given in hex.  Note that `00000036` in hexadecimal is `54` in decimal.  You're thus looking at byte `54` onward of `smiley.bmp`.  Recall that a 24-bit BMP's first 14 + 40 = 54 bytes are filled with metadata.  If you really want to see that metadata in addition to the bitmap, execute the command below.
 
 ~~~ bash
 xxd -c 24 -g 3 smiley.bmp
@@ -251,11 +251,11 @@ xxd -c 24 -g 3 smiley.bmp
 
 If `smiley.bmp` actually contained ASCII characters, you'd see them in ``xxd``'s rightmost column instead of all of those dots.
 
-So, `smiley.bmp` is 8 pixels wide by 8 pixels tall, and it's a 24-bit BMP (each of whose pixels is represented with 24 ÷ 8 # 3 bytes).  Each row (aka "scanline") thus takes up (8 pixels) × (3 bytes per pixel) # 24 bytes, which happens to be a multiple of 4.  It turns out that BMPs are stored a bit differently if the number of bytes in a scanline is not, in fact, a multiple of 4.  In `small.bmp`, for instance, is another 24-bit BMP, a green box that's 3 pixels wide by 3 pixels wide.  If you view it with Image Viewer (as by double-clicking it), you'll see that it resembles the below, albeit much smaller.  (Indeed,  you might need to zoom in again to see it.)
+So, `smiley.bmp` is 8 pixels wide by 8 pixels tall, and it's a 24-bit BMP (each of whose pixels is represented with 24 ÷ 8 = 3 bytes).  Each row (aka "scanline") thus takes up (8 pixels) × (3 bytes per pixel) = 24 bytes, which happens to be a multiple of 4.  It turns out that BMPs are stored a bit differently if the number of bytes in a scanline is not, in fact, a multiple of 4.  In `small.bmp`, for instance, is another 24-bit BMP, a green box that's 3 pixels wide by 3 pixels wide.  If you view it with Image Viewer (as by double-clicking it), you'll see that it resembles the below, albeit much smaller.  (Indeed,  you might need to zoom in again to see it.)
 
 ![small.png](small.png)
 
-Each scanline in `small.bmp` thus takes up (3 pixels) × (3 bytes per pixel) # 9 bytes, which is not a multiple of 4.  And so the scanline is "padded" with as many zeroes as it takes to extend the scanline's length to a multiple of 4.  In other words, between 0 and 3 bytes of padding are needed for each scanline in a 24-bit BMP.  (Understand why?)  In the case of small.bmp, 3 bytes' worth of zeroes are needed, since (3 pixels) &#215; (3 bytes per pixel) + (3 bytes of padding) # 12 bytes, which is indeed a multiple of 4.
+Each scanline in `small.bmp` thus takes up (3 pixels) × (3 bytes per pixel) = 9 bytes, which is not a multiple of 4.  And so the scanline is "padded" with as many zeroes as it takes to extend the scanline's length to a multiple of 4.  In other words, between 0 and 3 bytes of padding are needed for each scanline in a 24-bit BMP.  (Understand why?)  In the case of small.bmp, 3 bytes' worth of zeroes are needed, since (3 pixels) &#215; (3 bytes per pixel) + (3 bytes of padding) = 12 bytes, which is indeed a multiple of 4.
 
 To "see" this padding, go ahead and run the below.
 
@@ -294,7 +294,7 @@ You should see output like the below; we've again highlighted in green all insta
 00001c2: 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00 00ff00  ....................................
 ~~~
 
-Worthy of note is that this BMP lacks padding!  After all, (12 pixels) × (3 bytes per pixel) # 36 bytes is indeed a multiple of 4.
+Worthy of note is that this BMP lacks padding!  After all, (12 pixels) × (3 bytes per pixel) = 36 bytes is indeed a multiple of 4.
 
 Knowing all this has got to be useful!
 
@@ -318,7 +318,7 @@ So how now did that copy get made?  It turns out that `copy.c` relies on `bmp.h`
 
 Why are these `struct`pass:[s] useful?  Well, recall that a file is just a sequence of bytes (or, ultimately, bits) on disk.  But those bytes are generally ordered in such a way that the first few represent something, the next few represent something else, and so on.  "File formats" exist because the world has standardized what bytes mean what.  Now, we could just read a file from disk into RAM as one big array of bytes.  And we could just remember that the byte at location `[i]` represents one thing, while the byte at location `[j]` represents another.  But why not give some of those bytes names so that we can retrieve them from memory more easily?  That's precisely what the `struct`s in `bmp.h` allow us to do.  Rather than think of some file as one long sequence of bytes, we can instead think of it as a sequence of `struct`s.
 
-Recall that `smiley.bmp` is 8 by 8 pixels, and so it should take up 14 + 40 + (8 × 8) × 3 # 246 bytes on disk.  (Confirm as much if you'd like using `ls`.)  Here's what it thus looks like on disk according to Microsoft:
+Recall that `smiley.bmp` is 8 by 8 pixels, and so it should take up 14 + 40 + (8 × 8) × 3 = 246 bytes on disk.  (Confirm as much if you'd like using `ls`.)  Here's what it thus looks like on disk according to Microsoft:
 
 ![smiley.bmp on disk](disk.png)
 
@@ -337,12 +337,12 @@ run smiley.bmp copy.bmp
 If you tell `gdb` to print the values of `bf` and `bi` (once read in from disk), you'll see output like the below, which we daresay you'll find quite useful.
 
 ~~~ bash
-{bfType # 19778, bfSize # 246, bfReserved1 # 0, bfReserved2 # 0, 
-  bfOffBits # 54}
+{bfType = 19778, bfSize = 246, bfReserved1 = 0, bfReserved2 = 0, 
+  bfOffBits = 54}
 
-{biSize # 40, biWidth # 8, biHeight # -8, biPlanes # 1, biBitCount # 24, 
-  biCompression # 0, biSizeImage # 192, biXPelsPerMeter # 2834, 
-  biYPelsPerMeter # 2834, biClrUsed # 0, biClrImportant # 0}
+{biSize = 40, biWidth = 8, biHeight = -8, biPlanes = 1, biBitCount = 24, 
+  biCompression = 0, biSizeImage = 192, biXPelsPerMeter = 2834, 
+  biYPelsPerMeter = 2834, biClrUsed = 0, biClrImportant = 0}
 ~~~
 
 In `~/Dropbox/pset4/questions.txt`, answer each of the following questions in a sentence or more.
@@ -470,7 +470,7 @@ or
 
 from first byte to fourth byte, left to right.  Odds are, if you find one of these patterns of bytes on a disk known to store photos (e.g., my CF card), they demark the start of a JPEG.  (To be sure, you might encounter these patterns on some disk purely by chance, so data recovery isn't an exact science.)
 
-Fortunately, digital cameras tend to store photographs contiguously on CF cards, whereby each photo is stored immediately after the previously taken photo.  Accordingly, the start of a JPEG usually demarks the end of another.  However, digital cameras generally initialize CF cards with a FAT file system whose "block size" is 512 bytes (B).  The implication is that these cameras only write to those cards in units of 512 B.  A photo that's 1 MB (i.e., 1,048,576 B) thus takes up 1048576 ÷ 512 # 2048 "blocks" on a CF card.  But so does a photo that's, say, one byte smaller (i.e., 1,048,575 B)!  The wasted space on disk is called "slack space."  Forensic investigators often look at slack space for remnants of suspicious data.
+Fortunately, digital cameras tend to store photographs contiguously on CF cards, whereby each photo is stored immediately after the previously taken photo.  Accordingly, the start of a JPEG usually demarks the end of another.  However, digital cameras generally initialize CF cards with a FAT file system whose "block size" is 512 bytes (B).  The implication is that these cameras only write to those cards in units of 512 B.  A photo that's 1 MB (i.e., 1,048,576 B) thus takes up 1048576 ÷ 512 = 2048 "blocks" on a CF card.  But so does a photo that's, say, one byte smaller (i.e., 1,048,575 B)!  The wasted space on disk is called "slack space."  Forensic investigators often look at slack space for remnants of suspicious data.
 
 The implication of all these details is that you, the investigator, can probably write a program that iterates over a copy of my CF card, looking for JPEGs' signatures.  Each time you find a signature, you can open a new file for writing and start filling that file with bytes from my CF card, closing that file only once you encounter another signature.  Moreover, rather than read my CF card's bytes one at a time, you can read 512 of them at a time into a buffer for efficiency's sake.  Thanks to FAT, you can trust that JPEGs' signatures will be "block-aligned."  That is, you need only look for those signatures in a block's first four bytes. 
 
@@ -479,7 +479,7 @@ Realize, of course, that JPEGs can span contiguous blocks.  Otherwise, no JPEG c
 Now, I only have one CF card, but there are a whole lot of you!  And so I've gone ahead and created a "forensic image" of the card, storing its contents, byte after byte, in a file called `card.raw`.  So that you don't waste time iterating over millions of 0s unnecessarily, I've only imaged the first few megabytes of the CF card.  But you should ultimately find that the image contains 16 JPEGs.  As usual, you can open the file programmatically with `fopen`, as in the below.  
 
 ~~~ c
-FILE* file # fopen("card.raw", "r");
+FILE* file = fopen("card.raw", "r");
 ~~~
 
 Notice, incidentally, that `~/Dropbox/pset4/jpg` contains only `recover.c`, but it's devoid of any code.  (We leave it to you to decide how to implement and compile `recover`!)   For simplicity, you should hard-code `"card.raw"` in your program; your program need not accept any command-line arguments.  When executed, though, your program should recover every one of the JPEGs from `card.raw`, storing each as a separate file in your current working directory.  Your program should number the files it outputs by naming each `pass:[###].jpg`, where `pass:[###]` is three-digit decimal number from `000` on up.  (Befriend `sprintf`.)  You need not try to recover the JPEGs' original names.  To check whether the JPEGs your program spit out are correct, simply double-click and take a look!  If each photo appears intact, your operation was likely a success!
