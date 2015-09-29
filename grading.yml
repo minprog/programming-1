@@ -1,3 +1,10 @@
+formulas:
+    scratch: (scope * correctness / 25.0 * 9 + 1).round(1)
+    c: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    crypto: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    breakout: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    forensics: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+
 calculation:
     resit:
         resit: 0
@@ -8,20 +15,20 @@ calculation:
         psets: 70
         passes: 30
 
+# passes:
+#     type: pass
+#     grades:
+#         scratch: 1
+
 psets:
-    type: integer
+    type: float
     drop: correctness
     grades:
+        scratch: 1
         c: 1
         crypto: 1
         breakout: 1
         forensics: 1
-
-passes:
-    type: pass
-    drop: any
-    grades:
-        scratch: 1
 
 quiz:
     type: pass
