@@ -15,6 +15,11 @@ calculation:
         psets: 70
         passes: 30
 
+passes:
+    type: pass
+    grades:
+        scratch: 1
+
 psets:
     type: integer
     drop: correctness
@@ -23,11 +28,6 @@ psets:
         crypto: 1
         breakout: 1
         forensics: 1
-
-passes:
-    type: pass
-    grades:
-        scratch: 1
 
 quiz:
     type: pass
