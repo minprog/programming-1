@@ -15,15 +15,16 @@ calculation:
         psets: 70
         passes: 30
 
-passes:
-    type: pass
-    grades:
-        scratch: 1
+# passes:
+#     type: pass
+#     grades:
+#         scratch: 1
 
 psets:
     type: float
     drop: correctness
     grades:
+        scratch: 1
         c: 1
         crypto: 1
         breakout: 1
