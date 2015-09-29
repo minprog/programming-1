@@ -21,7 +21,7 @@ passes:
         scratch: 1
 
 psets:
-    type: integer
+    type: float
     drop: correctness
     grades:
         c: 1
