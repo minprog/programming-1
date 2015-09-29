@@ -1,9 +1,9 @@
 formulas:
     scratch: (scope * correctness / 25 * 9 + 1).round(1)
     c: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    crypto: (scope * (3 * correctness + 2 * design + 1 * style) / 150 * 9 + 1).round(1)
-    breakout: (scope * (3 * correctness + 2 * design + 1 * style) / 150 * 9 + 1).round(1)
-    forensics: (scope * (3 * correctness + 2 * design + 1 * style) / 150 * 9 + 1).round(1)
+    crypto: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    breakout: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    forensics: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
 
 calculation:
     resit:
