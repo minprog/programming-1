@@ -20,7 +20,7 @@ calculation:
 
 psets:
     type: float
-    drop: correctness
+    drop: scope
     grades:
         scratch: 1
         c: 1
