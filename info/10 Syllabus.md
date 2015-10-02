@@ -36,7 +36,7 @@ All students must ordinarily submit all five problem sets and take the quiz in
 order to be eligible for a satisfactory grade unless granted an exception in
 writing by the course's heads.
 
-Problem sets and the final project are evaluated primarily along axes of scope,
+Problem sets are evaluated primarily along axes of scope,
 correctness, design, and style, with scores ordinarily determined by scope × (3
 × correctness + 2 × design + 1 × style). Scope is deemed all-important: we
 strive for you to at least try every aspect of each problem set. Mid-semester
