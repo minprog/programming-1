@@ -22,3 +22,18 @@ Week 4:
     'Lecture 4 Mon': '/lectures/week-4-mon'
     'Section [Tuesday]':
     'Lecture 4 Wed': '/lectures/week-4-wed'
+Week 5:
+    'Problem set 3: Breakout [Thursday]': '/psets/breakout'
+    'Lecture 5 Mon': '/lectures/week-5-mon'
+    'Section [Tuesday]':
+    'Lecture 5 Wed': '/lectures/week-5-wed'
+Week 6:
+    'Lecture 5 Mon': '/lectures/week-5-mon'
+    'Lecture 5 Wed': '/lectures/week-5-wed'
+    'Section [Tuesday]':
+    'Problem set 4: Forensics [deadline: in two weeks!]': '/psets/forensics'
+    'Lecture 6 Fri': '/lectures/week-6-fri'
+Week 7:
+    'Section: Quiz Preparation [Tuesday]':
+    'Problem set 4: Forensics [Thursday]': '/psets/forensics'
+    'Quiz [next week!]':
