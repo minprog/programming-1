@@ -36,6 +36,8 @@ All students must ordinarily submit all five problem sets and take the quiz in
 order to be eligible for a satisfactory grade unless granted an exception in
 writing by the course's heads.
 
+The final grade for this course is primarily determined by averaging the scores for the problem sets. The final exam has to be passed, but has no weight in the final grade.
+
 Problem sets are evaluated primarily along axes of scope,
 correctness, design, and style, with scores ordinarily determined by scope × (3
 × correctness + 2 × design + 1 × style). Scope is deemed all-important: we
