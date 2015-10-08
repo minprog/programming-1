@@ -616,7 +616,8 @@ Once it comes time to add a `GLabel` to your game (for its scoreboard), you can 
 
 Once you have the ball bouncing off the paddle (and window's edges), focus your attention again on that while loop in main and figure out how to detect if the ball's hit a brick and how to remove that brick from the grid if so. Odds are you'll find removeGWindow of interest, per <http://cdn.cs50.net/2014/fall/psets/3/pset3/spl/doc/gwindow.html>. SPL's documentation incorrectly refers to that function as `remove`, but it's indeed `removeGWindow` you want, whose prototype, to be clear, is the below.
 
-void removeGWindow(GWindow gw, GObject gobj);
+    void removeGWindow(GWindow gw, GObject gobj);
+
 Now decide how to determine whether the ball has zoomed past the paddle and struck the window's bottom edge, in which case the user should lose a life and gameplay should probably pause until the user clicks the mouse button, as in the staff's implementation. Odds are detecting this situation isn't all that different from the code you already wrote for bouncing; you just don't want to bounce off that bottom edge anymore!
 
 Lastly, implement `initScoreboard` in such a way that the function instantiates and positions a `GLabel` somewhere in your game's window. Then, enhance `main` in such a way that the text of that GLabel is updated with the user's score anytime the user breaks a brick. Indeed, be sure that your program keeps track of how many lives remain and how many bricks remain, the latter of which is inversely related to how many points you should give the user for each brick broken; our solution awards one point per brick, but you're welcome to offer different rewards. A user's game should end (i.e., the ball should stop moving) after a user runs out of lives or after all bricks are broken. We leave it to you to decide what to do in both cases, if anything more!
