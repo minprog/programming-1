@@ -8,12 +8,10 @@ formulas:
 calculation:
     resit:
         resit: 0
-        psets: 70
-        passes: 30
+        psets: 100
     normal:
         quiz: 0
-        psets: 70
-        passes: 30
+        psets: 100
 
 # passes:
 #     type: pass
@@ -22,7 +20,7 @@ calculation:
 
 psets:
     type: float
-    drop: correctness
+    drop: scope
     grades:
         scratch: 1
         c: 1
