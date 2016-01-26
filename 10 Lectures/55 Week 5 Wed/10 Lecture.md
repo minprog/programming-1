@@ -1,5 +1,5 @@
 # Week 5, Wednesday
 
-Heap. Buffer overflow. Linked lists. [Lecture notes.](http://cdn.cs50.net/2014/fall/lectures/5/w/notes5w/notes5w.html) [Lecture slides.](http://cdn.cs50.net/2014/fall/lectures/5/w/week5w.pdf)
+Heap. Buffer overflow. Linked lists.
 
-![embed](https://www.youtube.com/embed/3CucWfhuNUc)
+![embed](https://www.youtube.com/embed/3p_Scm7qSfU)
