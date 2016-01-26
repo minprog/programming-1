@@ -1,7 +1,4 @@
 name: crypto
 required:
-    - initials.c
-optional:
     - caesar.c
     - vigenere.c
-    - crack.c

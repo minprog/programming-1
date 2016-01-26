@@ -1,5 +1,5 @@
 # Week 2, Monday
 
-Casting. Imprecision. Switches. Scope. Strings. Arrays. Cryptography. [Lecture notes.](http://cdn.cs50.net/2014/fall/lectures/2/m/notes2m/notes2m.html) [Lecture slides.](http://cdn.cs50.net/2014/fall/lectures/2/m/week2m.pdf)
+Casting. Imprecision. Switches. Scope. Strings. Arrays. Cryptography.
 
-![embed](https://www.youtube.com/embed/ecWNflDzFfA)
+![embed](https://www.youtube.com/embed/FgfLXemFoIo)
