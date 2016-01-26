@@ -16,7 +16,7 @@ Scope::
 Correctness::
     To what extent is your code free of bugs?
 
-All students, whether taking the course SAT/UNS (at Harvard), Credit/D/Fail (at Yale), or for a letter grade (at Harvard or Yale), must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
+All students must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
 
 == 1001000 1001001
 
