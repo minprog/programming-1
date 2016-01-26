@@ -1,7 +1,5 @@
 name: c
 required:
-    - hello.c
+    - water.c
     - mario.c
-optional:
     - greedy.c
-    - credit.c
