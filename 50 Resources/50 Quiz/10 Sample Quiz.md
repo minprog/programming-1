@@ -6,7 +6,7 @@ Unless arranged with the course's heads in advance, quizzes cannot ordinarily be
 
 Anything in lectures from weeks 0 through 5 can be on the quiz. So best to review all lecture notes! But a lot more tips on studying are in this review session:
 
-![embed](https://www.youtube.com/embed/FlXVD06zJJ0)
+![embed](https://www.youtube.com/embed/EsitjLpe6e8)
 
 Also, to prepare well, you might have a try at a quiz from previous years:
 
