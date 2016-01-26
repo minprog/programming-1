@@ -1,4 +1,4 @@
-# Week 1, Wednesday
+# Week 1, Friday
 
 Linux. C. Compiling. Libraries. Types. Standard output.
 
