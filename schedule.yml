@@ -2,29 +2,26 @@ Week 1:
     'Lecture 0 Wed': '/lectures/week-0-wed'
     'Lecture 0 Fri': '/lectures/week-0-fri'
     'Problem set 0: Scratch [deadline: next week]': '/psets/scratch'
-Week 2:
     'Lecture 1 Mon': '/lectures/week-1-mon'
     'Lecture 1 Wed': '/lectures/week-1-wed'
-    'Problem set 0: Scratch [deadline: Thursday]': '/psets/scratch'
-Week 3:
+Week 2:
     'Lecture 2 Wed': '/lectures/week-2-wed'
     'Lecture 2 Fri': '/lectures/week-2-fri'
     'Problem set 1: C [deadline: Thursday]': '/psets/c'
     'Style guide': '/resources/style-guide'
-Week 4:
+Week 3:
     'Lecture 3 Mon': '/lectures/week-3-mon'
     'Lecture 3 Wed': '/lectures/week-3-wed'
     'Problem set 2: Crypto [deadline: Thursday]': '/psets/crypto'
     'Style guide': '/resources/style-guide'
-Week 5:
+Week 4:
     'Lecture 4 Mon': '/lectures/week-4-mon'
     'Lecture 4 Wed': '/lectures/week-4-wed'
     'Problem set 3: Fifteen [deadline: Thursday]': '/psets/fifteen'
     'Style guide': '/resources/style-guide'
-Week 6:
+    'Quiz Preparations [next week!]': '/resources/quiz'
+Week 5:
     'Lecture 5 Mon': '/lectures/week-5-mon'
     'Lecture 5 Wed': '/lectures/week-5-wed'
     'Problem set 4: Forensics [deadline: Thursday]': '/psets/forensics'
     'Style guide': '/resources/style-guide'
-Week 7:
-    'Quiz Preparations [next week!]': '/resources/quiz'
