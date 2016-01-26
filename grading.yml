@@ -2,7 +2,7 @@ formulas:
     scratch: (scope * correctness / 25.0 * 9 + 1).round(1)
     c: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     crypto: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    breakout: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+    fifteen: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
     forensics: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
 
 calculation:
@@ -13,11 +13,6 @@ calculation:
         quiz: 0
         psets: 100
 
-# passes:
-#     type: pass
-#     grades:
-#         scratch: 1
-
 psets:
     type: float
     drop: scope
@@ -25,7 +20,7 @@ psets:
         scratch: 1
         c: 1
         crypto: 1
-        breakout: 1
+        fifteen: 1
         forensics: 1
 
 quiz:
