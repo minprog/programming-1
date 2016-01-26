@@ -7,8 +7,6 @@
 * Design your own animation, game, or interactive art.
 * Impress your friends.
 
-include::../../../lectures/0/w/syllabus/honesty.adoc[]
-
 == Assessment
 
 Your work on this problem set will be evaluated along two axes primarily.
@@ -40,7 +38,7 @@ Then tinker with Binary Bulbs, below, by Michael Ge '18. Specifically, turn on G
 If you'd like, turn the bulbs off to see the underlying bits that they represent. Better yet, turn the labels off to challenge yourself all the more.
 
 ++++
-<iframe allowtransparency="true" width="960" height="540" src="bulbs.html" frameborder="1" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="960" height="540" src="scratch/bulbs.html" frameborder="1" allowfullscreen></iframe>
 ++++
 
 Alright, consider these questions rhetorical for now, but odds are they'll come up again! Not to worry if the answers aren't obvious at first. They're meant to induce a bit of thought! Week 0's first lecture and Nate's videos should provide you with the building blocks (daresay inputs!) with which to solve these problems.
