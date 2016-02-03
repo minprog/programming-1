@@ -1,6 +1,6 @@
 = Problem Set 3: Game of Fifteen
 
-Questions?  Head to https://cs50.net/discuss[CS50 Discuss] or join classmates at https://cs50.net/hours[office hours]!
+**Due: Thursday, February 25, at noon.**
 
 == Objectives
 

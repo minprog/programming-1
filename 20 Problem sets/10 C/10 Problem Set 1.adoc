@@ -1,5 +1,7 @@
 = Problem Set 1: C
 
+**Due: Thursday, February 11, at noon.**
+
 == Objectives
 
 * Get comfortable with Linux.

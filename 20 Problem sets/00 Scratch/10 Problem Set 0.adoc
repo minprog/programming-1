@@ -1,5 +1,7 @@
 = Problem Set 0: Scratch 
 
+**Due: Thursday, February 4, at noon.**
+
 == Objectives
 
 * Understand how information can be represented digitally.

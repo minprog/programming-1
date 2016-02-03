@@ -1,6 +1,6 @@
 = Problem Set 4: Forensics
 
-Questions?  Head to https://cs50.net/discuss[CS50 Discuss] or join classmates at https://cs50.net/hours[office hours]!
+**Due: Thursday, March 3, at noon.**
 
 == Objectives
 
