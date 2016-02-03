@@ -1,6 +1,6 @@
 = Problem Set 2: Crypto
 
-Questions? Head to https://cs50.net/discuss[CS50 Discuss] or join classmates at https://cs50.net/hours[office hours]!
+**Due: Friday, February 26, at noon.**
 
 ==  Objectives
 
