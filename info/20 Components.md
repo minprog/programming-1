@@ -17,7 +17,7 @@ Lectures are supplemented by weekly, 60-minute sections led by the teaching fell
 ## Office Hours
 
 Office hours are opportunities for assistance with problem sets alongside the
-course's teaching assistants. Office hours ordinarily take place from 1PM to 5PM on Mondays through Fridays.
+course's teaching assistants. Office hours ordinarily take place from 1PM to 5PM on Mondays through Thursdays.
 
 ## Tutoring
 
