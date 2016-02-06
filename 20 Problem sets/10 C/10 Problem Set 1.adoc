@@ -36,8 +36,9 @@ Recall that CS50 IDE is a web-based "integrated development environment" that al
 
 === Logging In
 
-Head to https://cs50.io/[cs50.io] and log into CS50 IDE. Upon logging in for the very first time, you should be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment.
-(If you already have an account at c9.io, which is Cloud9's own site, drop sysadmins@cs50.harvard.edu a note, and we'll let you know how to "link" that account.) 
+So let's get you set up with your own instance of the so-called *CS50 IDE*, which we recommend you use for the majority of your programming work in the course. In order to do so, you'll first need an edX account if you don't already have one. Head to https://www.edx.org/ and sign up for an account (if you are 13 or older) by clicking **Register** atop the page. Any public username that's available is fine, but take care to remember it and your choice of password.
+
+After you confirm your account by clicking on the link in the email that edX will send, wait a few minutes and then head over to https://cs50.io[cs50.io] and log in using your edX credentials. Upon logging in for the very first time, you should be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment. (If you already have an account at c9.io, which is Cloud9's own site, drop sysadmins@cs50.harvard.edu a note, and we'll let you know how to "link" that account.) 
 
 Once you see your workspace, which should resemble mine from Week 1, close any tabs that might have been opened for you by default (e.g., *Welcome* and *README.md*). Then decide which "theme" you'd like. By default, CS50 IDE is configured with a theme called "Cloud9 Day." If you'd prefer a darker theme, particularly at night, visit *Support > Welcome Page*, which should open a *Welcome* tab, and then, within that tab, change *Main Theme* to *Cloud9 Classic Dark Theme*, and then close the tab. Feel free to poke around other menus as well to get a sense of CS50 IDE's user interface (UI). No worries if you're not sure what most of the menus do (yet!). If among those more comfortable or just curious, feel free to uncheck *View > Less Comfortable*, which will reveal even more options.
 
