@@ -1,4 +1,4 @@
-# Programmeren 1
+# Programmeren 1 HI-SPEED
 
 *Edition: Spring 2016 (v6.0)*
 
