@@ -6,7 +6,7 @@ course:
 
 ask:
     hands: true
-    slack: '#lospeed'
+    slack: '#cs50'
 
 acknowledgements:
     - 'Based on CS50 from http://cs50.tv/2015/fall/ -- Copyright 2011--2015, David J. Malan.'
