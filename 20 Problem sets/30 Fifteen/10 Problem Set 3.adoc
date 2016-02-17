@@ -2,6 +2,8 @@
 
 **Due: Thursday, February 25, at noon.**
 
+Would you like to tackle the http://cdn.cs50.net/2015/fall/psets/3/hacker3/hacker3.html[Hacker Edition]?
+
 == Objectives
 
 * Accustom you to reading someone else's code.

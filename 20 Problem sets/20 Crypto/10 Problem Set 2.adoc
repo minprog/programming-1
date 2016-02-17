@@ -2,6 +2,8 @@
 
 **Due: Thursday, February 18, at noon.**
 
+Would you like to tackle the http://cdn.cs50.net/2015/fall/psets/2/hacker2/hacker2.html[Hacker Edition]?
+
 ==  Objectives
 
 * Become better acquainted with functions and libraries.
