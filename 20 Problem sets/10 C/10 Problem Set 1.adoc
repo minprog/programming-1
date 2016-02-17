@@ -2,6 +2,8 @@
 
 **Due: Friday, February 19, at noon.**
 
+Would you like to tackle the http://cdn.cs50.net/2015/fall/psets/1/hacker1/hacker1.html[Hacker Edition]?
+
 == Objectives
 
 * Get comfortable with Linux.
