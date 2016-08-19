@@ -1,9 +1,59 @@
-formulas:
-    scratch: (scope * correctness / 25.0 * 9 + 1).round(1)
-    c: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    crypto: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    fifteen: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
-    forensics: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+grades:
+    scratch:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+        calculation: (scope * correctness / 25.0 * 9 + 1).round(1)
+        hide_calculated: true
+    c:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+            hacker: boolean
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    crypto:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+            hacker: boolean
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    breakout:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+            hacker: boolean
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    forensics:
+        type: float
+        subgrades:
+            scope: integer
+            correctness: integer
+            design: integer
+            style: integer
+            hacker: boolean
+        calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
+        hide_calculated: true
+    quiz:
+        type: pass
+        subgrades:
+            points: integer
+    resit:
+        type: pass
+        subgrades:
+            points: integer
 
 calculation:
     resit:
@@ -14,23 +64,20 @@ calculation:
         psets: 100
 
 psets:
-    type: float
     drop: scope
-    grades:
+    submits:
         scratch: 1
         c: 1
         crypto: 1
-        fifteen: 1
+        breakout: 1
         forensics: 1
 
 quiz:
-    type: pass
     required: true
-    grades:
+    submits:
         quiz: 1
 
 resit:
-    type: pass
     required: true
-    grades:
+    submits:
         resit: 1
