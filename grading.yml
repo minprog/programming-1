@@ -26,7 +26,7 @@ grades:
             hacker: boolean
         calculation: (scope * (3 * correctness + 2 * design + 1 * style) / 150.0 * 9 + 1).round(1)
         hide_calculated: true
-    breakout:
+    fifteen:
         type: float
         subgrades:
             scope: integer
