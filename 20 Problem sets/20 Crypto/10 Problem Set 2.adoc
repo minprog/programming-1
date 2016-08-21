@@ -1,7 +1,5 @@
 = Problem Set 2: Crypto
 
-**Due: Friday, February 26, at noon.**
-
 Would you like to tackle the http://cdn.cs50.net/2015/fall/psets/2/hacker2/hacker2.html[Hacker Edition]?
 
 ==  Objectives

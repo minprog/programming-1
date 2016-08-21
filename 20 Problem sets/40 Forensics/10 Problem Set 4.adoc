@@ -1,7 +1,5 @@
 = Problem Set 4: Forensics
 
-**Due: Friday, March 11, at noon.**
-
 Would you like to tackle the http://cdn.cs50.net/2015/fall/psets/4/hacker4/hacker4.html[Hacker Edition]?
 
 == Objectives
