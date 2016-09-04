@@ -162,17 +162,3 @@ else
 ** With lines 8 and 11, `go to line 3`, a loop is formed to reuse some of the earlier steps. https://www.youtube.com/watch?v=mgooqyWMTxk[Mark] gives a quick intro to loops.
 ** If we reach line 12, then Mike Smith isn't in the phone book, and we should `give up`.
 
-[t=29m37s]
-== Syllabus
-
-* Our http://cs50.harvard.edu/staff[course staff] include heads Rob Bowden, Daven Farnham, Hannah Blumberg, and Maria Zlatkova.
-* From Yale, we get a https://www.youtube.com/watch?v=M1GzhamtjUs[video introduction] from Professor Brian Scassellati and course heads Jason Hirschhorn and Andi Peng.
-* http://cs50.harvard.edu/lectures[*Lectures*] will mainly take place in Cambridge and will be streamed to Yale, although a few will be streamed in the reverse direction (including this Friday, 9/4).
-* http://cs50.harvard.edu/sections[*Sections*] happen each week (in both New Haven and Cambridge), and each section is optimized for either students less comfortable, more comfortable, or in between, so that all students receive instruction at a level that works for them.
-* http://cs50.harvard.edu/hours[*Office hours*] take place for three hours on Monday through Thursday nights
-* *Problem sets* will be accompanied by walkthroughs, to provide hints on where to start, and postmortems, which will explain the solutions afterwards. There are standard and hacker editions of each problem set; the latter offer no extra credit but provide an extra challenge.
-* You have 9 late days that can be used on problem sets, and your lowest problem set grade will be dropped. More details in the http://cs50.harvard.edu/syllabus[*syllabus*].
-* Problem sets that await you include starting with Scratch, a graphical programming language, to establish some basic programming concepts. In past years, we've followed that up with cryptography - using algorithms to scramble and unscramble information. We've also looked at graphics, using bits to represent pixels of an image, and recovering images from corrupted camera files. Later in the semester we'll write the fastest spell-checking program we can.
-* At the end of the semester we'll look at web programming, starting with implementing our own web server, and then moving on to building dynamic websites that solve problems.
-* The *final project* can solve almost any problem you're interested in, and can be written in most any language you choose. The *CS50 Hackathon* is an overnight event to work on your project, and the *CS50 Fair* a time to show off your work to thousands of students and staff from across campus.
-* *CS50 Lunches* give students the opportunity to eat with staff, friends from industry, and alums.
