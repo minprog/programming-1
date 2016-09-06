@@ -111,6 +111,8 @@ video::iLSBUKs4AYU[youtube,height=540,width=960]
 
 == How to Submit
 
-To submit this problem set, enter your project's URL below.
+1. Log on to this website if you haven't yet.
+2. Make sure your Scratch project is public!
+2. Enter your Scratch project's URL below.
 
 This was Problem Set 0.
