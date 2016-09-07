@@ -1,4 +1,5 @@
 name: crypto
 required:
+    - initials.c
     - caesar.c
     - vigenere.c

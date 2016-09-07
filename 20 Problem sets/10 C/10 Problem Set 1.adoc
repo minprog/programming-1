@@ -555,4 +555,12 @@ And if you'd like to play with the staff's own implementation of `greedy` within
 ~cs50/pset1/greedy
 ----
 
+== Submitting
+
+Submit the problem set files in the box below (don't see the submit box? log on first!). 
+
+If you'd like to submit the hacker edition, please use the same form below to send the hacker edition files (hello.c, water.c, credit.c and mario.c).
+
+Always submit either a complete "normal" edition, or a complete "hacker" edition.
+
 This was Problem Set 1.
