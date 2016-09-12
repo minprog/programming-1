@@ -1,8 +1,9 @@
 name: crypto
-required:
-    - initials.c
-    - caesar.c
-    - vigenere.c
-hacker:
-    - initials.c
-    - crack.c
+files:
+    standard:
+        - initials.c
+        - caesar.c
+        - vigenere.c
+    hacker:
+        - initials.c
+        - crack.c
