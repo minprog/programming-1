@@ -1,6 +1,12 @@
 name: c
-required:
-    - hello.c
-    - water.c
-    - mario.c
-    - greedy.c
+files:
+    standard:
+        - hello.c
+        - water.c
+        - mario.c
+        - greedy.c
+    hacker:
+        - hello.c
+        - water.c
+        - credit.c
+        - mario.c

@@ -1,3 +1,6 @@
 name: fifteen
-required:
-    - pset3.tar.gz
+files:
+    standard:
+        - pset3.tar.gz
+    hacker:
+        - pset3.tar.gz
