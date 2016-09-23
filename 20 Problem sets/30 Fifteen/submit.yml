@@ -1,6 +1,4 @@
 name: fifteen
 files:
-    standard:
-        - pset3.tar.gz
-    hacker:
-        - pset3.tar.gz
+    required:
+        - pset3.zip

@@ -1,6 +1,4 @@
 name: forensics
 files:
-    standard:
-        - pset4.tar.gz
-    hacker:
-        - pset4.tar.gz
+    required:
+        - pset4.zip
