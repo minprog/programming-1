@@ -505,6 +505,6 @@ Before you consider this problem set done, best to ask yourself these questions 
 * Are you sure that `recover` doesn't have any memory leaks?
 * Are all of your files where they should be in `~/workspace/pset4`?
 
-As always, if you can't answer "yes" to one or more of the above because you're having some trouble, do drop by office hours or turn to https://cs50.net/discuss[CS50 Discuss]!
+As always, if you can't answer "yes" to one or more of the above because you're having some trouble, ask your TA!
 
 This was Problem Set 4.
