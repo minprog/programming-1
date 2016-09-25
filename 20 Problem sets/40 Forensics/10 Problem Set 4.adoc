@@ -507,13 +507,4 @@ Before you consider this problem set done, best to ask yourself these questions 
 
 As always, if you can't answer "yes" to one or more of the above because you're having some trouble, do drop by office hours or turn to https://cs50.net/discuss[CS50 Discuss]!
 
-== Fabulous Prizes
-
-And now the real fun begins. You are hereby challenged to find as many of the computer scientists featured in these photos as possible.  To prove that you found someone, take a photo of yourself posing (anywhere) with the computer scientist (in such a way that he or she is aware of the photo and not just in the background). If a photo contains multiple computer scientists, you're welcome to pose with each of them separately. Upload your photos (i.e., the photos you took, not the ones that you
-recovered) to a non-private album somewhere that supports bulk downloads (e.g., workspace, Imgur, etc.), then email your album's URL to selfies@cs50.net by *noon on Mon 10/19*! We'll add your photos to a public gallery (unless you request otherwise).
-
-For each (hey, that's a loop) of the computer scientists you find, we'll set you up with 1GB of Dropbox space! In other words, if you snag _n_ selfies, we'll send you _n_ GB of Dropbox space (thanks to a former head TF who's now at Dropbox)! (Though supplies may be limited.)
-
-Moreover, whoever finds and photographs the most computer scientists (and, in the event of a tie, submits first) shall be rewarded with a little something extra.
-
 This was Problem Set 4.
