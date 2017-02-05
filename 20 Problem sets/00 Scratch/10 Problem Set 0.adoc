@@ -18,35 +18,6 @@ Correctness::
 
 All students must ordinarily submit this and all other problem sets to be eligible for a satisfactory grade unless granted an exception in writing by the course's heads.
 
-== 1001000 1001001
-
-First curl up with Nate's short on binary, if not too familiar:
-
-video::hacBFrgtQjQ[youtube,height=540,width=960]
-
-And next with Nate's short on ASCII:
-
-video::UPlR4eMMCmI[youtube,height=540,width=960]
-
-Then tinker with Binary Bulbs, below, by Michael Ge '18. Specifically, turn on Game Mode a few times and challenge yourself with these inputs, one game at a time:
-
-* 50
-* 127
-* 42
-* 256
-
-If you'd like, turn the bulbs off to see the underlying bits that they represent. Better yet, turn the labels off to challenge yourself all the more.
-
-++++
-<iframe allowtransparency="true" width="960" height="540" src="/course/materials/20 Problem Sets/00 Scratch/bulbs.html" frameborder="1" allowfullscreen></iframe>
-++++
-
-Alright, consider these questions rhetorical for now, but odds are they'll come up again! Not to worry if the answers aren't obvious at first. They're meant to induce a bit of thought! Week 0's first lecture and Nate's videos should provide you with the building blocks (daresay inputs!) with which to solve these problems.
-
-* How do you represent the (decimal) integer 50 in binary?
-* How many bits must be "flipped" (i.e., changed from 0 to 1 or from 1 to 0) in order to capitalize a lowercase `a` that's represented in ASCII?
-* How do you represent the (decimal) integer 50 in, oh, "hexadecimal," otherwise known as "base-16"? Know that decimal is considered "base-10" (since it employs 10 digits, 0 through 9), and binary is considered "base-2" (since it employs 2 digits, 0 and 1). Infer from those base systems how to represent base-16! (We'll see base-16 again in the context of graphics and web programming.)
-
 == Itching to Program?
 
 Head to https://scratch.mit.edu/ and sign up for an account on MIT's website by clicking **Join Scratch** atop the page. Any username (that's available) is fine, but take care to remember it and your choice of password.
@@ -71,7 +42,7 @@ Jordan's source code can be found at https://scratch.mit.edu/projects/71161586/.
 
 If you've no experience (or comfort) whatsoever with programming, rest assured that Gabe's and Carlos's projects are more complex than what we expect for this first problem set. (Click *See inside* in Scratch's top-right corner to look at each project's underlying "implementation details.") But they do reveal what you can do with Scratch. 
 
-In fact, for a gentler introduction to Scratch (and programming more generally), you might want to review some of the examples that we looked at in Week 0's second lecture and take a look at a few more, the "source code" for which can be found at http://scratch.mit.edu/studios/1500610/. Allow me to take you on a tour, though feel free to forge ahead on your own if you'd prefer:
+In fact, for a gentler introduction to Scratch (and programming more generally), you might want to review some of the examples that we looked at in Week 0's lecture and take a look at a few more, the "source code" for which can be found at http://scratch.mit.edu/studios/1500610/. Allow me to take you on a tour, though feel free to forge ahead on your own if you'd prefer:
 
 video::tveoFN0NHE0[youtube,height=540,list=PLhQjrBD2T383nc2LUdF5XWbyrsqiYy4nq,width=960]
 
@@ -101,9 +72,7 @@ video::697pD31GCZg[youtube,height=540,width=960]
 
 Incidentally, if you don't have the best Internet access, you're welcome to download Scratch's "offline editor" at https://scratch.mit.edu/scratch2download/. But when done with your project offline, be sure to upload it to your account at http://scratch.mit.edu/ via *File > Share to website* in the offline editor.
 
-Once finished with your project, click *See project page* in Scratch's top-right corner. Ensure your project has a title (in Scratch's top-left corner), some instructions (in Scratch's top-right corner), and some notes and/or credits (in Scratch's bottom-right corner). Then click *Share* in Scratch's top-right corner so that others (e.g., your TF!) can see your project. Finally, take note of the URL in your browser's address bar. That's your project's URL on MIT's website, and you'll need to know it later.
-
-Oh, and if you'd like to exhibit your project in Fall 2015's studio, head to https://scratch.mit.edu/studios/1855409/, then click *Add projects*, and paste in your own project's URL.
+Once finished with your project, click *See project page* in Scratch's top-right corner. Ensure your project has a title (in Scratch's top-left corner), some instructions (in Scratch's top-right corner), and some notes and/or credits (in Scratch's bottom-right corner). Then click *Share* in Scratch's top-right corner so that others (e.g., your teaching assistant!) can see your project. Finally, take note of the URL in your browser's address bar. That's your project's URL on MIT's website, and you'll need to know it later.
 
 Incidentally, if curious to learn more about the design of Scratch itself, you might like this segment with our friends from MIT's Media Lab:
 
