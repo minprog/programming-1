@@ -1,12 +1,11 @@
 name: c
 files:
-    standard:
+    everyone:
         - hello.c
         - water.c
-        - mario.c
+    less:
         - greedy.c
-    hacker:
-        - hello.c
-        - water.c
+        - mario.c
+    more:
         - credit.c
         - mario.c
