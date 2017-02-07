@@ -53,7 +53,13 @@ Recall that CS50 IDE is a web-based "integrated development environment" that al
 
 ### Logging In
 
-Head to [cs50.io](https://cs50.io/) and log into CS50 IDE. You may be prompted (again) for your email address. If so, after providing it, click *Private* under *Hosted workspace*, then click *Create workspace*.
+So let's get you set up with your own instance of the so-called *CS50 IDE*, which we recommend you use for the majority of your programming work in the course. In order to do so, you'll first need an edX account if you don't already have one. Head to https://www.edx.org/ and sign up for an account (if you are 13 or older) by clicking **Register** atop the page. Any public username that's available is fine, but take care to remember it and your choice of password.
+
+After you confirm your account by clicking on the link in the email that edX will send, wait a few minutes and then head over to https://cs50.io[cs50.io] and log in using your edX credentials. 
+
+Upon logging in for the very first time, you should be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment. 
+
+You may be prompted (again) for your email address. If so, after providing it, click *Private* under *Hosted workspace*, then click *Create workspace*.
 
 You should then be informed that CS50 IDE (aka Cloud9, the software that underlies CS50 IDE) is "creating your workspace" and "creating your container," which might take a moment. You should eventually see your workspace, which should resemble mine from Week 1. If not, do just email the course's heads to inquire!
 
