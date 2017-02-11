@@ -1,9 +1,8 @@
 name: crypto
 files:
-    standard:
+    initials:
         - initials.c
+    choose:
         - caesar.c
         - vigenere.c
-    hacker:
-        - initials.c
         - crack.c
