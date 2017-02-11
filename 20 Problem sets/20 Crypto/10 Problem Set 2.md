@@ -60,7 +60,7 @@ Next, execute
 
 	mkdir ~/workspace/pset2/
 
-at your prompt in order to make a directory called pset2 in your workspace directory. Take care not to overlook the space between mkdir and ~/workspace/pset2 or any other character for that matter! Keep in mind that ~ denotes your home directory, ~/workspace denotes a directory called workspace therein, and ~/workspace/pset2 denotes a directory called pset2 within ~/workspace.
+at your prompt in order to make a directory called `pset2` in your workspace directory. Take care not to overlook the space between `mkdir` and `~/workspace/pset2` or any other character for that matter! Keep in mind that `~` denotes your home directory, `~/workspace` denotes a directory called `workspace` therein, and `~/workspace/pset2` denotes a directory called `pset2` within `~/workspace`.
 
 Now execute
 
