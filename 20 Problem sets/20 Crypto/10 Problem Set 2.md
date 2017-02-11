@@ -92,8 +92,6 @@ at the prompt to see your last several commands in chronological order if you'd 
 
 ## How to Submit
 
-For this problem set, we'll be using a new submission system based on GitHub, a popular site for storing code. Recall that for Problem Set 0 you signed up (hopefully!) for an account on github.com. The new system's still in "beta" (a testing phase), so please forgive any bugs! We'll keep an eye on CS50 Discuss and email over the weekend in case anything goes wrong so that we can fix right away!
-
 ### Step 1 of 4
 
 Execute
