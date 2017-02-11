@@ -20,8 +20,6 @@
 	- Crack passwords.
 
 3. Submit your code.
-
-4. Submit a form.
 {:start="0"}
 
 ## Help
