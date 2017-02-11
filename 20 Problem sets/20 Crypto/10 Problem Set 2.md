@@ -80,17 +80,17 @@ at the prompt to see your last several commands in chronological order if you'd 
 
 1. Implement either of:
 
-- [Initials](http://docs.cs50.net/problems/initials/less/initials.html), less comfortable
+	- [Initials](http://docs.cs50.net/problems/initials/less/initials.html), less comfortable
 
-- [Initials](http://docs.cs50.net/problems/initials/more/initials.html), more comfortable
+	- [Initials](http://docs.cs50.net/problems/initials/more/initials.html), more comfortable
 
 2. Implement any two (2) of:
 
-- [Caesar](http://docs.cs50.net/problems/caesar/caesar.html), less comfortable
+	- [Caesar](http://docs.cs50.net/problems/caesar/caesar.html), less comfortable
 
-- [Vigenere](http://docs.cs50.net/problems/vigenere/vigenere.html), less comfortable
+	- [Vigenere](http://docs.cs50.net/problems/vigenere/vigenere.html), less comfortable
 
-- [Crack](http://docs.cs50.net/problems/crack/crack.html), more comfortable
+	- [Crack](http://docs.cs50.net/problems/crack/crack.html), more comfortable
 
 ## How to Submit
 
