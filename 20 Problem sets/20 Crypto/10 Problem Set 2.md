@@ -92,7 +92,7 @@ at the prompt to see your last several commands in chronological order if you'd 
 
 ## How to Submit
 
-### Step 1 of 4
+### Step 1 of 3
 
 Execute
 
@@ -100,7 +100,7 @@ Execute
 
 again to ensure that your IDE is up-to-date.
 
-### Step 2 of 4
+### Step 2 of 3
 
 Recall that you were asked to implement the less-comfortable or more-comfortable version of `initials`.
 
@@ -119,7 +119,7 @@ If you implemented `crack`, be sure that `crack.c` is in `~/workspace/pset2/crac
 
 If not sure how to confirm or fix something, do just reach out to the staff!
 
-### Step 3 of 4
+### Step 3 of 3
 
 Below, add the relevant files to the submission form, and press submit!
 

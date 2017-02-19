@@ -1,4 +1,7 @@
 name: forensics
 files:
     required:
-        - pset4.zip
+        - whodunit.c
+        - bmp.h
+        - resize.c
+        - recover.c

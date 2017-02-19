@@ -1,4 +1,5 @@
 name: fifteen
 files:
     required:
-        - pset3.zip
+        - helpers.c
+        - fifteen.c
