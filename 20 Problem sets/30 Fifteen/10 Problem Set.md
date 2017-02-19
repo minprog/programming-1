@@ -70,7 +70,7 @@ and your prompt should resemble the below.
 
 	- [Find](http://docs.cs50.net/problems/find/more/find.html), more comfortable
 
-2. Implement Game of Fifteen
+2. Implement [Game of Fifteen](http://docs.cs50.net/problems/fifteen/fifteen.html)
 
 ## How to Submit
 
