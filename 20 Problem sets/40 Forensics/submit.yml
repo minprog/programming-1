@@ -1,6 +1,7 @@
 name: forensics
 files:
     required:
+        - questions.txt
         - whodunit.c
         - bmp.h
         - resize.c
