@@ -1,5 +1,7 @@
 # Problem Set 1: C
 
+TODO: instructions for registering an edx.org account
+
 ## Objectives
 
 * Get comfortable with Linux.
