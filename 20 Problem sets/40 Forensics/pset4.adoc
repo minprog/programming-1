@@ -1,0 +1,107 @@
+---
+layout: 2016/fall
+---
+:skip-front-matter:
+
+= Problem Set 4: Forensics
+
+== tl;dr
+ 
+. Watch https://video.cs50.net/2016/fall/lectures/4[Week 4's lecture].
+. Figure out whodunit.
+. Resize some images.
+. Recover some photos.
+. Submit your code.
+. Submit a form.
+
+== Getting Started
+
+Alright, here we go again!
+
+Log into https://cs50.io/[cs50.io] and execute
+
+[source]
+----
+update50
+----
+
+within a terminal window to make sure your workspace is up-to-date. 
+
+Next, execute
+
+[source]
+----
+mkdir ~/workspace/pset4/
+----
+
+at your prompt in order to make a directory called `pset4` in your `workspace` directory.
+
+Now execute
+
+[source]
+----
+cd ~/workspace/pset4/
+----
+
+and your prompt should resemble the below.
+
+[source]
+----
+~/workspace/pset4/ $
+----
+
+== What to Do
+
+. Implement link:/problems/whodunit[Whodunit]
+. Implement either of:
++
+--
+* link:/problems/resize-less[Resize], less comfortable
+* link:/problems/resize-more[Resize], more comfortable
+--
++
+. Implement link:/problems/recover[Recover]
+
+== Fabulous Prize
+
+And now the real fun begins. You are hereby challenged to find as many of the computer scientists featured in the photos that you recovered for link:../../../../problems/recover/recover.html[Recover] as possible. To prove that you found someone, take a photo of yourself posing (anywhere) with the computer scientist (in such a way that he or she is aware of the photo and not just in the background). If a photo contains multiple computer scientists, you're welcome to pose with each of them separately. Upload your photos (i.e., the photos you took, not the ones that you recovered) to a non-private album somewhere that supports bulk downloads (e.g., Dropbox, Imgur, etc.), then email your album's URL to selfies@cs50.net by *noon on Mon 10/10*! We'll add your photos to a public gallery (unless you request otherwise).
+
+Whoever finds and photographs the most computer scientists (and, in the event of a tie, submits first) shall be rewarded with a fabulous prize.
+
+== How to Submit
+
+=== Step 1 of 2
+
+* Update your IDE:
++
+[source]
+----
+update50
+----
+* Submit `whodunit`:
++
+[source]
+----
+cd ~/workspace/pset4/whodunit/
+submit50 whodunit
+----
+* Submit `resize`:
++
+[source]
+----
+cd ~/workspace/pset4/resize/
+submit50 resize
+----
+* Submit `recover`:
++
+[source]
+----
+cd ~/workspace/pset4/recover/
+submit50 recover
+----
+
+=== Step 2 of 2
+
+Submit https://forms.cs50.net/2016/fall/psets/4[]!
+ 
+This was Problem Set 4.
