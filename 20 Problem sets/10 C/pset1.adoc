@@ -16,8 +16,6 @@ layout: 2016/fall
 . Submit your code.
 . Submit a form.
 
-include::help-harvard.adoc[]
-
 == Getting Started
 
 Recall that CS50 IDE is a web-based "integrated development environment" that allows you to program "in the cloud," without installing any software locally. Underneath the hood is a popular operating system, Ubuntu Linux, that's been "containerized" with open-source software called Docker, that allows multiple users (like you!) to share the operating system's "kernel" (its nucleus, so to speak) and files, even while having files of their own. Indeed, CS50 IDE provides you with your very own "workspace" (i.e., storage space) in which you can save your own files and folders (aka directories).
@@ -80,20 +78,20 @@ at the prompt to see your last several commands in chronological order if you'd 
 
 == What to Do
 
-. Implement link:../../../../problems/hello/hello.html[Hello]
-. Implement link:../../../../problems/water/water.html[Water]
+. Implement link:/problems/hello[Hello]
+. Implement link:/problems/water[Water]
 . Implement either of:
 +
 --
-* link:../../../../problems/mario/less/mario.html[Mario], less comfortable
-* link:../../../../problems/mario/more/mario.html[Mario], more comfortable
+* link:/problems/mario-less[Mario], less comfortable
+* link:/problems/mario-more[Mario], more comfortable
 --
 +
 . Implement either of:
 +
 --
-* link:../../../../problems/greedy/greedy.html[Greedy], less comfortable
-* link:../../../../problems/credit/credit.html[Credit], more comfortable
+* link:/problems/greedy[Greedy], less comfortable
+* link:/problems/credit[Credit], more comfortable
 --
 
 == How to Submit
